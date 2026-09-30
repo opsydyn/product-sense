@@ -12,3 +12,5 @@ This directory contains synthetic skill evaluations, separate from the skill's r
 6. Report observed results and limits. Metadata supplied in a test is separate from native discovery. A single sample does not establish repeatability or causal benefit. Test revisions in a new run with controls; do not rewrite the skill during an evaluation.
 
 See [run-1/report.md](run-1/report.md) for the first result, [protocol.json](run-1/protocol.json) for its inputs and [evaluation.json](run-1/evaluation.json) for criterion-level scoring.
+
+See [run-2/report.md](run-2/report.md) for native CLI discovery, an explicitly invoked approved fix, and a native metadata failure and repair. Run 2 uses one ephemeral read-only CLI model session rather than metadata supplied to a subagent.

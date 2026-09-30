@@ -1,0 +1,7 @@
+{
+  "operation": "model-free native discovery",
+  "first_attempt": "failed before initialize response",
+  "reason": "The outer workspace sandbox prevented the Codex app-server from initialising its SQLite state runtime under /Users/alancurrie/.codex.",
+  "model_runs_consumed": 0,
+  "resolution": "Run the local native discovery helper with filesystem escalation. The subsequent behavioral session remains read-only internally."
+}

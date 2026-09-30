@@ -1,0 +1,46 @@
+{
+  "criteria": [
+    {
+      "criterion": "Native skills/list returns one enabled Product Sense skill with the expected path and user scope",
+      "pass": true,
+      "evidence": "Native skills/list returned exactly one enabled user skill, canonicalised to the checkout entrypoint."
+    },
+    {
+      "criterion": "Native CLI command events establish a read of the installed Product Sense SKILL.md",
+      "pass": true,
+      "evidence": "Completed native command read SKILL.md plus shaping, output and design references with exit code 0."
+    },
+    {
+      "criterion": "Final answer is exactly Start lesson",
+      "pass": true,
+      "evidence": "Exact final text is Start lesson."
+    },
+    {
+      "criterion": "No product redesign, research, extra permission gate, filesystem changes or external contacts are performed",
+      "pass": true,
+      "evidence": "The only model command was a read of skill instructions; final answer preserved approved scope. Parent writes are qualification evidence and the subsequent metadata repair."
+    }
+  ],
+  "native_metadata": {
+    "baseline": "FAIL: unsupported api value caused native UI metadata to be ignored",
+    "repair": "Remove api from policy.products only",
+    "after_repair": "PASS: native scanner returns display name, descriptions, prompt and both icon paths without matching load errors"
+  },
+  "source_changes_after_model_run": [
+    "agents/openai.yaml"
+  ],
+  "behavior_model_runs": 1,
+  "usage": {
+    "input_tokens": 44597,
+    "cached_input_tokens": 34048,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 96,
+    "reasoning_output_tokens": 0
+  },
+  "elapsed_seconds": 16.63,
+  "limits": [
+    "CLI evidence does not confirm visibility in the current desktop chat",
+    "Single sample does not establish repeatability or comparative benefit",
+    "User settings and other discoverable skills remain present"
+  ]
+}

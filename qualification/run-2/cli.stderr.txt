@@ -1,0 +1,18 @@
+2026-09-30T07:21:56.743497Z  WARN codex_skills::interface: ignoring interface.icon_small: icon path with '..' must resolve under plugin assets/
+2026-09-30T07:21:56.743566Z  WARN codex_skills::interface: ignoring interface.icon_large: icon path with '..' must resolve under plugin assets/
+2026-09-30T07:21:56.768259Z  WARN codex_skills_extension::loader::metadata: ignoring file:///Users/alancurrie/Projects/product-sense/agents/openai.yaml: invalid openai.yaml: policy.products[2]: unknown variant `api`, expected one of `CHATGPT`, `chatgpt`, `CODEX`, `codex`, `ATLAS`, `atlas` at line 12 column 5
+2026-09-30T07:21:56.771511Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-30T07:21:56.779514Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-30T07:21:56.786821Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-30T07:21:56.792211Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-30T07:21:56.797868Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-30T07:21:56.802995Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-30T07:21:56.808056Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-30T07:21:56.813493Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-30T07:21:56.818625Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-30T07:21:56.823627Z  WARN codex_rollout::list: state db discrepancy during find_thread_path_by_id_str_in_subdir: falling_back
+2026-09-30T07:21:56.857185Z  WARN codex_mcp::rmcp_client: MCP server startup failed server_name="computer-use" error=No such file or directory (os error 2)
+2026-09-30T07:21:57.084139Z  WARN codex_skills::interface: ignoring interface.icon_small: icon path with '..' must resolve under plugin assets/
+2026-09-30T07:21:57.084163Z  WARN codex_skills::interface: ignoring interface.icon_large: icon path with '..' must resolve under plugin assets/
+2026-09-30T07:21:57.094179Z  WARN codex_mcp::rmcp_client: MCP server startup failed server_name="computer-use" error=No such file or directory (os error 2)
+2026-09-30T07:22:10.284526Z  WARN codex_mcp::rmcp_client: failed to initialize MCP client during shutdown: MCP startup failed: No such file or directory (os error 2)

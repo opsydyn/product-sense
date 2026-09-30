@@ -1,0 +1,5 @@
+{
+  "native_interface_present": false,
+  "failure": "2026-09-30T07:21:56.768259Z  WARN codex_skills_extension::loader::metadata: ignoring file:///Users/alancurrie/Projects/product-sense/agents/openai.yaml: invalid openai.yaml: policy.products[2]: unknown variant `api`, expected one of `CHATGPT`, `chatgpt`, `CODEX`, `codex`, `ATLAS`, `atlas` at line 12 column 5",
+  "hypothesis": "Removing unsupported api from policy.products permits native UI metadata loading."
+}

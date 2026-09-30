@@ -1,0 +1,53 @@
+{
+  "transport": "stdio JSON-RPC",
+  "requests": [
+    {
+      "id": 1,
+      "method": "initialize",
+      "params": {
+        "clientInfo": {
+          "name": "product_sense_qualification",
+          "version": "1"
+        }
+      }
+    },
+    {
+      "method": "initialized",
+      "params": {}
+    },
+    {
+      "id": 2,
+      "method": "skills/list",
+      "params": {
+        "cwds": [
+          "/Users/alancurrie/Projects/product-sense"
+        ],
+        "forceReload": true
+      }
+    }
+  ],
+  "server": {
+    "userAgent": "Codex Desktop/0.159.2 (Mac OS 26.6.2; arm64) dumb (product_sense_qualification; 1)",
+    "codexHome": "/Users/alancurrie/.codex",
+    "platformFamily": "unix",
+    "platformOs": "macos"
+  },
+  "result": [
+    {
+      "cwd": "/Users/alancurrie/Projects/product-sense",
+      "matches": [
+        {
+          "name": "product-sense",
+          "description": "Use when assessing product ideas, feature requests, PRDs, Jira tickets, roadmaps, positioning, discovery plans or user journeys; when deciding whether or what to build; or when reviewing confusing flows, weak product evidence and scope under a fixed budget.",
+          "path": "/Users/alancurrie/Projects/product-sense/SKILL.md",
+          "scope": "user",
+          "enabled": true,
+          "pluginId": null
+        }
+      ],
+      "matching_errors": [],
+      "total_skills": 17,
+      "other_error_count": 0
+    }
+  ]
+}

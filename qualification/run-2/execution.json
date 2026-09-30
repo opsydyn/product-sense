@@ -1,0 +1,21 @@
+{
+  "argv": [
+    "codex",
+    "-a",
+    "never",
+    "exec",
+    "--ephemeral",
+    "--sandbox",
+    "read-only",
+    "--json",
+    "--output-last-message",
+    "/Users/alancurrie/Projects/product-sense/qualification/run-2/final.txt",
+    "--cd",
+    "/Users/alancurrie/Projects/product-sense",
+    "-"
+  ],
+  "cwd": "/Users/alancurrie/Projects/product-sense",
+  "exit_code": 0,
+  "timed_out": false,
+  "elapsed_seconds": 16.63
+}

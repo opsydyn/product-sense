@@ -1,0 +1,11 @@
+{
+  "source_hashes_match_protocol": true,
+  "final_answer": "Start lesson",
+  "command_count": 1,
+  "commands": [
+    {
+      "command": "/bin/zsh -lc 'cat SKILL.md references/shaping.md references/outputs.md references/design.md'",
+      "exit_code": 0
+    }
+  ]
+}
