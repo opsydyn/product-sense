@@ -1,0 +1,14 @@
+interface:
+  display_name: Product Sense
+  short_description: Judge ideas, shape products, and improve user flows
+  default_prompt: Use $product-sense to assess this product idea and propose the next
+    useful step.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
