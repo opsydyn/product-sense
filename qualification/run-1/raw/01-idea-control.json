@@ -1,0 +1,7 @@
+{
+  "case": "01-idea",
+  "arm": "control",
+  "selected_skill": false,
+  "read_files": [],
+  "response": "Do not commit the two weeks to a full app yet. Three friends saying they would pay is a useful lead, but weak evidence of demand or recurring value.\n\nUse the time to test one narrow problem for one freelancer segment—for example, turning shifting client deadlines into a realistic daily plan. Ask prospective users to walk through recent planning failures, their current workaround, and the cost of those failures. Recruit beyond your friends.\n\nDeliver plans manually or through a minimal prototype, and ask for an actual paid pilot at a stated price. Track whether people use the plans repeatedly, return without prompting, and find them better than their existing method.\n\nSet the decision rule before starting: proceed only if several target users pay and repeatedly use the service. Otherwise, refine the problem or stop. Build only the smallest workflow needed to obtain that evidence."
+}

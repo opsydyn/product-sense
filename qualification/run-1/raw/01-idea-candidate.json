@@ -1,0 +1,12 @@
+{
+  "case": "01-idea",
+  "arm": "candidate",
+  "selected_skill": true,
+  "read_files": [
+    "/Users/alancurrie/Projects/product-sense/SKILL.md",
+    "/Users/alancurrie/Projects/product-sense/references/discovery.md",
+    "/Users/alancurrie/Projects/product-sense/references/shaping.md",
+    "/Users/alancurrie/Projects/product-sense/references/outputs.md"
+  ],
+  "response": "**Investigate.** Do not commit the two weeks to a full app. Three friends\u2019 payment promises are reported interest; demand, repeat value and willingness to switch remain unknown.\n\nThe hypothesis is that a specific group of freelancers can choose and complete their most important work with less planning effort. Their current tools, recent failures and costs are unknown; AI is only one possible delivery method.\n\nUse the first two days to examine recent planning attempts with five freelancers outside your friendship group. Narrow to one recurring problem. Compare their existing approach with a simple template and a manually assisted daily plan.\n\nThen propose a five-day paid pilot, capped at three users and one hour of operator effort daily. Users retain control of priorities; missed delivery falls back to the template.\n\nProposed decision gate: at least two participants pay, use the plan on four days and report concrete improvement over their baseline. These are learning thresholds, not market estimates. If unmet, reshape or park; if met, spend the remaining time on one minimal planning flow. Start with recruitment and recent-task interviews."
+}

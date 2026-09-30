@@ -1,0 +1,11 @@
+{
+  "case": "03-static-design",
+  "arm": "candidate",
+  "selected_skill": true,
+  "read_files": [
+    "/Users/alancurrie/Projects/product-sense/SKILL.md",
+    "/Users/alancurrie/Projects/product-sense/references/design.md",
+    "/Users/alancurrie/Projects/product-sense/references/outputs.md"
+  ],
+  "response": "The main obstacle is finding and starting the purchased course. The transcription shows payment acknowledgement, but the only action sends the buyer back to shopping. “Soon” gives neither a usable expectation nor a way to recover. This is a likely access blocker from static inspection; we cannot establish actual user difficulty, entitlement delays or unseen navigation.\n\nReshape the confirmation around course access. When entitlement is confirmed, show the course name and a primary “Start course” link, with an account/course-library route for returning later. While access is pending, state that clearly and provide a concrete status-check action plus a help route carrying the purchase reference. Show a wait estimate only if system evidence supports it; do not promise instant access or email delivery without verification.\n\nVerification task: test a minimal prototype with the unprompted instruction, “You have just paid for this course. Begin your first lesson.” Include ready, pending and failed-access states. Observe first action, status interpretation, unassisted lesson access and recovery; record assistance separately. Verify that each displayed state and destination matches entitlement behaviour before shipping. If users find the route but entitlement blocks access, prioritise provisioning and recovery over further navigation changes."
+}

@@ -1,0 +1,7 @@
+{
+  "case": "06-unrelated",
+  "arm": "candidate",
+  "selected_skill": false,
+  "read_files": [],
+  "response": "function readPort(value: string) { return Number(value); }\nconst port = readPort(\"8080\");"
+}

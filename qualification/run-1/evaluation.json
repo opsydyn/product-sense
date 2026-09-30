@@ -1,0 +1,394 @@
+{
+  "reviewer": "parent agent; manual assessment against predeclared criteria",
+  "scoring": "A case passes if every criterion passes and any requested word limit is met. Word counts use whitespace splitting.",
+  "results": [
+    {
+      "case": "01-idea",
+      "arm": "control",
+      "raw_file": "raw/01-idea-control.json",
+      "selected_skill": false,
+      "word_count": 144,
+      "word_limit": 180,
+      "within_word_limit": true,
+      "criteria": [
+        {
+          "criterion": "Separates compliments from demand evidence; invents no research or numbers",
+          "pass": true,
+          "evidence": "Calls friends\u2019 statements weak evidence; asserts no market facts"
+        },
+        {
+          "criterion": "Identifies user progress and a plausible current alternative",
+          "pass": true,
+          "evidence": "Frames realistic planning around client deadlines and compares existing methods"
+        },
+        {
+          "criterion": "Gives a bounded next evidence step and a stop or reshape condition",
+          "pass": true,
+          "evidence": "Uses the two-week appetite for interviews and a paid pilot; refine or stop if repeated use/payment is absent"
+        },
+        {
+          "criterion": "Fits the requested 180-word limit",
+          "pass": true,
+          "evidence": "144 whitespace-separated words, below 180"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "case": "01-idea",
+      "arm": "candidate",
+      "raw_file": "raw/01-idea-candidate.json",
+      "selected_skill": true,
+      "word_count": 179,
+      "word_limit": 180,
+      "within_word_limit": true,
+      "criteria": [
+        {
+          "criterion": "Separates compliments from demand evidence; invents no research or numbers",
+          "pass": true,
+          "evidence": "Labels payment promises as reported interest and demand as unknown"
+        },
+        {
+          "criterion": "Identifies user progress and a plausible current alternative",
+          "pass": true,
+          "evidence": "Frames prioritisation/task completion; leaves current tools unknown and compares existing approach, template and assisted plan"
+        },
+        {
+          "criterion": "Gives a bounded next evidence step and a stop or reshape condition",
+          "pass": true,
+          "evidence": "Proposes two days of interviews then a five-day capped pilot with labelled gates and reshape/park outcome"
+        },
+        {
+          "criterion": "Fits the requested 180-word limit",
+          "pass": true,
+          "evidence": "179 whitespace-separated words, below 180"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "case": "02-constrained-prd",
+      "arm": "control",
+      "raw_file": "raw/02-constrained-prd-control.json",
+      "selected_skill": false,
+      "word_count": 269,
+      "word_limit": 300,
+      "within_word_limit": true,
+      "criteria": [
+        {
+          "criterion": "Produces a decision brief without competing output formats",
+          "pass": true,
+          "evidence": "One release decision brief"
+        },
+        {
+          "criterion": "Preserves stack, accessible status page and agent updates",
+          "pass": true,
+          "evidence": "Preserves Django/Postgres, accessible tenant status and agent updates"
+        },
+        {
+          "criterion": "Cuts optional breadth; invents no baseline or commitments",
+          "pass": true,
+          "evidence": "Defers SMS/scheduling and other breadth; states baseline absent"
+        },
+        {
+          "criterion": "Includes user outcome, measure, time window, guardrail and decision condition",
+          "pass": true,
+          "evidence": "Defines chasing contacts/time since update, two-week pilot, agent workload and release/reshape conditions"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "case": "02-constrained-prd",
+      "arm": "candidate",
+      "raw_file": "raw/02-constrained-prd-candidate.json",
+      "selected_skill": true,
+      "word_count": 295,
+      "word_limit": 300,
+      "within_word_limit": true,
+      "criteria": [
+        {
+          "criterion": "Produces a decision brief without competing output formats",
+          "pass": true,
+          "evidence": "One bounded-release decision brief despite mixed PRD/deadline input"
+        },
+        {
+          "criterion": "Preserves stack, accessible status page and agent updates",
+          "pass": true,
+          "evidence": "Preserves approved stack and both promised capabilities"
+        },
+        {
+          "criterion": "Cuts optional breadth; invents no baseline or commitments",
+          "pass": true,
+          "evidence": "Cuts optional breadth and labels unknown baseline and proposed targets"
+        },
+        {
+          "criterion": "Includes user outcome, measure, time window, guardrail and decision condition",
+          "pass": true,
+          "evidence": "Defines chasing contacts per repair-week, two-week window, task success, workload guardrail and stop/reshape gates"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "case": "03-static-design",
+      "arm": "control",
+      "raw_file": "raw/03-static-design-control.json",
+      "selected_skill": false,
+      "word_count": 178,
+      "word_limit": 220,
+      "within_word_limit": true,
+      "criteria": [
+        {
+          "criterion": "Treats inspection as inference; does not claim observed real-user failure or unseen backend behavior",
+          "pass": true,
+          "evidence": "Limits finding to the screen and disclaims provisioning failure inference"
+        },
+        {
+          "criterion": "Prioritises access to purchased course over a tour",
+          "pass": true,
+          "evidence": "Prioritises purchased-course destination over catalogue shopping"
+        },
+        {
+          "criterion": "Invents no delivery timing, confirmation or email promise",
+          "pass": true,
+          "evidence": "Requires verified timing or an honest unknown statement; invents no delivery promise"
+        },
+        {
+          "criterion": "Proposes an unassisted task and recovery or access verification",
+          "pass": true,
+          "evidence": "Asks learners to find the course and explain pending recovery; verifies destinations and backend timing separately"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "case": "03-static-design",
+      "arm": "candidate",
+      "raw_file": "raw/03-static-design-candidate.json",
+      "selected_skill": true,
+      "word_count": 193,
+      "word_limit": 220,
+      "within_word_limit": true,
+      "criteria": [
+        {
+          "criterion": "Treats inspection as inference; does not claim observed real-user failure or unseen backend behavior",
+          "pass": true,
+          "evidence": "Explicitly labels static-inspection inference and limits unseen-state/user-behavior conclusions"
+        },
+        {
+          "criterion": "Prioritises access to purchased course over a tour",
+          "pass": true,
+          "evidence": "Prioritises course access and first lesson"
+        },
+        {
+          "criterion": "Invents no delivery timing, confirmation or email promise",
+          "pass": true,
+          "evidence": "Conditions Start course on confirmed entitlement and wait estimate on system evidence"
+        },
+        {
+          "criterion": "Proposes an unassisted task and recovery or access verification",
+          "pass": true,
+          "evidence": "Uses an unprompted first-lesson task, pending/failed states and separates assistance from unassisted success"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "case": "04-discovery",
+      "arm": "control",
+      "raw_file": "raw/04-discovery-control.json",
+      "selected_skill": false,
+      "word_count": 237,
+      "word_limit": 260,
+      "within_word_limit": true,
+      "criteria": [
+        {
+          "criterion": "Provides an actionable time-bounded discovery plan",
+          "pass": true,
+          "evidence": "One-week schedule accounts for all six hours"
+        },
+        {
+          "criterion": "Seeks recent behavior and contrary evidence rather than pitching",
+          "pass": true,
+          "evidence": "Reconstructs recent invoices, redacted artifacts, contrary cases and existing approaches"
+        },
+        {
+          "criterion": "Matches tests to demand uncertainty rather than treating prototype usability as demand",
+          "pass": true,
+          "evidence": "Seeks recurring problem evidence and distinguishes templates from assistant value; claims no prototype demand proof"
+        },
+        {
+          "criterion": "Defines pass, fail and inconclusive decision interpretation without invented observed results",
+          "pass": false,
+          "evidence": "Has positive and stop/narrow gates, but no explicit inconclusive outcome for missing recruitment or insufficient evidence"
+        },
+        {
+          "criterion": "Respects six hours and the no-contact boundary",
+          "pass": true,
+          "evidence": "Plans work for the user; performs no contacts or experiments; requests separately budgeted prototype"
+        }
+      ],
+      "pass": false
+    },
+    {
+      "case": "04-discovery",
+      "arm": "candidate",
+      "raw_file": "raw/04-discovery-candidate.json",
+      "selected_skill": true,
+      "word_count": 258,
+      "word_limit": 260,
+      "within_word_limit": true,
+      "criteria": [
+        {
+          "criterion": "Provides an actionable time-bounded discovery plan",
+          "pass": true,
+          "evidence": "Five-day schedule accounts for six hours exactly"
+        },
+        {
+          "criterion": "Seeks recent behavior and contrary evidence rather than pitching",
+          "pass": true,
+          "evidence": "Reconstructs recent episodes, optional artifacts, workarounds and contrary cases"
+        },
+        {
+          "criterion": "Matches tests to demand uncertainty rather than treating prototype usability as demand",
+          "pass": true,
+          "evidence": "Tests costly recurring difficulty and plausible advantage before proposing a separately budgeted paper prototype"
+        },
+        {
+          "criterion": "Defines pass, fail and inconclusive decision interpretation without invented observed results",
+          "pass": true,
+          "evidence": "Provides invest, reshape/park and insufficient-evidence defer outcomes; gates are labelled qualitative proposals"
+        },
+        {
+          "criterion": "Respects six hours and the no-contact boundary",
+          "pass": true,
+          "evidence": "Keeps research within six hours; performs no contacts, experiments or engineering"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "case": "05-approved-fix",
+      "arm": "control",
+      "raw_file": "raw/05-approved-fix-control.json",
+      "selected_skill": false,
+      "word_count": 2,
+      "word_limit": null,
+      "within_word_limit": true,
+      "criteria": [
+        {
+          "criterion": "Completes the requested approved copy change",
+          "pass": true,
+          "evidence": "Returns Start lesson"
+        },
+        {
+          "criterion": "Does not reopen discovery, request permission or expand to redesign",
+          "pass": true,
+          "evidence": "No new discovery, permission request or redesign"
+        },
+        {
+          "criterion": "Keeps the response proportional and respects replacement-copy-only output",
+          "pass": true,
+          "evidence": "Exactly the two requested words"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "case": "05-approved-fix",
+      "arm": "candidate",
+      "raw_file": "raw/05-approved-fix-candidate.json",
+      "selected_skill": false,
+      "word_count": 2,
+      "word_limit": null,
+      "within_word_limit": true,
+      "criteria": [
+        {
+          "criterion": "Completes the requested approved copy change",
+          "pass": true,
+          "evidence": "Returns Start lesson"
+        },
+        {
+          "criterion": "Does not reopen discovery, request permission or expand to redesign",
+          "pass": true,
+          "evidence": "Declines optional Product Sense activation; no new discovery, permission request or redesign"
+        },
+        {
+          "criterion": "Keeps the response proportional and respects replacement-copy-only output",
+          "pass": true,
+          "evidence": "Exactly the two requested words; this does not exercise loaded-skill scope preservation"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "case": "06-unrelated",
+      "arm": "control",
+      "raw_file": "raw/06-unrelated-control.json",
+      "selected_skill": false,
+      "word_count": 11,
+      "word_limit": null,
+      "within_word_limit": true,
+      "criteria": [
+        {
+          "criterion": "Does not activate Product Sense for an unrelated mechanical code rename",
+          "pass": true,
+          "evidence": "Does not activate Product Sense"
+        },
+        {
+          "criterion": "Renames declaration and reference without behavior changes",
+          "pass": true,
+          "evidence": "Renames declaration and call while preserving Number conversion and argument"
+        },
+        {
+          "criterion": "Returns only revised code; no product critique, research or approval gate",
+          "pass": true,
+          "evidence": "Only the revised snippet"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "case": "06-unrelated",
+      "arm": "candidate",
+      "raw_file": "raw/06-unrelated-candidate.json",
+      "selected_skill": false,
+      "word_count": 11,
+      "word_limit": null,
+      "within_word_limit": true,
+      "criteria": [
+        {
+          "criterion": "Does not activate Product Sense for an unrelated mechanical code rename",
+          "pass": true,
+          "evidence": "Declines Product Sense; read_files is empty"
+        },
+        {
+          "criterion": "Renames declaration and reference without behavior changes",
+          "pass": true,
+          "evidence": "Renames declaration and call while preserving Number conversion and argument"
+        },
+        {
+          "criterion": "Returns only revised code; no product critique, research or approval gate",
+          "pass": true,
+          "evidence": "Only the revised snippet"
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "summary": {
+    "control": {
+      "cases_passed": 5,
+      "cases_total": 6,
+      "criteria_passed": 22,
+      "criteria_total": 23
+    },
+    "candidate": {
+      "cases_passed": 6,
+      "cases_total": 6,
+      "criteria_passed": 23,
+      "criteria_total": 23
+    }
+  }
+}

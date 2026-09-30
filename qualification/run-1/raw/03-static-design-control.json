@@ -1,0 +1,7 @@
+{
+  "case": "03-static-design",
+  "arm": "control",
+  "selected_skill": false,
+  "read_files": [],
+  "response": "The main obstacle is the missing route from payment confirmation to the purchased course. \u201cSoon\u201d leaves the wait undefined, while \u201cExplore catalogue\u201d sends the learner towards further shopping. The screen does not tell them where to return or what to do if access never appears. This is a screen-level finding; we cannot infer whether course provisioning actually fails.\n\nMake the purchased course the focus of the confirmation. Name it and provide a primary \u201cGo to my courses\u201d link. If access is pending, explain where it will appear and give a verified timeframe or an honest statement that the timing is unknown. Show a help route for unresolved access. Keep catalogue exploration secondary. The destination must handle both available and pending access clearly.\n\nVerification task: test a prototype covering those two states. Ask learners who have just paid to find their course and, in the pending state, explain what happens next and how they would get help. Record successful navigation, misunderstandings and catalogue detours. Separately verify that the destination and any timing claim match actual provisioning behaviour before shipping."
+}

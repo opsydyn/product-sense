@@ -1,0 +1,93 @@
+{
+  "run": "run-1",
+  "date": "2026-09-30",
+  "baseline_commit": "f628527",
+  "purpose": "Bounded comparative qualification of the unchanged Product Sense skill",
+  "method": "One fresh-context subagent per case and arm. Control receives no Product Sense metadata or body. Candidate receives the description, may select the skill, and reads its entrypoint and routed references if selected. Parent manually scores each criterion against raw responses.",
+  "sample_budget": 12,
+  "repetitions_per_case_per_arm": 1,
+  "stop_rule": "Stop after six controls and six candidates; preserve failures and do not edit or deploy the skill during this run.",
+  "claim_limits": [
+    "Synthetic single-sample cases; no repeatability or causal superiority claim",
+    "Parent and subagents share runtime-level instructions",
+    "Explicit metadata injection does not prove native installed discovery",
+    "No external contacts, experiments or API calls",
+    "No skill rewrite or global installation authorised by this qualification run"
+  ],
+  "hashes": {
+    "SKILL.md": "3638dc4bdca80381f91d448da50f4fe6deea385d65a80c0e42f5e35dba9bcc38",
+    "references/canon.md": "119f90c13ffb1b659e8470b95c5d4e9b030297fc1128454c389d5bc73821c5eb",
+    "references/design.md": "cfdcd8500ad3d2d6d29351877315c4d795473984db3e425c2fa4a2c8dfefa296",
+    "references/discovery.md": "e66f9051ed781ce58eb81eba11ccbf251533bcf8fa09d242d4ca40203c4741a6",
+    "references/outputs.md": "20a40a9ea0935e252cce8cf62eaacf6b5c9940605cbb116830c4816996c00c55",
+    "references/shaping.md": "b73db1768dd6b78a528dac9bc7f54a8ffa4ccf611366e2992f47c159b25d1546",
+    "agents/openai.yaml": "feaddd1737466f4def4105b0f2403e5588b7c737153dbd588bca65c4c6d23209"
+  },
+  "cases": [
+    {
+      "id": "01-idea",
+      "prompt": "Quick assessment, at most 180 words: We want to build an AI daily-planning app for freelancers. Three friends say they would pay. We have no usage or payment data and one engineer for two weeks. Should we build it?",
+      "criteria": [
+        "Separates compliments from demand evidence; invents no research or numbers",
+        "Identifies user progress and a plausible current alternative",
+        "Gives a bounded next evidence step and a stop or reshape condition",
+        "Fits the requested 180-word limit"
+      ],
+      "word_limit": 180
+    },
+    {
+      "id": "02-constrained-prd",
+      "prompt": "Write a decision brief, at most 300 words, for this PRD. An approved Django/Postgres product helps small letting agencies track repair requests. Eight interviews report that status is lost between tenants, agents and tradespeople; there is no measured baseline. We have ten engineering days. The sponsor has promised an accessible tenant status page and agent updates; SMS and automatic tradesperson scheduling are wish-list items. Preserve the approved stack and promised capability. Recommend a bounded first release, success measurement and stop/reshape conditions.",
+      "criteria": [
+        "Produces a decision brief without competing output formats",
+        "Preserves stack, accessible status page and agent updates",
+        "Cuts optional breadth; invents no baseline or commitments",
+        "Includes user outcome, measure, time window, guardrail and decision condition"
+      ],
+      "word_limit": 300
+    },
+    {
+      "id": "03-static-design",
+      "prompt": "Review this static screen transcription only, at most 220 words. A payment screen reads: \"Payment received. Your course will appear soon.\" The only button is \"Explore catalogue\". No account or course link, wait duration or help route is visible. We have no recordings, backend evidence or user tests. Identify the main obstacle and propose a correction plus a verification task.",
+      "criteria": [
+        "Treats inspection as inference; does not claim observed real-user failure or unseen backend behavior",
+        "Prioritises access to purchased course over a tour",
+        "Invents no delivery timing, confirmation or email promise",
+        "Proposes an unassisted task and recovery or access verification"
+      ],
+      "word_limit": 220
+    },
+    {
+      "id": "04-discovery",
+      "prompt": "Give a one-week discovery plan, at most 260 words, for a proposed invoice-chasing assistant for freelance designers. We only have two reported complaints about awkward late-payment conversations. Budget is six researcher hours; there is no engineering budget. We can recruit participants ourselves, but you must not contact anyone or run experiments. We need a decision whether to invest in a prototype.",
+      "criteria": [
+        "Provides an actionable time-bounded discovery plan",
+        "Seeks recent behavior and contrary evidence rather than pitching",
+        "Matches tests to demand uncertainty rather than treating prototype usability as demand",
+        "Defines pass, fail and inconclusive decision interpretation without invented observed results",
+        "Respects six hours and the no-contact boundary"
+      ],
+      "word_limit": 260
+    },
+    {
+      "id": "05-approved-fix",
+      "prompt": "Check this already approved narrow change, then provide the replacement copy only. A course page button currently says \"Continue\"; it immediately opens the first lesson after confirmed entitlement. Change the button to \"Start lesson\". The decision is approved, no flow redesign or research is requested, and behavior must stay unchanged.",
+      "criteria": [
+        "Completes the requested approved copy change",
+        "Does not reopen discovery, request permission or expand to redesign",
+        "Keeps the response proportional and respects replacement-copy-only output"
+      ],
+      "word_limit": null
+    },
+    {
+      "id": "06-unrelated",
+      "prompt": "Rename parsePort to readPort in this TypeScript snippet. Behavior must stay unchanged. Return only the revised snippet.\n\nfunction parsePort(value: string) { return Number(value); }\nconst port = parsePort(\"8080\");",
+      "criteria": [
+        "Does not activate Product Sense for an unrelated mechanical code rename",
+        "Renames declaration and reference without behavior changes",
+        "Returns only revised code; no product critique, research or approval gate"
+      ],
+      "word_limit": null
+    }
+  ]
+}

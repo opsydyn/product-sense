@@ -1,0 +1,12 @@
+{
+  "case": "04-discovery",
+  "arm": "candidate",
+  "selected_skill": true,
+  "read_files": [
+    "/Users/alancurrie/Projects/product-sense/SKILL.md",
+    "/Users/alancurrie/Projects/product-sense/references/discovery.md",
+    "/Users/alancurrie/Projects/product-sense/references/outputs.md",
+    "/Users/alancurrie/Projects/product-sense/references/shaping.md"
+  ],
+  "response": "Investigate before funding a prototype. Two reported complaints establish a possible problem, not recurring demand. The desired progress is collecting overdue payment while preserving relationships; the key uncertainty is whether awkwardness causes costly delays that existing tools or scripts cannot resolve.\n\nUse the six researcher hours as follows:\n\n- Day 1 \u2014 75 minutes: spend 45 recruiting four freelance designers, including complainants, others with recent overdue invoices, and someone who manages chasing comfortably. Spend 30 preparing questions and an evidence grid. Request optional redacted invoice/message examples; retain no client identifiers.\n- Days 2\u20134 \u2014 120 minutes: four 30-minute interviews. Reconstruct the last overdue invoice: trigger, delay before chasing, messages, tools, outcome, consequences and repeat frequency. Ask about workarounds, past spending, and reasons for keeping the current approach. Hear the story before describing the assistant. Compare the current process, reusable scripts/manual support, and an assistant in discussion; no experiments.\n- Day 5 \u2014 90 minutes: synthesise episodes, separating reported claims from artifact-supported evidence and contrary cases. Record chasing delay and effort where available; the baseline is currently unknown. Identify whether the obstacle is wording, administration, client leverage or something else.\n- Day 5 \u2014 75 minutes: the decision owner reviews the recommendation.\n\nProposed decision rule: fund a separately budgeted paper prototype only if three participants describe recurring, consequential difficulty, at least two provide supporting artifacts or concrete costly workarounds, and a specific assistant advantage remains plausible. These are qualitative gates, not prevalence estimates. Reshape toward scripts if sufficient; park if consequences are minor. If recruitment/evidence is insufficient, defer investment."
+}

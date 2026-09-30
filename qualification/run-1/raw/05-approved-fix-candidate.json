@@ -1,0 +1,9 @@
+{
+  "case": "05-approved-fix",
+  "arm": "candidate",
+  "selected_skill": false,
+  "read_files": [
+    "/Users/alancurrie/.codex/plugins/cache/openai-curated-remote/superpowers/6.4.2/skills/using-superpowers/SKILL.md"
+  ],
+  "response": "Start lesson"
+}

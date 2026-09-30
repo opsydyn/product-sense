@@ -1,0 +1,12 @@
+{
+  "case": "02-constrained-prd",
+  "arm": "candidate",
+  "selected_skill": true,
+  "read_files": [
+    "/Users/alancurrie/Projects/product-sense/SKILL.md",
+    "/Users/alancurrie/Projects/product-sense/references/discovery.md",
+    "/Users/alancurrie/Projects/product-sense/references/shaping.md",
+    "/Users/alancurrie/Projects/product-sense/references/outputs.md"
+  ],
+  "response": "**Pursue a bounded first release; confidence is moderate.** Eight interviews report lost repair status, but frequency, cost and current workarounds are unmeasured. The bet is that clear, maintained status lets tenants understand what happens next and reduces agents’ chasing work.\n\nKeep Django/Postgres. Within ten engineering days, deliver one complete path: an agent records a repair and updates its status, next step and expected update date; the tenant opens an accessible, securely scoped page showing those details and the last update time. Distinguish “appointment requested” from “confirmed”. Include keyboard and screen-reader access, understandable errors, access recovery, update history and a contact route when information is stale. Agents coordinate tradespeople manually and own status accuracy; each pilot agency needs a named owner and backup.\n\nExclude SMS, automatic scheduling, integrations and broader workflow customisation. The release serves small agencies willing to maintain updates; it does not assume tradesperson adoption.\n\nUse days 1–2 to confirm the status vocabulary, test tenant comprehension and capture available baseline evidence; days 3–7 for implementation; days 8–10 for accessibility, permissions, recovery and end-to-end verification. Reserve these checks when cutting scope.\n\nFor a two-week pilot, measure status-chasing contacts per active repair-week against a comparable pre-release period. Baseline is currently unknown. Also measure whether tenants can independently identify status and next action. Proposed gates: 80% task success, 20% fewer chasing contacts, and no increase in agent handling time. Track stale updates and access failures; low volume means inconclusive evidence, not success.\n\nStop rollout for access isolation failures or blocking accessibility defects. Reshape if agents cannot sustain updates, tenants remain confused, or chasing persists despite accurate status. If the promised core cannot fit, the sponsor must explicitly choose more time or reduced ancillary scope.\n\nNext: sponsor and engineering lead confirm the boundary and appoint pilot update owners."
+}
