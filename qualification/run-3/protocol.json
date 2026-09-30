@@ -1,0 +1,43 @@
+{
+  "run": "run-3",
+  "date": "2026-09-30",
+  "baseline_commit": "938a4a1",
+  "purpose": "Fresh desktop chat implicit-selection observation",
+  "authorisation": "Parent user approved the recommended fresh desktop chat check.",
+  "method": "Create one new projectless desktop chat with a neutral title and directory name. Supply a normal product question without a skill name, description, body or path; inspect native chat status and tool outputs after completion.",
+  "model_override": null,
+  "model_run_budget": 1,
+  "stop_rule": "One fresh chat only. Do not rewrite the skill or repeat the sample. Record incomplete or missing activation evidence rather than infer a pass.",
+  "prompt": "Quick assessment, at most 180 words: We are considering an AI weekly-summary app for volunteer club organisers. Three organisers say they would use it. Today they use email threads and group messages; we have no observed task failures, usage data or payment commitments. One engineer is available for ten days. Should we build it, and what should we do next? Assess only, using the supplied facts and labelled hypotheses. Do not create or edit files, contact anyone or run experiments.",
+  "criteria": [
+    "A new desktop chat with no inherited parent conversation receives the unmodified ordinary product prompt",
+    "Native chat evidence establishes reading the installed Product Sense entrypoint without an explicit skill request",
+    "The final assessment separates reported interest from demonstrated demand and marks unknowns",
+    "The assessment gives a proportionate next evidence step and a decision or stop condition without inventing facts",
+    "The final assessment respects the 180-word limit and performs no edits, contacts or experiments"
+  ],
+  "desktop_catalogue_observation": {
+    "source": "Developer-provided available skills catalogue in parent desktop chat on this turn",
+    "present": true,
+    "name": "product-sense",
+    "path": "/Users/alancurrie/.agents/skills/product-sense/SKILL.md",
+    "proves": "Model-visible desktop discovery in the parent chat",
+    "does_not_prove": "Implicit selection or visible UI rendering"
+  },
+  "source_hashes": {
+    "SKILL.md": "3638dc4bdca80381f91d448da50f4fe6deea385d65a80c0e42f5e35dba9bcc38",
+    "references/canon.md": "119f90c13ffb1b659e8470b95c5d4e9b030297fc1128454c389d5bc73821c5eb",
+    "references/design.md": "cfdcd8500ad3d2d6d29351877315c4d795473984db3e425c2fa4a2c8dfefa296",
+    "references/discovery.md": "e66f9051ed781ce58eb81eba11ccbf251533bcf8fa09d242d4ca40203c4741a6",
+    "references/outputs.md": "20a40a9ea0935e252cce8cf62eaacf6b5c9940605cbb116830c4816996c00c55",
+    "references/shaping.md": "b73db1768dd6b78a528dac9bc7f54a8ffa4ccf611366e2992f47c159b25d1546",
+    "agents/openai.yaml": "a2e86a9a6ad702f7bff857651bb48a845c9591960b32eb8d9aedaae95b6d12b0",
+    "assets/icon.svg": "e9301497fa98ef56aaca7ede0857b9a18dc06c34040f0679c609a6bf49b1d38b"
+  },
+  "limits": [
+    "One synthetic sample, no repeatability or causal benefit claim",
+    "New desktop chat remains user-owned",
+    "Read-thread outputs may be summarised; missing direct read evidence remains unverified",
+    "Parent catalogue visibility is distinct from model behavior in the fresh chat"
+  ]
+}

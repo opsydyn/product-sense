@@ -1,0 +1,43 @@
+{
+  "timedOut": true,
+  "wake": null,
+  "polls": [
+    {
+      "schemaVersion": 1,
+      "cursor": "8f37ffc5-1d1b-4676-b30f-7c2455b3be7d:1",
+      "revision": 1,
+      "changed": true,
+      "thread": {
+        "id": "01a0f145-2399-7910-87f6-599deae6145b",
+        "hostId": "local",
+        "status": {
+          "type": "active",
+          "activeFlags": []
+        }
+      },
+      "latestTurn": {
+        "id": "01a0f145-24d5-74e3-824a-d460bfa6a1b3",
+        "status": "inProgress",
+        "error": null,
+        "startedAt": 1790754235,
+        "completedAt": null,
+        "durationMs": null
+      },
+      "latestAssistantMessageId": "msg_0abdd461868e5b2e016abcbdc9965087d28f81104ae3dde056",
+      "latestAssistantMessage": {
+        "id": "msg_0abdd461868e5b2e016abcbdc9965087d28f81104ae3dde056",
+        "turnId": "01a0f145-24d5-74e3-824a-d460bfa6a1b3",
+        "phase": "commentary",
+        "text": "I’ll use the product-sense skill to assess the evidence and recommend a next step within the ten-day limit."
+      },
+      "latestToolMarkerId": "exec-a59c939e-afa6-4fce-a3e2-d2c31ae6559a",
+      "latestToolMarker": {
+        "id": "exec-a59c939e-afa6-4fce-a3e2-d2c31ae6559a",
+        "turnId": "01a0f145-24d5-74e3-824a-d460bfa6a1b3",
+        "type": "commandExecution",
+        "name": "commandExecution",
+        "status": "completed"
+      }
+    }
+  ]
+}

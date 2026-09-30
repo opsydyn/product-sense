@@ -1,0 +1,10 @@
+{
+  "threadId": "01a0f145-2399-7910-87f6-599deae6145b",
+  "hostId": "local",
+  "requested_title": "Product idea assessment",
+  "target": "projectless",
+  "directoryName": "idea-assessment",
+  "projectlessOutputDirectory": "/Users/alancurrie/Documents/Codex/2026-09-30/idea-assessment/outputs",
+  "model_override": null,
+  "prompt_source": "prompt.txt"
+}

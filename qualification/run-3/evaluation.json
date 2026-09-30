@@ -1,0 +1,70 @@
+{
+  "desktop_discovery": "confirmed in parent model-visible catalogue",
+  "implicit_selection": "confirmed by fresh desktop chat command evidence",
+  "overall_task_criteria_pass": false,
+  "criteria_passed": 4,
+  "criteria_total": 5,
+  "criteria": [
+    {
+      "criterion": "A new desktop chat with no inherited parent conversation receives the unmodified ordinary product prompt",
+      "pass": true,
+      "evidence": "Fresh projectless desktop chat contains one completed turn with the unchanged prompt. Native creation delivered a delegation wrapper with the parent chat identifier, but no parent history or skill instructions."
+    },
+    {
+      "criterion": "Native chat evidence establishes reading the installed Product Sense entrypoint without an explicit skill request",
+      "pass": true,
+      "evidence": "The chat announced use of Product Sense and completed a read of the installed entrypoint with exit code 0; the product prompt never named the skill."
+    },
+    {
+      "criterion": "The final assessment separates reported interest from demonstrated demand and marks unknowns",
+      "pass": true,
+      "evidence": "The assessment labels supplied facts, unknown demand and the proposed user-progress hypothesis; it treats stated interest as insufficient evidence."
+    },
+    {
+      "criterion": "The assessment gives a proportionate next evidence step and a decision or stop condition without inventing facts",
+      "pass": true,
+      "evidence": "It proposes a two-engineer-day learning cap, holds eight days uncommitted, compares the current approach and defines labelled prototype/park/reshape gates."
+    },
+    {
+      "criterion": "The final assessment respects the 180-word limit and performs no edits, contacts or experiments",
+      "pass": false,
+      "evidence": "Final response contains 187 whitespace-separated words: seven over the 180-word limit. All five model commands are read-only cat operations; no edits, contacts or experiments occurred."
+    }
+  ],
+  "final_word_count": 187,
+  "requested_word_limit": 180,
+  "word_count_method": "whitespace splitting",
+  "model_commands": [
+    {
+      "id": "exec-8752d1cb-e61e-4f8f-9c59-3b2f44d46e30",
+      "command": "/bin/zsh -lc 'cat /Users/alancurrie/.codex/plugins/cache/openai-curated-remote/superpowers/6.4.2/skills/using-superpowers/SKILL.md'",
+      "exitCode": 0
+    },
+    {
+      "id": "exec-64103d4c-dc65-44c9-b004-76cd421612de",
+      "command": "/bin/zsh -lc 'cat /Users/alancurrie/.agents/skills/product-sense/SKILL.md'",
+      "exitCode": 0
+    },
+    {
+      "id": "exec-2a3aaa7c-4114-4ad3-88a5-40682c37fd8a",
+      "command": "/bin/zsh -lc 'cat /Users/alancurrie/.agents/skills/product-sense/references/discovery.md'",
+      "exitCode": 0
+    },
+    {
+      "id": "exec-9f1239ee-fadb-4c14-8f6c-76edd56a1650",
+      "command": "/bin/zsh -lc 'cat /Users/alancurrie/.agents/skills/product-sense/references/shaping.md'",
+      "exitCode": 0
+    },
+    {
+      "id": "exec-a59c939e-afa6-4fce-a3e2-d2c31ae6559a",
+      "command": "/bin/zsh -lc 'cat /Users/alancurrie/.agents/skills/product-sense/references/outputs.md'",
+      "exitCode": 0
+    }
+  ],
+  "model_run_count": 1,
+  "threadId": "01a0f145-2399-7910-87f6-599deae6145b",
+  "threadTitle": "Product idea assessment",
+  "durationMs": 83635,
+  "source_hashes_unchanged": true,
+  "decision": "Keep source unchanged; preserve the word-limit failure. No repeated-sample or comparative conclusion is established."
+}

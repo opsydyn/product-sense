@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "thread": {
+    "id": "01a0f145-2399-7910-87f6-599deae6145b",
+    "kind": "codex",
+    "hostId": "local",
+    "title": "Product idea assessment",
+    "preview": "",
+    "status": {
+      "type": "idle"
+    },
+    "cwd": "/Users/alancurrie/Documents/Codex/2026-09-30/idea-assessment",
+    "createdAt": 1790754235,
+    "updatedAt": 1790754319
+  },
+  "page": {
+    "order": "newest_first",
+    "limit": 2,
+    "nextCursor": null,
+    "hasMore": false
+  },
+  "turns": [
+    {
+      "id": "01a0f145-24d5-74e3-824a-d460bfa6a1b3",
+      "status": "completed",
+      "error": null,
+      "startedAt": 1790754235,
+      "completedAt": 1790754319,
+      "durationMs": 83635,
+      "items": [
+        {
+          "type": "functionCallOutput",
+          "id": "fco_01a0f145-24db-7892-9fef-31799c5b586c",
+          "name": "create_thread",
+          "namespace": "codex_app",
+          "output": {
+            "text": "<codex_delegation>\n  <source_thread_id>01a0f114-a7eb-73d2-9d30-fa732f50eda6</source_thread_id>\n  <input>Quick assessment, at most 180 words: We are considering an AI weekly-summary app for volunteer club organisers. Three organisers say they would use it. Today they use email threads and group messages; we have no observed task failures, usage data or payment commitments. One engineer is available for ten days. Should we build it, and what should we do next? Assess only, using the supplied facts and labelled hypotheses. Do not create or edit files, contact anyone or run experiments.</input>\n</codex_delegation>",
+            "truncated": false
+          }
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0abdd461868e5b2e016abcbdc747fc87d2beb8ab3f515788a5",
+          "summary": [],
+          "content": []
+        },
+        {
+          "type": "agentMessage",
+          "id": "msg_0abdd461868e5b2e016abcbdc9965087d28f81104ae3dde056",
+          "text": "I’ll use the product-sense skill to assess the evidence and recommend a next step within the ten-day limit.",
+          "phase": "commentary"
+        },
+        {
+          "type": "commandExecution",
+          "id": "exec-8752d1cb-e61e-4f8f-9c59-3b2f44d46e30",
+          "command": "/bin/zsh -lc 'cat /Users/alancurrie/.codex/plugins/cache/openai-curated-remote/superpowers/6.4.2/skills/using-superpowers/SKILL.md'",
+          "cwd": "/Users/alancurrie/Documents/Codex/2026-09-30/idea-assessment",
+          "status": "completed",
+          "exitCode": 0,
+          "durationMs": 0,
+          "output": {
+            "text": "---\nname: using-superpowers\ndescription: Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions\n---\n\n<SUBAGENT-STOP>\nIf you were dispatched as a subagent to execute a specific task, ignore this skill.\n</SUBAGENT-STOP>\n\n<EXTREMELY-IMPORTANT>\nIf you think there is even a 1% chance a skill might apply to what you are doing, you ABSOLUTELY MUST invoke the skill.\n\nIF A SKILL APPLIES TO YOUR TASK, YOU DO NOT HAVE A CHOICE. YOU MUST USE IT.\n\nThis is not negotiable. You cannot rationalize your way out of this.\n</EXTREMELY-IMPORTANT>\n\n## The Rule\n\n**Invoke relevant or requested skills BEFORE any response or action** — including clarifying questions, exploring the codebase, or checking files. If it turns out wrong for the situation, you don't have to use it.\n\n**Before entering plan mode:** if you haven't already brainstormed, invoke the brainstorming skill first.\n\nThen announce \"Using [skill] to [purpose]\" and follow the skill exactly. If it has a checklist, create a todo per item.\n\n## Skill Priority\n\nWhen multiple skills apply, process skills come first — they set the approach, then implementation skills (frontend-design, etc.) carry it out. Brainstorming and systematic-debugging are Superpowers' most common process skills, but the rule holds for any of them.\n\n- \"Let's build X\" → superpowers:brainstorming first, then implementation skills.\n- \"Fix this bug\" → superpowers:systematic-debugging first, then domain skills.\n\n## Red Flags\n\nThese thoughts mean STOP—you're rationalizing:\n\n| Thought | Reality |\n|---------|---------|\n| \"This is just a simple question\" | Questions are tasks. Check for skills. |\n| \"I need more context first\" | Skill check comes BEFORE clarifying questions. |\n| \"Let me explore the codebase first\" | Skills tell you HOW to explore. Check first. |\n| \"I can check git/files quickly\" | Files lack conversation context. Check for skills. |\n| \"Let me gather information first\" | Skills tell you HOW to gather information. |\n| \"This doesn't need a formal skill\" | If a skill exists, use it. |\n| \"I remember this skill\" | Skills evolve. Read current version. |\n| \"This doesn't count as a task\" | Action = task. Check for skills. |\n| \"The skill is overkill\" | Simple things become complex. Use it. |\n| \"I'll just do this one thing first\" | Check BEFORE doing anything. |\n| \"This feels productive\" | Undisciplined action wastes time. Skills prevent this. |\n| \"I know what that means\" | Knowing the concept ≠ using the skill. Invoke it. |\n\n## Platform Adaptation\n\nIf your harness appears here, read its reference file for special instructions:\n\n- Claude Code: `references/claude-code-tools.md`\n- Codex: `references/codex-tools.md`\n- Pi: `references/pi-tools.md`\n- Antigravity: `references/antigravity-tools.md`\n- Hermes Agent: `references/hermes-tools.md`\n- Muse: `references/muse-tools.md`\n\n## User Instructions\n\nUser instructions (CLAUDE.md, AGENTS.md, GEMINI.md, etc, direct requests) take precedence over skills, which in turn override default behavior. Only skip skill workflows or instructions when your human partner has explicitly told you to.\n",
+            "truncated": false
+          }
+        },
+        {
+          "type": "commandExecution",
+          "id": "exec-64103d4c-dc65-44c9-b004-76cd421612de",
+          "command": "/bin/zsh -lc 'cat /Users/alancurrie/.agents/skills/product-sense/SKILL.md'",
+          "cwd": "/Users/alancurrie/Documents/Codex/2026-09-30/idea-assessment",
+          "status": "completed",
+          "exitCode": 0,
+          "durationMs": 0,
+          "output": {
+            "text": "---\nname: product-sense\ndescription: Use when assessing product ideas, feature requests, PRDs, Jira tickets, roadmaps, positioning, discovery plans or user journeys; when deciding whether or what to build; or when reviewing confusing flows, weak product evidence and scope under a fixed budget.\n---\n\n# Product Sense\n\nStart with the progress the user seeks. Treat a proposed feature as a hypothesis about creating that progress. Turn the discussion into a clear decision and next action.\n\nUse four pillars: Sierra for user capability, Norman for understandable design, Torres for discovery, and Rumelt for strategy. Apply supporting books only where they help the decision. See [canon.md](references/canon.md) for sources. This workflow is our synthesis, not an author's named method.\n\n## Choose the output\n\n| Input or request | Output | Read |\n|---|---|---|\n| Idea, feature, ticket, roadmap | Product critique | [discovery.md](references/discovery.md) |\n| PRD, new product, positioning | Product brief | [discovery.md](references/discovery.md) |\n| Deadline, budget, approved direction | Shaped bet | [shaping.md](references/shaping.md) |\n| Screen, prototype, journey, service | Design review | [design.md](references/design.md) |\n\nRead [outputs.md](references/outputs.md) for the selected output. Think through relevant checks; print only what changes the decision. A small request can receive five lines. A full PRD deserves a fuller brief.\n\n## Establish reality\n\nRead supplied artifacts first. Identify target user, task, context, current alternative, evidence and fixed constraints. Separate user, buyer and operator where their needs differ. Mark claims as **observed**, **reported**, **inferred** or **unknown**, with source and date where available. Treat compliments and purchase promises as weak signals; seek recent behavior, workarounds, costs and commitments.\n\nIf missing information changes the decision, ask one focused question. Otherwise proceed with stated assumptions and a conditional recommendation. Do not invent research, personas, market size, conversion rates or baselines. Draft personas as behavior-based hypotheses, not demographic stereotypes.\n\nRespect explicit decisions and authorized execution. For a chosen stack or narrow fix, apply judgment within that scope. State a material concern briefly and continue the requested work. This skill adds no approval gate and grants no authority to contact users, run live experiments or change external systems.\n\n## Apply the decision checks\n\n1. **Progress:** State what the user can do better in the wider task. Name first useful success and capability that grows with use. Product engagement alone is insufficient.\n2. **Reality:** Describe today's approach, including doing nothing. Identify the supported cost or failure.\n3. **Switch:** Identify push toward change, pull of the new way, anxiety and habit. Include migration and learning effort.\n4. **Opportunity:** Phrase the need without embedding the solution. For an open decision, compare materially different routes, including a manual or no-build option.\n5. **Positioning:** Identify the real alternative, distinct capability, resulting value and best-fit customer. Mark unverified advantage as a hypothesis.\n6. **Outcome:** Link user behavior to business value. Define a primary measure, baseline status, time window and relevant guardrail. Label proposed targets.\n7. **Risk:** Identify the assumption whose failure most damages the bet. Compare uncertainty and consequence without false precision.\n8. **Test:** Choose the cheapest credible evidence for that assumption. State what would change the decision, including a result that stops or reshapes the idea. Distinguish demand, usability and technical tests.\n9. **Appetite:** State the time or money worth spending. If unset, propose a limit and label it. Fit scope to the limit.\n10. **Strategy:** State diagnosis, guiding policy and coherent actions. Name the tradeoff; a growth goal is not a strategy.\n11. **Cut:** Remove work that does not preserve the core outcome. Keep reliability, access and recovery needed to achieve it.\n12. **Verdict:** Lead with **pursue**, **reshape**, **investigate** or **park**, reasoning, confidence and next action. Pursue a bounded bet, not certainty. Park with a reason and condition for revisiting.\n\nFor flows, also compare expected and actual behavior, cues, feedback, memory burden, likely errors, recovery and mental model. Make the outcome visible across the whole journey.\n\n## Common mistakes\n\n| Mistake | Correction |\n|---|---|\n| AI, novelty or feature count treated as value | Name user progress and compare a simpler route |\n| Prototype success treated as demand | State the tested assumption and remaining unknowns |\n| Metrics reward clicks or time spent alone | Measure task success and user effort |\n| Every book becomes a workshop | Use only lenses affecting this call |\n| Research becomes endless delay | Time-box learning and make a reversible bet |\n| Education covers confusing design | Fix access and cues; teach the domain where needed |\n\n## Example\n\nRequest: “Add a tour because paid-course buyers cannot find the course.”\n\n**Reshape.** The reported problem is access after payment; the wider outcome is starting a lesson. Provide a direct course action after confirmed access and in the receipt, plus clear account access and recovery. Investigate entitlement delays. Test an unassisted purchase-to-lesson task. Measure lesson starts and access support requests; baseline unknown. If access succeeds but learning still stalls, revisit teaching support. Cut the tour from this bet.\n",
+            "truncated": false
+          }
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0abdd461868e5b2e016abcbdd59f7487d29cc2e52e9f2be47f",
+          "summary": [],
+          "content": []
+        },
+        {
+          "type": "commandExecution",
+          "id": "exec-2a3aaa7c-4114-4ad3-88a5-40682c37fd8a",
+          "command": "/bin/zsh -lc 'cat /Users/alancurrie/.agents/skills/product-sense/references/discovery.md'",
+          "cwd": "/Users/alancurrie/Documents/Codex/2026-09-30/idea-assessment",
+          "status": "completed",
+          "exitCode": 0,
+          "durationMs": 0,
+          "output": {
+            "text": "# Discovery and product judgment\n\n## Frame progress\n\nWrite: “When [situation], [user] wants to [progress], so they can [wider outcome]. Today they [alternative], which costs [supported cost].” Mark gaps as assumptions.\n\nIdentify functional, emotional and social needs where supported. Seek first meaningful success, obstacles to repeat success and skills that grow. Remove tool overhead so effort goes toward the domain. Reliable delegation can itself improve capability; not every utility must teach.\n\nConnect one desired outcome to user needs, pain or desires, then to solutions and tests. An opportunity is “I cannot tell which car fits my family,” not “I need a chatbot.” Compare options against the same task. Include today's route and a manual or no-build route when the choice is open.\n\nDiagnose the main obstacle, choose a policy, and identify reinforcing actions. State the tradeoff. Link user progress to a credible business mechanism; benefit alone does not prove a business case.\n\n## Gather evidence\n\nAsk about the last attempt: trigger, steps, tools, problems, consequences and what happened next. Seek artifacts, workarounds, past spending and real commitments. Hear the story before explaining the idea. Record contrary cases.\n\nFor switching, seek the event pushing change, attractive progress, fear of the new way and comfort of the old. For positioning, identify what the buyer would really use otherwise, then connect distinct capability to customer value. Competitor feature absence does not establish a moat.\n\n## Make learning decision-ready\n\nWrite the critical assumption in falsifiable terms. Match evidence to uncertainty:\n\n| Uncertainty | Useful evidence | Does not establish |\n|---|---|---|\n| Problem and demand | Recent struggle, costly workaround, real commitment | Usability at scale |\n| Comprehension and task success | Unassisted realistic prototype task | Demand or production reliability |\n| Feasibility | Focused technical probe | Adoption or business value |\n| Value in use | Bounded pilot or suitable comparison | Causality without a sound comparison |\n\nState participant/context, method, observable result, proposed threshold, time limit and action for pass, fail or inconclusive evidence. A small qualitative study finds patterns, not population conversion rates. A payment does not prove retention.\n\nDefine the primary behavior measure, baseline availability, window and guardrail. Count those exposed to the flow as well as completions. If evidence is absent, choose a reversible learning bet and explain why its cost is justified.\n",
+            "truncated": false
+          }
+        },
+        {
+          "type": "commandExecution",
+          "id": "exec-9f1239ee-fadb-4c14-8f6c-76edd56a1650",
+          "command": "/bin/zsh -lc 'cat /Users/alancurrie/.agents/skills/product-sense/references/shaping.md'",
+          "cwd": "/Users/alancurrie/Documents/Codex/2026-09-30/idea-assessment",
+          "status": "completed",
+          "exitCode": 0,
+          "durationMs": 0,
+          "output": {
+            "text": "# Shape a bounded bet\n\nStart with the agreed problem and appetite. An appetite is a chosen spending limit, not an estimate of a predetermined design. If missing, propose one and label it.\n\nDescribe the core path sufficiently to expose risks while leaving implementation room. Include key dependency, failure and recovery route. Identify rabbit holes before commitment. State exclusions. Cut breadth before the quality needed for the user outcome.\n\nFor manual-first services, name operator role, response time, capacity, backup and failure handling. Show true state: requested differs from confirmed. Operator effort is a real cost. Set a trigger for automation based on load, delay or failures.\n\nRespect a locked stack or promised capability. Use flexibility in scope, sequence and delivery. If the promise cannot fit, state the mismatch and offer concrete time or scope choices; do not quietly redefine completion.\n\nState what the bet ends in:\n\n- Discovery: a decision supported by new evidence.\n- Delivery: a bounded working user path and measurement.\n- Pilot: evidence of value under stated operational limits.\n\nDefine decision owner, next action, time box, scope and stop/reshape condition. If no owner is supplied, name the needed role, not an invented person. Carry unresolved assumptions into the handoff.\n\nSequence coherent actions: remove the main obstacle, verify progress, then widen if evidence warrants it. Novel technology is an option, not a reason to expand scope.\n",
+            "truncated": false
+          }
+        },
+        {
+          "type": "commandExecution",
+          "id": "exec-a59c939e-afa6-4fce-a3e2-d2c31ae6559a",
+          "command": "/bin/zsh -lc 'cat /Users/alancurrie/.agents/skills/product-sense/references/outputs.md'",
+          "cwd": "/Users/alancurrie/Documents/Codex/2026-09-30/idea-assessment",
+          "status": "completed",
+          "exitCode": 0,
+          "durationMs": 0,
+          "output": {
+            "text": "# Output contracts\n\nChoose one format. Adapt length to the request. Use concrete prose and small comparison tables. Put uncertainty beside the claim. Keep author names out of routine outputs unless attribution is requested.\n\n## Product critique\n\nLead with verdict and decisive reason. Then cover:\n\n1. User progress and current alternative.\n2. Supporting evidence and remaining assumptions.\n3. Main opportunity, risk or design failure.\n4. Better route or scope to cut.\n5. Next action, observable outcome and stop/reshape condition.\n\nCombine into five lines for a quick request. Include strategy if fit drives the call. Do not print twelve sections by default.\n\n## Product brief\n\nWrite a concise decision document:\n\n- Recommendation: verdict, confidence and why now.\n- User and progress: segment, situation, first success and wider goal.\n- Reality and evidence: alternative, switch forces, facts, assumptions and sources.\n- Strategy and positioning: diagnosis, policy, coherent actions, tradeoff, distinct value and best-fit customer.\n- Opportunity and options: need, credible routes, choice and reason.\n- Outcome: primary measure, business link, baseline status, proposed target, window and guardrail.\n- Risk and learning: critical assumption, credible test, proposed pass/fail/inconclusive interpretation and falsifying observation.\n- Boundaries and action: appetite, core scope, exclusions, dependency, owner or required role and next step.\n\nUse unknown and a next evidence step instead of plausible numbers.\n\n## Shaped bet\n\nUse problem, appetite, solution outline, rabbit holes and exclusions. Add user outcome, unresolved evidence, operator responsibilities and completion/stop conditions. State whether this ends in learning, delivery or a pilot. Keep promised capability explicit.\n\n## Design review\n\nLead with the largest obstacle. Use a short table when useful:\n\n| Step | Expected / actual | User cost | Evidence | Correction |\n|---|---|---|---|---|\n\nRank blocker, friction or polish. Close with the unassisted task, outcome measure and result that changes the fix. State limits of the artifact; unseen states are not observations.\n\n## Final self-check\n\nConfirm that the recommendation concerns user progress and a viable business or service outcome; the strongest claim has evidence or an assumption label; the test addresses the main uncertainty; a plausible failure changes the plan; scope respects fixed constraints and preserves recovery and access; and the response ends with a concrete action.\n",
+            "truncated": false
+          }
+        },
+        {
+          "type": "reasoning",
+          "id": "rs_0abdd461868e5b2e016abcbdfa368487d29e5b7c0354d40036",
+          "summary": [],
+          "content": []
+        },
+        {
+          "type": "agentMessage",
+          "id": "msg_0abdd461868e5b2e016abcbe03d70487d2aa5807abaadd0eb6",
+          "text": "**Investigate; do not build the app yet.** Confidence is high that the evidence is insufficient to commit ten engineering days; demand remains unknown.\n\n**Supplied facts:** three organisers say they would use it. They currently use email threads and group messages. There are no observed task failures, usage data or payment commitments. Stated interest supports discovery, but does not establish a reason to switch.\n\n**Hypothesis:** organisers struggle to identify decisions and outstanding actions across messages, and a weekly summary would reduce effort or missed follow-ups. Whether AI adds value over a simple template is also untested.\n\n**Proposed next step:** cap discovery at two engineer-days across one weekly cycle; hold eight days uncommitted. Review recent organising tasks and, with consent, manually produce a summary from real material. Compare preparation and checking time against the current approach, and assess whether organisers act on it without material omissions.\n\n**Proposed gate:** pursue a narrow prototype only if at least two organisers demonstrate recurring difficulty, useful improvement and commitment to another cycle. Identify the buyer if charging is intended. Otherwise park or reshape. This gate would justify further learning, not establish market demand.",
+          "phase": "final_answer"
+        }
+      ]
+    }
+  ]
+}

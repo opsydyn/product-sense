@@ -1,0 +1,9 @@
+**Investigate; do not build the app yet.** Confidence is high that the evidence is insufficient to commit ten engineering days; demand remains unknown.
+
+**Supplied facts:** three organisers say they would use it. They currently use email threads and group messages. There are no observed task failures, usage data or payment commitments. Stated interest supports discovery, but does not establish a reason to switch.
+
+**Hypothesis:** organisers struggle to identify decisions and outstanding actions across messages, and a weekly summary would reduce effort or missed follow-ups. Whether AI adds value over a simple template is also untested.
+
+**Proposed next step:** cap discovery at two engineer-days across one weekly cycle; hold eight days uncommitted. Review recent organising tasks and, with consent, manually produce a summary from real material. Compare preparation and checking time against the current approach, and assess whether organisers act on it without material omissions.
+
+**Proposed gate:** pursue a narrow prototype only if at least two organisers demonstrate recurring difficulty, useful improvement and commitment to another cycle. Identify the buyer if charging is intended. Otherwise park or reshape. This gate would justify further learning, not establish market demand.

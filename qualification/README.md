@@ -14,3 +14,5 @@ This directory contains synthetic skill evaluations, separate from the skill's r
 See [run-1/report.md](run-1/report.md) for the first result, [protocol.json](run-1/protocol.json) for its inputs and [evaluation.json](run-1/evaluation.json) for criterion-level scoring.
 
 See [run-2/report.md](run-2/report.md) for native CLI discovery, an explicitly invoked approved fix, and a native metadata failure and repair. Run 2 uses one ephemeral read-only CLI model session rather than metadata supplied to a subagent.
+
+See [run-3/report.md](run-3/report.md) for desktop catalogue discovery and implicit selection in a fresh projectless desktop chat. Selection passed; the response exceeded its requested word limit, so complete task compliance did not pass.
