@@ -1,0 +1,37 @@
+[
+  {
+    "path": ".claude-plugin/plugin.json",
+    "sha256": "f25d3ca463040c6bc36f5122b6f313c3e0c63353a614b72884bac2847db12c62",
+    "size": 184
+  },
+  {
+    "path": "skills/product-sense/SKILL.md",
+    "sha256": "3638dc4bdca80381f91d448da50f4fe6deea385d65a80c0e42f5e35dba9bcc38",
+    "size": 5625
+  },
+  {
+    "path": "skills/product-sense/references/canon.md",
+    "sha256": "119f90c13ffb1b659e8470b95c5d4e9b030297fc1128454c389d5bc73821c5eb",
+    "size": 3485
+  },
+  {
+    "path": "skills/product-sense/references/design.md",
+    "sha256": "cfdcd8500ad3d2d6d29351877315c4d795473984db3e425c2fa4a2c8dfefa296",
+    "size": 2614
+  },
+  {
+    "path": "skills/product-sense/references/discovery.md",
+    "sha256": "e66f9051ed781ce58eb81eba11ccbf251533bcf8fa09d242d4ca40203c4741a6",
+    "size": 2583
+  },
+  {
+    "path": "skills/product-sense/references/outputs.md",
+    "sha256": "20a40a9ea0935e252cce8cf62eaacf6b5c9940605cbb116830c4816996c00c55",
+    "size": 2507
+  },
+  {
+    "path": "skills/product-sense/references/shaping.md",
+    "sha256": "b73db1768dd6b78a528dac9bc7f54a8ffa4ccf611366e2992f47c159b25d1546",
+    "size": 1481
+  }
+]

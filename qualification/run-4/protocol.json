@@ -1,0 +1,79 @@
+{
+  "date": "2026-09-30",
+  "host": "local macOS",
+  "cli_version": "2.1.259 (Claude Code)",
+  "source_commit": "c471a392203a588b5bda51c75dc12a965aaff3a4",
+  "source_sha256": {
+    "SKILL.md": "3638dc4bdca80381f91d448da50f4fe6deea385d65a80c0e42f5e35dba9bcc38",
+    "references/canon.md": "119f90c13ffb1b659e8470b95c5d4e9b030297fc1128454c389d5bc73821c5eb",
+    "references/design.md": "cfdcd8500ad3d2d6d29351877315c4d795473984db3e425c2fa4a2c8dfefa296",
+    "references/discovery.md": "e66f9051ed781ce58eb81eba11ccbf251533bcf8fa09d242d4ca40203c4741a6",
+    "references/outputs.md": "20a40a9ea0935e252cce8cf62eaacf6b5c9940605cbb116830c4816996c00c55",
+    "references/shaping.md": "b73db1768dd6b78a528dac9bc7f54a8ffa4ccf611366e2992f47c159b25d1546",
+    "packaging/claude/plugin.json": "f25d3ca463040c6bc36f5122b6f313c3e0c63353a614b72884bac2847db12c62"
+  },
+  "archive_sha256": "8203e40312ae143359f2fdb43574ba2e866928111f0657cb0f2014644d58ca82",
+  "stage": "/private/tmp/product-sense-claude-run-4-e_hvegz5",
+  "plugin": "/private/tmp/product-sense-claude-run-4-e_hvegz5/plugin",
+  "sample_budget": {
+    "model_sessions": 2,
+    "max_budget_usd_per_session": 1,
+    "timeout_seconds_per_session": 180,
+    "automatic_retries": 0
+  },
+  "runtime": {
+    "model": "native default; record actual model from init",
+    "tools": [
+      "Skill",
+      "Read",
+      "Glob",
+      "Grep"
+    ],
+    "permission_mode": "dontAsk",
+    "restricted": true,
+    "strict_mcp_config": true,
+    "no_chrome": true,
+    "no_session_persistence": true,
+    "settings": {
+      "disableAllHooks": true
+    },
+    "allowed_tools": [
+      "Skill",
+      "Read",
+      "Glob",
+      "Grep"
+    ],
+    "add_dir": "/private/tmp/product-sense-claude-run-4-e_hvegz5/plugin"
+  },
+  "cases": [
+    {
+      "name": "explicit",
+      "prompt_file": "explicit-prompt.txt",
+      "criteria": [
+        "native catalogue includes product-sense:product-sense from inline plugin",
+        "explicit native invocation loads plugin entrypoint",
+        "final is exactly Start lesson",
+        "no writes or external actions"
+      ]
+    },
+    {
+      "name": "implicit",
+      "prompt_file": "implicit-prompt.txt",
+      "criteria": [
+        "native catalogue includes product-sense:product-sense from inline plugin",
+        "model selects skill without name in task",
+        "uses relevant references",
+        "assessment preserves supplied evidence and scope, gives bounded next action and stop/reshape condition",
+        "final is at most 180 whitespace-delimited words",
+        "no writes or external actions"
+      ]
+    }
+  ],
+  "stopping_rule": "One attempt per case. Stop a case on failure, authentication or permission block, cost cap or timeout; retain evidence and do not retry the model. No source edits during evaluation.",
+  "limits": [
+    "No control arm or repeat samples",
+    "CLI host only; no claude.ai, Cowork or OpenAI plugin acceptance claim",
+    "Restricted settings differ from ordinary user sessions; record actual catalogue and tool events",
+    "Managed policy or runtime defaults may still apply; flags alone do not establish full isolation"
+  ]
+}

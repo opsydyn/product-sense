@@ -1,0 +1,7 @@
+{
+  "builder_sha256": "1be21d0415286f77f9a0ba882ef1a4d55da2645732bb94bfefa4b3127aaf8f27",
+  "test_sha256": "5d41034eab7854b69ed19c9bf013de3ceeaef8b20e2ab37074e41c58f673ca4b",
+  "archive_sha256": "8203e40312ae143359f2fdb43574ba2e866928111f0657cb0f2014644d58ca82",
+  "packaging_tests": 7,
+  "archive_unchanged_after_builder_fix": true
+}
