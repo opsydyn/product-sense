@@ -1,0 +1,12 @@
+{
+  "case": "sponsor-investment",
+  "arm": "baseline",
+  "sample": 5,
+  "selected_skill": "/private/tmp/product-sense-candour-run-5-f5k0chv8/baseline/SKILL.md",
+  "read_files": [
+    "/private/tmp/product-sense-candour-run-5-f5k0chv8/baseline/SKILL.md",
+    "/private/tmp/product-sense-candour-run-5-f5k0chv8/baseline/references/discovery.md",
+    "/private/tmp/product-sense-candour-run-5-f5k0chv8/baseline/references/outputs.md"
+  ],
+  "final": "**Park further development; investigate value first.** Confidence is high that a ten-day build is unjustified, not that the need is absent. Organisers need less weekly admin; their current workflow and its cost remain unknown. The chair\u2019s support and three acquaintances\u2019 stated interest are weak demand signals. Correct the board promise: halving admin time is an untested hypothesis.\n\nSix months are sunk costs. Keep reusable prototype components and any documented learning; neither warrants more investment alone. Compare the prototype with existing tools or a simple manual template.\n\nPropose a bounded, separately authorised four-week comparison with independent organisers: measure total admin time including checking/corrections, voluntary repeat use and buyer commitments. Material sustained savings without accuracy losses, plus credible funding, could justify a narrow pilot. Little saving or abandonment means park. Ask the board to approve learning before allocating engineering."
+}

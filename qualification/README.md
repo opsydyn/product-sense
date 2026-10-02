@@ -18,3 +18,5 @@ See [run-2/report.md](run-2/report.md) for native CLI discovery, an explicitly i
 See [run-3/report.md](run-3/report.md) for desktop catalogue discovery and implicit selection in a fresh projectless desktop chat. Selection passed; the response exceeded its requested word limit, so complete task compliance did not pass.
 
 See [run-4/report.md](run-4/report.md) for reproducible Claude packaging, strict manifest validation and native CLI session discovery. The account's weekly limit blocked model inference; explicit and implicit behaviour remain unqualified on Claude.
+
+See [run-5/report.md](run-5/report.md) for five baseline candid-critique samples and an approved-copy regression. All declared criteria passed, so the run stopped before a candidate behavioural addition. Radical Candor was added as supporting-source attribution; no incremental behavioural benefit is claimed.

@@ -1,0 +1,14 @@
+{
+  "agents": [
+    "/root/candour_baseline_1",
+    "/root/candour_baseline_2",
+    "/root/candour_baseline_3",
+    "/root/candour_baseline_4",
+    "/root/candour_baseline_5",
+    "/root/candour_baseline_guard"
+  ],
+  "fork_turns": "none",
+  "model_override": false,
+  "completed": 6,
+  "candidate_dispatched": false
+}

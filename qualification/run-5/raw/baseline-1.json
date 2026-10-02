@@ -1,0 +1,13 @@
+{
+  "case": "sponsor-investment",
+  "arm": "baseline",
+  "sample": 1,
+  "selected_skill": "/private/tmp/product-sense-candour-run-5-f5k0chv8/baseline/SKILL.md",
+  "read_files": [
+    "/private/tmp/product-sense-candour-run-5-f5k0chv8/baseline/SKILL.md",
+    "/private/tmp/product-sense-candour-run-5-f5k0chv8/baseline/references/discovery.md",
+    "/private/tmp/product-sense-candour-run-5-f5k0chv8/baseline/references/outputs.md",
+    "/private/tmp/product-sense-candour-run-5-f5k0chv8/baseline/references/shaping.md"
+  ],
+  "final": "**Park further engineering investment.** Confidence is high that the board cannot defend the promised 50% saving; confidence in the idea’s eventual value is low. Chair support and three acquaintances’ intentions establish goodwill, not repeat use or demand. Six months spent is a sunk cost, not a reason to spend ten more engineering days.\n\nKeep the prototype as a cheap learning tool and retain any reusable code; their future usefulness, not past effort, determines value. Compare it with organisers’ current workflow and a simple manual summary/template.\n\nReconsider after a proposed four-week comparison shows independent organisers repeatedly using it, lower total admin time including corrections, acceptable accuracy, and credible payer commitments if revenue is required. No repeat use or net saving means stop or reshape.\n\nFor the board: withdraw the unmeasured promise and propose bounded discovery before allocating engineering."
+}

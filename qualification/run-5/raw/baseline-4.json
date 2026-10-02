@@ -1,0 +1,13 @@
+{
+  "case": "sponsor-investment",
+  "arm": "baseline",
+  "sample": 4,
+  "selected_skill": "/private/tmp/product-sense-candour-run-5-f5k0chv8/baseline/SKILL.md",
+  "read_files": [
+    "/private/tmp/product-sense-candour-run-5-f5k0chv8/baseline/SKILL.md",
+    "/private/tmp/product-sense-candour-run-5-f5k0chv8/baseline/references/discovery.md",
+    "/private/tmp/product-sense-candour-run-5-f5k0chv8/baseline/references/outputs.md",
+    "/private/tmp/product-sense-candour-run-5-f5k0chv8/baseline/references/shaping.md"
+  ],
+  "final": "**Park further development.** Organisers need less weekly admin, but the current workflow and its cost are unknown. Chair support and three friendly intentions are weak demand signals; they do not substantiate repeat value or the promised 50% saving. Tell the board that promise is unverified and withdraw it as a forecast. Six months already spent cannot justify another ten engineer-days.\n\nKeep the prototype as a reusable assessment tool, plus any useful workflow knowledge; retain code only where reuse warrants maintenance.\n\nReconsider after a proposed four-week comparison with current practice and a simple manual template: independent organisers repeatedly use it, total admin time—including checking and corrections—falls materially without accuracy loss, and the budget holder commits funding. Claim “halves admin” only if measured. If use fades or savings disappear, keep it parked. Request a bounded evidence decision before allocating engineering."
+}

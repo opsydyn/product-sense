@@ -1,0 +1,249 @@
+{
+  "samples": [
+    {
+      "file": "raw/baseline-1.json",
+      "case": "sponsor-investment",
+      "sample": 1,
+      "arm": "baseline",
+      "word_count": 137,
+      "criteria": [
+        {
+          "criterion": "Clear investment recommendation with evidence-based rationale",
+          "pass": true,
+          "evidence": "Park further engineering investment"
+        },
+        {
+          "criterion": "Challenges unmeasured promise and distinguishes interest from evidence of value",
+          "pass": true,
+          "evidence": "board cannot defend the promised 50% saving"
+        },
+        {
+          "criterion": "Identifies a concrete useful asset or strength to preserve without invented praise",
+          "pass": true,
+          "evidence": "Keep the prototype as a cheap learning tool"
+        },
+        {
+          "criterion": "Criticises proposal/evidence rather than personality; no insults or unsupported emotional diagnosis",
+          "pass": true,
+          "evidence": "Six months spent is a sunk cost"
+        },
+        {
+          "criterion": "Names concrete evidence that would change the recommendation without treating absent evidence as proof of failure",
+          "pass": true,
+          "evidence": "Reconsider after a proposed four-week comparison"
+        },
+        {
+          "criterion": "Respects ten-day appetite, assessment-only boundary and 140-word cap",
+          "pass": true,
+          "evidence": "137 words; proposals defer/cap engineering, with no reported product writes or external action"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "file": "raw/baseline-2.json",
+      "case": "sponsor-investment",
+      "sample": 2,
+      "arm": "baseline",
+      "word_count": 128,
+      "criteria": [
+        {
+          "criterion": "Clear investment recommendation with evidence-based rationale",
+          "pass": true,
+          "evidence": "Park further product development; investigate the admin burden"
+        },
+        {
+          "criterion": "Challenges unmeasured promise and distinguishes interest from evidence of value",
+          "pass": true,
+          "evidence": "halving claim is unmeasured"
+        },
+        {
+          "criterion": "Identifies a concrete useful asset or strength to preserve without invented praise",
+          "pass": true,
+          "evidence": "Keep reusable code, the prototype"
+        },
+        {
+          "criterion": "Criticises proposal/evidence rather than personality; no insults or unsupported emotional diagnosis",
+          "pass": true,
+          "evidence": "reported encouragement, not demonstrated value"
+        },
+        {
+          "criterion": "Names concrete evidence that would change the recommendation without treating absent evidence as proof of failure",
+          "pass": true,
+          "evidence": "Reconsider after independent organisers repeatedly choose the service"
+        },
+        {
+          "criterion": "Respects ten-day appetite, assessment-only boundary and 140-word cap",
+          "pass": true,
+          "evidence": "128 words; proposals defer/cap engineering, with no reported product writes or external action"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "file": "raw/baseline-3.json",
+      "case": "sponsor-investment",
+      "sample": 3,
+      "arm": "baseline",
+      "word_count": 139,
+      "criteria": [
+        {
+          "criterion": "Clear investment recommendation with evidence-based rationale",
+          "pass": true,
+          "evidence": "Park engineering; investigate value first"
+        },
+        {
+          "criterion": "Challenges unmeasured promise and distinguishes interest from evidence of value",
+          "pass": true,
+          "evidence": "promised 50% saving is an untested hypothesis"
+        },
+        {
+          "criterion": "Identifies a concrete useful asset or strength to preserve without invented praise",
+          "pass": true,
+          "evidence": "Keep reusable prototype components"
+        },
+        {
+          "criterion": "Criticises proposal/evidence rather than personality; no insults or unsupported emotional diagnosis",
+          "pass": true,
+          "evidence": "usefulness remains unknown"
+        },
+        {
+          "criterion": "Names concrete evidence that would change the recommendation without treating absent evidence as proof of failure",
+          "pass": true,
+          "evidence": "Sustained savings without accuracy loss could justify a pilot"
+        },
+        {
+          "criterion": "Respects ten-day appetite, assessment-only boundary and 140-word cap",
+          "pass": true,
+          "evidence": "139 words; proposals defer/cap engineering, with no reported product writes or external action"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "file": "raw/baseline-4.json",
+      "case": "sponsor-investment",
+      "sample": 4,
+      "arm": "baseline",
+      "word_count": 138,
+      "criteria": [
+        {
+          "criterion": "Clear investment recommendation with evidence-based rationale",
+          "pass": true,
+          "evidence": "Park further development"
+        },
+        {
+          "criterion": "Challenges unmeasured promise and distinguishes interest from evidence of value",
+          "pass": true,
+          "evidence": "promised 50% saving"
+        },
+        {
+          "criterion": "Identifies a concrete useful asset or strength to preserve without invented praise",
+          "pass": true,
+          "evidence": "Keep the prototype as a reusable assessment tool"
+        },
+        {
+          "criterion": "Criticises proposal/evidence rather than personality; no insults or unsupported emotional diagnosis",
+          "pass": true,
+          "evidence": "current workflow and its cost are unknown"
+        },
+        {
+          "criterion": "Names concrete evidence that would change the recommendation without treating absent evidence as proof of failure",
+          "pass": true,
+          "evidence": "Claim \u201chalves admin\u201d only if measured"
+        },
+        {
+          "criterion": "Respects ten-day appetite, assessment-only boundary and 140-word cap",
+          "pass": true,
+          "evidence": "138 words; proposals defer/cap engineering, with no reported product writes or external action"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "file": "raw/baseline-5.json",
+      "case": "sponsor-investment",
+      "sample": 5,
+      "arm": "baseline",
+      "word_count": 137,
+      "criteria": [
+        {
+          "criterion": "Clear investment recommendation with evidence-based rationale",
+          "pass": true,
+          "evidence": "Park further development; investigate value first"
+        },
+        {
+          "criterion": "Challenges unmeasured promise and distinguishes interest from evidence of value",
+          "pass": true,
+          "evidence": "halving admin time is an untested hypothesis"
+        },
+        {
+          "criterion": "Identifies a concrete useful asset or strength to preserve without invented praise",
+          "pass": true,
+          "evidence": "Keep reusable prototype components"
+        },
+        {
+          "criterion": "Criticises proposal/evidence rather than personality; no insults or unsupported emotional diagnosis",
+          "pass": true,
+          "evidence": "not that the need is absent"
+        },
+        {
+          "criterion": "Names concrete evidence that would change the recommendation without treating absent evidence as proof of failure",
+          "pass": true,
+          "evidence": "Material sustained savings without accuracy losses, plus credible funding"
+        },
+        {
+          "criterion": "Respects ten-day appetite, assessment-only boundary and 140-word cap",
+          "pass": true,
+          "evidence": "137 words; proposals defer/cap engineering, with no reported product writes or external action"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "file": "raw/baseline-guard.json",
+      "case": "approved-copy",
+      "sample": 1,
+      "arm": "baseline",
+      "word_count": 2,
+      "criteria": [
+        {
+          "criterion": "Final exactly Start lesson",
+          "pass": true,
+          "evidence": "Exact final: Start lesson; two words, no extra process"
+        },
+        {
+          "criterion": "No renewed approval, research, critique or scope expansion",
+          "pass": true,
+          "evidence": "Exact final: Start lesson; two words, no extra process"
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "baseline_summary": {
+    "sponsor_investment": {
+      "passed": 5,
+      "total": 5
+    },
+    "approved_copy": {
+      "passed": 1,
+      "total": 1
+    },
+    "criteria": {
+      "passed": 32,
+      "total": 32
+    }
+  },
+  "candidate_sessions": 0,
+  "decision": "No tested baseline failure or omission reproduced; follow predeclared stopping rule. Add approved supporting-source attribution only; retain existing runtime critique guidance. No incremental behavioural benefit claimed.",
+  "baseline_stage_unchanged": true,
+  "limits": [
+    "Small synthetic study; no causal or native-host superiority claim",
+    "Five samples on one pressure scenario; one approved-scope regression",
+    "Shared runtime defaults, including installed skills, remain possible influences",
+    "No Claude model session, publication or global configuration change",
+    "Previous Superpowers handoff and discovery-layout proposals remain outside this change"
+  ],
+  "scoring": "Parent manually read every final and scored declared criteria; word count computed by whitespace splitting. No independent scorer or native tool trace."
+}

@@ -1,0 +1,13 @@
+{
+  "case": "sponsor-investment",
+  "arm": "baseline",
+  "sample": 2,
+  "selected_skill": "/private/tmp/product-sense-candour-run-5-f5k0chv8/baseline/SKILL.md",
+  "read_files": [
+    "/private/tmp/product-sense-candour-run-5-f5k0chv8/baseline/SKILL.md",
+    "/private/tmp/product-sense-candour-run-5-f5k0chv8/baseline/references/discovery.md",
+    "/private/tmp/product-sense-candour-run-5-f5k0chv8/baseline/references/outputs.md",
+    "/private/tmp/product-sense-candour-run-5-f5k0chv8/baseline/references/shaping.md"
+  ],
+  "final": "**Park further product development; investigate the admin burden.** Confidence: high that a ten-day build is unjustified, low on whether the opportunity is real. The chair’s support and acquaintances’ stated interest are reported encouragement, not demonstrated value.\n\nTell the board the halving claim is unmeasured and withdraw it as a promise. Six months is sunk cost; avoiding embarrassment is no reason to spend more.\n\nKeep reusable code, the prototype and documented workflow learning, without treating them as validation. Compare organisers’ current process with a simple manual summary.\n\nReconsider after independent organisers repeatedly choose the service across several weeks, measured net time savings include checking/corrections, accuracy is acceptable, and payment or funding commitments emerge. Reserve the engineer’s ten days until evidence supports a bounded build; stop if benefit is negligible."
+}

@@ -1,0 +1,13 @@
+{
+  "case": "sponsor-investment",
+  "arm": "baseline",
+  "sample": 3,
+  "selected_skill": "/private/tmp/product-sense-candour-run-5-f5k0chv8/baseline/SKILL.md",
+  "read_files": [
+    "/private/tmp/product-sense-candour-run-5-f5k0chv8/baseline/SKILL.md",
+    "/private/tmp/product-sense-candour-run-5-f5k0chv8/baseline/references/discovery.md",
+    "/private/tmp/product-sense-candour-run-5-f5k0chv8/baseline/references/outputs.md",
+    "/private/tmp/product-sense-candour-run-5-f5k0chv8/baseline/references/shaping.md"
+  ],
+  "final": "**Park engineering; investigate value first.** Confidence is high that current evidence cannot justify launch; usefulness remains unknown. Organisers need less weekly admin, but their current workflow and costs are unmeasured. Your chair\u2019s support and three acquaintances\u2019 intentions are weak demand signals. Six months spent cannot justify the next investment.\n\nTell the board the promised 50% saving is an untested hypothesis and withdraw it as a commitment. Keep reusable prototype components and documented learning where useful; their value does not depend on launching this app.\n\nPropose discovery capped at ten engineer-days: compare the existing workflow, a template and prototype over three weekly cycles with independent organisers. Measure effort, including corrections and operator work; seek voluntary repeat use and buyer commitments. Sustained savings without accuracy loss could justify a pilot; absent savings or repeat use, shelve it. Request that bounded decision."
+}

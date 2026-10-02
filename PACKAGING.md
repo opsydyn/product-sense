@@ -24,4 +24,4 @@ claude --plugin-dir ./dist/claude/product-sense
 
 The explicit command is `/product-sense:product-sense`. Claude can also select it for ordinary product assessment requests. This uses Claude's [documented session-only plugin loading](https://code.claude.com/docs/en/plugins); it does not require marketplace installation.
 
-Version `0.1.0` is a local package candidate. Native test results and limitations are recorded in `qualification/run-4/`. Packaging and local tests do not establish acceptance on claude.ai, Cowork or an OpenAI plugin surface. Marketplace submission and MCP/UI extensions remain separate work.
+Version `0.1.1` adds Radical Candor's supporting-source attribution; runtime critique instructions remain unchanged. The baseline behaviour check and decision to avoid additional rules are recorded in `qualification/run-5/`. Native test results for version `0.1.0` and their limitations remain in `qualification/run-4/`; they do not qualify this archive. Packaging and local tests do not establish acceptance on claude.ai, Cowork or an OpenAI plugin surface. Marketplace submission and MCP/UI extensions remain separate work.

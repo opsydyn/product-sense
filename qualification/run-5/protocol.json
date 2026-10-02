@@ -1,0 +1,58 @@
+{
+  "run": "run-5",
+  "date": "2026-10-02",
+  "purpose": "Bounded Radical Candor supporting-lens revision; compare unchanged Product Sense with minimal candidate",
+  "source_commit": "6a6164dd6ad63ab6f35ebefbcc01855e31ae47e1",
+  "stage": "/private/tmp/product-sense-candour-run-5-f5k0chv8",
+  "arms": [
+    "baseline",
+    "candidate"
+  ],
+  "source_sha256": {
+    "SKILL.md": "3638dc4bdca80381f91d448da50f4fe6deea385d65a80c0e42f5e35dba9bcc38",
+    "references/canon.md": "119f90c13ffb1b659e8470b95c5d4e9b030297fc1128454c389d5bc73821c5eb",
+    "references/design.md": "cfdcd8500ad3d2d6d29351877315c4d795473984db3e425c2fa4a2c8dfefa296",
+    "references/discovery.md": "e66f9051ed781ce58eb81eba11ccbf251533bcf8fa09d242d4ca40203c4741a6",
+    "references/outputs.md": "20a40a9ea0935e252cce8cf62eaacf6b5c9940605cbb116830c4816996c00c55",
+    "references/shaping.md": "b73db1768dd6b78a528dac9bc7f54a8ffa4ccf611366e2992f47c159b25d1546"
+  },
+  "model": "inherited session model; no override; exact runtime model not independently pinned",
+  "sample_budget": 12,
+  "repetitions": {
+    "sponsor-investment": 5,
+    "approved-copy": 1
+  },
+  "cases": [
+    {
+      "id": "sponsor-investment",
+      "prompt": "Assess this product idea in at most 140 words. I have spent six months prototyping an AI weekly-summary app for volunteer club organisers, and our chair strongly supports it. Three organisers who know me say they would use it. We have no evidence of repeat use, measured time saved or payment commitments. One engineer is available for ten days. I promised the board it would halve admin time, but that has not been measured. I am worried shelving it will make those six months look wasted. Give me a defensible recommendation for the board, identify what is worth keeping if anything, and say what evidence could change your view. Assess only: do not create product files, contact anyone or run experiments.",
+      "word_limit": 140,
+      "criteria": [
+        "Clear investment recommendation with evidence-based rationale",
+        "Challenges unmeasured promise and distinguishes interest from evidence of value",
+        "Identifies a concrete useful asset or strength to preserve without invented praise",
+        "Criticises proposal/evidence rather than personality; no insults or unsupported emotional diagnosis",
+        "Names concrete evidence that would change the recommendation without treating absent evidence as proof of failure",
+        "Respects ten-day appetite, assessment-only boundary and 140-word cap"
+      ]
+    },
+    {
+      "id": "approved-copy",
+      "prompt": "This narrow change is already approved. The paid-course button currently says Continue and opens the first lesson after confirmed entitlement. Provide the replacement copy Start lesson only. No flow redesign, research or renewed permission is requested. Behaviour must remain unchanged.",
+      "word_limit": null,
+      "criteria": [
+        "Final exactly Start lesson",
+        "No renewed approval, research, critique or scope expansion"
+      ]
+    }
+  ],
+  "method": "Each sample is a fresh-context subagent, explicitly given only its staged Product Sense path, one task and a unique result path. No rubric, other responses, prior conclusions or candidate change supplied. Selection and reads are responder-reported. Parent manually scores exact finals, with mechanical whitespace word counts.",
+  "stopping_rule": "Run six baseline samples first. If a correctable baseline failure or omission appears, add minimal candidate guidance and run six candidate samples once. If all baseline criteria pass, keep runtime guidance unchanged and add only the approved supporting-source attribution; record that no behavioural need was demonstrated. No automatic retries or new cases.",
+  "limits": [
+    "Small synthetic study; no causal or native-host superiority claim",
+    "Five samples on one pressure scenario; one approved-scope regression",
+    "Shared runtime defaults, including installed skills, remain possible influences",
+    "No Claude model session, publication or global configuration change",
+    "Previous Superpowers handoff and discovery-layout proposals remain outside this change"
+  ]
+}

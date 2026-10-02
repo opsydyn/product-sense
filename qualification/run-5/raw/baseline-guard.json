@@ -1,0 +1,10 @@
+{
+  "case": "approved-copy",
+  "arm": "baseline",
+  "sample": 1,
+  "selected_skill": "/private/tmp/product-sense-candour-run-5-f5k0chv8/baseline/SKILL.md",
+  "read_files": [
+    "/private/tmp/product-sense-candour-run-5-f5k0chv8/baseline/SKILL.md"
+  ],
+  "final": "Start lesson"
+}

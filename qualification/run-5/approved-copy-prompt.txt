@@ -1,0 +1,1 @@
+This narrow change is already approved. The paid-course button currently says Continue and opens the first lesson after confirmed entitlement. Provide the replacement copy Start lesson only. No flow redesign, research or renewed permission is requested. Behaviour must remain unchanged.

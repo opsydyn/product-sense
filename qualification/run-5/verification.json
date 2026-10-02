@@ -1,0 +1,46 @@
+{
+  "baseline_sha256": {
+    "SKILL.md": "3638dc4bdca80381f91d448da50f4fe6deea385d65a80c0e42f5e35dba9bcc38",
+    "references/canon.md": "119f90c13ffb1b659e8470b95c5d4e9b030297fc1128454c389d5bc73821c5eb",
+    "references/design.md": "cfdcd8500ad3d2d6d29351877315c4d795473984db3e425c2fa4a2c8dfefa296",
+    "references/discovery.md": "e66f9051ed781ce58eb81eba11ccbf251533bcf8fa09d242d4ca40203c4741a6",
+    "references/outputs.md": "20a40a9ea0935e252cce8cf62eaacf6b5c9940605cbb116830c4816996c00c55",
+    "references/shaping.md": "b73db1768dd6b78a528dac9bc7f54a8ffa4ccf611366e2992f47c159b25d1546"
+  },
+  "source_after_sha256": {
+    "SKILL.md": "3638dc4bdca80381f91d448da50f4fe6deea385d65a80c0e42f5e35dba9bcc38",
+    "references/canon.md": "03cc0382183e730e3990cedd4ce09580259da1e99c814b86130baa717ca50e57",
+    "references/design.md": "cfdcd8500ad3d2d6d29351877315c4d795473984db3e425c2fa4a2c8dfefa296",
+    "references/discovery.md": "e66f9051ed781ce58eb81eba11ccbf251533bcf8fa09d242d4ca40203c4741a6",
+    "references/outputs.md": "20a40a9ea0935e252cce8cf62eaacf6b5c9940605cbb116830c4816996c00c55",
+    "references/shaping.md": "b73db1768dd6b78a528dac9bc7f54a8ffa4ccf611366e2992f47c159b25d1546"
+  },
+  "changed_canonical_files": [
+    "references/canon.md"
+  ],
+  "runtime_instructions_unchanged": true,
+  "local_markdown_links_resolve": true,
+  "archive_sha256": "57f81de3448af72c329993ae8aa5938ffb0eb1b544ca6ebc6e1798daf7d5843a",
+  "archive_payload_sha256": {
+    ".claude-plugin/plugin.json": "1efd1a81f6c8ffd78ae7358a8c1084463a15bfdd6e36601493a07752f1a977b7",
+    "skills/product-sense/SKILL.md": "3638dc4bdca80381f91d448da50f4fe6deea385d65a80c0e42f5e35dba9bcc38",
+    "skills/product-sense/references/canon.md": "03cc0382183e730e3990cedd4ce09580259da1e99c814b86130baa717ca50e57",
+    "skills/product-sense/references/design.md": "cfdcd8500ad3d2d6d29351877315c4d795473984db3e425c2fa4a2c8dfefa296",
+    "skills/product-sense/references/discovery.md": "e66f9051ed781ce58eb81eba11ccbf251533bcf8fa09d242d4ca40203c4741a6",
+    "skills/product-sense/references/outputs.md": "20a40a9ea0935e252cce8cf62eaacf6b5c9940605cbb116830c4816996c00c55",
+    "skills/product-sense/references/shaping.md": "b73db1768dd6b78a528dac9bc7f54a8ffa4ccf611366e2992f47c159b25d1546"
+  },
+  "archive_version": "0.1.1",
+  "archive_matches_current_source": true,
+  "packaging_tests": {
+    "passed": 7,
+    "total": 7
+  },
+  "strict_manifest_validation": {
+    "success": true,
+    "errors": 0,
+    "warnings": 0
+  },
+  "frontmatter_validation": "Ruby YAML.safe_load; canonical name and non-empty description passed",
+  "native_behaviour": "No new Claude model inference; baseline subagent tests only"
+}
