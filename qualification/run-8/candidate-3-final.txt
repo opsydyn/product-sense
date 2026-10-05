@@ -1,0 +1,9 @@
+**Verdict: Investigate; don't build yet.** I'm moderately confident: three organisers saying they'd use it shows intent, not a proven need.
+
+**Progress/alternative:** Hypothesis: organisers want to keep members informed each week with less effort. Today they use email threads and group messages, and nothing shows that this costs them much or fails.
+
+**Main assumption:** Writing or catching up on the weekly summary is frequent and painful enough to change habits. Unknown: how long it takes, who reads it, consent to use member messages, who would pay.
+
+**Next (within the 10 days):** Interview the three about their last weekly update: steps, time, misses and workarounds. Then write summaries by hand from their real threads for two weekly cycles. In parallel, the engineer spends up to 2 days testing feasibility.
+
+**Decision:** Proposed pass: at least 2 organisers use or forward the summaries without prompting in both weeks and say they saved effort. If not, park or reshape the idea. A full build needs its own separately agreed budget.

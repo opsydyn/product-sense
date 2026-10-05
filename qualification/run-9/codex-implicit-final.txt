@@ -1,0 +1,9 @@
+**Investigate; don’t build yet:** three expressions of interest are weak demand evidence, and the supplied facts establish no task failure worth spending ten engineering days solving.
+
+**Hypothesis:** organisers need to keep members informed with less effort; email threads and group messages already serve this task, while summary value and switching willingness remain unproven.
+
+**Reported evidence:** three organisers say they would use it; task failures, usage and payment commitments are absent, so recurring need and a viable funding model remain unknown.
+
+**Proposed next step:** allocate at most three engineer-days within the ten-day window to reviewing recent organising tasks and comparing manual summaries against current effort, omissions and correction burden.
+
+**Proposed gate:** reconsider a narrowly scoped build only if two organisers demonstrate recurring costs, useful improvements and concrete reuse commitments; otherwise park, with further spending requiring a separate decision.

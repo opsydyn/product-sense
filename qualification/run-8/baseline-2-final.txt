@@ -1,0 +1,22 @@
+**Verdict: Investigate. Don't build the app yet.** I'm fairly confident about this.
+
+**What we know**
+- **Reported:** three organisers say they would use it.
+- **Observed:** they currently coordinate through email threads and group messages.
+- **Unknown:** what fails today, how much time it costs, how often it happens, and whether anyone would pay.
+
+Saying they would use it is a weak signal. So far nothing shows that today's approach is failing.
+
+**Hypotheses (not yet checked)**
+1. Organisers lose track of decisions, actions or attendance across scattered threads.
+2. A weekly summary would cut their admin time or missed follow-ups.
+3. They would trust an AI summary and let it read their messages, despite privacy worries.
+
+**Biggest risk:** the problem may be too small, or too rare, to make people switch from email.
+
+**Next step:** spend 1–2 days, not ten, on learning:
+- Ask each organiser to walk through a recent week. Look for missed items, how long things took, and any workarounds.
+- Then write summaries by hand for 2–3 weeks.
+- Track whether they read them and act on them, and whether they would pay or ask for more.
+
+**Keep going if** summaries are used every week and replace real work. **Stop if** usage fades or the summaries add nothing new. Only spend the engineer's time once that evidence exists.

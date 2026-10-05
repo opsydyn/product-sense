@@ -1,0 +1,9 @@
+**Verdict: hold off building and gather evidence first.** Three organisers saying they would use it tells you what they intend, not about a real failure, actual usage or a commitment.
+
+**What organisers need (a guess):** to keep members informed with less effort. Email threads and group messages may already be good enough, and we don't know what they cost.
+
+**Main assumption:** organisers regularly lose time or miss decisions because updates are spread across threads and messages. If that's false, AI summaries won't help them.
+
+**Next step (engineer's days 1–4):** ask each organiser about the last update that went wrong or took too long. Then write one weekly summary by hand from their real threads.
+
+**Decision:** proposed threshold: if at least two organisers report a recent update that was costly or went wrong and use or forward the summary, spend the remaining six days on a narrow prototype. Otherwise, drop the idea.

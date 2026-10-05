@@ -1,0 +1,9 @@
+**Investigate. Don't build the app yet.** Three organisers saying they would use it is a weak signal. We haven't seen a failure, any usage or a commitment.
+
+**Progress/alternative:** My hypothesis is that organisers want to see each week's decisions, volunteer gaps and deadlines without rereading threads. They do this today with email and group messages, and we don't know what that costs them.
+
+**Main assumption:** Missed or buried items cause real harm, such as dropped tasks or lost hours, and a summary fixes this better than doing nothing or writing a digest by hand.
+
+**Next (within the ten days):** Spend about two days interviewing the three about their last busy week: what they missed, how long it took and what happened as a result. If real pain shows up, spend three to five days making weekly summaries by hand from their real threads, with their consent, for two weeks.
+
+**Decide:** As a proposed threshold, agree a separate budget for a narrow build only if at least two organisers act on the summaries and report a concrete problem avoided, or make a commitment. Otherwise, park it.

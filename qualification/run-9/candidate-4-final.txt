@@ -1,0 +1,9 @@
+**Verdict: investigate, don't build yet.** Three organisers *say* they would use it, but nobody has shown pain, usage or commitment, so that doesn't justify ten engineering days.
+
+**Progress (hypothesis):** Organisers want to see each week what needs action without rereading email and group threads. As far as we know, their current approach works well enough.
+
+**Critical assumption (unknown):** Organisers lose real time or miss decisions in those threads. Right now we have no evidence of failures, usage or willingness to pay.
+
+**Next action:** Within the ten days, ask each organiser about the last thing they missed. Then send them two summaries written by hand from their real threads. No app is needed for this.
+
+**Decision rule (proposed thresholds):** Scope a narrow pilot as a separate decision only if at least two organisers act on both summaries and commit to something, such as time, continued use or payment. Otherwise, park the idea until missed-action costs are observed.

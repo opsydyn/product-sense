@@ -1,0 +1,29 @@
+{
+  "claude": {
+    "sha256": "20f94572920e10583774bb500b8523e0ffe51cd46ca2c22c23242d04834416fc",
+    "paths": [
+      ".claude-plugin/plugin.json",
+      "skills/product-sense/SKILL.md",
+      "skills/product-sense/references/canon.md",
+      "skills/product-sense/references/design.md",
+      "skills/product-sense/references/discovery.md",
+      "skills/product-sense/references/outputs.md",
+      "skills/product-sense/references/shaping.md"
+    ],
+    "canonical_payload_matches": true
+  },
+  "codex": {
+    "sha256": "0b40cc19e9e02059b4ac990d01bec10ae771ead347483a1e9cd1f1d7865b86fd",
+    "paths": [
+      "product-sense/SKILL.md",
+      "product-sense/agents/openai.yaml",
+      "product-sense/assets/icon.svg",
+      "product-sense/references/canon.md",
+      "product-sense/references/design.md",
+      "product-sense/references/discovery.md",
+      "product-sense/references/outputs.md",
+      "product-sense/references/shaping.md"
+    ],
+    "canonical_payload_matches": true
+  }
+}

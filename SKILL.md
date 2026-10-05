@@ -18,7 +18,9 @@ Use four pillars: Sierra for user capability, Norman for understandable design, 
 | Deadline, budget, approved direction | Shaped bet | [shaping.md](references/shaping.md) |
 | Screen, prototype, journey, service | Design review | [design.md](references/design.md) |
 
-Read [outputs.md](references/outputs.md) for the selected output. Think through relevant checks; print only what changes the decision. A small request can receive five lines. A full PRD deserves a fuller brief.
+For an assessment, first load the reference in the selected row and [outputs.md](references/outputs.md), then draft the answer. An already-approved narrow edit can return the requested result directly. Think through relevant checks; print only what changes the decision. A small request can receive five lines. A full PRD deserves a fuller brief.
+
+For a quick assessment with a word cap, write five sentences, one per line: verdict; user progress/current alternative; evidence/main assumption; bounded next action; decision/stop condition with the remaining allocation or a separate budget decision. Each sentence has one job. Budget at most one-sixth of the requested words per sentence, leaving the remainder as margin. Check the final word count, including labels, and shorten before sending.
 
 ## Establish reality
 
@@ -38,7 +40,7 @@ Respect explicit decisions and authorized execution. For a chosen stack or narro
 6. **Outcome:** Link user behavior to business value. Define a primary measure, baseline status, time window and relevant guardrail. Label proposed targets.
 7. **Risk:** Identify the assumption whose failure most damages the bet. Compare uncertainty and consequence without false precision.
 8. **Test:** Choose the cheapest credible evidence for that assumption. State what would change the decision, including a result that stops or reshapes the idea. Distinguish demand, usability and technical tests.
-9. **Appetite:** State the time or money worth spending. If unset, propose a limit and label it. Fit scope to the limit.
+9. **Appetite:** State the time or money worth spending. If unset, propose a limit and label it. Allocate learning and delivery within the same total budget and available window. Separate elapsed time from effort: a low-effort test can still outlast a deadline. Finish the proposed learning within the window. For a conditional build, write its allocation from the remaining budget or state that a separate budget decision is needed.
 10. **Strategy:** State diagnosis, guiding policy and coherent actions. Name the tradeoff; a growth goal is not a strategy.
 11. **Cut:** Remove work that does not preserve the core outcome. Keep reliability, access and recovery needed to achieve it.
 12. **Verdict:** Lead with **pursue**, **reshape**, **investigate** or **park**, reasoning, confidence and next action. Pursue a bounded bet, not certainty. Park with a reason and condition for revisiting.

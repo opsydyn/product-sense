@@ -1,0 +1,9 @@
+**Investigate; don’t build yet.** Three expressions of interest justify discovery, but do not establish a problem worth ten engineering days.
+
+**Progress — hypothesis:** Organisers need to identify decisions and outstanding actions with less effort. Their current alternative is email threads and group messages; its costs are unknown.
+
+**Evidence:** Three organisers report willingness to use it. There are no observed task failures, usage data or payment commitments. **Critical hypothesis:** Weekly summaries deliver enough recurring value to change existing habits.
+
+**Next — proposed, not executed:** Cap discovery at two of the ten days. Review recent organising tasks with those three people; establish effort and missed-action baselines. If recurring problems emerge, compare a manually prepared summary with their current process before considering AI.
+
+**Decision gate — proposed:** Require recurring difficulty and commitments to a repeated trial from at least two organisers. Measure effort saved and missed actions; preserve accuracy. Otherwise park or reshape. Any subsequent build needs a bounded scope and budget decision.

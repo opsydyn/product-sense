@@ -1,0 +1,9 @@
+**Verdict: Don't build the app yet. Find out first whether organisers really need it.** Three organisers saying they'd use it is a weak signal. Nobody has seen them struggle, and nobody has committed time or money.
+
+**User progress (hypothesis):** Organisers want to keep up with club activity without rereading long threads. Today email and group messages do the job, and we don't know what that costs them. Doing nothing is a strong competitor.
+
+**Main assumption:** The weekly catch-up costs enough that organisers will trust an AI summary and change their habits. We also don't know who would pay.
+
+**Next step (proposed: up to 3 of the 10 days):** Have each organiser walk through last week: what they missed, how long it took and what went wrong as a result. Then give them summaries of their real threads, made by hand or with help from the engineer, for two weeks.
+
+**Decision:** Fund a narrow pilot only if at least two of the three use the summaries both weeks and name a real miss avoided or time saved. If the summaries go unread, drop the idea. Building a full app would need its own separate budget.

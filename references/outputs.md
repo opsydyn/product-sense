@@ -10,9 +10,9 @@ Lead with verdict and decisive reason. Then cover:
 2. Supporting evidence and remaining assumptions.
 3. Main opportunity, risk or design failure.
 4. Better route or scope to cut.
-5. Next action, observable outcome and stop/reshape condition.
+5. Next action, observable outcome and stop/reshape condition; any conditional build has a remaining allocation or a separate budget decision.
 
-Combine into five lines for a quick request. Include strategy if fit drives the call. Do not print twelve sections by default.
+For a quick request with a word cap, use five sentences, one per line, following these five parts. Allocate at most one-sixth of the cap to each sentence, include labels in the count, and shorten the final answer to fit. Put learning and delivery inside the supplied total appetite and time window; label any later investment as a separate decision. Include strategy if fit drives the call. Do not print twelve sections by default.
 
 ## Product brief
 

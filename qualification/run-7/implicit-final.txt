@@ -1,0 +1,11 @@
+**Verdict: Investigate. Don't build yet.** Confidence that building now would be premature: moderate to high.
+
+**What we know.** Three organisers *said* they would use it. That is a weak signal. No one has shown us a failure in how they work today. Email threads and group messages may already be good enough, and doing nothing is the real competitor.
+
+**Riskiest assumption (hypothesis).** Organisers lose time or miss things because of scattered messages, and they would switch to fix it. We also don't know what "summary" means to them: decisions, actions, attendance or something else.
+
+**Next steps (for your team; I haven't contacted anyone):**
+1. **Days 1–3:** Ask each organiser about the last time something fell through or ate their time. Look at their real threads with consent.
+2. **Days 3–8:** Do it by hand ("concierge" test). The engineer or a PM writes each organiser's weekly summary using a prompt plus a person, with no app.
+3. **Measure:** Do they read it, act on it, ask for the next one or offer to pay? There is no baseline yet.
+4. **Decide:** If at least two of the three use it repeatedly, build a small 10-day version. If not, stop or change the problem you're solving.

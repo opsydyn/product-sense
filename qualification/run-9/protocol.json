@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-05",
+  "source_base_commit": "4d7bf4db7566ce218efef91fb9dcf3b604010a66",
+  "candidate_has_uncommitted_authorised_changes": true,
+  "stage": "/private/tmp/product-sense-run-9-5dgmclxv",
+  "claude_version": "2.1.289 (Claude Code)",
+  "codex_version": "codex-cli 0.160.0",
+  "source_sha256": {
+    "SKILL.md": "6b3930a93c412d9774053907a42e4190a25ac253f7ea8ad0fa95ce57ac67dc97",
+    "references/canon.md": "03cc0382183e730e3990cedd4ce09580259da1e99c814b86130baa717ca50e57",
+    "references/design.md": "cfdcd8500ad3d2d6d29351877315c4d795473984db3e425c2fa4a2c8dfefa296",
+    "references/discovery.md": "e66f9051ed781ce58eb81eba11ccbf251533bcf8fa09d242d4ca40203c4741a6",
+    "references/outputs.md": "3c692de442c9243b2bd2e75c1599f8c46b31616b161478d1d8243b81a5d4466a",
+    "references/shaping.md": "b73db1768dd6b78a528dac9bc7f54a8ffa4ccf611366e2992f47c159b25d1546",
+    "packaging/claude/plugin.json": "e0dc353e3e9e49c49e1f29428df0246663105e998d4e3968d23eeefcf94c7327"
+  },
+  "claude_cases": [
+    {
+      "name": "candidate-1",
+      "arm": "candidate",
+      "kind": "implicit",
+      "criteria": [
+        "native skill selection",
+        "load discovery.md and outputs.md",
+        "at most 180 whitespace-delimited words",
+        "preserve supplied evidence and label assumptions",
+        "learning and delivery fit ten-day total or explicitly require separate later appetite",
+        "bounded next action and stop/reshape condition",
+        "no writes or external actions"
+      ]
+    },
+    {
+      "name": "candidate-2",
+      "arm": "candidate",
+      "kind": "implicit",
+      "criteria": [
+        "native skill selection",
+        "load discovery.md and outputs.md",
+        "at most 180 whitespace-delimited words",
+        "preserve supplied evidence and label assumptions",
+        "learning and delivery fit ten-day total or explicitly require separate later appetite",
+        "bounded next action and stop/reshape condition",
+        "no writes or external actions"
+      ]
+    },
+    {
+      "name": "candidate-3",
+      "arm": "candidate",
+      "kind": "implicit",
+      "criteria": [
+        "native skill selection",
+        "load discovery.md and outputs.md",
+        "at most 180 whitespace-delimited words",
+        "preserve supplied evidence and label assumptions",
+        "learning and delivery fit ten-day total or explicitly require separate later appetite",
+        "bounded next action and stop/reshape condition",
+        "no writes or external actions"
+      ]
+    },
+    {
+      "name": "candidate-4",
+      "arm": "candidate",
+      "kind": "implicit",
+      "criteria": [
+        "native skill selection",
+        "load discovery.md and outputs.md",
+        "at most 180 whitespace-delimited words",
+        "preserve supplied evidence and label assumptions",
+        "learning and delivery fit ten-day total or explicitly require separate later appetite",
+        "bounded next action and stop/reshape condition",
+        "no writes or external actions"
+      ]
+    },
+    {
+      "name": "candidate-5",
+      "arm": "candidate",
+      "kind": "implicit",
+      "criteria": [
+        "native skill selection",
+        "load discovery.md and outputs.md",
+        "at most 180 whitespace-delimited words",
+        "preserve supplied evidence and label assumptions",
+        "learning and delivery fit ten-day total or explicitly require separate later appetite",
+        "bounded next action and stop/reshape condition",
+        "no writes or external actions"
+      ]
+    },
+    {
+      "name": "candidate-guard",
+      "arm": "candidate",
+      "kind": "explicit",
+      "criteria": [
+        "native skill invocation",
+        "exact final Start lesson",
+        "no scope expansion or external action"
+      ]
+    }
+  ],
+  "budget": {
+    "claude_sessions": 6,
+    "max_usd_per_claude_session": 1,
+    "timeout_seconds": 180,
+    "codex_sessions": 2,
+    "automatic_retries": 0
+  },
+  "claude_runtime": "same restricted read-only tools and default model as run 7; each arm extracted to frozen external directory",
+  "codex_runtime": "native config, ephemeral read-only sandbox, approvals never, native installed candidate",
+  "stopping_rule": "One attempt per case. No retry on case failure. Stop remaining inference on account authentication/quota block. No instruction edits while samples run. Record every failure.",
+  "baseline": "Five frozen 0.1.1 samples and five first-candidate samples retained in run 8",
+  "candidate": "0.1.2 second candidate: five sentences with per-sentence budget; elapsed time versus effort",
+  "limits": [
+    "five samples per arm on one synthetic scenario; no no-skill control or blind scorer",
+    "two single-sample native Codex checks",
+    "CLI observations do not establish desktop picker refresh, other surfaces, marketplace acceptance or product value"
+  ],
+  "archive_sha256": "898c2a25da5e8aa7b68c1ae29dd9619aa985088068e039b44566c51e01e1c4db"
+}

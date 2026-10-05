@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "strict": true,
+  "target": "/private/tmp/product-sense-claude-run-7-en5l6fye/plugin/.claude-plugin/plugin.json",
+  "manifest": {
+    "file": "/private/tmp/product-sense-claude-run-7-en5l6fye/plugin/.claude-plugin/plugin.json",
+    "type": "plugin",
+    "errors": [],
+    "warnings": [],
+    "notes": []
+  },
+  "contents": []
+}

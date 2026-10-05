@@ -1,0 +1,42 @@
+test_archive_contains_only_exact_canonical_payload (test_claude_package.ClaudePackageTests.test_archive_contains_only_exact_canonical_payload) ... ok
+test_default_cli_build_keeps_generated_skills_outside_source (test_claude_package.ClaudePackageTests.test_default_cli_build_keeps_generated_skills_outside_source) ... FAIL
+test_missing_entrypoint_fails_without_creating_a_package (test_claude_package.ClaudePackageTests.test_missing_entrypoint_fails_without_creating_a_package) ... ok
+test_missing_linked_reference_fails_without_creating_a_package (test_claude_package.ClaudePackageTests.test_missing_linked_reference_fails_without_creating_a_package) ... ok
+test_rebuild_removes_stale_files_and_has_identical_archive_bytes (test_claude_package.ClaudePackageTests.test_rebuild_removes_stale_files_and_has_identical_archive_bytes) ... ok
+test_rejects_output_inside_source_before_creating_files (test_claude_package.ClaudePackageTests.test_rejects_output_inside_source_before_creating_files) ... FAIL
+test_rejects_output_that_would_replace_source (test_claude_package.ClaudePackageTests.test_rejects_output_that_would_replace_source) ... FAIL
+test_rejects_symlinked_manifest_parents_before_changing_output (test_claude_package.ClaudePackageTests.test_rejects_symlinked_manifest_parents_before_changing_output) ... ok
+test_rejects_symlinked_reference_before_changing_existing_output (test_claude_package.ClaudePackageTests.test_rejects_symlinked_reference_before_changing_existing_output) ... ok
+test_rejects_symlinked_reference_directory (test_claude_package.ClaudePackageTests.test_rejects_symlinked_reference_directory) ... ok
+
+======================================================================
+FAIL: test_default_cli_build_keeps_generated_skills_outside_source (test_claude_package.ClaudePackageTests.test_default_cli_build_keeps_generated_skills_outside_source)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/alancurrie/Projects/product-sense/tests/test_claude_package.py", line 116, in test_default_cli_build_keeps_generated_skills_outside_source
+    self.assertFalse(archive.is_relative_to(self.repo.resolve()))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_rejects_output_inside_source_before_creating_files (test_claude_package.ClaudePackageTests.test_rejects_output_inside_source_before_creating_files)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/alancurrie/Projects/product-sense/tests/test_claude_package.py", line 122, in test_rejects_output_inside_source_before_creating_files
+    with self.assertRaises(ValueError):
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_rejects_output_that_would_replace_source (test_claude_package.ClaudePackageTests.test_rejects_output_that_would_replace_source)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/alancurrie/Projects/product-sense/tests/test_claude_package.py", line 131, in test_rejects_output_that_would_replace_source
+    with self.assertRaises(ValueError):
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.077s
+
+FAILED (failures=3)

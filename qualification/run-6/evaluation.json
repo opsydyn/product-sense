@@ -1,0 +1,75 @@
+{
+  "packaging_tests": {
+    "passed": 7,
+    "failed": 0
+  },
+  "strict_manifest_validation": {
+    "status": "pass",
+    "errors": 0,
+    "warnings": 0
+  },
+  "native_session_discovery": {
+    "status": "pass",
+    "plugin": {
+      "name": "product-sense",
+      "path": "/private/tmp/product-sense-claude-run-6-i5_ket0z/plugin",
+      "source": "product-sense@inline",
+      "version": "0.1.1"
+    },
+    "skill": "product-sense:product-sense",
+    "in_catalogue": true,
+    "tools": [
+      "Glob",
+      "Grep",
+      "Read",
+      "Skill"
+    ],
+    "mcp_servers": [],
+    "default_model": "claude-opus-5-5",
+    "other_native_skills_present": true
+  },
+  "explicit_invocation": {
+    "status": "blocked",
+    "error": "authentication_failed",
+    "message": "Failed to authenticate: OAuth session expired and could not be refreshed",
+    "is_error": true,
+    "reported_subtype": "success",
+    "exit_code": 1,
+    "skill_tool_calls": 0,
+    "model_tokens": 0,
+    "cost_usd": 0,
+    "task_compliance": "not evaluated; no model inference occurred"
+  },
+  "implicit_selection": {
+    "status": "not attempted",
+    "reason": "Account authentication block in explicit; stopping rule forbids a repeated model attempt under the same blocker",
+    "word_limit_check": "not evaluated"
+  },
+  "weekly_limit_status": "unknown; authentication failed before inference access could be tested",
+  "integrity": {
+    "source_before": {
+      "SKILL.md": "3638dc4bdca80381f91d448da50f4fe6deea385d65a80c0e42f5e35dba9bcc38",
+      "references/canon.md": "03cc0382183e730e3990cedd4ce09580259da1e99c814b86130baa717ca50e57",
+      "references/design.md": "cfdcd8500ad3d2d6d29351877315c4d795473984db3e425c2fa4a2c8dfefa296",
+      "references/discovery.md": "e66f9051ed781ce58eb81eba11ccbf251533bcf8fa09d242d4ca40203c4741a6",
+      "references/outputs.md": "20a40a9ea0935e252cce8cf62eaacf6b5c9940605cbb116830c4816996c00c55",
+      "references/shaping.md": "b73db1768dd6b78a528dac9bc7f54a8ffa4ccf611366e2992f47c159b25d1546",
+      "packaging/claude/plugin.json": "1efd1a81f6c8ffd78ae7358a8c1084463a15bfdd6e36601493a07752f1a977b7"
+    },
+    "source_after": {
+      "SKILL.md": "3638dc4bdca80381f91d448da50f4fe6deea385d65a80c0e42f5e35dba9bcc38",
+      "references/canon.md": "03cc0382183e730e3990cedd4ce09580259da1e99c814b86130baa717ca50e57",
+      "references/design.md": "cfdcd8500ad3d2d6d29351877315c4d795473984db3e425c2fa4a2c8dfefa296",
+      "references/discovery.md": "e66f9051ed781ce58eb81eba11ccbf251533bcf8fa09d242d4ca40203c4741a6",
+      "references/outputs.md": "20a40a9ea0935e252cce8cf62eaacf6b5c9940605cbb116830c4816996c00c55",
+      "references/shaping.md": "b73db1768dd6b78a528dac9bc7f54a8ffa4ccf611366e2992f47c159b25d1546",
+      "packaging/claude/plugin.json": "1efd1a81f6c8ffd78ae7358a8c1084463a15bfdd6e36601493a07752f1a977b7"
+    },
+    "source_unchanged": true,
+    "archive_sha256": "57f81de3448af72c329993ae8aa5938ffb0eb1b544ca6ebc6e1798daf7d5843a",
+    "archive_unchanged": true,
+    "staged_payload_matches_archive": true,
+    "staged_symlinks": []
+  },
+  "conclusion": "Package and native session discovery passed for 0.1.1. Explicit invocation, implicit selection and 180-word compliance remain unqualified on Claude due to expired OAuth authentication."
+}

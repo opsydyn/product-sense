@@ -1,0 +1,18 @@
+**Verdict: Investigate. Don't build yet.** Confidence that a build is premature: moderate to high.
+
+**What we know**
+- **Reported:** three organisers say they would use it. That's a compliment, not demand.
+- **Unknown:** what goes wrong with email and group messages today. Missed decisions? Hours spent catching up? Volunteers dropping out? We have no observed failures, costs, workarounds or payment commitments.
+
+**Riskiest assumption (hypothesis):** organisers lose enough time or miss enough that they would change habits. The switch looks costly: members stay on email and chat, so the app adds a tool and probably needs access to private group messages. AI summaries are a method, not the value.
+
+**Next step, within 10 days (proposed limit):**
+1. Ask the three organisers for recent cases where something was missed, plus the time each one cost.
+2. Hand-write a weekly summary from their real threads for two weeks. No code.
+3. Track whether they read it, act on it, forward it or ask to keep it.
+
+**Decision rule (proposed):**
+- **Build a narrow version** if at least 2 of the 3 rely on it weekly and name a cost it removes.
+- **Park it** if they skim it or nothing changes. Revisit if you see real failures.
+
+The engineer should stay on other work until then.

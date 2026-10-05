@@ -1,0 +1,242 @@
+{
+  "strict_manifest_validation": {
+    "status": "pass",
+    "errors": [],
+    "warnings": []
+  },
+  "cases": {
+    "explicit": {
+      "status": "pass",
+      "exit_code": 0,
+      "is_error": false,
+      "model": "claude-opus-5-5",
+      "plugin": {
+        "name": "product-sense",
+        "path": "/private/tmp/product-sense-claude-run-7-en5l6fye/plugin",
+        "source": "product-sense@inline",
+        "version": "0.1.1"
+      },
+      "catalogue": [
+        "product-sense:product-sense",
+        "design",
+        "design-sync",
+        "dataviz",
+        "update-config",
+        "verify",
+        "debug",
+        "code-review",
+        "simplify",
+        "batch",
+        "fewer-permission-prompts",
+        "doctor",
+        "loop",
+        "schedule",
+        "claude-api",
+        "run",
+        "run-skill-generator",
+        "plugin-authoring"
+      ],
+      "tools": [
+        "Glob",
+        "Grep",
+        "Read",
+        "Skill"
+      ],
+      "mcp_servers": [],
+      "tool_calls": [
+        {
+          "name": "Skill",
+          "input": {
+            "skill": "product-sense:product-sense",
+            "args": "Approved change: paid-course purchase confirmation button label from \"Continue\" to \"Start lesson\". Button already opens first lesson. Return only replacement copy."
+          }
+        }
+      ],
+      "read_files": [],
+      "permission_denials": [],
+      "word_count": 2,
+      "final": "Start lesson",
+      "reported_cost_usd": 0.0532486,
+      "model_usage": {
+        "claude-opus-5-5": {
+          "inputTokens": 4,
+          "outputTokens": 134,
+          "cacheReadInputTokens": 11203,
+          "cacheCreationInputTokens": 6039,
+          "webSearchRequests": 0,
+          "costUSD": 0.0532486,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 0,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      },
+      "elapsed_seconds": 5.465,
+      "criteria": [
+        {
+          "criterion": "native catalogue includes product-sense:product-sense from inline plugin",
+          "status": "pass",
+          "evidence": "Init catalogue includes product-sense:product-sense from staged inline plugin 0.1.1."
+        },
+        {
+          "criterion": "explicit native invocation loads plugin entrypoint",
+          "status": "pass",
+          "evidence": "Skill tool called product-sense:product-sense; native user event injected the staged entrypoint."
+        },
+        {
+          "criterion": "final is exactly Start lesson",
+          "status": "pass",
+          "evidence": "Exact final string: Start lesson."
+        },
+        {
+          "criterion": "no writes or external actions",
+          "status": "pass",
+          "evidence": "Only Skill was called; no writes, web calls, contacts or experiments observed."
+        }
+      ]
+    },
+    "implicit": {
+      "status": "fail",
+      "exit_code": 0,
+      "is_error": false,
+      "model": "claude-opus-5-5",
+      "plugin": {
+        "name": "product-sense",
+        "path": "/private/tmp/product-sense-claude-run-7-en5l6fye/plugin",
+        "source": "product-sense@inline",
+        "version": "0.1.1"
+      },
+      "catalogue": [
+        "product-sense:product-sense",
+        "design",
+        "design-sync",
+        "dataviz",
+        "update-config",
+        "verify",
+        "debug",
+        "code-review",
+        "simplify",
+        "batch",
+        "fewer-permission-prompts",
+        "doctor",
+        "loop",
+        "schedule",
+        "claude-api",
+        "run",
+        "run-skill-generator",
+        "plugin-authoring"
+      ],
+      "tools": [
+        "Glob",
+        "Grep",
+        "Read",
+        "Skill"
+      ],
+      "mcp_servers": [],
+      "tool_calls": [
+        {
+          "name": "Skill",
+          "input": {
+            "skill": "product-sense:product-sense",
+            "args": "Quick assessment \u2264180 words: AI weekly-summary app for volunteer club organisers. 3 organisers say they'd use it. Current: email threads + group messages. No observed task failures, usage data, or payment commitments. 1 engineer, 10 days. Build? Next steps? Assess only, no files/contact/experiments."
+          }
+        }
+      ],
+      "read_files": [],
+      "permission_denials": [],
+      "word_count": 204,
+      "final": "**Verdict: Investigate. Don't build yet.** Confidence that building now would be premature: moderate to high.\n\n**What we know.** Three organisers *said* they would use it. That is a weak signal. No one has shown us a failure in how they work today. Email threads and group messages may already be good enough, and doing nothing is the real competitor.\n\n**Riskiest assumption (hypothesis).** Organisers lose time or miss things because of scattered messages, and they would switch to fix it. We also don't know what \"summary\" means to them: decisions, actions, attendance or something else.\n\n**Next steps (for your team; I haven't contacted anyone):**\n1. **Days 1\u20133:** Ask each organiser about the last time something fell through or ate their time. Look at their real threads with consent.\n2. **Days 3\u20138:** Do it by hand (\"concierge\" test). The engineer or a PM writes each organiser's weekly summary using a prompt plus a person, with no app.\n3. **Measure:** Do they read it, act on it, ask for the next one or offer to pay? There is no baseline yet.\n4. **Decide:** If at least two of the three use it repeatedly, build a small 10-day version. If not, stop or change the problem you're solving.",
+      "reported_cost_usd": 0.05874499999999999,
+      "model_usage": {
+        "claude-opus-5-5": {
+          "inputTokens": 4,
+          "outputTokens": 696,
+          "cacheReadInputTokens": 12245,
+          "cacheCreationInputTokens": 5295,
+          "webSearchRequests": 0,
+          "costUSD": 0.05874499999999999,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 109,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      },
+      "elapsed_seconds": 15.978,
+      "criteria": [
+        {
+          "criterion": "native catalogue includes product-sense:product-sense from inline plugin",
+          "status": "pass",
+          "evidence": "Init catalogue includes product-sense:product-sense from staged inline plugin 0.1.1."
+        },
+        {
+          "criterion": "model selects skill without name in task",
+          "status": "pass",
+          "evidence": "Original prompt does not name the skill; Claude called Skill with product-sense:product-sense."
+        },
+        {
+          "criterion": "uses relevant references",
+          "status": "fail",
+          "evidence": "Only Skill was called. Entry point was injected; no discovery.md, outputs.md or other reference contents were loaded in the event stream."
+        },
+        {
+          "criterion": "assessment preserves supplied evidence and scope, gives bounded next action and stop/reshape condition",
+          "status": "fail",
+          "evidence": "Preserves reported interest, current alternatives and unknown failure evidence; labels the main hypothesis and proposes a manual test with a stop/change gate. However, days 1-8 of learning followed by a small 10-day build are not reconciled with the fixed ten-day engineer availability."
+        },
+        {
+          "criterion": "final is at most 180 whitespace-delimited words",
+          "status": "fail",
+          "evidence": "204 whitespace-delimited words, exceeding the requested maximum of 180 by 24."
+        },
+        {
+          "criterion": "no writes or external actions",
+          "status": "pass",
+          "evidence": "Only Skill was called; proposed contacts and experiments were not executed."
+        }
+      ]
+    }
+  },
+  "criteria_passed": 7,
+  "criteria_failed": 3,
+  "case_passed": 1,
+  "case_failed": 1,
+  "integrity": {
+    "source_before": {
+      "SKILL.md": "3638dc4bdca80381f91d448da50f4fe6deea385d65a80c0e42f5e35dba9bcc38",
+      "references/canon.md": "03cc0382183e730e3990cedd4ce09580259da1e99c814b86130baa717ca50e57",
+      "references/design.md": "cfdcd8500ad3d2d6d29351877315c4d795473984db3e425c2fa4a2c8dfefa296",
+      "references/discovery.md": "e66f9051ed781ce58eb81eba11ccbf251533bcf8fa09d242d4ca40203c4741a6",
+      "references/outputs.md": "20a40a9ea0935e252cce8cf62eaacf6b5c9940605cbb116830c4816996c00c55",
+      "references/shaping.md": "b73db1768dd6b78a528dac9bc7f54a8ffa4ccf611366e2992f47c159b25d1546",
+      "packaging/claude/plugin.json": "1efd1a81f6c8ffd78ae7358a8c1084463a15bfdd6e36601493a07752f1a977b7"
+    },
+    "source_after": {
+      "SKILL.md": "3638dc4bdca80381f91d448da50f4fe6deea385d65a80c0e42f5e35dba9bcc38",
+      "references/canon.md": "03cc0382183e730e3990cedd4ce09580259da1e99c814b86130baa717ca50e57",
+      "references/design.md": "cfdcd8500ad3d2d6d29351877315c4d795473984db3e425c2fa4a2c8dfefa296",
+      "references/discovery.md": "e66f9051ed781ce58eb81eba11ccbf251533bcf8fa09d242d4ca40203c4741a6",
+      "references/outputs.md": "20a40a9ea0935e252cce8cf62eaacf6b5c9940605cbb116830c4816996c00c55",
+      "references/shaping.md": "b73db1768dd6b78a528dac9bc7f54a8ffa4ccf611366e2992f47c159b25d1546",
+      "packaging/claude/plugin.json": "1efd1a81f6c8ffd78ae7358a8c1084463a15bfdd6e36601493a07752f1a977b7"
+    },
+    "source_unchanged": true,
+    "archive_sha256": "57f81de3448af72c329993ae8aa5938ffb0eb1b544ca6ebc6e1798daf7d5843a",
+    "archive_unchanged": true,
+    "staged_payload_matches_archive": true,
+    "staged_symlinks": []
+  },
+  "reported_total_cost_usd": 0.1119936,
+  "cost_limit": "Runtime reports list-price cost, not proof of subscription billing. Each session remained under its US$1 cap.",
+  "conclusion": "Inference access restored. Explicit invocation and exact approved copy passed; implicit native selection passed. Full implicit compliance failed on reference loading, word cap and fitting proposed work within ten-day availability. No retries or instruction changes.",
+  "limits": [
+    "One sample per case, no control arm or blind independent scorer.",
+    "Restricted local CLI sessions only; no claude.ai, Cowork or OpenAI surface claim.",
+    "Managed defaults and native built-ins may influence outputs; not complete host isolation.",
+    "Current default model differs from run 4; historical blocked runs remain evidence.",
+    "Earlier Codex word-limit failure is retained; no causal or incremental product benefit claim."
+  ]
+}

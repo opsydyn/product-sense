@@ -1,0 +1,40 @@
+test_archive_contains_only_exact_canonical_payload (test_claude_package.ClaudePackageTests.test_archive_contains_only_exact_canonical_payload) ... ok
+test_codex_archive_contains_exact_installable_skill_and_metadata (test_claude_package.ClaudePackageTests.test_codex_archive_contains_exact_installable_skill_and_metadata) ... ERROR
+test_codex_missing_metadata_fails_without_creating_output (test_claude_package.ClaudePackageTests.test_codex_missing_metadata_fails_without_creating_output) ... ERROR
+test_default_cli_build_keeps_generated_skills_outside_source (test_claude_package.ClaudePackageTests.test_default_cli_build_keeps_generated_skills_outside_source) ... ok
+test_missing_entrypoint_fails_without_creating_a_package (test_claude_package.ClaudePackageTests.test_missing_entrypoint_fails_without_creating_a_package) ... ok
+test_missing_linked_reference_fails_without_creating_a_package (test_claude_package.ClaudePackageTests.test_missing_linked_reference_fails_without_creating_a_package) ... ok
+test_rebuild_removes_stale_files_and_has_identical_archive_bytes (test_claude_package.ClaudePackageTests.test_rebuild_removes_stale_files_and_has_identical_archive_bytes) ... ok
+test_rejects_output_inside_source_before_creating_files (test_claude_package.ClaudePackageTests.test_rejects_output_inside_source_before_creating_files) ... ok
+test_rejects_output_that_would_replace_source (test_claude_package.ClaudePackageTests.test_rejects_output_that_would_replace_source) ... ok
+test_rejects_symlinked_manifest_parents_before_changing_output (test_claude_package.ClaudePackageTests.test_rejects_symlinked_manifest_parents_before_changing_output) ... ok
+test_rejects_symlinked_reference_before_changing_existing_output (test_claude_package.ClaudePackageTests.test_rejects_symlinked_reference_before_changing_existing_output) ... ok
+test_rejects_symlinked_reference_directory (test_claude_package.ClaudePackageTests.test_rejects_symlinked_reference_directory) ... ok
+
+======================================================================
+ERROR: test_codex_archive_contains_exact_installable_skill_and_metadata (test_claude_package.ClaudePackageTests.test_codex_archive_contains_exact_installable_skill_and_metadata)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/alancurrie/Projects/product-sense/tests/test_claude_package.py", line 140, in test_codex_archive_contains_exact_installable_skill_and_metadata
+    archive = self.build("codex")
+  File "/Users/alancurrie/Projects/product-sense/tests/test_claude_package.py", line 41, in build
+    return module.build(self.repo, self.destination, package_format=package_format)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: build() got an unexpected keyword argument 'package_format'
+
+======================================================================
+ERROR: test_codex_missing_metadata_fails_without_creating_output (test_claude_package.ClaudePackageTests.test_codex_missing_metadata_fails_without_creating_output)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/alancurrie/Projects/product-sense/tests/test_claude_package.py", line 152, in test_codex_missing_metadata_fails_without_creating_output
+    self.build("codex")
+    ~~~~~~~~~~^^^^^^^^^
+  File "/Users/alancurrie/Projects/product-sense/tests/test_claude_package.py", line 41, in build
+    return module.build(self.repo, self.destination, package_format=package_format)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: build() got an unexpected keyword argument 'package_format'
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.096s
+
+FAILED (errors=2)

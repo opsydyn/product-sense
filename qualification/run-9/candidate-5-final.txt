@@ -1,0 +1,9 @@
+**Investigate; don't build yet.** Three people saying they'd use it is weak evidence, so confidence is low.
+
+**Progress (hypothesis):** organisers want to keep track of club decisions without rereading threads. Today email and group messages work, and we haven't seen what they cost.
+
+**Main assumption:** organisers currently miss things or waste time in ways that matter, and they would trust and act on an AI summary of private group messages.
+
+**Next (within the ten days):** have each organiser walk through last week's threads. Then the engineer drafts one summary by hand or with a simple script, from real messages shared with consent.
+
+**Decision rule (proposed threshold):** build a bounded version only if at least two organisers name a recent costly miss and use the summary to act. Otherwise park the idea until a real failure turns up.

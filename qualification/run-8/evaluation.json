@@ -1,0 +1,162 @@
+{
+  "records": {
+    "baseline-1": {
+      "words": 213,
+      "word_cap_pass": false,
+      "selected_skill": true,
+      "reference_loading_pass": false,
+      "read_files": [],
+      "model": "claude-opus-5-5",
+      "reported_list_cost_usd": 0.0562186,
+      "no_external_action": true,
+      "scope_review": "Two-week or longer learning was not reconciled with the ten-day window; some effort allocations fit ten engineer-days, but elapsed time and capacity were not clearly distinguished.",
+      "final": "**Verdict: Investigate. Don't commit the ten days to building yet.** Confidence that building now is premature: moderate to high.\n\n**Evidence**\n- **Reported:** three organisers say they would use it. That's a compliment, not demand.\n- **Unknown:** what email threads and group messages cost them today, whether summaries fail, and whether anyone would pay or switch.\n\n**Biggest risk (hypothesis):** organisers don't feel enough pain to change habits. Threads may already be \"good enough.\" Accuracy and privacy worries about AI reading members' messages could also outweigh the benefit.\n\n**Need, without the solution:** organisers want to know what needs their attention this week without rereading every thread. Other ways to meet that include a shared checklist, a pinned weekly digest written by hand, or doing nothing.\n\n**Next step (proposed, for you to approve):** spend 2\u20133 days on a manual \"Wizard-of-Oz\" test.\n- Ask the three organisers to show you a recent week where they missed something.\n- For two weeks, write their summaries by hand.\n- Track whether they open them, act on them, find errors, and would pay or forward them.\n\n**Decision rule (proposed):** Build a thin version if at least two of them rely on the summaries and point to specific saved effort or avoided misses. Stop or reshape if the summaries go unused."
+    },
+    "baseline-2": {
+      "words": 222,
+      "word_cap_pass": false,
+      "selected_skill": true,
+      "reference_loading_pass": false,
+      "read_files": [],
+      "model": "claude-opus-5-5",
+      "reported_list_cost_usd": 0.058066599999999996,
+      "no_external_action": true,
+      "scope_review": "Two-week or longer learning was not reconciled with the ten-day window; some effort allocations fit ten engineer-days, but elapsed time and capacity were not clearly distinguished.",
+      "final": "**Verdict: Investigate. Don't build the app yet.** I'm fairly confident about this.\n\n**What we know**\n- **Reported:** three organisers say they would use it.\n- **Observed:** they currently coordinate through email threads and group messages.\n- **Unknown:** what fails today, how much time it costs, how often it happens, and whether anyone would pay.\n\nSaying they would use it is a weak signal. So far nothing shows that today's approach is failing.\n\n**Hypotheses (not yet checked)**\n1. Organisers lose track of decisions, actions or attendance across scattered threads.\n2. A weekly summary would cut their admin time or missed follow-ups.\n3. They would trust an AI summary and let it read their messages, despite privacy worries.\n\n**Biggest risk:** the problem may be too small, or too rare, to make people switch from email.\n\n**Next step:** spend 1\u20132 days, not ten, on learning:\n- Ask each organiser to walk through a recent week. Look for missed items, how long things took, and any workarounds.\n- Then write summaries by hand for 2\u20133 weeks.\n- Track whether they read them and act on them, and whether they would pay or ask for more.\n\n**Keep going if** summaries are used every week and replace real work. **Stop if** usage fades or the summaries add nothing new. Only spend the engineer's time once that evidence exists."
+    },
+    "baseline-3": {
+      "words": 213,
+      "word_cap_pass": false,
+      "selected_skill": true,
+      "reference_loading_pass": false,
+      "read_files": [],
+      "model": "claude-opus-5-5",
+      "reported_list_cost_usd": 0.056526599999999996,
+      "no_external_action": true,
+      "scope_review": "Two-week or longer learning was not reconciled with the ten-day window; some effort allocations fit ten engineer-days, but elapsed time and capacity were not clearly distinguished.",
+      "final": "**Verdict: Investigate. Don't build yet.** Confidence that a build is premature: moderate to high.\n\n**What we know**\n- **Reported:** three organisers say they would use it. That's a compliment, not demand.\n- **Unknown:** what goes wrong with email and group messages today. Missed decisions? Hours spent catching up? Volunteers dropping out? We have no observed failures, costs, workarounds or payment commitments.\n\n**Riskiest assumption (hypothesis):** organisers lose enough time or miss enough that they would change habits. The switch looks costly: members stay on email and chat, so the app adds a tool and probably needs access to private group messages. AI summaries are a method, not the value.\n\n**Next step, within 10 days (proposed limit):**\n1. Ask the three organisers for recent cases where something was missed, plus the time each one cost.\n2. Hand-write a weekly summary from their real threads for two weeks. No code.\n3. Track whether they read it, act on it, forward it or ask to keep it.\n\n**Decision rule (proposed):**\n- **Build a narrow version** if at least 2 of the 3 rely on it weekly and name a cost it removes.\n- **Park it** if they skim it or nothing changes. Revisit if you see real failures.\n\nThe engineer should stay on other work until then."
+    },
+    "baseline-4": {
+      "words": 214,
+      "word_cap_pass": false,
+      "selected_skill": true,
+      "reference_loading_pass": false,
+      "read_files": [],
+      "model": "claude-opus-5-5",
+      "reported_list_cost_usd": 0.056438600000000005,
+      "no_external_action": true,
+      "scope_review": "Two-week or longer learning was not reconciled with the ten-day window; some effort allocations fit ten engineer-days, but elapsed time and capacity were not clearly distinguished.",
+      "final": "**Verdict: Investigate. Don't build yet.** Confidence: moderate.\n\n**Evidence**\n- **Reported:** Three organisers say they would use it. That's a compliment, not a commitment.\n- **Unknown:** Whether email threads and group messages actually fail them. We have no missed decisions, time lost or volunteer drop-off on record. Willingness to pay is also unknown.\n- **Inferred:** Every member of a club already sees the same threads, so a summary may add little.\n\n**Riskiest assumption:** Organisers lose real time or miss things because of scattered messages, and a weekly summary fixes that. If this is false, the app solves nothing.\n\n**Next steps (your team runs these; I haven't contacted anyone):**\n1. Ask each organiser to walk through the last two weeks and show a missed item or slow catch-up, with an estimate of the cost.\n2. Manually write one weekly summary for two or three clubs over two weeks, with consent. Check whether organisers act on it, forward it or ask for the next one.\n3. Ask for a commitment, such as a pilot fee or regular use.\n\n**Spend:** About 3 of the engineer's 10 days on this. Build a narrow version in the remaining 7 only if most organisers rely on the manual summary. If no real failure turns up, park the idea until one does."
+    },
+    "baseline-5": {
+      "words": 224,
+      "word_cap_pass": false,
+      "selected_skill": true,
+      "reference_loading_pass": false,
+      "read_files": [],
+      "model": "claude-opus-5-5",
+      "reported_list_cost_usd": 0.0553946,
+      "no_external_action": true,
+      "scope_review": "Two-week or longer learning was not reconciled with the ten-day window; some effort allocations fit ten engineer-days, but elapsed time and capacity were not clearly distinguished.",
+      "final": "**Investigate. Don't build yet.** I'm fairly confident about not building; I don't know yet whether a real need exists.\n\n**What we know:** Three organisers have *said* they would use it. That's a weak signal: nobody has observed them failing at the task, there's no usage data and no one has committed to pay. Today they use email threads and group messages, and nothing shows those failing.\n\n**Biggest unknown (hypothesis):** Organisers lose real time or miss important things in today's threads, enough to change how they work. If that isn't true, a smart summariser solves nothing.\n\n**What we'd still need to learn:**\n- What progress do they want: fewer missed decisions, less time catching up, or better-informed members?\n- How do they cope now? Do they already write recaps by hand?\n- What would make switching hard: privacy of members' messages, access to the threads, or trusting AI summaries?\n- Who pays? Clubs have little budget.\n\n**Next step:** Spend 2\u20133 of the engineer's ten days (a limit I'm proposing) on a manual test. Hand-write weekly summaries from real threads for those three organisers over two weeks. Track whether they read them, forward them or act on them, and whether they would pay.\n\n**Decision rule:** If they rely on the summaries or ask for them, build a narrow version. If they ignore them, park the idea."
+    },
+    "candidate-1": {
+      "words": 194,
+      "word_cap_pass": false,
+      "selected_skill": true,
+      "reference_loading_pass": true,
+      "read_files": [
+        "/private/tmp/product-sense-run-8-w8ep_pth/candidate/skills/product-sense/references/discovery.md",
+        "/private/tmp/product-sense-run-8-w8ep_pth/candidate/skills/product-sense/references/outputs.md"
+      ],
+      "model": "claude-opus-5-5",
+      "reported_list_cost_usd": 0.0876818,
+      "no_external_action": true,
+      "scope_review": "Two-week or longer learning was not reconciled with the ten-day window; some effort allocations fit ten engineer-days, but elapsed time and capacity were not clearly distinguished.",
+      "final": "**Verdict: Don't build the app yet. Find out first whether organisers really need it.** Three organisers saying they'd use it is a weak signal. Nobody has seen them struggle, and nobody has committed time or money.\n\n**User progress (hypothesis):** Organisers want to keep up with club activity without rereading long threads. Today email and group messages do the job, and we don't know what that costs them. Doing nothing is a strong competitor.\n\n**Main assumption:** The weekly catch-up costs enough that organisers will trust an AI summary and change their habits. We also don't know who would pay.\n\n**Next step (proposed: up to 3 of the 10 days):** Have each organiser walk through last week: what they missed, how long it took and what went wrong as a result. Then give them summaries of their real threads, made by hand or with help from the engineer, for two weeks.\n\n**Decision:** Fund a narrow pilot only if at least two of the three use the summaries both weeks and name a real miss avoided or time saved. If the summaries go unread, drop the idea. Building a full app would need its own separate budget."
+    },
+    "candidate-2": {
+      "words": 189,
+      "word_cap_pass": false,
+      "selected_skill": true,
+      "reference_loading_pass": true,
+      "read_files": [
+        "/private/tmp/product-sense-run-8-w8ep_pth/candidate/skills/product-sense/references/outputs.md",
+        "/private/tmp/product-sense-run-8-w8ep_pth/candidate/skills/product-sense/references/discovery.md"
+      ],
+      "model": "claude-opus-5-5",
+      "reported_list_cost_usd": 0.0869172,
+      "no_external_action": true,
+      "scope_review": "Two-week or longer learning was not reconciled with the ten-day window; some effort allocations fit ten engineer-days, but elapsed time and capacity were not clearly distinguished.",
+      "final": "**Verdict: Investigate; don't build yet.** I have low confidence in the idea. The only evidence is three organisers saying they would use it, and that kind of statement is weak.\n\n**Progress and alternative:** My hypothesis is that organisers want to keep members informed without piecing each week together from scattered threads. Today they use email threads and group messages, and nobody has seen that fail or cost them anything.\n\n**Main assumption:** Writing a weekly summary is a recurring, costly chore that organisers would hand off. We don't know how often they do it, how long it takes, who reads it or how much error they'd tolerate.\n\n**Next action (proposed limit: 3 of the 10 days):** Go through each organiser's most recent real update: what triggered it, how long it took, where the content came from and what went wrong. Then make two weeks of summaries by hand from their actual threads.\n\n**Decision rule:** Build a narrow version only if most organisers send the summaries with light edits and say they saved time. If they ignore or rewrite them, park the idea. Until then, keep the remaining engineering days unspent."
+    },
+    "candidate-3": {
+      "words": 165,
+      "word_cap_pass": true,
+      "selected_skill": true,
+      "reference_loading_pass": true,
+      "read_files": [
+        "/private/tmp/product-sense-run-8-w8ep_pth/candidate/skills/product-sense/references/discovery.md",
+        "/private/tmp/product-sense-run-8-w8ep_pth/candidate/skills/product-sense/references/outputs.md"
+      ],
+      "model": "claude-opus-5-5",
+      "reported_list_cost_usd": 0.1109682,
+      "no_external_action": true,
+      "scope_review": "Two-week or longer learning was not reconciled with the ten-day window; some effort allocations fit ten engineer-days, but elapsed time and capacity were not clearly distinguished.",
+      "final": "**Verdict: Investigate; don't build yet.** I'm moderately confident: three organisers saying they'd use it shows intent, not a proven need.\n\n**Progress/alternative:** Hypothesis: organisers want to keep members informed each week with less effort. Today they use email threads and group messages, and nothing shows that this costs them much or fails.\n\n**Main assumption:** Writing or catching up on the weekly summary is frequent and painful enough to change habits. Unknown: how long it takes, who reads it, consent to use member messages, who would pay.\n\n**Next (within the 10 days):** Interview the three about their last weekly update: steps, time, misses and workarounds. Then write summaries by hand from their real threads for two weekly cycles. In parallel, the engineer spends up to 2 days testing feasibility.\n\n**Decision:** Proposed pass: at least 2 organisers use or forward the summaries without prompting in both weeks and say they saved effort. If not, park or reshape the idea. A full build needs its own separately agreed budget."
+    },
+    "candidate-4": {
+      "words": 197,
+      "word_cap_pass": false,
+      "selected_skill": true,
+      "reference_loading_pass": true,
+      "read_files": [
+        "/private/tmp/product-sense-run-8-w8ep_pth/candidate/skills/product-sense/references/discovery.md",
+        "/private/tmp/product-sense-run-8-w8ep_pth/candidate/skills/product-sense/references/outputs.md"
+      ],
+      "model": "claude-opus-5-5",
+      "reported_list_cost_usd": 0.0880752,
+      "no_external_action": true,
+      "scope_review": "Two-week or longer learning was not reconciled with the ten-day window; some effort allocations fit ten engineer-days, but elapsed time and capacity were not clearly distinguished.",
+      "final": "**Verdict: Investigate; don't build yet.** Confidence is low. Three organisers saying they would use it is reported interest, not demand. Nobody has shown a missed task, a measured cost or a commitment to pay.\n\n**User progress and current alternative:** Our hypothesis is that organisers want to see each week's decisions and actions without rereading threads. Today they use email and group messages, and we don't know what that costs them.\n\n**Main assumption:** Organisers regularly miss something important or lose real time, and they would trust an AI summary enough to change their habits. Also unknown: who pays, and whether we can access group-chat data with privacy consent.\n\n**Next action (proposed):** Use up to three days to interview the three organisers about their most recent week: what they missed, how much time it took and what followed. Then write summaries by hand for two weeks, without the engineer. Check whether organisers act on them and whether they would commit to paying.\n\n**Decision:** Build a narrow version only if at least two organisers show recent costly misses and use the summaries both weeks. That build needs its own agreed budget. Otherwise, park the idea until we see real failures."
+    },
+    "candidate-5": {
+      "words": 185,
+      "word_cap_pass": false,
+      "selected_skill": true,
+      "reference_loading_pass": true,
+      "read_files": [
+        "/private/tmp/product-sense-run-8-w8ep_pth/candidate/skills/product-sense/references/discovery.md",
+        "/private/tmp/product-sense-run-8-w8ep_pth/candidate/skills/product-sense/references/outputs.md"
+      ],
+      "model": "claude-opus-5-5",
+      "reported_list_cost_usd": 0.089433,
+      "no_external_action": true,
+      "scope_review": "Two-week or longer learning was not reconciled with the ten-day window; some effort allocations fit ten engineer-days, but elapsed time and capacity were not clearly distinguished.",
+      "final": "**Investigate. Don't build the app yet.** Three organisers saying they would use it is a weak signal. We haven't seen a failure, any usage or a commitment.\n\n**Progress/alternative:** My hypothesis is that organisers want to see each week's decisions, volunteer gaps and deadlines without rereading threads. They do this today with email and group messages, and we don't know what that costs them.\n\n**Main assumption:** Missed or buried items cause real harm, such as dropped tasks or lost hours, and a summary fixes this better than doing nothing or writing a digest by hand.\n\n**Next (within the ten days):** Spend about two days interviewing the three about their last busy week: what they missed, how long it took and what happened as a result. If real pain shows up, spend three to five days making weekly summaries by hand from their real threads, with their consent, for two weeks.\n\n**Decide:** As a proposed threshold, agree a separate budget for a narrow build only if at least two organisers act on the summaries and report a concrete problem avoided, or make a commitment. Otherwise, park it."
+    },
+    "candidate-guard": {
+      "exact_copy_pass": true,
+      "final": "Start lesson",
+      "reported_list_cost_usd": 0.0419224
+    },
+    "codex-implicit": {
+      "words": 160,
+      "word_cap_pass": true,
+      "exact_copy_pass": null,
+      "final": "**Investigate; don\u2019t build yet.** Three expressions of interest justify discovery, but do not establish a problem worth ten engineering days.\n\n**Progress \u2014 hypothesis:** Organisers need to identify decisions and outstanding actions with less effort. Their current alternative is email threads and group messages; its costs are unknown.\n\n**Evidence:** Three organisers report willingness to use it. There are no observed task failures, usage data or payment commitments. **Critical hypothesis:** Weekly summaries deliver enough recurring value to change existing habits.\n\n**Next \u2014 proposed, not executed:** Cap discovery at two of the ten days. Review recent organising tasks with those three people; establish effort and missed-action baselines. If recurring problems emerge, compare a manually prepared summary with their current process before considering AI.\n\n**Decision gate \u2014 proposed:** Require recurring difficulty and commitments to a repeated trial from at least two organisers. Measure effort saved and missed actions; preserve accuracy. Otherwise park or reshape. Any subsequent build needs a bounded scope and budget decision."
+    },
+    "codex-guard": {
+      "words": 2,
+      "word_cap_pass": true,
+      "exact_copy_pass": true,
+      "final": "Start lesson"
+    }
+  },
+  "baseline_word_cap_passed": 0,
+  "candidate_word_cap_passed": 1,
+  "baseline_reference_loading_passed": 0,
+  "candidate_reference_loading_passed": 5,
+  "source_unchanged_during_evaluation": true,
+  "conclusion": "Reference routing improved, but the first candidate is insufficient: four of five Claude assessments still exceeded the word cap and time-window clarity remains weak. Native Codex assessment and both exact-copy guards passed. Preserve failures; refine the quick-output contract in a new frozen run."
+}

@@ -1,0 +1,9 @@
+**Investigate, don't build yet.** Three organisers saying they would use it is interest they reported, not proof of demand, so my confidence that the need is real is low.
+
+**User progress:** This is my inference: organisers want to keep up with club activity without rereading email threads and group messages. We don't know what that costs them today.
+
+**Main assumption (hypothesis):** Organisers regularly miss decisions or tasks, and they would trust a summary more than skimming the threads themselves.
+
+**Next (proposed):** Within the ten days, ask each organiser about the last time they missed something. Then the engineer hand-writes summaries of their real threads for two weekly cycles, using about three days of effort.
+
+**Decision:** Use the remaining seven days on a narrow build only if at least two organisers rely on both summaries and name a missed item caught or time saved. Otherwise, park the idea.

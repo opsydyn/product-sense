@@ -20,3 +20,13 @@ See [run-3/report.md](run-3/report.md) for desktop catalogue discovery and impli
 See [run-4/report.md](run-4/report.md) for reproducible Claude packaging, strict manifest validation and native CLI session discovery. The account's weekly limit blocked model inference; explicit and implicit behaviour remain unqualified on Claude.
 
 See [run-5/report.md](run-5/report.md) for five baseline candid-critique samples and an approved-copy regression. All declared criteria passed, so the run stopped before a candidate behavioural addition. Radical Candor was added as supporting-source attribution; no incremental behavioural benefit is claimed.
+
+See [run-6/report.md](run-6/report.md) for the resumed Claude check on 5 October 2026 against version `0.1.1`. Package checks and native discovery passed; expired OAuth authentication blocked inference. The weekly-limit status could not be checked, and both behavioural cases remain unqualified.
+
+See [run-7/report.md](run-7/report.md) for both native Claude cases after login was restored. Explicit invocation and exact copy passed. Automatic selection passed, but the implicit assessment failed reference loading, its 180-word cap and fitting the proposed work into ten-day availability. No runtime guidance was changed.
+
+See [run-8/report.md](run-8/report.md) for the five-sample baseline/candidate comparison, package-location regression and first candidate failures.
+
+See [run-9/report.md](run-9/report.md) for five capped assessments that passed length and references but retained two conditional-budget omissions.
+
+See [run-10/report.md](run-10/report.md) for the final beta-candidate checks: five passing Claude assessments, a passing native Codex assessment, approved-copy guards on both hosts and thirteen package tests. Calendar scheduling, licence selection and actual publication remain separately qualified or pending.

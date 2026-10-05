@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "strict": true,
+  "target": "/private/tmp/product-sense-release/claude/product-sense/.claude-plugin/plugin.json",
+  "manifest": {
+    "file": "/private/tmp/product-sense-release/claude/product-sense/.claude-plugin/plugin.json",
+    "type": "plugin",
+    "errors": [],
+    "warnings": [],
+    "notes": []
+  },
+  "contents": []
+}

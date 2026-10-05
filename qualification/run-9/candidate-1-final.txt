@@ -1,0 +1,9 @@
+**Investigate:** don't build yet. Three organisers saying they would use it is weak evidence, and you have no observed failures, usage data or payment commitments.
+
+**Progress:** organisers probably want to keep members informed with less effort (inferred), but email and group messages may already be good enough. You don't know what they cost today.
+
+**Assumption:** the untested hypothesis is that weekly catch-up is painful enough to change habits. Summaries also have to be accurate enough that organisers would send them out.
+
+**Next:** for days 1–3, ask each organiser about the last time an update was missed. Then hand-summarise their real threads from last week and see whether they send the summaries out.
+
+**Decision:** if at least two organisers send summaries with few edits and name a recent cost, use days 4–10 for a narrow prototype (proposed threshold). If they don't, park the idea until real pain appears.

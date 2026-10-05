@@ -1,0 +1,9 @@
+**Investigate; don't build yet.** Three people saying they "would use it" is a stated intention, not proof that email and group chats are failing them.
+
+**Hypothesis:** organisers want to see each week what needs their action without rereading threads. Today they skim emails and messages, which may already be good enough.
+
+**Main unknown:** we don't know whether organisers miss decisions or lose real time today, or whether they would trust AI summaries enough to change habits or pay.
+
+**Next (days 1–5):** walk each organiser through last week's threads. Then hand-write a summary from their real messages and check whether they act on it. Meanwhile, the engineer can test summarising pasted threads.
+
+**Proposed rule:** if at least two organisers show a recent missed action and use the manual summary, spend days 6–10 on a prototype for one club. Otherwise, park the idea until evidence of failures appears.

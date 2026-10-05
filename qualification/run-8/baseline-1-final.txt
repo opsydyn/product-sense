@@ -1,0 +1,16 @@
+**Verdict: Investigate. Don't commit the ten days to building yet.** Confidence that building now is premature: moderate to high.
+
+**Evidence**
+- **Reported:** three organisers say they would use it. That's a compliment, not demand.
+- **Unknown:** what email threads and group messages cost them today, whether summaries fail, and whether anyone would pay or switch.
+
+**Biggest risk (hypothesis):** organisers don't feel enough pain to change habits. Threads may already be "good enough." Accuracy and privacy worries about AI reading members' messages could also outweigh the benefit.
+
+**Need, without the solution:** organisers want to know what needs their attention this week without rereading every thread. Other ways to meet that include a shared checklist, a pinned weekly digest written by hand, or doing nothing.
+
+**Next step (proposed, for you to approve):** spend 2–3 days on a manual "Wizard-of-Oz" test.
+- Ask the three organisers to show you a recent week where they missed something.
+- For two weeks, write their summaries by hand.
+- Track whether they open them, act on them, find errors, and would pay or forward them.
+
+**Decision rule (proposed):** Build a thin version if at least two of them rely on the summaries and point to specific saved effort or avoided misses. Stop or reshape if the summaries go unused.

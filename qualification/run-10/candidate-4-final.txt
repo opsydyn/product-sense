@@ -1,0 +1,5 @@
+1. **Investigate; don't build yet.** Three organisers saying they would use it is a weak signal, and there are no observed failures, usage data or payment commitments.
+2. **Hypothesis:** organisers want to keep members informed each week with less effort, and today email threads and group messages do this at an unknown cost.
+3. **Main assumption:** today's updates cause real missed information or lost time, enough for organisers to drop the habit of using existing threads.
+4. **Next (proposed limit: two engineer-days):** look through each organiser's recent threads, then write one weekly summary by hand from their real messages and see whether they send it.
+5. **Decision:** build only if at least two of the three send it and ask for another; if so, use the remaining eight days for a narrow prototype; if not, set the idea aside until a concrete failure appears.

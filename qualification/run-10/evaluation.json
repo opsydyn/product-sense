@@ -1,0 +1,134 @@
+{
+  "records": {
+    "candidate-1": {
+      "selected_skill": true,
+      "word_count": 151,
+      "word_cap_pass": true,
+      "reference_loading_pass": true,
+      "read_files": [
+        "/private/tmp/product-sense-run-10-_enk95l0/candidate/skills/product-sense/references/discovery.md",
+        "/private/tmp/product-sense-run-10-_enk95l0/candidate/skills/product-sense/references/outputs.md"
+      ],
+      "supplied_evidence_and_assumptions_pass": true,
+      "appetite_pass": true,
+      "appetite_evidence": "Learning days 1-4 plus remaining six prototype days.",
+      "bounded_action_and_stop_condition_pass": true,
+      "no_external_action": true,
+      "final": "**Verdict: hold off building and gather evidence first.** Three organisers saying they would use it tells you what they intend, not about a real failure, actual usage or a commitment.\n\n**What organisers need (a guess):** to keep members informed with less effort. Email threads and group messages may already be good enough, and we don't know what they cost.\n\n**Main assumption:** organisers regularly lose time or miss decisions because updates are spread across threads and messages. If that's false, AI summaries won't help them.\n\n**Next step (engineer's days 1\u20134):** ask each organiser about the last update that went wrong or took too long. Then write one weekly summary by hand from their real threads.\n\n**Decision:** proposed threshold: if at least two organisers report a recent update that was costly or went wrong and use or forward the summary, spend the remaining six days on a narrow prototype. Otherwise, drop the idea.",
+      "model": "claude-opus-5-5",
+      "reported_list_cost_usd": 0.10548
+    },
+    "candidate-2": {
+      "selected_skill": true,
+      "word_count": 147,
+      "word_cap_pass": true,
+      "reference_loading_pass": true,
+      "read_files": [
+        "/private/tmp/product-sense-run-10-_enk95l0/candidate/skills/product-sense/references/outputs.md",
+        "/private/tmp/product-sense-run-10-_enk95l0/candidate/skills/product-sense/references/discovery.md"
+      ],
+      "supplied_evidence_and_assumptions_pass": true,
+      "appetite_pass": true,
+      "appetite_evidence": "Approximately three engineer-days plus remaining seven; elapsed schedule ambiguous because of two weekly cycles, and the prompt supplies no calendar deadline.",
+      "bounded_action_and_stop_condition_pass": true,
+      "no_external_action": true,
+      "final": "**Investigate, don't build yet.** Three organisers saying they would use it is interest they reported, not proof of demand, so my confidence that the need is real is low.\n\n**User progress:** This is my inference: organisers want to keep up with club activity without rereading email threads and group messages. We don't know what that costs them today.\n\n**Main assumption (hypothesis):** Organisers regularly miss decisions or tasks, and they would trust a summary more than skimming the threads themselves.\n\n**Next (proposed):** Within the ten days, ask each organiser about the last time they missed something. Then the engineer hand-writes summaries of their real threads for two weekly cycles, using about three days of effort.\n\n**Decision:** Use the remaining seven days on a narrow build only if at least two organisers rely on both summaries and name a missed item caught or time saved. Otherwise, park the idea.",
+      "model": "claude-opus-5-5",
+      "reported_list_cost_usd": 0.08725060000000001
+    },
+    "candidate-3": {
+      "selected_skill": true,
+      "word_count": 163,
+      "word_cap_pass": true,
+      "reference_loading_pass": true,
+      "read_files": [
+        "/private/tmp/product-sense-run-10-_enk95l0/candidate/skills/product-sense/references/outputs.md",
+        "/private/tmp/product-sense-run-10-_enk95l0/candidate/skills/product-sense/references/discovery.md"
+      ],
+      "supplied_evidence_and_assumptions_pass": true,
+      "appetite_pass": true,
+      "appetite_evidence": "Learning days 1-8 plus technical probe days 9-10; full build needs separate budget.",
+      "bounded_action_and_stop_condition_pass": true,
+      "no_external_action": true,
+      "final": "**Investigate, don't build yet.** Three organisers saying they'd use it is a weak signal, and the AI part adds no value until we know the summaries solve a real problem.\n\n**User progress (hypothesis):** organisers want to keep members informed and catch decisions with less effort; today, email threads and group messages seem to work, with no failures observed.\n\n**Main assumption (unknown):** catching up each week costs enough time, or causes enough missed items, that organisers would change habits and trust AI summaries.\n\n**Next action:** on days 1\u20133, ask each organiser to walk through their last weekly catch-up, noting time spent and anything missed. On days 4\u20138, hand-write a summary from their real threads and see whether they use it.\n\n**Decision:** if at least two organisers show a real cost and use the summary without prompting (proposed threshold), spend days 9\u201310 on a technical probe. A full build would need a separate budget decision. Otherwise, park the idea until a concrete failure shows up.",
+      "model": "claude-opus-5-5",
+      "reported_list_cost_usd": 0.08999499999999999
+    },
+    "candidate-4": {
+      "selected_skill": true,
+      "word_count": 144,
+      "word_cap_pass": true,
+      "reference_loading_pass": true,
+      "read_files": [
+        "/private/tmp/product-sense-run-10-_enk95l0/candidate/skills/product-sense/references/discovery.md",
+        "/private/tmp/product-sense-run-10-_enk95l0/candidate/skills/product-sense/references/outputs.md"
+      ],
+      "supplied_evidence_and_assumptions_pass": true,
+      "appetite_pass": true,
+      "appetite_evidence": "Two learning engineer-days plus remaining eight prototype days.",
+      "bounded_action_and_stop_condition_pass": true,
+      "no_external_action": true,
+      "final": "1. **Investigate; don't build yet.** Three organisers saying they would use it is a weak signal, and there are no observed failures, usage data or payment commitments.\n2. **Hypothesis:** organisers want to keep members informed each week with less effort, and today email threads and group messages do this at an unknown cost.\n3. **Main assumption:** today's updates cause real missed information or lost time, enough for organisers to drop the habit of using existing threads.\n4. **Next (proposed limit: two engineer-days):** look through each organiser's recent threads, then write one weekly summary by hand from their real messages and see whether they send it.\n5. **Decision:** build only if at least two of the three send it and ask for another; if so, use the remaining eight days for a narrow prototype; if not, set the idea aside until a concrete failure appears.",
+      "model": "claude-opus-5-5",
+      "reported_list_cost_usd": 0.092922
+    },
+    "candidate-5": {
+      "selected_skill": true,
+      "word_count": 139,
+      "word_cap_pass": true,
+      "reference_loading_pass": true,
+      "read_files": [
+        "/private/tmp/product-sense-run-10-_enk95l0/candidate/skills/product-sense/references/discovery.md",
+        "/private/tmp/product-sense-run-10-_enk95l0/candidate/skills/product-sense/references/outputs.md"
+      ],
+      "supplied_evidence_and_assumptions_pass": true,
+      "appetite_pass": true,
+      "appetite_evidence": "Learning days 1-3 and prototype days 4-10.",
+      "bounded_action_and_stop_condition_pass": true,
+      "no_external_action": true,
+      "final": "**Verdict: investigate before building.** Three organisers saying they would use it is weak evidence, and nothing shows the current routine is failing.\n\n**User progress (hypothesis):** Organisers want to keep members informed with less weekly effort. Today email threads and group messages may already be good enough.\n\n**Main assumption (unverified):** Writing updates costs organisers real time or makes them miss things, and they would trust AI summaries enough to change their habits.\n\n**Next action (days 1\u20133):** With the three organisers, go through last month's threads and record how long updates took, what got missed, and whether they would commit to a hand-written summary pilot.\n\n**Decision (proposed threshold):** If at least two show a recurring cost and commit to the pilot, the engineer uses days 4\u201310 to build a minimal summary prototype. Otherwise, park the idea until real failures are observed.",
+      "model": "claude-opus-5-5",
+      "reported_list_cost_usd": 0.0865486
+    },
+    "candidate-guard": {
+      "exact_copy_pass": true,
+      "final": "Start lesson",
+      "reported_list_cost_usd": 0.046194
+    },
+    "codex-implicit": {
+      "word_count": 126,
+      "final": "**Investigate before building:** three stated intentions are weak demand evidence, and the supplied facts establish neither recurring task failure nor willingness to pay.\n\n**Hypothesis:** organisers need less effort to communicate accurate weekly updates; email threads and group messages already serve them, with their actual costs unknown.\n\n**Hypothesis:** summaries would save enough time to justify switching and paying; AI must outperform existing messages or a manual digest on effort and accuracy.\n\n**Proposed next step:** spend at most two engineer-days within the ten-day window reviewing recent tasks with those organisers, measuring effort and failures, and seeking concrete pilot commitments.\n\n**Proposed gate:** if two demonstrate recurring costly problems and commit, allocate the remaining eight days to a manual digest pilot; otherwise park, with app development requiring a separate decision.",
+      "commands": [
+        {
+          "command": "/bin/zsh -lc 'cat /Users/alancurrie/.agents/skills/product-sense/SKILL.md'",
+          "exit_code": 0
+        },
+        {
+          "command": "/bin/zsh -lc 'cat /Users/alancurrie/.agents/skills/product-sense/references/outputs.md'",
+          "exit_code": 0
+        },
+        {
+          "command": "/bin/zsh -lc 'cat /Users/alancurrie/.agents/skills/product-sense/references/discovery.md'",
+          "exit_code": 0
+        }
+      ],
+      "word_cap_pass": true,
+      "reference_loading_pass": true
+    },
+    "codex-guard": {
+      "word_count": 2,
+      "final": "Start lesson",
+      "commands": [],
+      "exact_copy_pass": true
+    }
+  },
+  "claude_assessment_passed": 5,
+  "claude_assessment_failed": 0,
+  "guards_passed": 2,
+  "codex_assessment": "pass",
+  "source_unchanged_during_evaluation": true,
+  "reported_claude_list_cost_usd": 0.5083902,
+  "review": "Independent read-only reviewer verified reference reads, word counts and appetite allocations for all five Claude cases; same calendar ambiguity retained. Reviewer did not blindly score all evidence criteria.",
+  "limitation": "One answer leaves elapsed scheduling unclear; ten engineer-days is not an explicitly stated ten-consecutive-calendar-day deadline.",
+  "conclusion": "Final candidate passes declared native cases; supports a bounded beta, not universal compliance or real-user value."
+}

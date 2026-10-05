@@ -1,0 +1,15 @@
+**Investigate. Don't build yet.** I'm fairly confident about not building; I don't know yet whether a real need exists.
+
+**What we know:** Three organisers have *said* they would use it. That's a weak signal: nobody has observed them failing at the task, there's no usage data and no one has committed to pay. Today they use email threads and group messages, and nothing shows those failing.
+
+**Biggest unknown (hypothesis):** Organisers lose real time or miss important things in today's threads, enough to change how they work. If that isn't true, a smart summariser solves nothing.
+
+**What we'd still need to learn:**
+- What progress do they want: fewer missed decisions, less time catching up, or better-informed members?
+- How do they cope now? Do they already write recaps by hand?
+- What would make switching hard: privacy of members' messages, access to the threads, or trusting AI summaries?
+- Who pays? Clubs have little budget.
+
+**Next step:** Spend 2–3 of the engineer's ten days (a limit I'm proposing) on a manual test. Hand-write weekly summaries from real threads for those three organisers over two weeks. Track whether they read them, forward them or act on them, and whether they would pay.
+
+**Decision rule:** If they rely on the summaries or ask for them, build a narrow version. If they ignore them, park the idea.

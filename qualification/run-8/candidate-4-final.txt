@@ -1,0 +1,9 @@
+**Verdict: Investigate; don't build yet.** Confidence is low. Three organisers saying they would use it is reported interest, not demand. Nobody has shown a missed task, a measured cost or a commitment to pay.
+
+**User progress and current alternative:** Our hypothesis is that organisers want to see each week's decisions and actions without rereading threads. Today they use email and group messages, and we don't know what that costs them.
+
+**Main assumption:** Organisers regularly miss something important or lose real time, and they would trust an AI summary enough to change their habits. Also unknown: who pays, and whether we can access group-chat data with privacy consent.
+
+**Next action (proposed):** Use up to three days to interview the three organisers about their most recent week: what they missed, how much time it took and what followed. Then write summaries by hand for two weeks, without the engineer. Check whether organisers act on them and whether they would commit to paying.
+
+**Decision:** Build a narrow version only if at least two organisers show recent costly misses and use the summaries both weeks. That build needs its own agreed budget. Otherwise, park the idea until we see real failures.

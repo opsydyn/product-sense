@@ -1,0 +1,5 @@
+1. **Investigate; don't build yet.** You have three people saying they would use it, but no observed failures, usage or payment, so ten days of engineering isn't justified.
+2. **What organisers need (my inference):** they want members kept informed with less effort, and today's email threads and group messages, or simply doing nothing, may already be good enough.
+3. **Riskiest assumption (unknown):** organisers have a weekly summarising chore that costs them enough, and they would trust an AI summary enough to send it to members.
+4. **Next step (proposed, within the ten days):** ask the three organisers about their last weekly update (time spent, what got missed, what went wrong), then write summaries by hand from their real threads for one week.
+5. **Decision rule:** build a small pilot only if at least two organisers send those summaries with light edits and commit time or money; otherwise park the idea until a real failure appears.

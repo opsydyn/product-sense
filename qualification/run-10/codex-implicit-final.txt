@@ -1,0 +1,9 @@
+**Investigate before building:** three stated intentions are weak demand evidence, and the supplied facts establish neither recurring task failure nor willingness to pay.
+
+**Hypothesis:** organisers need less effort to communicate accurate weekly updates; email threads and group messages already serve them, with their actual costs unknown.
+
+**Hypothesis:** summaries would save enough time to justify switching and paying; AI must outperform existing messages or a manual digest on effort and accuracy.
+
+**Proposed next step:** spend at most two engineer-days within the ten-day window reviewing recent tasks with those organisers, measuring effort and failures, and seeking concrete pilot commitments.
+
+**Proposed gate:** if two demonstrate recurring costly problems and commit, allocate the remaining eight days to a manual digest pilot; otherwise park, with app development requiring a separate decision.

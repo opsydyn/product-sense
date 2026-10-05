@@ -1,0 +1,15 @@
+**Verdict: Investigate. Don't build yet.** Confidence: moderate.
+
+**Evidence**
+- **Reported:** Three organisers say they would use it. That's a compliment, not a commitment.
+- **Unknown:** Whether email threads and group messages actually fail them. We have no missed decisions, time lost or volunteer drop-off on record. Willingness to pay is also unknown.
+- **Inferred:** Every member of a club already sees the same threads, so a summary may add little.
+
+**Riskiest assumption:** Organisers lose real time or miss things because of scattered messages, and a weekly summary fixes that. If this is false, the app solves nothing.
+
+**Next steps (your team runs these; I haven't contacted anyone):**
+1. Ask each organiser to walk through the last two weeks and show a missed item or slow catch-up, with an estimate of the cost.
+2. Manually write one weekly summary for two or three clubs over two weeks, with consent. Check whether organisers act on it, forward it or ask for the next one.
+3. Ask for a commitment, such as a pilot fee or regular use.
+
+**Spend:** About 3 of the engineer's 10 days on this. Build a narrow version in the remaining 7 only if most organisers rely on the manual summary. If no real failure turns up, park the idea until one does.

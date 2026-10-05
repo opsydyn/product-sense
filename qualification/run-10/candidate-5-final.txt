@@ -1,0 +1,9 @@
+**Verdict: investigate before building.** Three organisers saying they would use it is weak evidence, and nothing shows the current routine is failing.
+
+**User progress (hypothesis):** Organisers want to keep members informed with less weekly effort. Today email threads and group messages may already be good enough.
+
+**Main assumption (unverified):** Writing updates costs organisers real time or makes them miss things, and they would trust AI summaries enough to change their habits.
+
+**Next action (days 1–3):** With the three organisers, go through last month's threads and record how long updates took, what got missed, and whether they would commit to a hand-written summary pilot.
+
+**Decision (proposed threshold):** If at least two show a recurring cost and commit to the pilot, the engineer uses days 4–10 to build a minimal summary prototype. Otherwise, park the idea until real failures are observed.

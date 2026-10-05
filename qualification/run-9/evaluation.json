@@ -1,0 +1,59 @@
+{
+  "records": {
+    "candidate-1": {
+      "word_count": 147,
+      "word_cap_pass": true,
+      "references_loaded": true,
+      "scope_pass": true,
+      "scope_evidence": "Learning days 1-3 and prototype days 4-10.",
+      "no_external_actions": true,
+      "final": "**Investigate:** don't build yet. Three organisers saying they would use it is weak evidence, and you have no observed failures, usage data or payment commitments.\n\n**Progress:** organisers probably want to keep members informed with less effort (inferred), but email and group messages may already be good enough. You don't know what they cost today.\n\n**Assumption:** the untested hypothesis is that weekly catch-up is painful enough to change habits. Summaries also have to be accurate enough that organisers would send them out.\n\n**Next:** for days 1\u20133, ask each organiser about the last time an update was missed. Then hand-summarise their real threads from last week and see whether they send the summaries out.\n\n**Decision:** if at least two organisers send summaries with few edits and name a recent cost, use days 4\u201310 for a narrow prototype (proposed threshold). If they don't, park the idea until real pain appears.",
+      "reported_list_cost_usd": 0.0874174
+    },
+    "candidate-2": {
+      "word_count": 146,
+      "word_cap_pass": true,
+      "references_loaded": true,
+      "scope_pass": true,
+      "scope_evidence": "Learning days 1-5 and prototype days 6-10.",
+      "no_external_actions": true,
+      "final": "**Investigate; don't build yet.** Three people saying they \"would use it\" is a stated intention, not proof that email and group chats are failing them.\n\n**Hypothesis:** organisers want to see each week what needs their action without rereading threads. Today they skim emails and messages, which may already be good enough.\n\n**Main unknown:** we don't know whether organisers miss decisions or lose real time today, or whether they would trust AI summaries enough to change habits or pay.\n\n**Next (days 1\u20135):** walk each organiser through last week's threads. Then hand-write a summary from their real messages and check whether they act on it. Meanwhile, the engineer can test summarising pasted threads.\n\n**Proposed rule:** if at least two organisers show a recent missed action and use the manual summary, spend days 6\u201310 on a prototype for one club. Otherwise, park the idea until evidence of failures appears.",
+      "reported_list_cost_usd": 0.08949979999999999
+    },
+    "candidate-3": {
+      "word_count": 155,
+      "word_cap_pass": true,
+      "references_loaded": true,
+      "scope_pass": false,
+      "scope_evidence": "Learning is within ten days, but conditional pilot has no remaining allocation or separately agreed appetite.",
+      "no_external_actions": true,
+      "final": "1. **Investigate; don't build yet.** You have three people saying they would use it, but no observed failures, usage or payment, so ten days of engineering isn't justified.\n2. **What organisers need (my inference):** they want members kept informed with less effort, and today's email threads and group messages, or simply doing nothing, may already be good enough.\n3. **Riskiest assumption (unknown):** organisers have a weekly summarising chore that costs them enough, and they would trust an AI summary enough to send it to members.\n4. **Next step (proposed, within the ten days):** ask the three organisers about their last weekly update (time spent, what got missed, what went wrong), then write summaries by hand from their real threads for one week.\n5. **Decision rule:** build a small pilot only if at least two organisers send those summaries with light edits and commit time or money; otherwise park the idea until a real failure appears.",
+      "reported_list_cost_usd": 0.090228
+    },
+    "candidate-4": {
+      "word_count": 156,
+      "word_cap_pass": true,
+      "references_loaded": true,
+      "scope_pass": true,
+      "scope_evidence": "Learning within ten days; a pilot is explicitly a separate decision.",
+      "no_external_actions": true,
+      "final": "**Verdict: investigate, don't build yet.** Three organisers *say* they would use it, but nobody has shown pain, usage or commitment, so that doesn't justify ten engineering days.\n\n**Progress (hypothesis):** Organisers want to see each week what needs action without rereading email and group threads. As far as we know, their current approach works well enough.\n\n**Critical assumption (unknown):** Organisers lose real time or miss decisions in those threads. Right now we have no evidence of failures, usage or willingness to pay.\n\n**Next action:** Within the ten days, ask each organiser about the last thing they missed. Then send them two summaries written by hand from their real threads. No app is needed for this.\n\n**Decision rule (proposed thresholds):** Scope a narrow pilot as a separate decision only if at least two organisers act on both summaries and commit to something, such as time, continued use or payment. Otherwise, park the idea until missed-action costs are observed.",
+      "reported_list_cost_usd": 0.0896212
+    },
+    "candidate-5": {
+      "word_count": 137,
+      "word_cap_pass": true,
+      "references_loaded": true,
+      "scope_pass": false,
+      "scope_evidence": "Learning within ten days, but conditional build has no remaining allocation or separately agreed appetite.",
+      "no_external_actions": true,
+      "final": "**Investigate; don't build yet.** Three people saying they'd use it is weak evidence, so confidence is low.\n\n**Progress (hypothesis):** organisers want to keep track of club decisions without rereading threads. Today email and group messages work, and we haven't seen what they cost.\n\n**Main assumption:** organisers currently miss things or waste time in ways that matter, and they would trust and act on an AI summary of private group messages.\n\n**Next (within the ten days):** have each organiser walk through last week's threads. Then the engineer drafts one summary by hand or with a simple script, from real messages shared with consent.\n\n**Decision rule (proposed threshold):** build a bounded version only if at least two organisers name a recent costly miss and use the summary to act. Otherwise park the idea until a real failure turns up.",
+      "reported_list_cost_usd": 0.087132
+    }
+  },
+  "word_cap_passed": 5,
+  "reference_loading_passed": 5,
+  "scope_passed": 3,
+  "source_unchanged_during_evaluation": true,
+  "conclusion": "Five-sentence recipe repaired the observed word-cap failure in these samples. Two conditional-build gates still omit a remaining allocation or separate appetite. A structural slot in the decision sentence will be evaluated in run 10."
+}

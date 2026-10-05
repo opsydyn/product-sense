@@ -1,0 +1,9 @@
+**Verdict: Investigate; don't build yet.** I have low confidence in the idea. The only evidence is three organisers saying they would use it, and that kind of statement is weak.
+
+**Progress and alternative:** My hypothesis is that organisers want to keep members informed without piecing each week together from scattered threads. Today they use email threads and group messages, and nobody has seen that fail or cost them anything.
+
+**Main assumption:** Writing a weekly summary is a recurring, costly chore that organisers would hand off. We don't know how often they do it, how long it takes, who reads it or how much error they'd tolerate.
+
+**Next action (proposed limit: 3 of the 10 days):** Go through each organiser's most recent real update: what triggered it, how long it took, where the content came from and what went wrong. Then make two weeks of summaries by hand from their actual threads.
+
+**Decision rule:** Build a narrow version only if most organisers send the summaries with light edits and say they saved time. If they ignore or rewrite them, park the idea. Until then, keep the remaining engineering days unspent.
