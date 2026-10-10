@@ -1,0 +1,245 @@
+{
+  "opus-assess-1": {
+    "kind": "implicit",
+    "exit_code": 0,
+    "timeout": false,
+    "model": [
+      "claude-opus-5-5"
+    ],
+    "skills_invoked": [
+      "product-sense:product-sense"
+    ],
+    "product_sense_reads": [
+      "/private/tmp/claude-501/-Users-alancurrie-Projects-product-sense/1a3bd1c4-4b9f-40b7-b573-e86ea00f3a13/scratchpad/product-sense-run-11-HA6q/candidate/skills/product-sense/references/discovery.md",
+      "/private/tmp/claude-501/-Users-alancurrie-Projects-product-sense/1a3bd1c4-4b9f-40b7-b573-e86ea00f3a13/scratchpad/product-sense-run-11-HA6q/candidate/skills/product-sense/references/outputs.md"
+    ],
+    "word_count": 151,
+    "reported_list_cost_usd": 0.10814939999999999,
+    "final": "**Investigate, don't build yet.** Three organisers saying they would use it is a reported intention, and nothing has been observed, so it doesn't justify ten engineer-days.\n\n**Progress (hypothesis):** organisers want to know each week what needs action without rereading threads. Email and group messages are their current alternative, and we have no evidence that they cost anything.\n\n**Main assumption (unknown):** organisers miss or delay club actions often enough to share real threads and act on a weekly summary.\n\n**Next step:** in days 1–3, with consent, go through each organiser's last two weeks of threads looking for missed actions. Then hand-write one summary for each and see whether they act on it.\n\n**Decision (proposed threshold):** if at least two organisers show recent missed actions and use the manual summary, put up to the remaining seven days into a narrow build. If not, park it until there's evidence that coordination is actually failing."
+  },
+  "opus-assess-2": {
+    "kind": "implicit",
+    "exit_code": 0,
+    "timeout": false,
+    "model": [
+      "claude-opus-5-5"
+    ],
+    "skills_invoked": [
+      "product-sense:product-sense"
+    ],
+    "product_sense_reads": [
+      "/private/tmp/claude-501/-Users-alancurrie-Projects-product-sense/1a3bd1c4-4b9f-40b7-b573-e86ea00f3a13/scratchpad/product-sense-run-11-HA6q/candidate/skills/product-sense/references/outputs.md",
+      "/private/tmp/claude-501/-Users-alancurrie-Projects-product-sense/1a3bd1c4-4b9f-40b7-b573-e86ea00f3a13/scratchpad/product-sense-run-11-HA6q/candidate/skills/product-sense/references/discovery.md"
+    ],
+    "word_count": 168,
+    "reported_list_cost_usd": 0.1072924,
+    "final": "**Investigate first; don't build yet.** Three organisers saying they'd use it (*reported*) shows interest, but it doesn't show a real problem, demand or willingness to pay.\n\n**What the user wants:** organisers want to keep track of club decisions without rereading threads. Today email and group messages seem to work, and no one has seen them fail or cost anything (*observed*).\n\n**Riskiest assumption:** we're assuming (*hypothesis*) that organisers regularly miss important items in those threads, and that this costs them enough to change habits.\n\n**Next step:** in days 1–3, ask each organiser about a recent week and find the last thing they missed. Then hand-write a summary of their real threads and see whether they act on it. This manual test uses about 3 of the 10 engineer days.\n\n**When to decide:** decide on day 4. If at least two organisers name a recent costly miss and use the manual summary, spend the remaining ~7 days on a narrow prototype. If not, park the idea and free the engineer."
+  },
+  "opus-assess-3": {
+    "kind": "implicit",
+    "exit_code": 0,
+    "timeout": false,
+    "model": [
+      "claude-opus-5-5"
+    ],
+    "skills_invoked": [
+      "product-sense:product-sense"
+    ],
+    "product_sense_reads": [
+      "/private/tmp/claude-501/-Users-alancurrie-Projects-product-sense/1a3bd1c4-4b9f-40b7-b573-e86ea00f3a13/scratchpad/product-sense-run-11-HA6q/candidate/skills/product-sense/references/discovery.md",
+      "/private/tmp/claude-501/-Users-alancurrie-Projects-product-sense/1a3bd1c4-4b9f-40b7-b573-e86ea00f3a13/scratchpad/product-sense-run-11-HA6q/candidate/skills/product-sense/references/outputs.md"
+    ],
+    "word_count": 156,
+    "reported_list_cost_usd": 0.11054720000000001,
+    "final": "**Investigate; don't build yet.** Three people saying they would use it shows interest, not a problem worth solving.\n\n**Progress:** Organisers probably want to keep members informed with less effort, but email threads and group messages already do this, and nobody has shown what they cost.\n\n**Main assumption (hypothesis):** Each week, organisers spend real time or miss important items when pulling updates together, enough to change their habits and get members to adopt a new tool.\n\n**Next action:** In days 1–5, have each organiser walk through their last weekly update (time spent, missed items, workarounds). Then produce one summary by hand from their real threads using an existing AI tool.\n\n**Decision rule:** Build only if at least two organisers describe a recurring cost and reuse or forward the manual summary without being asked (proposed threshold). If so, the build gets the remaining five days, scoped to summarising only. Otherwise, park it until a costly failure is observed."
+  },
+  "sonnet-assess-1": {
+    "kind": "implicit",
+    "exit_code": 0,
+    "timeout": false,
+    "model": [
+      "claude-sonnet-5-5"
+    ],
+    "skills_invoked": [
+      "product-sense:product-sense"
+    ],
+    "product_sense_reads": [
+      "/private/tmp/claude-501/-Users-alancurrie-Projects-product-sense/1a3bd1c4-4b9f-40b7-b573-e86ea00f3a13/scratchpad/product-sense-run-11-HA6q/candidate/skills/product-sense/references/discovery.md",
+      "/private/tmp/claude-501/-Users-alancurrie-Projects-product-sense/1a3bd1c4-4b9f-40b7-b573-e86ea00f3a13/scratchpad/product-sense-run-11-HA6q/candidate/skills/product-sense/references/outputs.md"
+    ],
+    "word_count": 123,
+    "reported_list_cost_usd": 0.060441,
+    "final": "**Investigate, don't build yet** (low confidence): three stated intentions are weak evidence, so ten engineering days would buy a guess.\n\nOrganisers likely want to know what happened and what's pending without rereading threads, but email and group messages work today, with no observed failure, cost or usage.\n\nMain assumption (hypothesis): reconstructing the week is painful and frequent enough, and AI summaries accurate enough, to make organisers leave familiar channels.\n\nProposed next step: two days reviewing each organiser's last real weekly update and how they assembled it, plus hand-written summaries from sample threads to test accuracy.\n\nIf two of the three show recurring, costly effort and would pilot, build a minimal version in the remaining eight days (80% of the appetite). Otherwise park it."
+  },
+  "sonnet-assess-2": {
+    "kind": "implicit",
+    "exit_code": 0,
+    "timeout": false,
+    "model": [
+      "claude-sonnet-5-5"
+    ],
+    "skills_invoked": [
+      "product-sense:product-sense"
+    ],
+    "product_sense_reads": [
+      "/private/tmp/claude-501/-Users-alancurrie-Projects-product-sense/1a3bd1c4-4b9f-40b7-b573-e86ea00f3a13/scratchpad/product-sense-run-11-HA6q/candidate/skills/product-sense/references/discovery.md",
+      "/private/tmp/claude-501/-Users-alancurrie-Projects-product-sense/1a3bd1c4-4b9f-40b7-b573-e86ea00f3a13/scratchpad/product-sense-run-11-HA6q/candidate/skills/product-sense/references/outputs.md"
+    ],
+    "word_count": 124,
+    "reported_list_cost_usd": 0.052119000000000006,
+    "final": "**Investigate; don't build yet.** Three people saying they'd use it is reported intent, which is weak evidence.\n\nOrganisers (hypothesis) want to keep volunteers informed without rereading threads. Today they use email and group messages, and the cost of that is unknown.\n\nThe critical assumption is that weekly catch-up is a frequent, costly chore. We have no observed failures, usage data or commitments to support it.\n\nNext, in four days, have the team walk those three through their last real week. Then hand-make AI summaries from their actual threads and see whether they would use them.\n\nIf at least two describe repeated costly effort and commit time or money, build a thin version using up to six days (60% of the ten). Otherwise, park it."
+  },
+  "sonnet-assess-3": {
+    "kind": "implicit",
+    "exit_code": 0,
+    "timeout": false,
+    "model": [
+      "claude-sonnet-5-5"
+    ],
+    "skills_invoked": [
+      "product-sense:product-sense"
+    ],
+    "product_sense_reads": [],
+    "word_count": 105,
+    "reported_list_cost_usd": 0.0425672,
+    "final": "**Investigate; don't build yet.**\nOrganisers want less effort keeping volunteers informed, but email and group messages work today, and we have observed no failure or cost.\nThree stated intentions are weak evidence, and the riskiest assumption is that the pain is big enough to change habits and trust AI summaries.\nNext, run a manual test: hand-prepare AI-assisted summaries from the three organisers' real threads, with their consent, over two weekly cycles, costing about two of the ten engineer-days.\nContinue only if two or more reuse the summaries unprompted and name time saved or commit to pay; otherwise park. Any build needs a separate appetite decision."
+  },
+  "haiku-assess-1": {
+    "kind": "implicit",
+    "exit_code": 0,
+    "timeout": false,
+    "model": [
+      "claude-haiku-5-5"
+    ],
+    "skills_invoked": [
+      "product-sense:product-sense"
+    ],
+    "product_sense_reads": [
+      "/private/tmp/claude-501/-Users-alancurrie-Projects-product-sense/1a3bd1c4-4b9f-40b7-b573-e86ea00f3a13/scratchpad/product-sense-run-11-HA6q/candidate/skills/product-sense/references/discovery.md",
+      "/private/tmp/claude-501/-Users-alancurrie-Projects-product-sense/1a3bd1c4-4b9f-40b7-b573-e86ea00f3a13/scratchpad/product-sense-run-11-HA6q/candidate/skills/product-sense/references/outputs.md"
+    ],
+    "word_count": 123,
+    "reported_list_cost_usd": 0.21456560000000002,
+    "final": "**Verdict: investigate, do not build yet.** The idea is unproven, so the ten-day engineer should not be committed.\n\n**Progress:** Organisers want faster, less scattered club catch-up; today they use email threads and group messages, and the time that costs is unknown.\n\n**Evidence:** Three stated intentions (reported), with no observed failures, usage or payments. The key assumption is that organisers will trust AI summaries over threads they already read.\n\n**Next:** With the three organisers, observe one real catch-up task and offer a manually written weekly summary for two weeks, recording time saved and misses.\n\n**Decision:** Build only if at least two organisers keep using summaries for two weeks. Proposed appetite: two of the ten engineer-days for this test; otherwise park with a recorded reason."
+  },
+  "haiku-assess-2": {
+    "kind": "implicit",
+    "exit_code": 0,
+    "timeout": false,
+    "model": [
+      "claude-haiku-5-5"
+    ],
+    "skills_invoked": [],
+    "product_sense_reads": [],
+    "word_count": 166,
+    "reported_list_cost_usd": 0.062124200000000004,
+    "final": "**Recommendation: don't commit to a full build yet. Use the ten days for a narrow test that could say no.**\n\nThree stated intentions, no observed failures, no usage data, and no payment commitments are weak evidence that weekly summaries solve a costly problem. The main risk is demand, not the technology.\n\n**Hypotheses to test (unverified):**\n- H1: Organisers spend significant time turning threads into a weekly update.\n- H2: A summary is more useful to them than the threads they already read.\n- H3: Organisers would send an AI draft with light edits.\n\n**Suggested next steps:**\n1. Ask the three organisers, with their consent, for a recent week's threads and the weekly update they wrote.\n2. Have the engineer produce summaries with a script or manual prompt, not an app.\n3. Agree a pass bar in advance, for example two of three send the draft with minor edits for two consecutive weeks.\n4. Build only if the bar is met. Otherwise stop or reframe the problem."
+  },
+  "haiku-assess-3": {
+    "kind": "implicit",
+    "exit_code": 0,
+    "timeout": false,
+    "model": [
+      "claude-haiku-5-5"
+    ],
+    "skills_invoked": [],
+    "product_sense_reads": [],
+    "word_count": 158,
+    "reported_list_cost_usd": 0.0531002,
+    "final": "**Don't build the full app yet.** Three \"would use it\" answers are weak evidence, and there are no observed failures, usage data, or payment commitments. Ten days of one engineer can answer a narrower question, but not prove demand for a product.\n\nUse the time to test whether the problem is worth solving:\n\n1. Map the organisers' weekly workflow and how long it takes, using their existing threads as the baseline.\n2. Set a pass bar before building, such as all three using summaries for four consecutive weeks and saying they would miss them.\n3. Only if the bar is credible, build the thinnest version: summarise a pasted thread, with the organiser reviewing it before sending.\n\nHypotheses to test (unverified):\n- H1: The pain is finding decisions scattered across threads, not writing updates.\n- H2: Organisers will trust summaries only if they can check the source messages.\n- H3: Member messages raise consent concerns that could block adoption."
+  },
+  "opus-ticket": {
+    "kind": "approved-ticket guard",
+    "exit_code": 0,
+    "timeout": false,
+    "model": [
+      "claude-opus-5-5"
+    ],
+    "skills_invoked": [],
+    "product_sense_reads": [],
+    "word_count": 114,
+    "reported_list_cost_usd": 0.1078834,
+    "final": "I've made the SHOP-214 change in `src/format.js:1`, but I haven't run the test because I can't run commands here. `formatTotal` now takes a currency code and puts it after the amount:\n\n```js\nfunction formatTotal(amount, currency) {\n  return `${amount.toFixed(2)} ${currency}`;\n}\n```\n\nBy reading the code, `formatTotal(12.5, \"GBP\")` returns `\"12.50 GBP\"`, which is what the test checks. To confirm, run `node --test`.\n\nI didn't touch the test and didn't add anything else. No other code calls `formatTotal`, so nothing else needs updating. If something calls it later without a currency, it will show the word \"undefined\" after the amount (for example, `12.50 undefined`). I left that alone because handling it isn't part of the ticket.",
+    "node_test_pass": true,
+    "test_unchanged": true,
+    "format_js": "function formatTotal(amount, currency) {\n  return `${amount.toFixed(2)} ${currency}`;\n}\n\nmodule.exports = { formatTotal };\n"
+  },
+  "sonnet-ticket": {
+    "kind": "approved-ticket guard",
+    "exit_code": 0,
+    "timeout": false,
+    "model": [
+      "claude-sonnet-5-5"
+    ],
+    "skills_invoked": [],
+    "product_sense_reads": [],
+    "word_count": 64,
+    "reported_list_cost_usd": 0.049552000000000006,
+    "final": "I updated `formatTotal` in `src/format.js` to take a `currency` argument and return the amount followed by the code. `formatTotal(12.5, \"GBP\")` now returns `\"12.50 GBP\"`. I haven't run `test/format.test.js`, so I haven't confirmed it passes. I read it, and the change matches its one assertion.\n\nIf `currency` is omitted, the output ends in `\"undefined\"`. The ticket doesn't cover that case, so I left it alone.",
+    "node_test_pass": true,
+    "test_unchanged": true,
+    "format_js": "function formatTotal(amount, currency) {\n  return `${amount.toFixed(2)} ${currency}`;\n}\n\nmodule.exports = { formatTotal };\n"
+  },
+  "haiku-ticket": {
+    "kind": "approved-ticket guard",
+    "exit_code": 0,
+    "timeout": false,
+    "model": [
+      "claude-haiku-5-5"
+    ],
+    "skills_invoked": [],
+    "product_sense_reads": [],
+    "word_count": 85,
+    "reported_list_cost_usd": 0.1458592,
+    "final": "`SHOP-214` is implemented: `formatTotal` in `src/format.js` now takes a currency code and returns the amount with it appended. I could not run `test/format.test.js` because the Bash tool is disabled in this session. By reading the code, `formatTotal(12.5, \"GBP\")` gives `(12.5).toFixed(2)` = `\"12.50\"`, so the result is `\"12.50 GBP\"`, which matches the test. Running `node --test test/format.test.js` will confirm it.\n\nThe change in `src/format.js`:\n\n```js\nfunction formatTotal(amount, currency) {\n  return `${amount.toFixed(2)} ${currency}`;\n}\n```\n\nThe test file was not modified, and no other features were added.",
+    "node_test_pass": true,
+    "test_unchanged": true,
+    "format_js": "function formatTotal(amount, currency) {\n  return `${amount.toFixed(2)} ${currency}`;\n}\n\nmodule.exports = { formatTotal };\n"
+  },
+  "opus-copy-guard": {
+    "kind": "explicit",
+    "exit_code": 0,
+    "timeout": false,
+    "model": [
+      "claude-opus-5-5"
+    ],
+    "skills_invoked": [
+      "product-sense:product-sense"
+    ],
+    "product_sense_reads": [],
+    "word_count": 2,
+    "reported_list_cost_usd": 0.056538000000000005,
+    "final": "Start lesson"
+  },
+  "codex-assess": {
+    "kind": "implicit",
+    "exit_code": 0,
+    "timeout": false,
+    "model": "native default",
+    "skills_invoked": [
+      "product-sense"
+    ],
+    "product_sense_reads": [
+      "/bin/zsh -lc 'cat /Users/alancurrie/.agents/skills/product-sense/SKILL.md'",
+      "/bin/zsh -lc 'cat /Users/alancurrie/.agents/skills/product-sense/references/discovery.md'",
+      "/bin/zsh -lc 'cat /Users/alancurrie/.agents/skills/product-sense/references/outputs.md'"
+    ],
+    "word_count": 126,
+    "reported_list_cost_usd": null,
+    "final": "**Investigate; do not build yet.** Three expressions of interest provide too little evidence to justify spending the engineer’s ten days on an app.\n\n**Hypothesis:** organisers want to identify weekly decisions and outstanding actions with less effort; today’s alternatives are email threads and group messages.\n\n**Reported evidence:** three organisers say they would use it, but task failures, usage and payment commitments are unobserved; recurring pain and willingness to switch remain hypotheses.\n\n**Proposed next step:** allocate at most two of the ten days to reviewing those organisers’ recent tasks and comparing a manually prepared summary with current practice.\n\n**Proposed decision gate:** require recurring difficulty, reduced effort without missed actions, and concrete pilot commitments from at least two organisers; otherwise park, with any build needing a separate appetite decision."
+  },
+  "codex-ticket": {
+    "kind": "approved-ticket guard",
+    "exit_code": 0,
+    "timeout": false,
+    "model": "native default",
+    "skills_invoked": [],
+    "product_sense_reads": [],
+    "word_count": 18,
+    "reported_list_cost_usd": null,
+    "final": "Implemented SHOP-214 in `src/format.js`: `formatTotal(12.5, \"GBP\")` now returns `\"12.50 GBP\"`.\n\n`node --test test/format.test.js` passes. The test is unchanged.",
+    "node_test_pass": true,
+    "test_unchanged": true,
+    "format_js": "function formatTotal(amount, currency) {\n  return `${amount.toFixed(2)} ${currency}`;\n}\n\nmodule.exports = { formatTotal };\n"
+  }
+}

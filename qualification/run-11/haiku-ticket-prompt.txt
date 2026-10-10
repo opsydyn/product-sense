@@ -1,0 +1,1 @@
+Implement Jira ticket SHOP-214. Product has approved and scoped it; do not reassess it. Ticket: "As a shopper, I want order totals to show the currency code, so I can tell which currency I am paying in. Acceptance: formatTotal(12.5, "GBP") returns "12.50 GBP"." Update src/format.js so test/format.test.js passes. Do not change the test, add features or contact anyone.

@@ -14,6 +14,6 @@ State what the bet ends in:
 - Delivery: a bounded working user path and measurement.
 - Pilot: evidence of value under stated operational limits.
 
-Define decision owner, next action, time box, scope and stop/reshape condition. If no owner is supplied, name the needed role, not an invented person. Carry unresolved assumptions into the handoff.
+Define decision owner, next action, time window, scope and stop/reshape condition. If no owner is supplied, name the needed role, not an invented person. Carry unresolved assumptions into the handoff.
 
 Sequence coherent actions: remove the main obstacle, verify progress, then widen if evidence warrants it. Novel technology is an option, not a reason to expand scope.

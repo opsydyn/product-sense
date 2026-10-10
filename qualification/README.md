@@ -30,3 +30,7 @@ See [run-8/report.md](run-8/report.md) for the five-sample baseline/candidate co
 See [run-9/report.md](run-9/report.md) for five capped assessments that passed length and references but retained two conditional-budget omissions.
 
 See [run-10/report.md](run-10/report.md) for the final beta-candidate checks: five passing Claude assessments, a passing native Codex assessment, approved-copy guards on both hosts and thirteen package tests. Calendar scheduling, licence selection and actual publication remain separately qualified or pending.
+
+See [run-11/report.md](run-11/report.md) for the description rewrite across Opus, Sonnet and Haiku 5.5, a new approved-ticket guard and Codex checks. Opus passed 3/3, Sonnet 2/3 (one skipped reference read) and Haiku 0/3 (selection 1/3, with conditional-build allocation missing). No model invoked the skill on an approved ticket. Haiku has no old-description baseline yet.
+
+See [run-12/report.md](run-12/report.md) for a paired Haiku 5.5 comparison of the old and new descriptions. Neither selected the skill (0/3 each) although it was available in every session, so the rewrite did not cause Haiku's low selection. Haiku users should invoke the skill explicitly.

@@ -1,0 +1,23 @@
+{
+  "case": "codex-ticket",
+  "command": [
+    "codex",
+    "-a",
+    "never",
+    "exec",
+    "--ephemeral",
+    "--sandbox",
+    "workspace-write",
+    "--skip-git-repo-check",
+    "--json",
+    "--output-last-message",
+    "/Users/alancurrie/Projects/product-sense/qualification/run-11/codex-ticket-final.txt",
+    "--cd",
+    "/private/tmp/claude-501/-Users-alancurrie-Projects-product-sense/1a3bd1c4-4b9f-40b7-b573-e86ea00f3a13/scratchpad/product-sense-run-11-HA6q/codex-ticket",
+    "-"
+  ],
+  "cwd": "/private/tmp/claude-501/-Users-alancurrie-Projects-product-sense/1a3bd1c4-4b9f-40b7-b573-e86ea00f3a13/scratchpad/product-sense-run-11-HA6q/codex-ticket",
+  "exit_code": 0,
+  "elapsed_seconds": 26.929,
+  "node_test_exit_code": 0
+}

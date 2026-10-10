@@ -33,7 +33,7 @@ Extract the **Claude plugin ZIP** outside your Codex skill directories, then loa
 claude --plugin-dir /path/to/extracted-plugin
 ```
 
-Invoke `/product-sense:product-sense`, or ask an ordinary product question. This is session-only loading. A team marketplace is optional for managed installation and updates. [Claude distribution guidance](https://code.claude.com/docs/en/plugin-marketplaces)
+Invoke `/product-sense:product-sense`, or ask an ordinary product question. On Haiku, invoke it explicitly; Haiku rarely selects it automatically ([run 12](qualification/run-12/report.md)). This is session-only loading. A team marketplace is optional for managed installation and updates. [Claude distribution guidance](https://code.claude.com/docs/en/plugin-marketplaces)
 
 ## Example requests
 

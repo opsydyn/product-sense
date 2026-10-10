@@ -1,0 +1,3 @@
+Implemented SHOP-214 in `src/format.js`: `formatTotal(12.5, "GBP")` now returns `"12.50 GBP"`.
+
+`node --test test/format.test.js` passes. The test is unchanged.

@@ -1,5 +1,14 @@
 # Changelog
 
+## Unreleased
+
+- Rewrite the skill description in the third person: state what the skill produces, and exclude implementing already-approved tickets so it does not load for routine engineering work.
+- Keep the capped five-sentence recipe only in `SKILL.md`; `outputs.md` now points to it.
+- Use "appetite" consistently for the time or money limit and "time window" for elapsed time.
+- Add plugin keywords; spell "judgment" consistently.
+
+Run 11 checked these changes: Opus 3/3 and Codex passed the capped assessment, and no model invoked the skill on an approved ticket. Sonnet passed 2/3 and Haiku 0/3. Run 12 found Haiku 5.5 also ignored the skill with the old description (0/3), so the rewrite did not cause it; Haiku users should invoke the skill explicitly.
+
 ## 0.1.2 — beta candidate, 5 October 2026
 
 - Load selected references before assessments; preserve direct completion of approved narrow edits.

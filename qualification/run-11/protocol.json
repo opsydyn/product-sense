@@ -1,0 +1,264 @@
+{
+  "date": "2026-10-10",
+  "source_base_commit": "cbcccba5861d834063c776e6e1773117c000529f",
+  "candidate_has_uncommitted_authorised_changes": true,
+  "candidate": "Unreleased after 0.1.2: third-person description excluding approved-ticket implementation; single word-cap recipe; appetite terminology; plugin keywords",
+  "stage": "/private/tmp/claude-501/-Users-alancurrie-Projects-product-sense/1a3bd1c4-4b9f-40b7-b573-e86ea00f3a13/scratchpad/product-sense-run-11-HA6q",
+  "claude_version": "2.1.289 (Claude Code)",
+  "codex_version": "codex-cli 0.160.0",
+  "source_sha256": {
+    "SKILL.md": "0cf5831f17e05456ff6008e266be575365e33aa19e1bff316b6fe5b9c70ef28e",
+    "references/canon.md": "03cc0382183e730e3990cedd4ce09580259da1e99c814b86130baa717ca50e57",
+    "references/design.md": "cfdcd8500ad3d2d6d29351877315c4d795473984db3e425c2fa4a2c8dfefa296",
+    "references/discovery.md": "e66f9051ed781ce58eb81eba11ccbf251533bcf8fa09d242d4ca40203c4741a6",
+    "references/outputs.md": "6da1954a9ee51075c2932a52a6cf3a50b43f96c546e6dbb5a3a9886da56161d1",
+    "references/shaping.md": "70193747cd6756325356b87669d5eb49e515a4cac8610fd04e1c95d2327c9801",
+    "packaging/claude/plugin.json": "eb019b6395662167392167ccc7a39d0a0acb8d6995969bcbf142e3ba961a62b5"
+  },
+  "claude_cases": [
+    {
+      "name": "opus-assess-1",
+      "kind": "implicit",
+      "model": "claude-opus-5-5",
+      "prompt": "assess-prompt.txt",
+      "tools": "Skill,Read,Glob,Grep",
+      "criteria": [
+        "native skill selection",
+        "load discovery.md and outputs.md",
+        "at most 180 whitespace-delimited words",
+        "preserve supplied evidence and label assumptions",
+        "learning and delivery fit ten-day total or explicitly require separate later appetite",
+        "bounded next action and stop/reshape condition",
+        "no writes or external actions"
+      ]
+    },
+    {
+      "name": "opus-assess-2",
+      "kind": "implicit",
+      "model": "claude-opus-5-5",
+      "prompt": "assess-prompt.txt",
+      "tools": "Skill,Read,Glob,Grep",
+      "criteria": [
+        "native skill selection",
+        "load discovery.md and outputs.md",
+        "at most 180 whitespace-delimited words",
+        "preserve supplied evidence and label assumptions",
+        "learning and delivery fit ten-day total or explicitly require separate later appetite",
+        "bounded next action and stop/reshape condition",
+        "no writes or external actions"
+      ]
+    },
+    {
+      "name": "opus-assess-3",
+      "kind": "implicit",
+      "model": "claude-opus-5-5",
+      "prompt": "assess-prompt.txt",
+      "tools": "Skill,Read,Glob,Grep",
+      "criteria": [
+        "native skill selection",
+        "load discovery.md and outputs.md",
+        "at most 180 whitespace-delimited words",
+        "preserve supplied evidence and label assumptions",
+        "learning and delivery fit ten-day total or explicitly require separate later appetite",
+        "bounded next action and stop/reshape condition",
+        "no writes or external actions"
+      ]
+    },
+    {
+      "name": "sonnet-assess-1",
+      "kind": "implicit",
+      "model": "claude-sonnet-5-5",
+      "prompt": "assess-prompt.txt",
+      "tools": "Skill,Read,Glob,Grep",
+      "criteria": [
+        "native skill selection",
+        "load discovery.md and outputs.md",
+        "at most 180 whitespace-delimited words",
+        "preserve supplied evidence and label assumptions",
+        "learning and delivery fit ten-day total or explicitly require separate later appetite",
+        "bounded next action and stop/reshape condition",
+        "no writes or external actions"
+      ]
+    },
+    {
+      "name": "sonnet-assess-2",
+      "kind": "implicit",
+      "model": "claude-sonnet-5-5",
+      "prompt": "assess-prompt.txt",
+      "tools": "Skill,Read,Glob,Grep",
+      "criteria": [
+        "native skill selection",
+        "load discovery.md and outputs.md",
+        "at most 180 whitespace-delimited words",
+        "preserve supplied evidence and label assumptions",
+        "learning and delivery fit ten-day total or explicitly require separate later appetite",
+        "bounded next action and stop/reshape condition",
+        "no writes or external actions"
+      ]
+    },
+    {
+      "name": "sonnet-assess-3",
+      "kind": "implicit",
+      "model": "claude-sonnet-5-5",
+      "prompt": "assess-prompt.txt",
+      "tools": "Skill,Read,Glob,Grep",
+      "criteria": [
+        "native skill selection",
+        "load discovery.md and outputs.md",
+        "at most 180 whitespace-delimited words",
+        "preserve supplied evidence and label assumptions",
+        "learning and delivery fit ten-day total or explicitly require separate later appetite",
+        "bounded next action and stop/reshape condition",
+        "no writes or external actions"
+      ]
+    },
+    {
+      "name": "haiku-assess-1",
+      "kind": "implicit",
+      "model": "claude-haiku-5-5",
+      "prompt": "assess-prompt.txt",
+      "tools": "Skill,Read,Glob,Grep",
+      "criteria": [
+        "native skill selection",
+        "load discovery.md and outputs.md",
+        "at most 180 whitespace-delimited words",
+        "preserve supplied evidence and label assumptions",
+        "learning and delivery fit ten-day total or explicitly require separate later appetite",
+        "bounded next action and stop/reshape condition",
+        "no writes or external actions"
+      ]
+    },
+    {
+      "name": "haiku-assess-2",
+      "kind": "implicit",
+      "model": "claude-haiku-5-5",
+      "prompt": "assess-prompt.txt",
+      "tools": "Skill,Read,Glob,Grep",
+      "criteria": [
+        "native skill selection",
+        "load discovery.md and outputs.md",
+        "at most 180 whitespace-delimited words",
+        "preserve supplied evidence and label assumptions",
+        "learning and delivery fit ten-day total or explicitly require separate later appetite",
+        "bounded next action and stop/reshape condition",
+        "no writes or external actions"
+      ]
+    },
+    {
+      "name": "haiku-assess-3",
+      "kind": "implicit",
+      "model": "claude-haiku-5-5",
+      "prompt": "assess-prompt.txt",
+      "tools": "Skill,Read,Glob,Grep",
+      "criteria": [
+        "native skill selection",
+        "load discovery.md and outputs.md",
+        "at most 180 whitespace-delimited words",
+        "preserve supplied evidence and label assumptions",
+        "learning and delivery fit ten-day total or explicitly require separate later appetite",
+        "bounded next action and stop/reshape condition",
+        "no writes or external actions"
+      ]
+    },
+    {
+      "name": "opus-ticket",
+      "kind": "approved-ticket guard",
+      "model": "claude-opus-5-5",
+      "prompt": "ticket-prompt.txt",
+      "tools": "Skill,Read,Glob,Grep,Edit",
+      "fixture": true,
+      "criteria": [
+        "product-sense skill not invoked and no product-sense reference read",
+        "src/format.js fixed so node --test passes",
+        "test/format.test.js unchanged",
+        "no product critique, verdict or scope expansion in final response"
+      ]
+    },
+    {
+      "name": "sonnet-ticket",
+      "kind": "approved-ticket guard",
+      "model": "claude-sonnet-5-5",
+      "prompt": "ticket-prompt.txt",
+      "tools": "Skill,Read,Glob,Grep,Edit",
+      "fixture": true,
+      "criteria": [
+        "product-sense skill not invoked and no product-sense reference read",
+        "src/format.js fixed so node --test passes",
+        "test/format.test.js unchanged",
+        "no product critique, verdict or scope expansion in final response"
+      ]
+    },
+    {
+      "name": "haiku-ticket",
+      "kind": "approved-ticket guard",
+      "model": "claude-haiku-5-5",
+      "prompt": "ticket-prompt.txt",
+      "tools": "Skill,Read,Glob,Grep,Edit",
+      "fixture": true,
+      "criteria": [
+        "product-sense skill not invoked and no product-sense reference read",
+        "src/format.js fixed so node --test passes",
+        "test/format.test.js unchanged",
+        "no product critique, verdict or scope expansion in final response"
+      ]
+    },
+    {
+      "name": "opus-copy-guard",
+      "kind": "explicit",
+      "model": "claude-opus-5-5",
+      "prompt": "copy-guard-prompt.txt",
+      "tools": "Skill,Read,Glob,Grep",
+      "criteria": [
+        "native skill invocation",
+        "exact final Start lesson",
+        "no scope expansion or external action"
+      ]
+    }
+  ],
+  "codex_cases": [
+    {
+      "name": "codex-assess",
+      "kind": "implicit",
+      "prompt": "assess-prompt.txt",
+      "sandbox": "read-only",
+      "criteria": [
+        "native skill selection",
+        "load discovery.md and outputs.md",
+        "at most 180 whitespace-delimited words",
+        "preserve supplied evidence and label assumptions",
+        "learning and delivery fit ten-day total or explicitly require separate later appetite",
+        "bounded next action and stop/reshape condition",
+        "no writes or external actions"
+      ]
+    },
+    {
+      "name": "codex-ticket",
+      "kind": "approved-ticket guard",
+      "prompt": "ticket-prompt.txt",
+      "sandbox": "workspace-write",
+      "fixture": true,
+      "criteria": [
+        "product-sense skill not invoked and no product-sense reference read",
+        "src/format.js fixed so node --test passes",
+        "test/format.test.js unchanged",
+        "no product critique, verdict or scope expansion in final response"
+      ]
+    }
+  ],
+  "budget": {
+    "claude_sessions": 13,
+    "max_usd_per_claude_session": 1,
+    "timeout_seconds": 240,
+    "codex_sessions": 2,
+    "automatic_retries": 0
+  },
+  "claude_runtime": "run 10 restricted CLI settings plus explicit --model per case; Edit added only for ticket guards inside a staged fixture copy",
+  "codex_runtime": "native config, ephemeral, approvals never; read-only for assessment, workspace-write in staged fixture for ticket guard; skill from ~/.agents/skills symlink to this checkout",
+  "stopping_rule": "One attempt per case. No retry on case failure. Stop remaining inference on authentication/quota block. No instruction edits while samples run. Record every failure.",
+  "baseline": "Run 10 (Opus only, previous description and duplicated word-cap recipe)",
+  "limits": [
+    "three samples per model on one synthetic assessment; one sample per model on one approved-ticket guard",
+    "no no-skill control or blind scorer",
+    "CLI observations do not establish desktop picker, other surfaces, marketplace acceptance or product value"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "haiku-baseline-1": {
+    "kind": "implicit",
+    "exit_code": 0,
+    "timeout": false,
+    "model": [
+      "claude-haiku-5-5"
+    ],
+    "skills_invoked": [],
+    "product_sense_reads": [],
+    "word_count": 174,
+    "reported_list_cost_usd": 0.05621620000000001,
+    "final": "**Assessment: don't commit to a full build yet. Use the ten days for a bounded validation.**\n\nCurrent evidence is three stated intentions. There are no observed task failures, usage data, or payment commitments, so \"would use\" is weak signal.\n\n**Hypotheses to test (unverified):**\n- H1: Organisers spend a meaningful amount of time each week turning threads into updates.\n- H2: The summary, not distribution, is the bottleneck.\n- H3: Members would read an AI summary instead of the thread.\n- H4: Organisers would pay.\n\n**Next steps:**\n1. Ask the three organisers for their last two weekly updates and the threads behind them. This tests H1 and H2.\n2. The engineer writes summaries by hand for one club and asks whether the organiser would send them with minor edits. This tests H3 without building anything.\n3. Build a thin prototype only if step 2 passes.\n\n**Proceed if:** at least two of three organisers would send the draft with light edits, and at least one asks for it again in week two. Otherwise, stop or pivot."
+  },
+  "haiku-candidate-1": {
+    "kind": "implicit",
+    "exit_code": 0,
+    "timeout": false,
+    "model": [
+      "claude-haiku-5-5"
+    ],
+    "skills_invoked": [],
+    "product_sense_reads": [],
+    "word_count": 155,
+    "reported_list_cost_usd": 0.06264820000000001,
+    "final": "**Assessment: don't build the full app yet.**\n\nThree interested organisers show interest, not demand. Nothing shows they fail at today's workflow, and nobody has committed to repeat use or payment. Ten days is enough for a prototype, but not to learn whether summaries save time they'd otherwise spend.\n\nHypotheses to test first (unverified):\n- **H1 (value):** Organisers spend significant time each week turning threads into updates.\n- **H2 (trust):** They would send an AI summary to members without heavy rewriting.\n- **H3 (repeat use):** They would return weekly, not just try it once.\n\nNext steps:\n1. Agree which hypotheses the team can check in the next week, and with which organisers.\n2. Set pass/fail thresholds before building, e.g. two of three organisers use it unprompted for three consecutive weeks.\n3. If the team agrees on thresholds, limit the engineer to a thin prototype that summarises a thread the organiser supplies. No integrations, accounts or payments."
+  },
+  "haiku-baseline-2": {
+    "kind": "implicit",
+    "exit_code": 0,
+    "timeout": false,
+    "model": [
+      "claude-haiku-5-5"
+    ],
+    "skills_invoked": [],
+    "product_sense_reads": [],
+    "word_count": 161,
+    "reported_list_cost_usd": 0.06174020000000001,
+    "final": "**Recommendation: don't build the app yet.** Three stated intentions aren't enough. There are no observed failures, usage data or payment commitments, so the need is unproven.\n\n**Use the ten days to test the need:**\n\n1. **Days 1–3, observe (H1):** With the organisers' consent, review their last week of threads and note what they missed or spent time on. Hypothesis: the pain is catching up on decisions, not writing them.\n2. **Days 4–7, concierge test (H2):** Hand-write one weekly summary per organiser from their real threads. Hypothesis: they'll read and act on a summary more than they'd scan the threads.\n3. **Days 8–10, decide:** Build a thin prototype only if at least two organisers ask for the next summary unprompted. Otherwise, stop or reshape the idea.\n\n**Risks to check (H3):** Club messages contain personal data, so confirm consent and data handling before sending any thread to an AI service. Volunteer clubs may not pay, so test willingness to pay before building billing."
+  },
+  "haiku-candidate-2": {
+    "kind": "implicit",
+    "exit_code": 0,
+    "timeout": false,
+    "model": [
+      "claude-haiku-5-5"
+    ],
+    "skills_invoked": [],
+    "product_sense_reads": [],
+    "word_count": 175,
+    "reported_list_cost_usd": 0.0719442,
+    "final": "**Don't commit to the full build yet.** Use the ten days to test whether organisers would actually use a weekly summary.\n\nThe evidence so far is stated intent from three people, with no observed failures, usage data, or payment signal.\n\nHypotheses to test (unverified):\n- **H1:** Scattered threads cost organisers real time or cause missed decisions.\n- **H2:** They would trust an AI summary enough to act on it without rereading the threads.\n- **H3:** They would pay for it or commit to a pilot.\n\nSuggested plan:\n1. **Days 1–3:** Interview the three organisers using their recent threads. Measure catch-up time and missed items (tests H1).\n2. **Days 4–7:** Build a throwaway tool: paste exported threads in, get a summary out. No accounts or integrations (tests H2).\n3. **Days 8–10:** Have each organiser use it on real threads and note whether they send or edit the output (tests H2, H3).\n\nSet the go/no-go rule now: continue only if all three use it on real threads and at least two commit to a pilot. Otherwise stop."
+  },
+  "haiku-baseline-3": {
+    "kind": "implicit",
+    "exit_code": 0,
+    "timeout": false,
+    "model": [
+      "claude-haiku-5-5"
+    ],
+    "skills_invoked": [],
+    "product_sense_reads": [],
+    "word_count": 178,
+    "reported_list_cost_usd": 0.0619282,
+    "final": "**Verdict: don't build the full app yet.** Use the ten days to test whether the problem is painful enough to pay for.\n\n**Facts:** Three organisers say they'd use it. There are no observed failures, usage data or payment commitments. \"Would use\" is weak evidence.\n\n**Hypotheses (unverified):**\n- H1: Organisers miss decisions or tasks buried in email and group threads.\n- H2: A weekly summary is useful enough that they ask for it again.\n- H3: Organisers, or their clubs, will pay.\n\n**Ten-day plan:**\n1. **Days 1–2:** Interview the three organisers. Ask for a recent example of a missed or costly item. If none exists, stop and reassess.\n2. **Days 3–6:** With their consent, produce summaries of their real threads by hand or with a script, and send them by email. Skip the UI.\n3. **Days 7–10:** Track whether they read the summaries, act on them, and ask for the next one unprompted. Ask for a pilot or price commitment.\n\nBuild only if H1 and H2 hold. If they hold but H3 fails, reconsider the business model before building."
+  },
+  "haiku-candidate-3": {
+    "kind": "implicit",
+    "exit_code": 0,
+    "timeout": false,
+    "model": [
+      "claude-haiku-5-5"
+    ],
+    "skills_invoked": [],
+    "product_sense_reads": [],
+    "word_count": 182,
+    "reported_list_cost_usd": 0.0511362,
+    "final": "**Recommendation: don't build the app yet.** Use the ten days to test whether the problem is real and whether the summary is what organisers want.\n\n**Known:** Three organisers say they'd use it. You have no observed failures, usage data, or payment commitments. They currently use email threads and group messages.\n\n**Hypotheses (unverified):**\n- H1: Organisers lose decisions or action items across threads each week.\n- H2: A summary is the fix they want, not clearer threads or better reminders.\n- H3: Stated interest turns into repeat weekly use.\n\n**Next steps:**\n1. Days 1–2: With the three organisers' consent, collect a week of their threads and check whether they can name a real miss, such as a missed decision or deadline.\n2. Days 3–7: Send a hand-made summary each week and track whether they read it, correct it, or act on it.\n3. Days 8–10: Build a prototype only if at least two organisers use summaries unprompted for several weeks and name time saved.\n\n**Tradeoff:** The manual test is slow and small, but it avoids building for a pain point nobody has shown."
+  }
+}

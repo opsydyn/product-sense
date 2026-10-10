@@ -1,0 +1,9 @@
+**Investigate; do not build yet.** Three expressions of interest provide too little evidence to justify spending the engineer’s ten days on an app.
+
+**Hypothesis:** organisers want to identify weekly decisions and outstanding actions with less effort; today’s alternatives are email threads and group messages.
+
+**Reported evidence:** three organisers say they would use it, but task failures, usage and payment commitments are unobserved; recurring pain and willingness to switch remain hypotheses.
+
+**Proposed next step:** allocate at most two of the ten days to reviewing those organisers’ recent tasks and comparing a manually prepared summary with current practice.
+
+**Proposed decision gate:** require recurring difficulty, reduced effort without missed actions, and concrete pilot commitments from at least two organisers; otherwise park, with any build needing a separate appetite decision.

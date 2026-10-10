@@ -1,8 +1,16 @@
 {
   "name": "product-sense",
   "version": "0.1.2",
-  "description": "Product judgement, discovery, bounded bets and user-flow review.",
+  "description": "Product judgment, discovery, bounded bets and user-flow review.",
   "author": {
     "name": "Alan P Currie"
-  }
+  },
+  "keywords": [
+    "product-management",
+    "product-discovery",
+    "prd",
+    "roadmap",
+    "ux-review",
+    "strategy"
+  ]
 }

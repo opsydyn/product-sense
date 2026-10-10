@@ -1,0 +1,149 @@
+{
+  "date": "2026-10-10",
+  "source_base_commit": "cbcccba5861d834063c776e6e1773117c000529f",
+  "question": "Does the run 11 description rewrite change Haiku 5.5 skill selection or compliance on the capped assessment?",
+  "arms": {
+    "baseline": "0.1.2 as committed at source_base_commit (old 'Use when' description, duplicated word-cap recipe)",
+    "candidate": "working tree as tested in run 11"
+  },
+  "stage": "/private/tmp/claude-501/-Users-alancurrie-Projects-product-sense/1a3bd1c4-4b9f-40b7-b573-e86ea00f3a13/scratchpad/product-sense-run-12-Vvix",
+  "claude_version": "2.1.289 (Claude Code)",
+  "staged_sha256": {
+    "baseline": {
+      ".claude-plugin/plugin.json": "e0dc353e3e9e49c49e1f29428df0246663105e998d4e3968d23eeefcf94c7327",
+      "skills/product-sense/SKILL.md": "4674b0e191888a63689d46a5ff6ee2a4e99d15d332623cb97cc0d68633d28a12",
+      "skills/product-sense/references/canon.md": "03cc0382183e730e3990cedd4ce09580259da1e99c814b86130baa717ca50e57",
+      "skills/product-sense/references/design.md": "cfdcd8500ad3d2d6d29351877315c4d795473984db3e425c2fa4a2c8dfefa296",
+      "skills/product-sense/references/discovery.md": "e66f9051ed781ce58eb81eba11ccbf251533bcf8fa09d242d4ca40203c4741a6",
+      "skills/product-sense/references/outputs.md": "1731aae025b0765ce82f775f23f319bc5741900ba3ddcd72fdfdc7c6b5eff432",
+      "skills/product-sense/references/shaping.md": "b73db1768dd6b78a528dac9bc7f54a8ffa4ccf611366e2992f47c159b25d1546"
+    },
+    "candidate": {
+      ".claude-plugin/plugin.json": "eb019b6395662167392167ccc7a39d0a0acb8d6995969bcbf142e3ba961a62b5",
+      "skills/product-sense/SKILL.md": "0cf5831f17e05456ff6008e266be575365e33aa19e1bff316b6fe5b9c70ef28e",
+      "skills/product-sense/references/canon.md": "03cc0382183e730e3990cedd4ce09580259da1e99c814b86130baa717ca50e57",
+      "skills/product-sense/references/design.md": "cfdcd8500ad3d2d6d29351877315c4d795473984db3e425c2fa4a2c8dfefa296",
+      "skills/product-sense/references/discovery.md": "e66f9051ed781ce58eb81eba11ccbf251533bcf8fa09d242d4ca40203c4741a6",
+      "skills/product-sense/references/outputs.md": "6da1954a9ee51075c2932a52a6cf3a50b43f96c546e6dbb5a3a9886da56161d1",
+      "skills/product-sense/references/shaping.md": "70193747cd6756325356b87669d5eb49e515a4cac8610fd04e1c95d2327c9801"
+    }
+  },
+  "claude_cases": [
+    {
+      "name": "haiku-baseline-1",
+      "arm": "baseline",
+      "kind": "implicit",
+      "model": "claude-haiku-5-5",
+      "prompt": "assess-prompt.txt",
+      "tools": "Skill,Read,Glob,Grep",
+      "criteria": [
+        "native skill selection",
+        "load discovery.md and outputs.md",
+        "at most 180 whitespace-delimited words",
+        "preserve supplied evidence and label assumptions",
+        "learning and delivery fit ten-day total or explicitly require separate later appetite",
+        "bounded next action and stop/reshape condition",
+        "no writes or external actions"
+      ]
+    },
+    {
+      "name": "haiku-candidate-1",
+      "arm": "candidate",
+      "kind": "implicit",
+      "model": "claude-haiku-5-5",
+      "prompt": "assess-prompt.txt",
+      "tools": "Skill,Read,Glob,Grep",
+      "criteria": [
+        "native skill selection",
+        "load discovery.md and outputs.md",
+        "at most 180 whitespace-delimited words",
+        "preserve supplied evidence and label assumptions",
+        "learning and delivery fit ten-day total or explicitly require separate later appetite",
+        "bounded next action and stop/reshape condition",
+        "no writes or external actions"
+      ]
+    },
+    {
+      "name": "haiku-baseline-2",
+      "arm": "baseline",
+      "kind": "implicit",
+      "model": "claude-haiku-5-5",
+      "prompt": "assess-prompt.txt",
+      "tools": "Skill,Read,Glob,Grep",
+      "criteria": [
+        "native skill selection",
+        "load discovery.md and outputs.md",
+        "at most 180 whitespace-delimited words",
+        "preserve supplied evidence and label assumptions",
+        "learning and delivery fit ten-day total or explicitly require separate later appetite",
+        "bounded next action and stop/reshape condition",
+        "no writes or external actions"
+      ]
+    },
+    {
+      "name": "haiku-candidate-2",
+      "arm": "candidate",
+      "kind": "implicit",
+      "model": "claude-haiku-5-5",
+      "prompt": "assess-prompt.txt",
+      "tools": "Skill,Read,Glob,Grep",
+      "criteria": [
+        "native skill selection",
+        "load discovery.md and outputs.md",
+        "at most 180 whitespace-delimited words",
+        "preserve supplied evidence and label assumptions",
+        "learning and delivery fit ten-day total or explicitly require separate later appetite",
+        "bounded next action and stop/reshape condition",
+        "no writes or external actions"
+      ]
+    },
+    {
+      "name": "haiku-baseline-3",
+      "arm": "baseline",
+      "kind": "implicit",
+      "model": "claude-haiku-5-5",
+      "prompt": "assess-prompt.txt",
+      "tools": "Skill,Read,Glob,Grep",
+      "criteria": [
+        "native skill selection",
+        "load discovery.md and outputs.md",
+        "at most 180 whitespace-delimited words",
+        "preserve supplied evidence and label assumptions",
+        "learning and delivery fit ten-day total or explicitly require separate later appetite",
+        "bounded next action and stop/reshape condition",
+        "no writes or external actions"
+      ]
+    },
+    {
+      "name": "haiku-candidate-3",
+      "arm": "candidate",
+      "kind": "implicit",
+      "model": "claude-haiku-5-5",
+      "prompt": "assess-prompt.txt",
+      "tools": "Skill,Read,Glob,Grep",
+      "criteria": [
+        "native skill selection",
+        "load discovery.md and outputs.md",
+        "at most 180 whitespace-delimited words",
+        "preserve supplied evidence and label assumptions",
+        "learning and delivery fit ten-day total or explicitly require separate later appetite",
+        "bounded next action and stop/reshape condition",
+        "no writes or external actions"
+      ]
+    }
+  ],
+  "codex_cases": [],
+  "budget": {
+    "claude_sessions": 6,
+    "max_usd_per_claude_session": 1,
+    "timeout_seconds": 240,
+    "automatic_retries": 0
+  },
+  "claude_runtime": "run 11 restricted CLI settings, --model claude-haiku-5-5, arms interleaved four at a time",
+  "stopping_rule": "One attempt per case. No retry on case failure. Stop on authentication/quota block. No instruction edits while samples run. Record every failure.",
+  "limits": [
+    "three samples per arm on one synthetic scenario; differences of one or two samples are not significant",
+    "no blind scorer",
+    "Haiku only; Opus and Sonnet are covered by run 11"
+  ]
+}
