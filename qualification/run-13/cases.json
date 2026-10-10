@@ -1,0 +1,962 @@
+[
+  {
+    "name": "s09-direct-debit-opus-skill-2",
+    "scenario": "s09-direct-debit",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "skill",
+    "sample": 2
+  },
+  {
+    "name": "s08-correlation-opus-control-3",
+    "scenario": "s08-correlation",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "control",
+    "sample": 3
+  },
+  {
+    "name": "s07-competitor-copilot-opus-control-2",
+    "scenario": "s07-competitor-copilot",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "control",
+    "sample": 2
+  },
+  {
+    "name": "s08-correlation-sonnet-skill-1",
+    "scenario": "s08-correlation",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "skill",
+    "sample": 1
+  },
+  {
+    "name": "s02-sms-reminders-sonnet-skill-2",
+    "scenario": "s02-sms-reminders",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "skill",
+    "sample": 2
+  },
+  {
+    "name": "s05-hr-chatbot-opus-skill-3",
+    "scenario": "s05-hr-chatbot",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "skill",
+    "sample": 3
+  },
+  {
+    "name": "s08-correlation-sonnet-skill-3",
+    "scenario": "s08-correlation",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "skill",
+    "sample": 3
+  },
+  {
+    "name": "s06-streaks-sonnet-skill-2",
+    "scenario": "s06-streaks",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "skill",
+    "sample": 2
+  },
+  {
+    "name": "s08-correlation-opus-skill-1",
+    "scenario": "s08-correlation",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "skill",
+    "sample": 1
+  },
+  {
+    "name": "s09-direct-debit-sonnet-control-1",
+    "scenario": "s09-direct-debit",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "control",
+    "sample": 1
+  },
+  {
+    "name": "s02-sms-reminders-sonnet-control-1",
+    "scenario": "s02-sms-reminders",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "control",
+    "sample": 1
+  },
+  {
+    "name": "s03-enterprise-deal-sonnet-control-2",
+    "scenario": "s03-enterprise-deal",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "control",
+    "sample": 2
+  },
+  {
+    "name": "s06-streaks-opus-control-3",
+    "scenario": "s06-streaks",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "control",
+    "sample": 3
+  },
+  {
+    "name": "s07-competitor-copilot-sonnet-control-1",
+    "scenario": "s07-competitor-copilot",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "control",
+    "sample": 1
+  },
+  {
+    "name": "s03-enterprise-deal-opus-skill-3",
+    "scenario": "s03-enterprise-deal",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "skill",
+    "sample": 3
+  },
+  {
+    "name": "s06-streaks-opus-skill-2",
+    "scenario": "s06-streaks",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "skill",
+    "sample": 2
+  },
+  {
+    "name": "s04-meal-planner-sonnet-control-3",
+    "scenario": "s04-meal-planner",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "control",
+    "sample": 3
+  },
+  {
+    "name": "s01-csv-export-sonnet-skill-2",
+    "scenario": "s01-csv-export",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "skill",
+    "sample": 2
+  },
+  {
+    "name": "s04-meal-planner-sonnet-skill-1",
+    "scenario": "s04-meal-planner",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "skill",
+    "sample": 1
+  },
+  {
+    "name": "s06-streaks-sonnet-control-3",
+    "scenario": "s06-streaks",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "control",
+    "sample": 3
+  },
+  {
+    "name": "s07-competitor-copilot-sonnet-skill-1",
+    "scenario": "s07-competitor-copilot",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "skill",
+    "sample": 1
+  },
+  {
+    "name": "s03-enterprise-deal-sonnet-skill-1",
+    "scenario": "s03-enterprise-deal",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "skill",
+    "sample": 1
+  },
+  {
+    "name": "s01-csv-export-sonnet-skill-1",
+    "scenario": "s01-csv-export",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "skill",
+    "sample": 1
+  },
+  {
+    "name": "s01-csv-export-sonnet-control-3",
+    "scenario": "s01-csv-export",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "control",
+    "sample": 3
+  },
+  {
+    "name": "s04-meal-planner-opus-control-1",
+    "scenario": "s04-meal-planner",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "control",
+    "sample": 1
+  },
+  {
+    "name": "s05-hr-chatbot-opus-skill-1",
+    "scenario": "s05-hr-chatbot",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "skill",
+    "sample": 1
+  },
+  {
+    "name": "s02-sms-reminders-opus-skill-2",
+    "scenario": "s02-sms-reminders",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "skill",
+    "sample": 2
+  },
+  {
+    "name": "s10-pause-subscription-opus-control-1",
+    "scenario": "s10-pause-subscription",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "control",
+    "sample": 1
+  },
+  {
+    "name": "s01-csv-export-opus-control-3",
+    "scenario": "s01-csv-export",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "control",
+    "sample": 3
+  },
+  {
+    "name": "s04-meal-planner-sonnet-skill-2",
+    "scenario": "s04-meal-planner",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "skill",
+    "sample": 2
+  },
+  {
+    "name": "s02-sms-reminders-sonnet-skill-3",
+    "scenario": "s02-sms-reminders",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "skill",
+    "sample": 3
+  },
+  {
+    "name": "s09-direct-debit-sonnet-control-3",
+    "scenario": "s09-direct-debit",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "control",
+    "sample": 3
+  },
+  {
+    "name": "s05-hr-chatbot-opus-control-1",
+    "scenario": "s05-hr-chatbot",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "control",
+    "sample": 1
+  },
+  {
+    "name": "s10-pause-subscription-sonnet-skill-1",
+    "scenario": "s10-pause-subscription",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "skill",
+    "sample": 1
+  },
+  {
+    "name": "s02-sms-reminders-opus-skill-3",
+    "scenario": "s02-sms-reminders",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "skill",
+    "sample": 3
+  },
+  {
+    "name": "s01-csv-export-opus-skill-3",
+    "scenario": "s01-csv-export",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "skill",
+    "sample": 3
+  },
+  {
+    "name": "s04-meal-planner-opus-control-3",
+    "scenario": "s04-meal-planner",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "control",
+    "sample": 3
+  },
+  {
+    "name": "s01-csv-export-opus-skill-1",
+    "scenario": "s01-csv-export",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "skill",
+    "sample": 1
+  },
+  {
+    "name": "s03-enterprise-deal-opus-skill-1",
+    "scenario": "s03-enterprise-deal",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "skill",
+    "sample": 1
+  },
+  {
+    "name": "s05-hr-chatbot-sonnet-control-2",
+    "scenario": "s05-hr-chatbot",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "control",
+    "sample": 2
+  },
+  {
+    "name": "s07-competitor-copilot-opus-control-1",
+    "scenario": "s07-competitor-copilot",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "control",
+    "sample": 1
+  },
+  {
+    "name": "s09-direct-debit-opus-control-2",
+    "scenario": "s09-direct-debit",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "control",
+    "sample": 2
+  },
+  {
+    "name": "s01-csv-export-opus-control-2",
+    "scenario": "s01-csv-export",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "control",
+    "sample": 2
+  },
+  {
+    "name": "s05-hr-chatbot-opus-control-3",
+    "scenario": "s05-hr-chatbot",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "control",
+    "sample": 3
+  },
+  {
+    "name": "s05-hr-chatbot-sonnet-control-3",
+    "scenario": "s05-hr-chatbot",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "control",
+    "sample": 3
+  },
+  {
+    "name": "s07-competitor-copilot-opus-skill-2",
+    "scenario": "s07-competitor-copilot",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "skill",
+    "sample": 2
+  },
+  {
+    "name": "s02-sms-reminders-opus-skill-1",
+    "scenario": "s02-sms-reminders",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "skill",
+    "sample": 1
+  },
+  {
+    "name": "s05-hr-chatbot-opus-skill-2",
+    "scenario": "s05-hr-chatbot",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "skill",
+    "sample": 2
+  },
+  {
+    "name": "s05-hr-chatbot-opus-control-2",
+    "scenario": "s05-hr-chatbot",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "control",
+    "sample": 2
+  },
+  {
+    "name": "s07-competitor-copilot-opus-skill-3",
+    "scenario": "s07-competitor-copilot",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "skill",
+    "sample": 3
+  },
+  {
+    "name": "s08-correlation-sonnet-skill-2",
+    "scenario": "s08-correlation",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "skill",
+    "sample": 2
+  },
+  {
+    "name": "s03-enterprise-deal-sonnet-skill-2",
+    "scenario": "s03-enterprise-deal",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "skill",
+    "sample": 2
+  },
+  {
+    "name": "s04-meal-planner-opus-skill-1",
+    "scenario": "s04-meal-planner",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "skill",
+    "sample": 1
+  },
+  {
+    "name": "s01-csv-export-sonnet-skill-3",
+    "scenario": "s01-csv-export",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "skill",
+    "sample": 3
+  },
+  {
+    "name": "s06-streaks-opus-control-2",
+    "scenario": "s06-streaks",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "control",
+    "sample": 2
+  },
+  {
+    "name": "s06-streaks-sonnet-control-1",
+    "scenario": "s06-streaks",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "control",
+    "sample": 1
+  },
+  {
+    "name": "s04-meal-planner-opus-skill-3",
+    "scenario": "s04-meal-planner",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "skill",
+    "sample": 3
+  },
+  {
+    "name": "s06-streaks-opus-skill-1",
+    "scenario": "s06-streaks",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "skill",
+    "sample": 1
+  },
+  {
+    "name": "s09-direct-debit-sonnet-control-2",
+    "scenario": "s09-direct-debit",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "control",
+    "sample": 2
+  },
+  {
+    "name": "s09-direct-debit-sonnet-skill-3",
+    "scenario": "s09-direct-debit",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "skill",
+    "sample": 3
+  },
+  {
+    "name": "s09-direct-debit-opus-control-1",
+    "scenario": "s09-direct-debit",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "control",
+    "sample": 1
+  },
+  {
+    "name": "s06-streaks-opus-control-1",
+    "scenario": "s06-streaks",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "control",
+    "sample": 1
+  },
+  {
+    "name": "s07-competitor-copilot-sonnet-skill-2",
+    "scenario": "s07-competitor-copilot",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "skill",
+    "sample": 2
+  },
+  {
+    "name": "s06-streaks-sonnet-skill-1",
+    "scenario": "s06-streaks",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "skill",
+    "sample": 1
+  },
+  {
+    "name": "s03-enterprise-deal-opus-skill-2",
+    "scenario": "s03-enterprise-deal",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "skill",
+    "sample": 2
+  },
+  {
+    "name": "s09-direct-debit-opus-skill-3",
+    "scenario": "s09-direct-debit",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "skill",
+    "sample": 3
+  },
+  {
+    "name": "s02-sms-reminders-sonnet-control-2",
+    "scenario": "s02-sms-reminders",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "control",
+    "sample": 2
+  },
+  {
+    "name": "s09-direct-debit-opus-control-3",
+    "scenario": "s09-direct-debit",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "control",
+    "sample": 3
+  },
+  {
+    "name": "s05-hr-chatbot-sonnet-skill-3",
+    "scenario": "s05-hr-chatbot",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "skill",
+    "sample": 3
+  },
+  {
+    "name": "s10-pause-subscription-opus-skill-2",
+    "scenario": "s10-pause-subscription",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "skill",
+    "sample": 2
+  },
+  {
+    "name": "s07-competitor-copilot-sonnet-skill-3",
+    "scenario": "s07-competitor-copilot",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "skill",
+    "sample": 3
+  },
+  {
+    "name": "s08-correlation-sonnet-control-2",
+    "scenario": "s08-correlation",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "control",
+    "sample": 2
+  },
+  {
+    "name": "s08-correlation-opus-control-2",
+    "scenario": "s08-correlation",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "control",
+    "sample": 2
+  },
+  {
+    "name": "s04-meal-planner-sonnet-skill-3",
+    "scenario": "s04-meal-planner",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "skill",
+    "sample": 3
+  },
+  {
+    "name": "s02-sms-reminders-opus-control-1",
+    "scenario": "s02-sms-reminders",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "control",
+    "sample": 1
+  },
+  {
+    "name": "s04-meal-planner-opus-control-2",
+    "scenario": "s04-meal-planner",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "control",
+    "sample": 2
+  },
+  {
+    "name": "s08-correlation-opus-skill-3",
+    "scenario": "s08-correlation",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "skill",
+    "sample": 3
+  },
+  {
+    "name": "s04-meal-planner-sonnet-control-2",
+    "scenario": "s04-meal-planner",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "control",
+    "sample": 2
+  },
+  {
+    "name": "s05-hr-chatbot-sonnet-skill-1",
+    "scenario": "s05-hr-chatbot",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "skill",
+    "sample": 1
+  },
+  {
+    "name": "s07-competitor-copilot-opus-skill-1",
+    "scenario": "s07-competitor-copilot",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "skill",
+    "sample": 1
+  },
+  {
+    "name": "s06-streaks-sonnet-control-2",
+    "scenario": "s06-streaks",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "control",
+    "sample": 2
+  },
+  {
+    "name": "s06-streaks-opus-skill-3",
+    "scenario": "s06-streaks",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "skill",
+    "sample": 3
+  },
+  {
+    "name": "s10-pause-subscription-opus-skill-3",
+    "scenario": "s10-pause-subscription",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "skill",
+    "sample": 3
+  },
+  {
+    "name": "s04-meal-planner-sonnet-control-1",
+    "scenario": "s04-meal-planner",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "control",
+    "sample": 1
+  },
+  {
+    "name": "s03-enterprise-deal-sonnet-skill-3",
+    "scenario": "s03-enterprise-deal",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "skill",
+    "sample": 3
+  },
+  {
+    "name": "s02-sms-reminders-opus-control-3",
+    "scenario": "s02-sms-reminders",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "control",
+    "sample": 3
+  },
+  {
+    "name": "s09-direct-debit-opus-skill-1",
+    "scenario": "s09-direct-debit",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "skill",
+    "sample": 1
+  },
+  {
+    "name": "s05-hr-chatbot-sonnet-control-1",
+    "scenario": "s05-hr-chatbot",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "control",
+    "sample": 1
+  },
+  {
+    "name": "s10-pause-subscription-sonnet-control-3",
+    "scenario": "s10-pause-subscription",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "control",
+    "sample": 3
+  },
+  {
+    "name": "s01-csv-export-sonnet-control-2",
+    "scenario": "s01-csv-export",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "control",
+    "sample": 2
+  },
+  {
+    "name": "s10-pause-subscription-opus-control-3",
+    "scenario": "s10-pause-subscription",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "control",
+    "sample": 3
+  },
+  {
+    "name": "s03-enterprise-deal-sonnet-control-3",
+    "scenario": "s03-enterprise-deal",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "control",
+    "sample": 3
+  },
+  {
+    "name": "s01-csv-export-opus-skill-2",
+    "scenario": "s01-csv-export",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "skill",
+    "sample": 2
+  },
+  {
+    "name": "s07-competitor-copilot-opus-control-3",
+    "scenario": "s07-competitor-copilot",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "control",
+    "sample": 3
+  },
+  {
+    "name": "s10-pause-subscription-sonnet-skill-2",
+    "scenario": "s10-pause-subscription",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "skill",
+    "sample": 2
+  },
+  {
+    "name": "s09-direct-debit-sonnet-skill-2",
+    "scenario": "s09-direct-debit",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "skill",
+    "sample": 2
+  },
+  {
+    "name": "s05-hr-chatbot-sonnet-skill-2",
+    "scenario": "s05-hr-chatbot",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "skill",
+    "sample": 2
+  },
+  {
+    "name": "s01-csv-export-opus-control-1",
+    "scenario": "s01-csv-export",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "control",
+    "sample": 1
+  },
+  {
+    "name": "s10-pause-subscription-sonnet-control-2",
+    "scenario": "s10-pause-subscription",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "control",
+    "sample": 2
+  },
+  {
+    "name": "s08-correlation-sonnet-control-3",
+    "scenario": "s08-correlation",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "control",
+    "sample": 3
+  },
+  {
+    "name": "s03-enterprise-deal-opus-control-1",
+    "scenario": "s03-enterprise-deal",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "control",
+    "sample": 1
+  },
+  {
+    "name": "s06-streaks-sonnet-skill-3",
+    "scenario": "s06-streaks",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "skill",
+    "sample": 3
+  },
+  {
+    "name": "s01-csv-export-sonnet-control-1",
+    "scenario": "s01-csv-export",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "control",
+    "sample": 1
+  },
+  {
+    "name": "s02-sms-reminders-opus-control-2",
+    "scenario": "s02-sms-reminders",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "control",
+    "sample": 2
+  },
+  {
+    "name": "s10-pause-subscription-opus-control-2",
+    "scenario": "s10-pause-subscription",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "control",
+    "sample": 2
+  },
+  {
+    "name": "s08-correlation-sonnet-control-1",
+    "scenario": "s08-correlation",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "control",
+    "sample": 1
+  },
+  {
+    "name": "s07-competitor-copilot-sonnet-control-2",
+    "scenario": "s07-competitor-copilot",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "control",
+    "sample": 2
+  },
+  {
+    "name": "s03-enterprise-deal-opus-control-2",
+    "scenario": "s03-enterprise-deal",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "control",
+    "sample": 2
+  },
+  {
+    "name": "s02-sms-reminders-sonnet-skill-1",
+    "scenario": "s02-sms-reminders",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "skill",
+    "sample": 1
+  },
+  {
+    "name": "s08-correlation-opus-skill-2",
+    "scenario": "s08-correlation",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "skill",
+    "sample": 2
+  },
+  {
+    "name": "s03-enterprise-deal-opus-control-3",
+    "scenario": "s03-enterprise-deal",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "control",
+    "sample": 3
+  },
+  {
+    "name": "s07-competitor-copilot-sonnet-control-3",
+    "scenario": "s07-competitor-copilot",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "control",
+    "sample": 3
+  },
+  {
+    "name": "s02-sms-reminders-sonnet-control-3",
+    "scenario": "s02-sms-reminders",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "control",
+    "sample": 3
+  },
+  {
+    "name": "s10-pause-subscription-opus-skill-1",
+    "scenario": "s10-pause-subscription",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "skill",
+    "sample": 1
+  },
+  {
+    "name": "s09-direct-debit-sonnet-skill-1",
+    "scenario": "s09-direct-debit",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "skill",
+    "sample": 1
+  },
+  {
+    "name": "s10-pause-subscription-sonnet-control-1",
+    "scenario": "s10-pause-subscription",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "control",
+    "sample": 1
+  },
+  {
+    "name": "s10-pause-subscription-sonnet-skill-3",
+    "scenario": "s10-pause-subscription",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "skill",
+    "sample": 3
+  },
+  {
+    "name": "s08-correlation-opus-control-1",
+    "scenario": "s08-correlation",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "control",
+    "sample": 1
+  },
+  {
+    "name": "s04-meal-planner-opus-skill-2",
+    "scenario": "s04-meal-planner",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "skill",
+    "sample": 2
+  },
+  {
+    "name": "s03-enterprise-deal-sonnet-control-1",
+    "scenario": "s03-enterprise-deal",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "control",
+    "sample": 1
+  }
+]

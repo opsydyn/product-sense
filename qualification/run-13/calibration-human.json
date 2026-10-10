@@ -1,0 +1,52 @@
+{
+  "s05-hr-chatbot-opus-1": {
+    "A_verdict": "",
+    "B_verdict": "",
+    "preference": ""
+  },
+  "s05-hr-chatbot-opus-3": {
+    "A_verdict": "",
+    "B_verdict": "",
+    "preference": ""
+  },
+  "s06-streaks-opus-1": {
+    "A_verdict": "",
+    "B_verdict": "",
+    "preference": ""
+  },
+  "s06-streaks-sonnet-1": {
+    "A_verdict": "",
+    "B_verdict": "",
+    "preference": ""
+  },
+  "s07-competitor-copilot-sonnet-2": {
+    "A_verdict": "",
+    "B_verdict": "",
+    "preference": ""
+  },
+  "s07-competitor-copilot-sonnet-3": {
+    "A_verdict": "",
+    "B_verdict": "",
+    "preference": ""
+  },
+  "s08-correlation-sonnet-3": {
+    "A_verdict": "",
+    "B_verdict": "",
+    "preference": ""
+  },
+  "s09-direct-debit-opus-1": {
+    "A_verdict": "",
+    "B_verdict": "",
+    "preference": ""
+  },
+  "s10-pause-subscription-opus-1": {
+    "A_verdict": "",
+    "B_verdict": "",
+    "preference": ""
+  },
+  "s10-pause-subscription-sonnet-3": {
+    "A_verdict": "",
+    "B_verdict": "",
+    "preference": ""
+  }
+}

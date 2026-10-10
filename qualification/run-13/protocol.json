@@ -1,12 +1,12 @@
 {
-  "status": "designed, not run",
+  "status": "model-graded results complete; human calibration pending",
   "question": "Does Product Sense make Claude reach better product decisions than the same model without it?",
   "date_designed": "2026-10-10",
   "source_base_commit": "713bacc",
   "gates_before_any_session": [
     "DONE 2026-10-10: answer key approved as drafted by Alan P Currie, no amendments",
-    "Record source hashes of SKILL.md, references and plugin.json, and the staged plugin, in this file",
-    "Write and dry-run the runner and grader harness without model calls"
+    "DONE: source and staged-plugin hashes recorded below",
+    "DONE: harness.py dry-run end to end on simulated responses and grades; anonymiser over-stripping found and fixed"
   ],
   "scenarios": "scenarios/*.txt (10). Expected verdicts: pursue 3, park 2, reshape 2, investigate 2, design review 1. Every prompt ends with a 250-word cap so both arms answer at similar length.",
   "holdout_policy": "These scenarios are a frozen evaluation set. Do not tune SKILL.md or references against them. If the skill changes in response to this run, confirm the change on new scenarios in a later run.",
@@ -63,5 +63,26 @@
     "Model grader, partly calibrated by a small human sample",
     "Claude Code CLI only; no Codex, desktop or other-surface claim",
     "Does not establish real-user or business outcomes"
-  ]
+  ],
+  "stage": "/private/tmp/claude-501/-Users-alancurrie-Projects-product-sense/1a3bd1c4-4b9f-40b7-b573-e86ea00f3a13/scratchpad/product-sense-run-13-3RK3",
+  "run_commit": "cdfc428",
+  "claude_version": "2.1.289 (Claude Code)",
+  "source_sha256": {
+    "SKILL.md": "0cf5831f17e05456ff6008e266be575365e33aa19e1bff316b6fe5b9c70ef28e",
+    "references/canon.md": "03cc0382183e730e3990cedd4ce09580259da1e99c814b86130baa717ca50e57",
+    "references/design.md": "cfdcd8500ad3d2d6d29351877315c4d795473984db3e425c2fa4a2c8dfefa296",
+    "references/discovery.md": "e66f9051ed781ce58eb81eba11ccbf251533bcf8fa09d242d4ca40203c4741a6",
+    "references/outputs.md": "6da1954a9ee51075c2932a52a6cf3a50b43f96c546e6dbb5a3a9886da56161d1",
+    "references/shaping.md": "70193747cd6756325356b87669d5eb49e515a4cac8610fd04e1c95d2327c9801",
+    "packaging/claude/plugin.json": "eb019b6395662167392167ccc7a39d0a0acb8d6995969bcbf142e3ba961a62b5"
+  },
+  "staged_sha256": {
+    ".claude-plugin/plugin.json": "eb019b6395662167392167ccc7a39d0a0acb8d6995969bcbf142e3ba961a62b5",
+    "skills/product-sense/SKILL.md": "0cf5831f17e05456ff6008e266be575365e33aa19e1bff316b6fe5b9c70ef28e",
+    "skills/product-sense/references/canon.md": "03cc0382183e730e3990cedd4ce09580259da1e99c814b86130baa717ca50e57",
+    "skills/product-sense/references/design.md": "cfdcd8500ad3d2d6d29351877315c4d795473984db3e425c2fa4a2c8dfefa296",
+    "skills/product-sense/references/discovery.md": "e66f9051ed781ce58eb81eba11ccbf251533bcf8fa09d242d4ca40203c4741a6",
+    "skills/product-sense/references/outputs.md": "6da1954a9ee51075c2932a52a6cf3a50b43f96c546e6dbb5a3a9886da56161d1",
+    "skills/product-sense/references/shaping.md": "70193747cd6756325356b87669d5eb49e515a4cac8610fd04e1c95d2327c9801"
+  }
 }

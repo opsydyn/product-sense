@@ -1,0 +1,88 @@
+{
+  "summary": {
+    "opus-control": {
+      "n": 30,
+      "verdict_accuracy": 0.861,
+      "verdict_accuracy_when_selected": null,
+      "insight_hit_rate": 0.889,
+      "trap_rate": 0.05,
+      "fabricated_per_answer": 1.367,
+      "pursue_misses": 0.0,
+      "verdict_distribution": {
+        "design review": 2.5,
+        "investigate": 7.5,
+        "pursue": 9.5,
+        "reshape": 10.5
+      },
+      "selection_rate": 0.0
+    },
+    "opus-skill": {
+      "n": 30,
+      "verdict_accuracy": 0.88,
+      "verdict_accuracy_when_selected": 0.88,
+      "insight_hit_rate": 0.878,
+      "trap_rate": 0.0,
+      "fabricated_per_answer": 0.467,
+      "pursue_misses": 0.0,
+      "verdict_distribution": {
+        "design review": 2.5,
+        "investigate": 2.5,
+        "park": 5.0,
+        "pursue": 9.0,
+        "reshape": 11.0
+      },
+      "selection_rate": 1.0
+    },
+    "sonnet-control": {
+      "n": 30,
+      "verdict_accuracy": 0.889,
+      "verdict_accuracy_when_selected": null,
+      "insight_hit_rate": 0.85,
+      "trap_rate": 0.0,
+      "fabricated_per_answer": 0.65,
+      "pursue_misses": 0.0,
+      "verdict_distribution": {
+        "design review": 3.0,
+        "investigate": 5.5,
+        "park": 1.0,
+        "pursue": 9.0,
+        "reshape": 11.5
+      },
+      "selection_rate": 0.0
+    },
+    "sonnet-skill": {
+      "n": 30,
+      "verdict_accuracy": 0.787,
+      "verdict_accuracy_when_selected": 0.787,
+      "insight_hit_rate": 0.778,
+      "trap_rate": 0.017,
+      "fabricated_per_answer": 0.317,
+      "pursue_misses": 0.0,
+      "verdict_distribution": {
+        "design review": 2.0,
+        "investigate": 5.5,
+        "park": 0.5,
+        "pursue": 9.0,
+        "reshape": 13.0
+      },
+      "selection_rate": 1.0
+    }
+  },
+  "win_rate": {
+    "opus": 0.5,
+    "sonnet": 0.45
+  },
+  "decision": {
+    "opus": {
+      "accuracy_delta": 0.019,
+      "win_rate": 0.5,
+      "rule": "neutral"
+    },
+    "sonnet": {
+      "accuracy_delta": -0.102,
+      "win_rate": 0.45,
+      "rule": "inconclusive"
+    }
+  },
+  "grading_failures": []
+}

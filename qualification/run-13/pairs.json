@@ -1,0 +1,902 @@
+{
+  "s01-csv-export-opus-1": {
+    "scenario": "s01-csv-export",
+    "model_short": "opus",
+    "sample": 1,
+    "skill": "s01-csv-export-opus-skill-1",
+    "control": "s01-csv-export-opus-control-1",
+    "o1": {
+      "A": "control",
+      "B": "skill"
+    },
+    "o2": {
+      "A": "skill",
+      "B": "control"
+    }
+  },
+  "s01-csv-export-opus-2": {
+    "scenario": "s01-csv-export",
+    "model_short": "opus",
+    "sample": 2,
+    "skill": "s01-csv-export-opus-skill-2",
+    "control": "s01-csv-export-opus-control-2",
+    "o1": {
+      "A": "control",
+      "B": "skill"
+    },
+    "o2": {
+      "A": "skill",
+      "B": "control"
+    }
+  },
+  "s01-csv-export-opus-3": {
+    "scenario": "s01-csv-export",
+    "model_short": "opus",
+    "sample": 3,
+    "skill": "s01-csv-export-opus-skill-3",
+    "control": "s01-csv-export-opus-control-3",
+    "o1": {
+      "A": "skill",
+      "B": "control"
+    },
+    "o2": {
+      "A": "control",
+      "B": "skill"
+    }
+  },
+  "s01-csv-export-sonnet-1": {
+    "scenario": "s01-csv-export",
+    "model_short": "sonnet",
+    "sample": 1,
+    "skill": "s01-csv-export-sonnet-skill-1",
+    "control": "s01-csv-export-sonnet-control-1",
+    "o1": {
+      "A": "control",
+      "B": "skill"
+    },
+    "o2": {
+      "A": "skill",
+      "B": "control"
+    }
+  },
+  "s01-csv-export-sonnet-2": {
+    "scenario": "s01-csv-export",
+    "model_short": "sonnet",
+    "sample": 2,
+    "skill": "s01-csv-export-sonnet-skill-2",
+    "control": "s01-csv-export-sonnet-control-2",
+    "o1": {
+      "A": "control",
+      "B": "skill"
+    },
+    "o2": {
+      "A": "skill",
+      "B": "control"
+    }
+  },
+  "s01-csv-export-sonnet-3": {
+    "scenario": "s01-csv-export",
+    "model_short": "sonnet",
+    "sample": 3,
+    "skill": "s01-csv-export-sonnet-skill-3",
+    "control": "s01-csv-export-sonnet-control-3",
+    "o1": {
+      "A": "skill",
+      "B": "control"
+    },
+    "o2": {
+      "A": "control",
+      "B": "skill"
+    }
+  },
+  "s02-sms-reminders-opus-1": {
+    "scenario": "s02-sms-reminders",
+    "model_short": "opus",
+    "sample": 1,
+    "skill": "s02-sms-reminders-opus-skill-1",
+    "control": "s02-sms-reminders-opus-control-1",
+    "o1": {
+      "A": "control",
+      "B": "skill"
+    },
+    "o2": {
+      "A": "skill",
+      "B": "control"
+    }
+  },
+  "s02-sms-reminders-opus-2": {
+    "scenario": "s02-sms-reminders",
+    "model_short": "opus",
+    "sample": 2,
+    "skill": "s02-sms-reminders-opus-skill-2",
+    "control": "s02-sms-reminders-opus-control-2",
+    "o1": {
+      "A": "control",
+      "B": "skill"
+    },
+    "o2": {
+      "A": "skill",
+      "B": "control"
+    }
+  },
+  "s02-sms-reminders-opus-3": {
+    "scenario": "s02-sms-reminders",
+    "model_short": "opus",
+    "sample": 3,
+    "skill": "s02-sms-reminders-opus-skill-3",
+    "control": "s02-sms-reminders-opus-control-3",
+    "o1": {
+      "A": "control",
+      "B": "skill"
+    },
+    "o2": {
+      "A": "skill",
+      "B": "control"
+    }
+  },
+  "s02-sms-reminders-sonnet-1": {
+    "scenario": "s02-sms-reminders",
+    "model_short": "sonnet",
+    "sample": 1,
+    "skill": "s02-sms-reminders-sonnet-skill-1",
+    "control": "s02-sms-reminders-sonnet-control-1",
+    "o1": {
+      "A": "control",
+      "B": "skill"
+    },
+    "o2": {
+      "A": "skill",
+      "B": "control"
+    }
+  },
+  "s02-sms-reminders-sonnet-2": {
+    "scenario": "s02-sms-reminders",
+    "model_short": "sonnet",
+    "sample": 2,
+    "skill": "s02-sms-reminders-sonnet-skill-2",
+    "control": "s02-sms-reminders-sonnet-control-2",
+    "o1": {
+      "A": "skill",
+      "B": "control"
+    },
+    "o2": {
+      "A": "control",
+      "B": "skill"
+    }
+  },
+  "s02-sms-reminders-sonnet-3": {
+    "scenario": "s02-sms-reminders",
+    "model_short": "sonnet",
+    "sample": 3,
+    "skill": "s02-sms-reminders-sonnet-skill-3",
+    "control": "s02-sms-reminders-sonnet-control-3",
+    "o1": {
+      "A": "control",
+      "B": "skill"
+    },
+    "o2": {
+      "A": "skill",
+      "B": "control"
+    }
+  },
+  "s03-enterprise-deal-opus-1": {
+    "scenario": "s03-enterprise-deal",
+    "model_short": "opus",
+    "sample": 1,
+    "skill": "s03-enterprise-deal-opus-skill-1",
+    "control": "s03-enterprise-deal-opus-control-1",
+    "o1": {
+      "A": "skill",
+      "B": "control"
+    },
+    "o2": {
+      "A": "control",
+      "B": "skill"
+    }
+  },
+  "s03-enterprise-deal-opus-2": {
+    "scenario": "s03-enterprise-deal",
+    "model_short": "opus",
+    "sample": 2,
+    "skill": "s03-enterprise-deal-opus-skill-2",
+    "control": "s03-enterprise-deal-opus-control-2",
+    "o1": {
+      "A": "control",
+      "B": "skill"
+    },
+    "o2": {
+      "A": "skill",
+      "B": "control"
+    }
+  },
+  "s03-enterprise-deal-opus-3": {
+    "scenario": "s03-enterprise-deal",
+    "model_short": "opus",
+    "sample": 3,
+    "skill": "s03-enterprise-deal-opus-skill-3",
+    "control": "s03-enterprise-deal-opus-control-3",
+    "o1": {
+      "A": "control",
+      "B": "skill"
+    },
+    "o2": {
+      "A": "skill",
+      "B": "control"
+    }
+  },
+  "s03-enterprise-deal-sonnet-1": {
+    "scenario": "s03-enterprise-deal",
+    "model_short": "sonnet",
+    "sample": 1,
+    "skill": "s03-enterprise-deal-sonnet-skill-1",
+    "control": "s03-enterprise-deal-sonnet-control-1",
+    "o1": {
+      "A": "skill",
+      "B": "control"
+    },
+    "o2": {
+      "A": "control",
+      "B": "skill"
+    }
+  },
+  "s03-enterprise-deal-sonnet-2": {
+    "scenario": "s03-enterprise-deal",
+    "model_short": "sonnet",
+    "sample": 2,
+    "skill": "s03-enterprise-deal-sonnet-skill-2",
+    "control": "s03-enterprise-deal-sonnet-control-2",
+    "o1": {
+      "A": "skill",
+      "B": "control"
+    },
+    "o2": {
+      "A": "control",
+      "B": "skill"
+    }
+  },
+  "s03-enterprise-deal-sonnet-3": {
+    "scenario": "s03-enterprise-deal",
+    "model_short": "sonnet",
+    "sample": 3,
+    "skill": "s03-enterprise-deal-sonnet-skill-3",
+    "control": "s03-enterprise-deal-sonnet-control-3",
+    "o1": {
+      "A": "skill",
+      "B": "control"
+    },
+    "o2": {
+      "A": "control",
+      "B": "skill"
+    }
+  },
+  "s04-meal-planner-opus-1": {
+    "scenario": "s04-meal-planner",
+    "model_short": "opus",
+    "sample": 1,
+    "skill": "s04-meal-planner-opus-skill-1",
+    "control": "s04-meal-planner-opus-control-1",
+    "o1": {
+      "A": "skill",
+      "B": "control"
+    },
+    "o2": {
+      "A": "control",
+      "B": "skill"
+    }
+  },
+  "s04-meal-planner-opus-2": {
+    "scenario": "s04-meal-planner",
+    "model_short": "opus",
+    "sample": 2,
+    "skill": "s04-meal-planner-opus-skill-2",
+    "control": "s04-meal-planner-opus-control-2",
+    "o1": {
+      "A": "skill",
+      "B": "control"
+    },
+    "o2": {
+      "A": "control",
+      "B": "skill"
+    }
+  },
+  "s04-meal-planner-opus-3": {
+    "scenario": "s04-meal-planner",
+    "model_short": "opus",
+    "sample": 3,
+    "skill": "s04-meal-planner-opus-skill-3",
+    "control": "s04-meal-planner-opus-control-3",
+    "o1": {
+      "A": "control",
+      "B": "skill"
+    },
+    "o2": {
+      "A": "skill",
+      "B": "control"
+    }
+  },
+  "s04-meal-planner-sonnet-1": {
+    "scenario": "s04-meal-planner",
+    "model_short": "sonnet",
+    "sample": 1,
+    "skill": "s04-meal-planner-sonnet-skill-1",
+    "control": "s04-meal-planner-sonnet-control-1",
+    "o1": {
+      "A": "control",
+      "B": "skill"
+    },
+    "o2": {
+      "A": "skill",
+      "B": "control"
+    }
+  },
+  "s04-meal-planner-sonnet-2": {
+    "scenario": "s04-meal-planner",
+    "model_short": "sonnet",
+    "sample": 2,
+    "skill": "s04-meal-planner-sonnet-skill-2",
+    "control": "s04-meal-planner-sonnet-control-2",
+    "o1": {
+      "A": "control",
+      "B": "skill"
+    },
+    "o2": {
+      "A": "skill",
+      "B": "control"
+    }
+  },
+  "s04-meal-planner-sonnet-3": {
+    "scenario": "s04-meal-planner",
+    "model_short": "sonnet",
+    "sample": 3,
+    "skill": "s04-meal-planner-sonnet-skill-3",
+    "control": "s04-meal-planner-sonnet-control-3",
+    "o1": {
+      "A": "skill",
+      "B": "control"
+    },
+    "o2": {
+      "A": "control",
+      "B": "skill"
+    }
+  },
+  "s05-hr-chatbot-opus-1": {
+    "scenario": "s05-hr-chatbot",
+    "model_short": "opus",
+    "sample": 1,
+    "skill": "s05-hr-chatbot-opus-skill-1",
+    "control": "s05-hr-chatbot-opus-control-1",
+    "o1": {
+      "A": "skill",
+      "B": "control"
+    },
+    "o2": {
+      "A": "control",
+      "B": "skill"
+    }
+  },
+  "s05-hr-chatbot-opus-2": {
+    "scenario": "s05-hr-chatbot",
+    "model_short": "opus",
+    "sample": 2,
+    "skill": "s05-hr-chatbot-opus-skill-2",
+    "control": "s05-hr-chatbot-opus-control-2",
+    "o1": {
+      "A": "skill",
+      "B": "control"
+    },
+    "o2": {
+      "A": "control",
+      "B": "skill"
+    }
+  },
+  "s05-hr-chatbot-opus-3": {
+    "scenario": "s05-hr-chatbot",
+    "model_short": "opus",
+    "sample": 3,
+    "skill": "s05-hr-chatbot-opus-skill-3",
+    "control": "s05-hr-chatbot-opus-control-3",
+    "o1": {
+      "A": "control",
+      "B": "skill"
+    },
+    "o2": {
+      "A": "skill",
+      "B": "control"
+    }
+  },
+  "s05-hr-chatbot-sonnet-1": {
+    "scenario": "s05-hr-chatbot",
+    "model_short": "sonnet",
+    "sample": 1,
+    "skill": "s05-hr-chatbot-sonnet-skill-1",
+    "control": "s05-hr-chatbot-sonnet-control-1",
+    "o1": {
+      "A": "control",
+      "B": "skill"
+    },
+    "o2": {
+      "A": "skill",
+      "B": "control"
+    }
+  },
+  "s05-hr-chatbot-sonnet-2": {
+    "scenario": "s05-hr-chatbot",
+    "model_short": "sonnet",
+    "sample": 2,
+    "skill": "s05-hr-chatbot-sonnet-skill-2",
+    "control": "s05-hr-chatbot-sonnet-control-2",
+    "o1": {
+      "A": "control",
+      "B": "skill"
+    },
+    "o2": {
+      "A": "skill",
+      "B": "control"
+    }
+  },
+  "s05-hr-chatbot-sonnet-3": {
+    "scenario": "s05-hr-chatbot",
+    "model_short": "sonnet",
+    "sample": 3,
+    "skill": "s05-hr-chatbot-sonnet-skill-3",
+    "control": "s05-hr-chatbot-sonnet-control-3",
+    "o1": {
+      "A": "skill",
+      "B": "control"
+    },
+    "o2": {
+      "A": "control",
+      "B": "skill"
+    }
+  },
+  "s06-streaks-opus-1": {
+    "scenario": "s06-streaks",
+    "model_short": "opus",
+    "sample": 1,
+    "skill": "s06-streaks-opus-skill-1",
+    "control": "s06-streaks-opus-control-1",
+    "o1": {
+      "A": "skill",
+      "B": "control"
+    },
+    "o2": {
+      "A": "control",
+      "B": "skill"
+    }
+  },
+  "s06-streaks-opus-2": {
+    "scenario": "s06-streaks",
+    "model_short": "opus",
+    "sample": 2,
+    "skill": "s06-streaks-opus-skill-2",
+    "control": "s06-streaks-opus-control-2",
+    "o1": {
+      "A": "control",
+      "B": "skill"
+    },
+    "o2": {
+      "A": "skill",
+      "B": "control"
+    }
+  },
+  "s06-streaks-opus-3": {
+    "scenario": "s06-streaks",
+    "model_short": "opus",
+    "sample": 3,
+    "skill": "s06-streaks-opus-skill-3",
+    "control": "s06-streaks-opus-control-3",
+    "o1": {
+      "A": "skill",
+      "B": "control"
+    },
+    "o2": {
+      "A": "control",
+      "B": "skill"
+    }
+  },
+  "s06-streaks-sonnet-1": {
+    "scenario": "s06-streaks",
+    "model_short": "sonnet",
+    "sample": 1,
+    "skill": "s06-streaks-sonnet-skill-1",
+    "control": "s06-streaks-sonnet-control-1",
+    "o1": {
+      "A": "control",
+      "B": "skill"
+    },
+    "o2": {
+      "A": "skill",
+      "B": "control"
+    }
+  },
+  "s06-streaks-sonnet-2": {
+    "scenario": "s06-streaks",
+    "model_short": "sonnet",
+    "sample": 2,
+    "skill": "s06-streaks-sonnet-skill-2",
+    "control": "s06-streaks-sonnet-control-2",
+    "o1": {
+      "A": "control",
+      "B": "skill"
+    },
+    "o2": {
+      "A": "skill",
+      "B": "control"
+    }
+  },
+  "s06-streaks-sonnet-3": {
+    "scenario": "s06-streaks",
+    "model_short": "sonnet",
+    "sample": 3,
+    "skill": "s06-streaks-sonnet-skill-3",
+    "control": "s06-streaks-sonnet-control-3",
+    "o1": {
+      "A": "skill",
+      "B": "control"
+    },
+    "o2": {
+      "A": "control",
+      "B": "skill"
+    }
+  },
+  "s07-competitor-copilot-opus-1": {
+    "scenario": "s07-competitor-copilot",
+    "model_short": "opus",
+    "sample": 1,
+    "skill": "s07-competitor-copilot-opus-skill-1",
+    "control": "s07-competitor-copilot-opus-control-1",
+    "o1": {
+      "A": "control",
+      "B": "skill"
+    },
+    "o2": {
+      "A": "skill",
+      "B": "control"
+    }
+  },
+  "s07-competitor-copilot-opus-2": {
+    "scenario": "s07-competitor-copilot",
+    "model_short": "opus",
+    "sample": 2,
+    "skill": "s07-competitor-copilot-opus-skill-2",
+    "control": "s07-competitor-copilot-opus-control-2",
+    "o1": {
+      "A": "control",
+      "B": "skill"
+    },
+    "o2": {
+      "A": "skill",
+      "B": "control"
+    }
+  },
+  "s07-competitor-copilot-opus-3": {
+    "scenario": "s07-competitor-copilot",
+    "model_short": "opus",
+    "sample": 3,
+    "skill": "s07-competitor-copilot-opus-skill-3",
+    "control": "s07-competitor-copilot-opus-control-3",
+    "o1": {
+      "A": "control",
+      "B": "skill"
+    },
+    "o2": {
+      "A": "skill",
+      "B": "control"
+    }
+  },
+  "s07-competitor-copilot-sonnet-1": {
+    "scenario": "s07-competitor-copilot",
+    "model_short": "sonnet",
+    "sample": 1,
+    "skill": "s07-competitor-copilot-sonnet-skill-1",
+    "control": "s07-competitor-copilot-sonnet-control-1",
+    "o1": {
+      "A": "skill",
+      "B": "control"
+    },
+    "o2": {
+      "A": "control",
+      "B": "skill"
+    }
+  },
+  "s07-competitor-copilot-sonnet-2": {
+    "scenario": "s07-competitor-copilot",
+    "model_short": "sonnet",
+    "sample": 2,
+    "skill": "s07-competitor-copilot-sonnet-skill-2",
+    "control": "s07-competitor-copilot-sonnet-control-2",
+    "o1": {
+      "A": "control",
+      "B": "skill"
+    },
+    "o2": {
+      "A": "skill",
+      "B": "control"
+    }
+  },
+  "s07-competitor-copilot-sonnet-3": {
+    "scenario": "s07-competitor-copilot",
+    "model_short": "sonnet",
+    "sample": 3,
+    "skill": "s07-competitor-copilot-sonnet-skill-3",
+    "control": "s07-competitor-copilot-sonnet-control-3",
+    "o1": {
+      "A": "control",
+      "B": "skill"
+    },
+    "o2": {
+      "A": "skill",
+      "B": "control"
+    }
+  },
+  "s08-correlation-opus-1": {
+    "scenario": "s08-correlation",
+    "model_short": "opus",
+    "sample": 1,
+    "skill": "s08-correlation-opus-skill-1",
+    "control": "s08-correlation-opus-control-1",
+    "o1": {
+      "A": "skill",
+      "B": "control"
+    },
+    "o2": {
+      "A": "control",
+      "B": "skill"
+    }
+  },
+  "s08-correlation-opus-2": {
+    "scenario": "s08-correlation",
+    "model_short": "opus",
+    "sample": 2,
+    "skill": "s08-correlation-opus-skill-2",
+    "control": "s08-correlation-opus-control-2",
+    "o1": {
+      "A": "skill",
+      "B": "control"
+    },
+    "o2": {
+      "A": "control",
+      "B": "skill"
+    }
+  },
+  "s08-correlation-opus-3": {
+    "scenario": "s08-correlation",
+    "model_short": "opus",
+    "sample": 3,
+    "skill": "s08-correlation-opus-skill-3",
+    "control": "s08-correlation-opus-control-3",
+    "o1": {
+      "A": "control",
+      "B": "skill"
+    },
+    "o2": {
+      "A": "skill",
+      "B": "control"
+    }
+  },
+  "s08-correlation-sonnet-1": {
+    "scenario": "s08-correlation",
+    "model_short": "sonnet",
+    "sample": 1,
+    "skill": "s08-correlation-sonnet-skill-1",
+    "control": "s08-correlation-sonnet-control-1",
+    "o1": {
+      "A": "skill",
+      "B": "control"
+    },
+    "o2": {
+      "A": "control",
+      "B": "skill"
+    }
+  },
+  "s08-correlation-sonnet-2": {
+    "scenario": "s08-correlation",
+    "model_short": "sonnet",
+    "sample": 2,
+    "skill": "s08-correlation-sonnet-skill-2",
+    "control": "s08-correlation-sonnet-control-2",
+    "o1": {
+      "A": "skill",
+      "B": "control"
+    },
+    "o2": {
+      "A": "control",
+      "B": "skill"
+    }
+  },
+  "s08-correlation-sonnet-3": {
+    "scenario": "s08-correlation",
+    "model_short": "sonnet",
+    "sample": 3,
+    "skill": "s08-correlation-sonnet-skill-3",
+    "control": "s08-correlation-sonnet-control-3",
+    "o1": {
+      "A": "control",
+      "B": "skill"
+    },
+    "o2": {
+      "A": "skill",
+      "B": "control"
+    }
+  },
+  "s09-direct-debit-opus-1": {
+    "scenario": "s09-direct-debit",
+    "model_short": "opus",
+    "sample": 1,
+    "skill": "s09-direct-debit-opus-skill-1",
+    "control": "s09-direct-debit-opus-control-1",
+    "o1": {
+      "A": "control",
+      "B": "skill"
+    },
+    "o2": {
+      "A": "skill",
+      "B": "control"
+    }
+  },
+  "s09-direct-debit-opus-2": {
+    "scenario": "s09-direct-debit",
+    "model_short": "opus",
+    "sample": 2,
+    "skill": "s09-direct-debit-opus-skill-2",
+    "control": "s09-direct-debit-opus-control-2",
+    "o1": {
+      "A": "skill",
+      "B": "control"
+    },
+    "o2": {
+      "A": "control",
+      "B": "skill"
+    }
+  },
+  "s09-direct-debit-opus-3": {
+    "scenario": "s09-direct-debit",
+    "model_short": "opus",
+    "sample": 3,
+    "skill": "s09-direct-debit-opus-skill-3",
+    "control": "s09-direct-debit-opus-control-3",
+    "o1": {
+      "A": "skill",
+      "B": "control"
+    },
+    "o2": {
+      "A": "control",
+      "B": "skill"
+    }
+  },
+  "s09-direct-debit-sonnet-1": {
+    "scenario": "s09-direct-debit",
+    "model_short": "sonnet",
+    "sample": 1,
+    "skill": "s09-direct-debit-sonnet-skill-1",
+    "control": "s09-direct-debit-sonnet-control-1",
+    "o1": {
+      "A": "control",
+      "B": "skill"
+    },
+    "o2": {
+      "A": "skill",
+      "B": "control"
+    }
+  },
+  "s09-direct-debit-sonnet-2": {
+    "scenario": "s09-direct-debit",
+    "model_short": "sonnet",
+    "sample": 2,
+    "skill": "s09-direct-debit-sonnet-skill-2",
+    "control": "s09-direct-debit-sonnet-control-2",
+    "o1": {
+      "A": "skill",
+      "B": "control"
+    },
+    "o2": {
+      "A": "control",
+      "B": "skill"
+    }
+  },
+  "s09-direct-debit-sonnet-3": {
+    "scenario": "s09-direct-debit",
+    "model_short": "sonnet",
+    "sample": 3,
+    "skill": "s09-direct-debit-sonnet-skill-3",
+    "control": "s09-direct-debit-sonnet-control-3",
+    "o1": {
+      "A": "skill",
+      "B": "control"
+    },
+    "o2": {
+      "A": "control",
+      "B": "skill"
+    }
+  },
+  "s10-pause-subscription-opus-1": {
+    "scenario": "s10-pause-subscription",
+    "model_short": "opus",
+    "sample": 1,
+    "skill": "s10-pause-subscription-opus-skill-1",
+    "control": "s10-pause-subscription-opus-control-1",
+    "o1": {
+      "A": "control",
+      "B": "skill"
+    },
+    "o2": {
+      "A": "skill",
+      "B": "control"
+    }
+  },
+  "s10-pause-subscription-opus-2": {
+    "scenario": "s10-pause-subscription",
+    "model_short": "opus",
+    "sample": 2,
+    "skill": "s10-pause-subscription-opus-skill-2",
+    "control": "s10-pause-subscription-opus-control-2",
+    "o1": {
+      "A": "control",
+      "B": "skill"
+    },
+    "o2": {
+      "A": "skill",
+      "B": "control"
+    }
+  },
+  "s10-pause-subscription-opus-3": {
+    "scenario": "s10-pause-subscription",
+    "model_short": "opus",
+    "sample": 3,
+    "skill": "s10-pause-subscription-opus-skill-3",
+    "control": "s10-pause-subscription-opus-control-3",
+    "o1": {
+      "A": "control",
+      "B": "skill"
+    },
+    "o2": {
+      "A": "skill",
+      "B": "control"
+    }
+  },
+  "s10-pause-subscription-sonnet-1": {
+    "scenario": "s10-pause-subscription",
+    "model_short": "sonnet",
+    "sample": 1,
+    "skill": "s10-pause-subscription-sonnet-skill-1",
+    "control": "s10-pause-subscription-sonnet-control-1",
+    "o1": {
+      "A": "skill",
+      "B": "control"
+    },
+    "o2": {
+      "A": "control",
+      "B": "skill"
+    }
+  },
+  "s10-pause-subscription-sonnet-2": {
+    "scenario": "s10-pause-subscription",
+    "model_short": "sonnet",
+    "sample": 2,
+    "skill": "s10-pause-subscription-sonnet-skill-2",
+    "control": "s10-pause-subscription-sonnet-control-2",
+    "o1": {
+      "A": "skill",
+      "B": "control"
+    },
+    "o2": {
+      "A": "control",
+      "B": "skill"
+    }
+  },
+  "s10-pause-subscription-sonnet-3": {
+    "scenario": "s10-pause-subscription",
+    "model_short": "sonnet",
+    "sample": 3,
+    "skill": "s10-pause-subscription-sonnet-skill-3",
+    "control": "s10-pause-subscription-sonnet-control-3",
+    "o1": {
+      "A": "skill",
+      "B": "control"
+    },
+    "o2": {
+      "A": "control",
+      "B": "skill"
+    }
+  }
+}
