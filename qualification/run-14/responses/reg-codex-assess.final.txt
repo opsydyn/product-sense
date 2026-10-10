@@ -1,0 +1,9 @@
+**Investigate; do not build yet.** Three organisers’ stated interest is a weak demand signal; task failures, actual usage and payment commitments remain unestablished.
+
+**Hypothesis:** organisers want to recover decisions and outstanding actions from email threads and group messages; the effort and consequences of doing this today are unknown.
+
+**Critical hypothesis:** weekly summaries improve that task enough to justify switching and checking AI output, compared with existing messages or a simple manual digest.
+
+**Proposed next step:** cap discovery at two days, reviewing recent tasks with the three organisers and establishing retrieval success and effort; obtain consent before accessing messages.
+
+**Proposed gate:** two organisers showing recurring problems and committing justify a manual-summary pilot within the remaining eight days; otherwise park, with app development requiring a separate budget decision.

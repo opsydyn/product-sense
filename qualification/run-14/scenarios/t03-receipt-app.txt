@@ -1,0 +1,3 @@
+We are a 12-person company selling accounting software to UK sole traders. Our strategy this year is to make quarterly tax filing effortless before a regulatory deadline next April. The filing feature is 60% done and needs all four engineers until March. Marketing wants a mobile receipt-scanning app now: a competitor launched one and 'receipts' is the top search term on our blog. It would take two engineers three months. Should we start it?
+
+Answer in at most 250 words. Assess only; do not create or edit files, contact anyone or run experiments.

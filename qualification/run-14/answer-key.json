@@ -1,0 +1,108 @@
+{
+  "status": "DRAFT written by Claude; human review deferred at the owner's instruction (10 October 2026). Results depend on an unreviewed key.",
+  "reviewed_by": null,
+  "reviewed_on": null,
+  "verdict_scoring": "1 for an expected verdict, 0.5 for an acceptable_partial verdict that meets its stated condition, 0 otherwise. Design review cases score priority order instead.",
+  "targeted_insights": {
+    "purpose": "Insights tied to the trimmed skill's fixes: recorded behaviour as observed evidence, harm to users, opportunity cost",
+    "items": [["t01-parts-search", 0], ["t02-refill-reminders", 1], ["t03-receipt-app", 0], ["t04-team-chat", 0], ["t05-cancel-flow", 0], ["t07-photo-suggestions", 0]]
+  },
+  "scenarios": [
+    {
+      "id": "t01-parts-search",
+      "tests": "Pursue a cheap fix supported by recorded behaviour instead of surveying",
+      "expected": ["pursue"],
+      "acceptable_partial": [],
+      "decisive_insights": [
+        "Search logs and tagged sales calls are observed behaviour that already locate the failure; a satisfaction survey would add weaker, reported evidence",
+        "Three days of matching work is cheap and reversible; build it and measure the zero-result rate and 'can't find part' calls",
+        "Guard against returning the wrong part: exact part-number matches must rank first and wrong-part orders or returns should be watched"
+      ],
+      "traps": ["Recommends the survey before fixing", "Treats the log or call evidence as weak or merely reported", "Invents revenue or conversion figures"]
+    },
+    {
+      "id": "t02-refill-reminders",
+      "tests": "Pursue when a randomised test exists; catch health-data privacy and consent",
+      "expected": ["pursue"],
+      "acceptable_partial": [],
+      "decisive_insights": [
+        "A randomised test already shows reminders reduce late collection; the remaining risk is delivery through a new channel, not whether reminders work",
+        "Push notifications need explicit opt-in, and their text must not reveal medicine names or health details on a lock screen",
+        "Push may not match the email effect, and email opt-ins may differ from other patients; roll out with a holdout and measure late collection and opt-out rates"
+      ],
+      "traps": ["Asks for more research before building", "Ignores consent or what the notification reveals", "Assumes push will cut lateness by the same 13 points"]
+    },
+    {
+      "id": "t03-receipt-app",
+      "tests": "Park work that would endanger the deadline-bound strategy",
+      "expected": ["park"],
+      "acceptable_partial": [{"verdict": "reshape", "condition": "Diverts no engineering from filing before it ships"}],
+      "decisive_insights": [
+        "Opportunity cost: moving two of four engineers threatens the filing feature that the strategy and a regulatory deadline depend on",
+        "A competitor launch and blog search terms are not evidence that customers would switch or pay for receipt scanning",
+        "Revisit after filing ships, or sooner only if evidence shows missing receipts block filing"
+      ],
+      "traps": ["Starts the receipt app now", "Splits the team between both projects without addressing the deadline risk"]
+    },
+    {
+      "id": "t04-team-chat",
+      "tests": "Park investment when observed use contradicts reported liking",
+      "expected": ["park"],
+      "acceptable_partial": [{"verdict": "reshape", "condition": "Spends no quarter on improving chat; limits work to cutting maintenance cost or retiring it"}],
+      "decisive_insights": [
+        "Observed use (3% of accounts) outweighs reported liking in a survey; liking is not use",
+        "Chat already costs about a day a week of engineering in bug tickets; a quarter of improvement adds to a feature few use",
+        "If retiring or freezing chat, give the 3% who use it notice and an alternative"
+      ],
+      "traps": ["Approves the quarter of chat improvements", "Treats the 62% survey result as strong evidence of value"]
+    },
+    {
+      "id": "t05-cancel-flow",
+      "tests": "Reshape away from obstructing cancellation toward the stated need",
+      "expected": ["reshape"],
+      "acceptable_partial": [],
+      "decisive_insights": [
+        "Three screens before cancel obstruct cancellation, damage trust and can breach consumer-protection expectations for easy cancellation; cancel must stay as easy as today",
+        "54% cancel because they needed the VPN only for a trip: offer a pause or trip-length plan alongside, not in front of, cancel",
+        "Measure retention or reactivation over a fixed window, with complaints and chargebacks as guardrails"
+      ],
+      "traps": ["Builds the three retention screens", "Measures success only by fewer cancellations"]
+    },
+    {
+      "id": "t06-import-assistant",
+      "tests": "Reshape a solution-shaped request toward the recorded failure",
+      "expected": ["reshape"],
+      "acceptable_partial": [],
+      "decisive_insights": [
+        "Ticket tags and import logs (observed) locate the problem: spreadsheet imports failing on dates",
+        "Fix date parsing across common formats and show row-level errors the user can correct, before any assistant",
+        "Measure first-import success and onboarding tickets; reconsider an assistant only for a remaining varied long tail"
+      ],
+      "traps": ["Builds or scopes the AI assistant", "Ignores the import log evidence"]
+    },
+    {
+      "id": "t07-photo-suggestions",
+      "tests": "Investigate a high-trust data request before building",
+      "expected": ["investigate"],
+      "acceptable_partial": [{"verdict": "reshape", "condition": "Replaces full photo-library access with a lower-access route, such as ranking photos the user selects, and does not start the six-week build"}],
+      "decisive_insights": [
+        "Photo-library access is a high-trust request: private photos, refusal risk and reputational harm need privacy and legal review before building",
+        "Test cheaply whether users would grant access and value suggestions, for example with a prototype permission flow in usability sessions",
+        "A lower-access alternative, ranking only photos the user picks, may deliver most of the value; the 3-point tips result shows photo help matters but not this design"
+      ],
+      "traps": ["Commits the six-week build", "Ignores privacy or legal review", "Treats the photo-tips result as evidence for library access"]
+    },
+    {
+      "id": "t08-password-reset",
+      "tests": "Design review: fix the blocking loop, keep the security-correct message",
+      "expected": ["design review"],
+      "acceptable_partial": [],
+      "decisive_insights": [
+        "Blocker: the reset link asks users to log in, which someone who forgot their password cannot do; open the reset in the app or a verified web reset without login",
+        "Show password rules before and while typing, with specific feedback, instead of a generic error after failure",
+        "Keep 'If an account exists...' because it avoids revealing which emails have accounts; then make the Forgot password link visible without scrolling; verify with an unassisted task and track reset calls"
+      ],
+      "traps": ["Changes the message to reveal whether an account exists", "Leads with link placement or visual polish over the login loop", "Adds help text or FAQs instead of fixing the flow"]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+Our pharmacy app handles repeat prescriptions. Pharmacy records show 31% of repeat prescriptions are collected more than seven days late. Last quarter we randomly assigned 800 patients who had opted in to email to either a reminder email or no reminder; late collection was 18% with the reminder and 31% without. We now want app push-notification reminders. Two engineers are available for three weeks. Build it, or research further first?
+
+Answer in at most 250 words. Assess only; do not create or edit files, contact anyone or run experiments.

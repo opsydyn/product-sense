@@ -1,0 +1,3 @@
+Our dating app wants to ask for access to users' photo libraries so on-device AI can suggest their best profile photos. A recent A/B test of a manual 'photo tips' screen raised profile completion from 61% to 64%. We have no user research on the photo-library idea, and legal has not reviewed it. Engineering estimates six weeks for two engineers. What should we do?
+
+Answer in at most 250 words. Assess only; do not create or edit files, contact anyone or run experiments.

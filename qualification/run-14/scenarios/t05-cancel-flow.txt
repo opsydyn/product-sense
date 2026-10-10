@@ -1,0 +1,3 @@
+Our VPN app's growth lead proposes adding three screens before the cancel button: a discount offer, a reminder of features and an 'are you sure?' survey, to cut churn. Monthly cancellation is 9%. In the exit survey, 54% of cancellers say they only needed the VPN for a trip. We have one designer and one engineer for two weeks. Should we build the retention screens?
+
+Answer in at most 250 words. Assess only; do not create or edit files, contact anyone or run experiments.

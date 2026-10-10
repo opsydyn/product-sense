@@ -1,0 +1,1538 @@
+{
+  "new-vs-old-t01-parts-search-opus-1": {
+    "comparison": "new-vs-old",
+    "scenario": "t01-parts-search",
+    "model_short": "opus",
+    "sample": 1,
+    "new": "t01-parts-search-opus-new-1",
+    "old": "t01-parts-search-opus-old-1",
+    "o1": {
+      "A": "old",
+      "B": "new"
+    },
+    "o2": {
+      "A": "new",
+      "B": "old"
+    }
+  },
+  "new-vs-old-t01-parts-search-opus-2": {
+    "comparison": "new-vs-old",
+    "scenario": "t01-parts-search",
+    "model_short": "opus",
+    "sample": 2,
+    "new": "t01-parts-search-opus-new-2",
+    "old": "t01-parts-search-opus-old-2",
+    "o1": {
+      "A": "old",
+      "B": "new"
+    },
+    "o2": {
+      "A": "new",
+      "B": "old"
+    }
+  },
+  "new-vs-old-t01-parts-search-opus-3": {
+    "comparison": "new-vs-old",
+    "scenario": "t01-parts-search",
+    "model_short": "opus",
+    "sample": 3,
+    "new": "t01-parts-search-opus-new-3",
+    "old": "t01-parts-search-opus-old-3",
+    "o1": {
+      "A": "new",
+      "B": "old"
+    },
+    "o2": {
+      "A": "old",
+      "B": "new"
+    }
+  },
+  "new-vs-old-t01-parts-search-sonnet-1": {
+    "comparison": "new-vs-old",
+    "scenario": "t01-parts-search",
+    "model_short": "sonnet",
+    "sample": 1,
+    "new": "t01-parts-search-sonnet-new-1",
+    "old": "t01-parts-search-sonnet-old-1",
+    "o1": {
+      "A": "new",
+      "B": "old"
+    },
+    "o2": {
+      "A": "old",
+      "B": "new"
+    }
+  },
+  "new-vs-old-t01-parts-search-sonnet-2": {
+    "comparison": "new-vs-old",
+    "scenario": "t01-parts-search",
+    "model_short": "sonnet",
+    "sample": 2,
+    "new": "t01-parts-search-sonnet-new-2",
+    "old": "t01-parts-search-sonnet-old-2",
+    "o1": {
+      "A": "old",
+      "B": "new"
+    },
+    "o2": {
+      "A": "new",
+      "B": "old"
+    }
+  },
+  "new-vs-old-t01-parts-search-sonnet-3": {
+    "comparison": "new-vs-old",
+    "scenario": "t01-parts-search",
+    "model_short": "sonnet",
+    "sample": 3,
+    "new": "t01-parts-search-sonnet-new-3",
+    "old": "t01-parts-search-sonnet-old-3",
+    "o1": {
+      "A": "new",
+      "B": "old"
+    },
+    "o2": {
+      "A": "old",
+      "B": "new"
+    }
+  },
+  "new-vs-old-t02-refill-reminders-opus-1": {
+    "comparison": "new-vs-old",
+    "scenario": "t02-refill-reminders",
+    "model_short": "opus",
+    "sample": 1,
+    "new": "t02-refill-reminders-opus-new-1",
+    "old": "t02-refill-reminders-opus-old-1",
+    "o1": {
+      "A": "old",
+      "B": "new"
+    },
+    "o2": {
+      "A": "new",
+      "B": "old"
+    }
+  },
+  "new-vs-old-t02-refill-reminders-opus-2": {
+    "comparison": "new-vs-old",
+    "scenario": "t02-refill-reminders",
+    "model_short": "opus",
+    "sample": 2,
+    "new": "t02-refill-reminders-opus-new-2",
+    "old": "t02-refill-reminders-opus-old-2",
+    "o1": {
+      "A": "old",
+      "B": "new"
+    },
+    "o2": {
+      "A": "new",
+      "B": "old"
+    }
+  },
+  "new-vs-old-t02-refill-reminders-opus-3": {
+    "comparison": "new-vs-old",
+    "scenario": "t02-refill-reminders",
+    "model_short": "opus",
+    "sample": 3,
+    "new": "t02-refill-reminders-opus-new-3",
+    "old": "t02-refill-reminders-opus-old-3",
+    "o1": {
+      "A": "new",
+      "B": "old"
+    },
+    "o2": {
+      "A": "old",
+      "B": "new"
+    }
+  },
+  "new-vs-old-t02-refill-reminders-sonnet-1": {
+    "comparison": "new-vs-old",
+    "scenario": "t02-refill-reminders",
+    "model_short": "sonnet",
+    "sample": 1,
+    "new": "t02-refill-reminders-sonnet-new-1",
+    "old": "t02-refill-reminders-sonnet-old-1",
+    "o1": {
+      "A": "new",
+      "B": "old"
+    },
+    "o2": {
+      "A": "old",
+      "B": "new"
+    }
+  },
+  "new-vs-old-t02-refill-reminders-sonnet-2": {
+    "comparison": "new-vs-old",
+    "scenario": "t02-refill-reminders",
+    "model_short": "sonnet",
+    "sample": 2,
+    "new": "t02-refill-reminders-sonnet-new-2",
+    "old": "t02-refill-reminders-sonnet-old-2",
+    "o1": {
+      "A": "new",
+      "B": "old"
+    },
+    "o2": {
+      "A": "old",
+      "B": "new"
+    }
+  },
+  "new-vs-old-t02-refill-reminders-sonnet-3": {
+    "comparison": "new-vs-old",
+    "scenario": "t02-refill-reminders",
+    "model_short": "sonnet",
+    "sample": 3,
+    "new": "t02-refill-reminders-sonnet-new-3",
+    "old": "t02-refill-reminders-sonnet-old-3",
+    "o1": {
+      "A": "old",
+      "B": "new"
+    },
+    "o2": {
+      "A": "new",
+      "B": "old"
+    }
+  },
+  "new-vs-old-t03-receipt-app-opus-1": {
+    "comparison": "new-vs-old",
+    "scenario": "t03-receipt-app",
+    "model_short": "opus",
+    "sample": 1,
+    "new": "t03-receipt-app-opus-new-1",
+    "old": "t03-receipt-app-opus-old-1",
+    "o1": {
+      "A": "old",
+      "B": "new"
+    },
+    "o2": {
+      "A": "new",
+      "B": "old"
+    }
+  },
+  "new-vs-old-t03-receipt-app-opus-2": {
+    "comparison": "new-vs-old",
+    "scenario": "t03-receipt-app",
+    "model_short": "opus",
+    "sample": 2,
+    "new": "t03-receipt-app-opus-new-2",
+    "old": "t03-receipt-app-opus-old-2",
+    "o1": {
+      "A": "new",
+      "B": "old"
+    },
+    "o2": {
+      "A": "old",
+      "B": "new"
+    }
+  },
+  "new-vs-old-t03-receipt-app-opus-3": {
+    "comparison": "new-vs-old",
+    "scenario": "t03-receipt-app",
+    "model_short": "opus",
+    "sample": 3,
+    "new": "t03-receipt-app-opus-new-3",
+    "old": "t03-receipt-app-opus-old-3",
+    "o1": {
+      "A": "new",
+      "B": "old"
+    },
+    "o2": {
+      "A": "old",
+      "B": "new"
+    }
+  },
+  "new-vs-old-t03-receipt-app-sonnet-1": {
+    "comparison": "new-vs-old",
+    "scenario": "t03-receipt-app",
+    "model_short": "sonnet",
+    "sample": 1,
+    "new": "t03-receipt-app-sonnet-new-1",
+    "old": "t03-receipt-app-sonnet-old-1",
+    "o1": {
+      "A": "old",
+      "B": "new"
+    },
+    "o2": {
+      "A": "new",
+      "B": "old"
+    }
+  },
+  "new-vs-old-t03-receipt-app-sonnet-2": {
+    "comparison": "new-vs-old",
+    "scenario": "t03-receipt-app",
+    "model_short": "sonnet",
+    "sample": 2,
+    "new": "t03-receipt-app-sonnet-new-2",
+    "old": "t03-receipt-app-sonnet-old-2",
+    "o1": {
+      "A": "new",
+      "B": "old"
+    },
+    "o2": {
+      "A": "old",
+      "B": "new"
+    }
+  },
+  "new-vs-old-t03-receipt-app-sonnet-3": {
+    "comparison": "new-vs-old",
+    "scenario": "t03-receipt-app",
+    "model_short": "sonnet",
+    "sample": 3,
+    "new": "t03-receipt-app-sonnet-new-3",
+    "old": "t03-receipt-app-sonnet-old-3",
+    "o1": {
+      "A": "new",
+      "B": "old"
+    },
+    "o2": {
+      "A": "old",
+      "B": "new"
+    }
+  },
+  "new-vs-old-t04-team-chat-opus-1": {
+    "comparison": "new-vs-old",
+    "scenario": "t04-team-chat",
+    "model_short": "opus",
+    "sample": 1,
+    "new": "t04-team-chat-opus-new-1",
+    "old": "t04-team-chat-opus-old-1",
+    "o1": {
+      "A": "new",
+      "B": "old"
+    },
+    "o2": {
+      "A": "old",
+      "B": "new"
+    }
+  },
+  "new-vs-old-t04-team-chat-opus-2": {
+    "comparison": "new-vs-old",
+    "scenario": "t04-team-chat",
+    "model_short": "opus",
+    "sample": 2,
+    "new": "t04-team-chat-opus-new-2",
+    "old": "t04-team-chat-opus-old-2",
+    "o1": {
+      "A": "new",
+      "B": "old"
+    },
+    "o2": {
+      "A": "old",
+      "B": "new"
+    }
+  },
+  "new-vs-old-t04-team-chat-opus-3": {
+    "comparison": "new-vs-old",
+    "scenario": "t04-team-chat",
+    "model_short": "opus",
+    "sample": 3,
+    "new": "t04-team-chat-opus-new-3",
+    "old": "t04-team-chat-opus-old-3",
+    "o1": {
+      "A": "new",
+      "B": "old"
+    },
+    "o2": {
+      "A": "old",
+      "B": "new"
+    }
+  },
+  "new-vs-old-t04-team-chat-sonnet-1": {
+    "comparison": "new-vs-old",
+    "scenario": "t04-team-chat",
+    "model_short": "sonnet",
+    "sample": 1,
+    "new": "t04-team-chat-sonnet-new-1",
+    "old": "t04-team-chat-sonnet-old-1",
+    "o1": {
+      "A": "new",
+      "B": "old"
+    },
+    "o2": {
+      "A": "old",
+      "B": "new"
+    }
+  },
+  "new-vs-old-t04-team-chat-sonnet-2": {
+    "comparison": "new-vs-old",
+    "scenario": "t04-team-chat",
+    "model_short": "sonnet",
+    "sample": 2,
+    "new": "t04-team-chat-sonnet-new-2",
+    "old": "t04-team-chat-sonnet-old-2",
+    "o1": {
+      "A": "old",
+      "B": "new"
+    },
+    "o2": {
+      "A": "new",
+      "B": "old"
+    }
+  },
+  "new-vs-old-t04-team-chat-sonnet-3": {
+    "comparison": "new-vs-old",
+    "scenario": "t04-team-chat",
+    "model_short": "sonnet",
+    "sample": 3,
+    "new": "t04-team-chat-sonnet-new-3",
+    "old": "t04-team-chat-sonnet-old-3",
+    "o1": {
+      "A": "old",
+      "B": "new"
+    },
+    "o2": {
+      "A": "new",
+      "B": "old"
+    }
+  },
+  "new-vs-old-t05-cancel-flow-opus-1": {
+    "comparison": "new-vs-old",
+    "scenario": "t05-cancel-flow",
+    "model_short": "opus",
+    "sample": 1,
+    "new": "t05-cancel-flow-opus-new-1",
+    "old": "t05-cancel-flow-opus-old-1",
+    "o1": {
+      "A": "new",
+      "B": "old"
+    },
+    "o2": {
+      "A": "old",
+      "B": "new"
+    }
+  },
+  "new-vs-old-t05-cancel-flow-opus-2": {
+    "comparison": "new-vs-old",
+    "scenario": "t05-cancel-flow",
+    "model_short": "opus",
+    "sample": 2,
+    "new": "t05-cancel-flow-opus-new-2",
+    "old": "t05-cancel-flow-opus-old-2",
+    "o1": {
+      "A": "new",
+      "B": "old"
+    },
+    "o2": {
+      "A": "old",
+      "B": "new"
+    }
+  },
+  "new-vs-old-t05-cancel-flow-opus-3": {
+    "comparison": "new-vs-old",
+    "scenario": "t05-cancel-flow",
+    "model_short": "opus",
+    "sample": 3,
+    "new": "t05-cancel-flow-opus-new-3",
+    "old": "t05-cancel-flow-opus-old-3",
+    "o1": {
+      "A": "new",
+      "B": "old"
+    },
+    "o2": {
+      "A": "old",
+      "B": "new"
+    }
+  },
+  "new-vs-old-t05-cancel-flow-sonnet-1": {
+    "comparison": "new-vs-old",
+    "scenario": "t05-cancel-flow",
+    "model_short": "sonnet",
+    "sample": 1,
+    "new": "t05-cancel-flow-sonnet-new-1",
+    "old": "t05-cancel-flow-sonnet-old-1",
+    "o1": {
+      "A": "old",
+      "B": "new"
+    },
+    "o2": {
+      "A": "new",
+      "B": "old"
+    }
+  },
+  "new-vs-old-t05-cancel-flow-sonnet-2": {
+    "comparison": "new-vs-old",
+    "scenario": "t05-cancel-flow",
+    "model_short": "sonnet",
+    "sample": 2,
+    "new": "t05-cancel-flow-sonnet-new-2",
+    "old": "t05-cancel-flow-sonnet-old-2",
+    "o1": {
+      "A": "new",
+      "B": "old"
+    },
+    "o2": {
+      "A": "old",
+      "B": "new"
+    }
+  },
+  "new-vs-old-t05-cancel-flow-sonnet-3": {
+    "comparison": "new-vs-old",
+    "scenario": "t05-cancel-flow",
+    "model_short": "sonnet",
+    "sample": 3,
+    "new": "t05-cancel-flow-sonnet-new-3",
+    "old": "t05-cancel-flow-sonnet-old-3",
+    "o1": {
+      "A": "old",
+      "B": "new"
+    },
+    "o2": {
+      "A": "new",
+      "B": "old"
+    }
+  },
+  "new-vs-old-t06-import-assistant-opus-1": {
+    "comparison": "new-vs-old",
+    "scenario": "t06-import-assistant",
+    "model_short": "opus",
+    "sample": 1,
+    "new": "t06-import-assistant-opus-new-1",
+    "old": "t06-import-assistant-opus-old-1",
+    "o1": {
+      "A": "old",
+      "B": "new"
+    },
+    "o2": {
+      "A": "new",
+      "B": "old"
+    }
+  },
+  "new-vs-old-t06-import-assistant-opus-2": {
+    "comparison": "new-vs-old",
+    "scenario": "t06-import-assistant",
+    "model_short": "opus",
+    "sample": 2,
+    "new": "t06-import-assistant-opus-new-2",
+    "old": "t06-import-assistant-opus-old-2",
+    "o1": {
+      "A": "new",
+      "B": "old"
+    },
+    "o2": {
+      "A": "old",
+      "B": "new"
+    }
+  },
+  "new-vs-old-t06-import-assistant-opus-3": {
+    "comparison": "new-vs-old",
+    "scenario": "t06-import-assistant",
+    "model_short": "opus",
+    "sample": 3,
+    "new": "t06-import-assistant-opus-new-3",
+    "old": "t06-import-assistant-opus-old-3",
+    "o1": {
+      "A": "new",
+      "B": "old"
+    },
+    "o2": {
+      "A": "old",
+      "B": "new"
+    }
+  },
+  "new-vs-old-t06-import-assistant-sonnet-1": {
+    "comparison": "new-vs-old",
+    "scenario": "t06-import-assistant",
+    "model_short": "sonnet",
+    "sample": 1,
+    "new": "t06-import-assistant-sonnet-new-1",
+    "old": "t06-import-assistant-sonnet-old-1",
+    "o1": {
+      "A": "old",
+      "B": "new"
+    },
+    "o2": {
+      "A": "new",
+      "B": "old"
+    }
+  },
+  "new-vs-old-t06-import-assistant-sonnet-2": {
+    "comparison": "new-vs-old",
+    "scenario": "t06-import-assistant",
+    "model_short": "sonnet",
+    "sample": 2,
+    "new": "t06-import-assistant-sonnet-new-2",
+    "old": "t06-import-assistant-sonnet-old-2",
+    "o1": {
+      "A": "new",
+      "B": "old"
+    },
+    "o2": {
+      "A": "old",
+      "B": "new"
+    }
+  },
+  "new-vs-old-t06-import-assistant-sonnet-3": {
+    "comparison": "new-vs-old",
+    "scenario": "t06-import-assistant",
+    "model_short": "sonnet",
+    "sample": 3,
+    "new": "t06-import-assistant-sonnet-new-3",
+    "old": "t06-import-assistant-sonnet-old-3",
+    "o1": {
+      "A": "new",
+      "B": "old"
+    },
+    "o2": {
+      "A": "old",
+      "B": "new"
+    }
+  },
+  "new-vs-old-t07-photo-suggestions-opus-1": {
+    "comparison": "new-vs-old",
+    "scenario": "t07-photo-suggestions",
+    "model_short": "opus",
+    "sample": 1,
+    "new": "t07-photo-suggestions-opus-new-1",
+    "old": "t07-photo-suggestions-opus-old-1",
+    "o1": {
+      "A": "old",
+      "B": "new"
+    },
+    "o2": {
+      "A": "new",
+      "B": "old"
+    }
+  },
+  "new-vs-old-t07-photo-suggestions-opus-2": {
+    "comparison": "new-vs-old",
+    "scenario": "t07-photo-suggestions",
+    "model_short": "opus",
+    "sample": 2,
+    "new": "t07-photo-suggestions-opus-new-2",
+    "old": "t07-photo-suggestions-opus-old-2",
+    "o1": {
+      "A": "new",
+      "B": "old"
+    },
+    "o2": {
+      "A": "old",
+      "B": "new"
+    }
+  },
+  "new-vs-old-t07-photo-suggestions-opus-3": {
+    "comparison": "new-vs-old",
+    "scenario": "t07-photo-suggestions",
+    "model_short": "opus",
+    "sample": 3,
+    "new": "t07-photo-suggestions-opus-new-3",
+    "old": "t07-photo-suggestions-opus-old-3",
+    "o1": {
+      "A": "old",
+      "B": "new"
+    },
+    "o2": {
+      "A": "new",
+      "B": "old"
+    }
+  },
+  "new-vs-old-t07-photo-suggestions-sonnet-1": {
+    "comparison": "new-vs-old",
+    "scenario": "t07-photo-suggestions",
+    "model_short": "sonnet",
+    "sample": 1,
+    "new": "t07-photo-suggestions-sonnet-new-1",
+    "old": "t07-photo-suggestions-sonnet-old-1",
+    "o1": {
+      "A": "new",
+      "B": "old"
+    },
+    "o2": {
+      "A": "old",
+      "B": "new"
+    }
+  },
+  "new-vs-old-t07-photo-suggestions-sonnet-2": {
+    "comparison": "new-vs-old",
+    "scenario": "t07-photo-suggestions",
+    "model_short": "sonnet",
+    "sample": 2,
+    "new": "t07-photo-suggestions-sonnet-new-2",
+    "old": "t07-photo-suggestions-sonnet-old-2",
+    "o1": {
+      "A": "new",
+      "B": "old"
+    },
+    "o2": {
+      "A": "old",
+      "B": "new"
+    }
+  },
+  "new-vs-old-t07-photo-suggestions-sonnet-3": {
+    "comparison": "new-vs-old",
+    "scenario": "t07-photo-suggestions",
+    "model_short": "sonnet",
+    "sample": 3,
+    "new": "t07-photo-suggestions-sonnet-new-3",
+    "old": "t07-photo-suggestions-sonnet-old-3",
+    "o1": {
+      "A": "new",
+      "B": "old"
+    },
+    "o2": {
+      "A": "old",
+      "B": "new"
+    }
+  },
+  "new-vs-old-t08-password-reset-opus-1": {
+    "comparison": "new-vs-old",
+    "scenario": "t08-password-reset",
+    "model_short": "opus",
+    "sample": 1,
+    "new": "t08-password-reset-opus-new-1",
+    "old": "t08-password-reset-opus-old-1",
+    "o1": {
+      "A": "new",
+      "B": "old"
+    },
+    "o2": {
+      "A": "old",
+      "B": "new"
+    }
+  },
+  "new-vs-old-t08-password-reset-opus-2": {
+    "comparison": "new-vs-old",
+    "scenario": "t08-password-reset",
+    "model_short": "opus",
+    "sample": 2,
+    "new": "t08-password-reset-opus-new-2",
+    "old": "t08-password-reset-opus-old-2",
+    "o1": {
+      "A": "new",
+      "B": "old"
+    },
+    "o2": {
+      "A": "old",
+      "B": "new"
+    }
+  },
+  "new-vs-old-t08-password-reset-opus-3": {
+    "comparison": "new-vs-old",
+    "scenario": "t08-password-reset",
+    "model_short": "opus",
+    "sample": 3,
+    "new": "t08-password-reset-opus-new-3",
+    "old": "t08-password-reset-opus-old-3",
+    "o1": {
+      "A": "old",
+      "B": "new"
+    },
+    "o2": {
+      "A": "new",
+      "B": "old"
+    }
+  },
+  "new-vs-old-t08-password-reset-sonnet-1": {
+    "comparison": "new-vs-old",
+    "scenario": "t08-password-reset",
+    "model_short": "sonnet",
+    "sample": 1,
+    "new": "t08-password-reset-sonnet-new-1",
+    "old": "t08-password-reset-sonnet-old-1",
+    "o1": {
+      "A": "old",
+      "B": "new"
+    },
+    "o2": {
+      "A": "new",
+      "B": "old"
+    }
+  },
+  "new-vs-old-t08-password-reset-sonnet-2": {
+    "comparison": "new-vs-old",
+    "scenario": "t08-password-reset",
+    "model_short": "sonnet",
+    "sample": 2,
+    "new": "t08-password-reset-sonnet-new-2",
+    "old": "t08-password-reset-sonnet-old-2",
+    "o1": {
+      "A": "new",
+      "B": "old"
+    },
+    "o2": {
+      "A": "old",
+      "B": "new"
+    }
+  },
+  "new-vs-old-t08-password-reset-sonnet-3": {
+    "comparison": "new-vs-old",
+    "scenario": "t08-password-reset",
+    "model_short": "sonnet",
+    "sample": 3,
+    "new": "t08-password-reset-sonnet-new-3",
+    "old": "t08-password-reset-sonnet-old-3",
+    "o1": {
+      "A": "old",
+      "B": "new"
+    },
+    "o2": {
+      "A": "new",
+      "B": "old"
+    }
+  },
+  "new-vs-none-t01-parts-search-opus-1": {
+    "comparison": "new-vs-none",
+    "scenario": "t01-parts-search",
+    "model_short": "opus",
+    "sample": 1,
+    "new": "t01-parts-search-opus-new-1",
+    "none": "t01-parts-search-opus-none-1",
+    "o1": {
+      "A": "none",
+      "B": "new"
+    },
+    "o2": {
+      "A": "new",
+      "B": "none"
+    }
+  },
+  "new-vs-none-t01-parts-search-opus-2": {
+    "comparison": "new-vs-none",
+    "scenario": "t01-parts-search",
+    "model_short": "opus",
+    "sample": 2,
+    "new": "t01-parts-search-opus-new-2",
+    "none": "t01-parts-search-opus-none-2",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  },
+  "new-vs-none-t01-parts-search-opus-3": {
+    "comparison": "new-vs-none",
+    "scenario": "t01-parts-search",
+    "model_short": "opus",
+    "sample": 3,
+    "new": "t01-parts-search-opus-new-3",
+    "none": "t01-parts-search-opus-none-3",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  },
+  "new-vs-none-t01-parts-search-sonnet-1": {
+    "comparison": "new-vs-none",
+    "scenario": "t01-parts-search",
+    "model_short": "sonnet",
+    "sample": 1,
+    "new": "t01-parts-search-sonnet-new-1",
+    "none": "t01-parts-search-sonnet-none-1",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  },
+  "new-vs-none-t01-parts-search-sonnet-2": {
+    "comparison": "new-vs-none",
+    "scenario": "t01-parts-search",
+    "model_short": "sonnet",
+    "sample": 2,
+    "new": "t01-parts-search-sonnet-new-2",
+    "none": "t01-parts-search-sonnet-none-2",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  },
+  "new-vs-none-t01-parts-search-sonnet-3": {
+    "comparison": "new-vs-none",
+    "scenario": "t01-parts-search",
+    "model_short": "sonnet",
+    "sample": 3,
+    "new": "t01-parts-search-sonnet-new-3",
+    "none": "t01-parts-search-sonnet-none-3",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  },
+  "new-vs-none-t02-refill-reminders-opus-1": {
+    "comparison": "new-vs-none",
+    "scenario": "t02-refill-reminders",
+    "model_short": "opus",
+    "sample": 1,
+    "new": "t02-refill-reminders-opus-new-1",
+    "none": "t02-refill-reminders-opus-none-1",
+    "o1": {
+      "A": "none",
+      "B": "new"
+    },
+    "o2": {
+      "A": "new",
+      "B": "none"
+    }
+  },
+  "new-vs-none-t02-refill-reminders-opus-2": {
+    "comparison": "new-vs-none",
+    "scenario": "t02-refill-reminders",
+    "model_short": "opus",
+    "sample": 2,
+    "new": "t02-refill-reminders-opus-new-2",
+    "none": "t02-refill-reminders-opus-none-2",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  },
+  "new-vs-none-t02-refill-reminders-opus-3": {
+    "comparison": "new-vs-none",
+    "scenario": "t02-refill-reminders",
+    "model_short": "opus",
+    "sample": 3,
+    "new": "t02-refill-reminders-opus-new-3",
+    "none": "t02-refill-reminders-opus-none-3",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  },
+  "new-vs-none-t02-refill-reminders-sonnet-1": {
+    "comparison": "new-vs-none",
+    "scenario": "t02-refill-reminders",
+    "model_short": "sonnet",
+    "sample": 1,
+    "new": "t02-refill-reminders-sonnet-new-1",
+    "none": "t02-refill-reminders-sonnet-none-1",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  },
+  "new-vs-none-t02-refill-reminders-sonnet-2": {
+    "comparison": "new-vs-none",
+    "scenario": "t02-refill-reminders",
+    "model_short": "sonnet",
+    "sample": 2,
+    "new": "t02-refill-reminders-sonnet-new-2",
+    "none": "t02-refill-reminders-sonnet-none-2",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  },
+  "new-vs-none-t02-refill-reminders-sonnet-3": {
+    "comparison": "new-vs-none",
+    "scenario": "t02-refill-reminders",
+    "model_short": "sonnet",
+    "sample": 3,
+    "new": "t02-refill-reminders-sonnet-new-3",
+    "none": "t02-refill-reminders-sonnet-none-3",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  },
+  "new-vs-none-t03-receipt-app-opus-1": {
+    "comparison": "new-vs-none",
+    "scenario": "t03-receipt-app",
+    "model_short": "opus",
+    "sample": 1,
+    "new": "t03-receipt-app-opus-new-1",
+    "none": "t03-receipt-app-opus-none-1",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  },
+  "new-vs-none-t03-receipt-app-opus-2": {
+    "comparison": "new-vs-none",
+    "scenario": "t03-receipt-app",
+    "model_short": "opus",
+    "sample": 2,
+    "new": "t03-receipt-app-opus-new-2",
+    "none": "t03-receipt-app-opus-none-2",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  },
+  "new-vs-none-t03-receipt-app-opus-3": {
+    "comparison": "new-vs-none",
+    "scenario": "t03-receipt-app",
+    "model_short": "opus",
+    "sample": 3,
+    "new": "t03-receipt-app-opus-new-3",
+    "none": "t03-receipt-app-opus-none-3",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  },
+  "new-vs-none-t03-receipt-app-sonnet-1": {
+    "comparison": "new-vs-none",
+    "scenario": "t03-receipt-app",
+    "model_short": "sonnet",
+    "sample": 1,
+    "new": "t03-receipt-app-sonnet-new-1",
+    "none": "t03-receipt-app-sonnet-none-1",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  },
+  "new-vs-none-t03-receipt-app-sonnet-2": {
+    "comparison": "new-vs-none",
+    "scenario": "t03-receipt-app",
+    "model_short": "sonnet",
+    "sample": 2,
+    "new": "t03-receipt-app-sonnet-new-2",
+    "none": "t03-receipt-app-sonnet-none-2",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  },
+  "new-vs-none-t03-receipt-app-sonnet-3": {
+    "comparison": "new-vs-none",
+    "scenario": "t03-receipt-app",
+    "model_short": "sonnet",
+    "sample": 3,
+    "new": "t03-receipt-app-sonnet-new-3",
+    "none": "t03-receipt-app-sonnet-none-3",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  },
+  "new-vs-none-t04-team-chat-opus-1": {
+    "comparison": "new-vs-none",
+    "scenario": "t04-team-chat",
+    "model_short": "opus",
+    "sample": 1,
+    "new": "t04-team-chat-opus-new-1",
+    "none": "t04-team-chat-opus-none-1",
+    "o1": {
+      "A": "none",
+      "B": "new"
+    },
+    "o2": {
+      "A": "new",
+      "B": "none"
+    }
+  },
+  "new-vs-none-t04-team-chat-opus-2": {
+    "comparison": "new-vs-none",
+    "scenario": "t04-team-chat",
+    "model_short": "opus",
+    "sample": 2,
+    "new": "t04-team-chat-opus-new-2",
+    "none": "t04-team-chat-opus-none-2",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  },
+  "new-vs-none-t04-team-chat-opus-3": {
+    "comparison": "new-vs-none",
+    "scenario": "t04-team-chat",
+    "model_short": "opus",
+    "sample": 3,
+    "new": "t04-team-chat-opus-new-3",
+    "none": "t04-team-chat-opus-none-3",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  },
+  "new-vs-none-t04-team-chat-sonnet-1": {
+    "comparison": "new-vs-none",
+    "scenario": "t04-team-chat",
+    "model_short": "sonnet",
+    "sample": 1,
+    "new": "t04-team-chat-sonnet-new-1",
+    "none": "t04-team-chat-sonnet-none-1",
+    "o1": {
+      "A": "none",
+      "B": "new"
+    },
+    "o2": {
+      "A": "new",
+      "B": "none"
+    }
+  },
+  "new-vs-none-t04-team-chat-sonnet-2": {
+    "comparison": "new-vs-none",
+    "scenario": "t04-team-chat",
+    "model_short": "sonnet",
+    "sample": 2,
+    "new": "t04-team-chat-sonnet-new-2",
+    "none": "t04-team-chat-sonnet-none-2",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  },
+  "new-vs-none-t04-team-chat-sonnet-3": {
+    "comparison": "new-vs-none",
+    "scenario": "t04-team-chat",
+    "model_short": "sonnet",
+    "sample": 3,
+    "new": "t04-team-chat-sonnet-new-3",
+    "none": "t04-team-chat-sonnet-none-3",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  },
+  "new-vs-none-t05-cancel-flow-opus-1": {
+    "comparison": "new-vs-none",
+    "scenario": "t05-cancel-flow",
+    "model_short": "opus",
+    "sample": 1,
+    "new": "t05-cancel-flow-opus-new-1",
+    "none": "t05-cancel-flow-opus-none-1",
+    "o1": {
+      "A": "none",
+      "B": "new"
+    },
+    "o2": {
+      "A": "new",
+      "B": "none"
+    }
+  },
+  "new-vs-none-t05-cancel-flow-opus-2": {
+    "comparison": "new-vs-none",
+    "scenario": "t05-cancel-flow",
+    "model_short": "opus",
+    "sample": 2,
+    "new": "t05-cancel-flow-opus-new-2",
+    "none": "t05-cancel-flow-opus-none-2",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  },
+  "new-vs-none-t05-cancel-flow-opus-3": {
+    "comparison": "new-vs-none",
+    "scenario": "t05-cancel-flow",
+    "model_short": "opus",
+    "sample": 3,
+    "new": "t05-cancel-flow-opus-new-3",
+    "none": "t05-cancel-flow-opus-none-3",
+    "o1": {
+      "A": "none",
+      "B": "new"
+    },
+    "o2": {
+      "A": "new",
+      "B": "none"
+    }
+  },
+  "new-vs-none-t05-cancel-flow-sonnet-1": {
+    "comparison": "new-vs-none",
+    "scenario": "t05-cancel-flow",
+    "model_short": "sonnet",
+    "sample": 1,
+    "new": "t05-cancel-flow-sonnet-new-1",
+    "none": "t05-cancel-flow-sonnet-none-1",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  },
+  "new-vs-none-t05-cancel-flow-sonnet-2": {
+    "comparison": "new-vs-none",
+    "scenario": "t05-cancel-flow",
+    "model_short": "sonnet",
+    "sample": 2,
+    "new": "t05-cancel-flow-sonnet-new-2",
+    "none": "t05-cancel-flow-sonnet-none-2",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  },
+  "new-vs-none-t05-cancel-flow-sonnet-3": {
+    "comparison": "new-vs-none",
+    "scenario": "t05-cancel-flow",
+    "model_short": "sonnet",
+    "sample": 3,
+    "new": "t05-cancel-flow-sonnet-new-3",
+    "none": "t05-cancel-flow-sonnet-none-3",
+    "o1": {
+      "A": "none",
+      "B": "new"
+    },
+    "o2": {
+      "A": "new",
+      "B": "none"
+    }
+  },
+  "new-vs-none-t06-import-assistant-opus-1": {
+    "comparison": "new-vs-none",
+    "scenario": "t06-import-assistant",
+    "model_short": "opus",
+    "sample": 1,
+    "new": "t06-import-assistant-opus-new-1",
+    "none": "t06-import-assistant-opus-none-1",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  },
+  "new-vs-none-t06-import-assistant-opus-2": {
+    "comparison": "new-vs-none",
+    "scenario": "t06-import-assistant",
+    "model_short": "opus",
+    "sample": 2,
+    "new": "t06-import-assistant-opus-new-2",
+    "none": "t06-import-assistant-opus-none-2",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  },
+  "new-vs-none-t06-import-assistant-opus-3": {
+    "comparison": "new-vs-none",
+    "scenario": "t06-import-assistant",
+    "model_short": "opus",
+    "sample": 3,
+    "new": "t06-import-assistant-opus-new-3",
+    "none": "t06-import-assistant-opus-none-3",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  },
+  "new-vs-none-t06-import-assistant-sonnet-1": {
+    "comparison": "new-vs-none",
+    "scenario": "t06-import-assistant",
+    "model_short": "sonnet",
+    "sample": 1,
+    "new": "t06-import-assistant-sonnet-new-1",
+    "none": "t06-import-assistant-sonnet-none-1",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  },
+  "new-vs-none-t06-import-assistant-sonnet-2": {
+    "comparison": "new-vs-none",
+    "scenario": "t06-import-assistant",
+    "model_short": "sonnet",
+    "sample": 2,
+    "new": "t06-import-assistant-sonnet-new-2",
+    "none": "t06-import-assistant-sonnet-none-2",
+    "o1": {
+      "A": "none",
+      "B": "new"
+    },
+    "o2": {
+      "A": "new",
+      "B": "none"
+    }
+  },
+  "new-vs-none-t06-import-assistant-sonnet-3": {
+    "comparison": "new-vs-none",
+    "scenario": "t06-import-assistant",
+    "model_short": "sonnet",
+    "sample": 3,
+    "new": "t06-import-assistant-sonnet-new-3",
+    "none": "t06-import-assistant-sonnet-none-3",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  },
+  "new-vs-none-t07-photo-suggestions-opus-1": {
+    "comparison": "new-vs-none",
+    "scenario": "t07-photo-suggestions",
+    "model_short": "opus",
+    "sample": 1,
+    "new": "t07-photo-suggestions-opus-new-1",
+    "none": "t07-photo-suggestions-opus-none-1",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  },
+  "new-vs-none-t07-photo-suggestions-opus-2": {
+    "comparison": "new-vs-none",
+    "scenario": "t07-photo-suggestions",
+    "model_short": "opus",
+    "sample": 2,
+    "new": "t07-photo-suggestions-opus-new-2",
+    "none": "t07-photo-suggestions-opus-none-2",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  },
+  "new-vs-none-t07-photo-suggestions-opus-3": {
+    "comparison": "new-vs-none",
+    "scenario": "t07-photo-suggestions",
+    "model_short": "opus",
+    "sample": 3,
+    "new": "t07-photo-suggestions-opus-new-3",
+    "none": "t07-photo-suggestions-opus-none-3",
+    "o1": {
+      "A": "none",
+      "B": "new"
+    },
+    "o2": {
+      "A": "new",
+      "B": "none"
+    }
+  },
+  "new-vs-none-t07-photo-suggestions-sonnet-1": {
+    "comparison": "new-vs-none",
+    "scenario": "t07-photo-suggestions",
+    "model_short": "sonnet",
+    "sample": 1,
+    "new": "t07-photo-suggestions-sonnet-new-1",
+    "none": "t07-photo-suggestions-sonnet-none-1",
+    "o1": {
+      "A": "none",
+      "B": "new"
+    },
+    "o2": {
+      "A": "new",
+      "B": "none"
+    }
+  },
+  "new-vs-none-t07-photo-suggestions-sonnet-2": {
+    "comparison": "new-vs-none",
+    "scenario": "t07-photo-suggestions",
+    "model_short": "sonnet",
+    "sample": 2,
+    "new": "t07-photo-suggestions-sonnet-new-2",
+    "none": "t07-photo-suggestions-sonnet-none-2",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  },
+  "new-vs-none-t07-photo-suggestions-sonnet-3": {
+    "comparison": "new-vs-none",
+    "scenario": "t07-photo-suggestions",
+    "model_short": "sonnet",
+    "sample": 3,
+    "new": "t07-photo-suggestions-sonnet-new-3",
+    "none": "t07-photo-suggestions-sonnet-none-3",
+    "o1": {
+      "A": "none",
+      "B": "new"
+    },
+    "o2": {
+      "A": "new",
+      "B": "none"
+    }
+  },
+  "new-vs-none-t08-password-reset-opus-1": {
+    "comparison": "new-vs-none",
+    "scenario": "t08-password-reset",
+    "model_short": "opus",
+    "sample": 1,
+    "new": "t08-password-reset-opus-new-1",
+    "none": "t08-password-reset-opus-none-1",
+    "o1": {
+      "A": "none",
+      "B": "new"
+    },
+    "o2": {
+      "A": "new",
+      "B": "none"
+    }
+  },
+  "new-vs-none-t08-password-reset-opus-2": {
+    "comparison": "new-vs-none",
+    "scenario": "t08-password-reset",
+    "model_short": "opus",
+    "sample": 2,
+    "new": "t08-password-reset-opus-new-2",
+    "none": "t08-password-reset-opus-none-2",
+    "o1": {
+      "A": "none",
+      "B": "new"
+    },
+    "o2": {
+      "A": "new",
+      "B": "none"
+    }
+  },
+  "new-vs-none-t08-password-reset-opus-3": {
+    "comparison": "new-vs-none",
+    "scenario": "t08-password-reset",
+    "model_short": "opus",
+    "sample": 3,
+    "new": "t08-password-reset-opus-new-3",
+    "none": "t08-password-reset-opus-none-3",
+    "o1": {
+      "A": "none",
+      "B": "new"
+    },
+    "o2": {
+      "A": "new",
+      "B": "none"
+    }
+  },
+  "new-vs-none-t08-password-reset-sonnet-1": {
+    "comparison": "new-vs-none",
+    "scenario": "t08-password-reset",
+    "model_short": "sonnet",
+    "sample": 1,
+    "new": "t08-password-reset-sonnet-new-1",
+    "none": "t08-password-reset-sonnet-none-1",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  },
+  "new-vs-none-t08-password-reset-sonnet-2": {
+    "comparison": "new-vs-none",
+    "scenario": "t08-password-reset",
+    "model_short": "sonnet",
+    "sample": 2,
+    "new": "t08-password-reset-sonnet-new-2",
+    "none": "t08-password-reset-sonnet-none-2",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  },
+  "new-vs-none-t08-password-reset-sonnet-3": {
+    "comparison": "new-vs-none",
+    "scenario": "t08-password-reset",
+    "model_short": "sonnet",
+    "sample": 3,
+    "new": "t08-password-reset-sonnet-new-3",
+    "none": "t08-password-reset-sonnet-none-3",
+    "o1": {
+      "A": "new",
+      "B": "none"
+    },
+    "o2": {
+      "A": "none",
+      "B": "new"
+    }
+  }
+}

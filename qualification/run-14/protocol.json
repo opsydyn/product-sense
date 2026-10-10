@@ -1,0 +1,117 @@
+{
+  "status": "complete: trim adopted by the owner as a documented deviation from the pre-registered adoption rule",
+  "date": "2026-10-10",
+  "question": "Does the trimmed skill keep earlier behaviour, fix the run 13 misses, and change decision quality against the committed skill and no skill?",
+  "source_base_commit": "43b5871",
+  "candidate_has_uncommitted_approved_changes": true,
+  "arms": {
+    "new": "trimmed skill in the working tree, wording approved by the owner",
+    "old": "skill as committed at source_base_commit",
+    "none": "no plugin"
+  },
+  "stage": "/private/tmp/claude-501/-Users-alancurrie-Projects-product-sense/1a3bd1c4-4b9f-40b7-b573-e86ea00f3a13/scratchpad/product-sense-run-14-gwuk",
+  "claude_version": "2.1.289 (Claude Code)",
+  "codex_version": "codex-cli 0.160.0",
+  "source_sha256": {
+    "SKILL.md": "4302f58a28f9e32e3b1ffc5e0c29e8657a819af6a28c9712a0e1c4ab987c52c1",
+    "references/canon.md": "1a982436a672c640a36f23d37b5cb1e713a59a9b80a9567d8ddd60c43b47eb56",
+    "references/design.md": "cfdcd8500ad3d2d6d29351877315c4d795473984db3e425c2fa4a2c8dfefa296",
+    "references/discovery.md": "e66f9051ed781ce58eb81eba11ccbf251533bcf8fa09d242d4ca40203c4741a6",
+    "references/outputs.md": "97fec62312b4a46be54a6e2f81039a704fa784bcc4f89aa9b4daf29fa8484057",
+    "references/shaping.md": "70193747cd6756325356b87669d5eb49e515a4cac8610fd04e1c95d2327c9801",
+    "packaging/claude/plugin.json": "eb019b6395662167392167ccc7a39d0a0acb8d6995969bcbf142e3ba961a62b5"
+  },
+  "staged_sha256": {
+    "new": {
+      ".claude-plugin/plugin.json": "eb019b6395662167392167ccc7a39d0a0acb8d6995969bcbf142e3ba961a62b5",
+      "skills/product-sense/SKILL.md": "4302f58a28f9e32e3b1ffc5e0c29e8657a819af6a28c9712a0e1c4ab987c52c1",
+      "skills/product-sense/references/canon.md": "1a982436a672c640a36f23d37b5cb1e713a59a9b80a9567d8ddd60c43b47eb56",
+      "skills/product-sense/references/design.md": "cfdcd8500ad3d2d6d29351877315c4d795473984db3e425c2fa4a2c8dfefa296",
+      "skills/product-sense/references/discovery.md": "e66f9051ed781ce58eb81eba11ccbf251533bcf8fa09d242d4ca40203c4741a6",
+      "skills/product-sense/references/outputs.md": "97fec62312b4a46be54a6e2f81039a704fa784bcc4f89aa9b4daf29fa8484057",
+      "skills/product-sense/references/shaping.md": "70193747cd6756325356b87669d5eb49e515a4cac8610fd04e1c95d2327c9801"
+    },
+    "old": {
+      ".claude-plugin/plugin.json": "eb019b6395662167392167ccc7a39d0a0acb8d6995969bcbf142e3ba961a62b5",
+      "skills/product-sense/SKILL.md": "0cf5831f17e05456ff6008e266be575365e33aa19e1bff316b6fe5b9c70ef28e",
+      "skills/product-sense/references/canon.md": "03cc0382183e730e3990cedd4ce09580259da1e99c814b86130baa717ca50e57",
+      "skills/product-sense/references/design.md": "cfdcd8500ad3d2d6d29351877315c4d795473984db3e425c2fa4a2c8dfefa296",
+      "skills/product-sense/references/discovery.md": "e66f9051ed781ce58eb81eba11ccbf251533bcf8fa09d242d4ca40203c4741a6",
+      "skills/product-sense/references/outputs.md": "6da1954a9ee51075c2932a52a6cf3a50b43f96c546e6dbb5a3a9886da56161d1",
+      "skills/product-sense/references/shaping.md": "70193747cd6756325356b87669d5eb49e515a4cac8610fd04e1c95d2327c9801"
+    }
+  },
+  "answer_key_review": "Deferred at the owner's instruction; key written by Claude and not human-reviewed",
+  "regression": {
+    "capped assessment (Claude, 3 per model; Codex 1)": [
+      "skill selected",
+      "at most 180 words",
+      "preserve supplied evidence and label assumptions",
+      "learning and delivery fit ten-day total or explicitly require separate later appetite",
+      "bounded next action and stop/reshape condition",
+      "no writes or external actions",
+      "reference reads recorded but not required: the trimmed skill no longer routes quick critiques to references"
+    ],
+    "approved-ticket guard (1 per model)": [
+      "skill not invoked",
+      "node --test passes",
+      "test unchanged",
+      "no critique or scope expansion"
+    ],
+    "explicit approved-copy guard (Opus)": [
+      "skill invoked",
+      "exact final Start lesson"
+    ]
+  },
+  "scenarios": "scenarios/*.txt (8 new, not used for tuning). Expected: pursue 2, park 2, reshape 2, investigate 1, design review 1.",
+  "models": [
+    "claude-opus-5-5",
+    "claude-sonnet-5-5"
+  ],
+  "samples_per_scenario_per_arm_per_model": 3,
+  "responder_tools": "Skill,Read,Glob,Grep",
+  "grader": {
+    "model": "claude-opus-5-5",
+    "prompt": "grader-prompt.md (unchanged from run 13)",
+    "pairs": "new vs old and new vs none, sample i with sample i: 96 pairs, each graded twice with A/B swapped",
+    "anonymisation": "as run 13"
+  },
+  "decision_rules": {
+    "trim_non_inferior": "Per model: new verdict accuracy no more than 10 points below old, and new-vs-old win rate at least 0.40; plus all regression checks pass",
+    "fixes_effective": "Pooled targeted-insight hit rate (answer-key.json targeted_insights) for new at least 15 points above old",
+    "vs_none": "Run 13 rules: benefit, neutral, harm or inconclusive",
+    "adopt": "Commit the trim if it is non-inferior on both models and the regression checks pass; report fixes_effective and vs_none separately"
+  },
+  "budget": {
+    "max_usd_per_session": 1,
+    "timeout_seconds": 240,
+    "responder_sessions": 144,
+    "regression_sessions": 10,
+    "grader_sessions": 192,
+    "expected_list_cost_usd": "about 25",
+    "automatic_retries": 0
+  },
+  "stopping_rule": "One attempt per session. No retry on failure. Stop on authentication or quota block. No edits to scenarios, key, grader prompt or skill while sessions run. Record every failure.",
+  "limits": [
+    "Answer key not human-reviewed; run 13 grader calibration also pending",
+    "Three samples per cell detect only large effects",
+    "Synthetic scenarios",
+    "Skill answers have a recognisable style, so grading is not fully blind",
+    "Claude Code CLI plus one Codex sample"
+  ],
+  "quota_block": {
+    "observed": "2026-10-10, 123 of 192 grader sessions returned HTTP 429 'You've hit your weekly limit' with no model output (exit 1, about 2 s each)",
+    "unaffected": "All 154 responder sessions and 69 grader sessions completed normally before the block",
+    "evidence": "Blocked sessions moved unchanged to grades/blocked-quota/",
+    "interim": "analysis-interim.json uses the 69 completed gradings; grading order was shuffled, so they are a random subset, but too few for the decision rules",
+    "resume_plan": "After the limit resets, run only the 123 blocked gradings with the same prompt and settings. They produced no judgment, so this is completion of blocked sessions, not a retry of graded output. Then run the pre-registered analysis on all 192.",
+    "resumed": "2026-10-10 after the 20:00 reset: the 123 blocked gradings ran once each with identical inputs; all completed"
+  },
+  "deviation": {
+    "date": "2026-10-10",
+    "decided_by": "Alan P Currie (owner)",
+    "rule_not_met": "trim_non_inferior on Opus: new verdict accuracy 11.9 points below old against a 10-point limit",
+    "reason": "The entire gap is scenario t04, where trimmed answers labelled the same recommended plan 'investigate' rather than 'park'. Regression checks passed; targeted fixes, insight coverage, trap rate and blind preference over old and over no skill all favoured the trim.",
+    "accepted_costs": "More fabricated figures than the old skill on both models; Sonnet selected the skill in about two-thirds of sessions"
+  }
+}

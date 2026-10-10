@@ -1,0 +1,3 @@
+We sell industrial parts to trade customers through an online catalogue. Search logs show 18% of searches return no results; most of the top 200 zero-result terms are supplier part numbers typed with or without dashes or spaces. Sales call logs tag about 340 calls a month as 'can't find part online'. An engineer estimates three days to normalise part-number matching. Our head of sales wants to survey customers about search satisfaction before we change anything. What should we do?
+
+Answer in at most 250 words. Assess only; do not create or edit files, contact anyone or run experiments.

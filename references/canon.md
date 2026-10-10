@@ -2,6 +2,8 @@
 
 Use this source map as needed. These are original operating rules inspired by the works below. Do not claim to have read a full book from a public summary, reproduce chapters, or attribute our verdict system and templates to an author. Verify exact quotations, editions and page references before using them.
 
+The four pillars are Sierra for user capability, Norman for understandable design, Torres for discovery and Rumelt for strategy. Apply supporting works only where they help the decision.
+
 ## Four pillars
 
 | Work | Lens | Source |

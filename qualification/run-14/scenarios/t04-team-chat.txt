@@ -1,0 +1,3 @@
+Six months ago we launched team chat inside our scheduling app for cleaning companies. In the last 30 days, 3% of accounts used it. Chat bugs generate about 25 support tickets a month and take roughly one engineer-day a week to handle. In a survey, 62% of 150 respondents said they like having chat. The product lead proposes spending next quarter improving chat. What do you recommend?
+
+Answer in at most 250 words. Assess only; do not create or edit files, contact anyone or run experiments.

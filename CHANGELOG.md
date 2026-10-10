@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+- Trim `SKILL.md`: twelve decision checks become eight, the common-mistakes table and four-pillars paragraph are removed (pillars move to `canon.md`), and the product-critique format moves from `outputs.md` into `SKILL.md`. Quick critiques no longer load references by default; design reviews, briefs and shaped bets still do.
+- Define evidence labels (recorded behaviour is observed), add harm to users to the risk check, add opportunity cost to the strategy check, define verdicts by what happens next, and pair each next action with its guardrail.
+
+Run 14 checked the trim: regression checks passed, targeted insights rose 22–25 points over the previous skill, and blind graders preferred it over both the previous skill and no skill. It failed the pre-registered Opus non-inferiority rule by 1.9 points on one scenario's verdict label and was adopted as a documented deviation. It invents more figures than the previous skill, though fewer than no skill.
+
 - Rewrite the skill description in the third person: state what the skill produces, and exclude implementing already-approved tickets so it does not load for routine engineering work.
 - Keep the capped five-sentence recipe only in `SKILL.md`; `outputs.md` now points to it.
 - Use "appetite" consistently for the time or money limit and "time window" for elapsed time.

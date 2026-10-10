@@ -2,17 +2,7 @@
 
 Choose one format. Adapt length to the request. Use concrete prose and small comparison tables. Put uncertainty beside the claim. Keep author names out of routine outputs unless attribution is requested.
 
-## Product critique
-
-Lead with verdict and decisive reason. Then cover:
-
-1. User progress and current alternative.
-2. Supporting evidence and remaining assumptions.
-3. Main opportunity, risk or design failure.
-4. Better route or scope to cut.
-5. Next action, observable outcome and stop/reshape condition; any conditional build has its share of the remaining appetite or a separate appetite decision.
-
-For a quick request with a word cap, follow the five-sentence recipe in SKILL.md. Include strategy if fit drives the call. Do not print twelve sections by default.
+The product critique format is in SKILL.md.
 
 ## Product brief
 
