@@ -1,0 +1,3 @@
+We make payroll software for independent restaurants in the UK; our strategy this year is to become the default for independents with one to five sites. We have five engineers. A hotel group with 40 sites says it will sign a contract worth four times our largest customer if, within four months, we build single sign-on, multi-entity reporting and custom approval chains. Sales estimates the work needs two engineers for two quarters. The group has not signed a letter of intent. Should we take it on?
+
+Answer in at most 250 words. Assess only; do not create or edit files, contact anyone or run experiments.

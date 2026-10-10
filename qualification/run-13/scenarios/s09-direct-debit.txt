@@ -1,0 +1,7 @@
+Review this direct-debit change flow in our energy company's customer portal and say what to fix first with a one-sprint budget.
+Step 1: An 'Update bank details' form has Account name, Sort code (6 digits) and Account number. Entering the sort code as 12-34-56 shows 'Invalid input' after pressing Submit, and all three fields are cleared.
+Step 2: After a valid submit, the page says 'Request received.' with a 'Back to dashboard' link. It gives no date and does not say which payment the new account applies to.
+Step 3: The next morning the dashboard still shows the old account ending 4417.
+Grey 'Cancel' and grey 'Submit' buttons sit side by side in the same style. Support says 'did my bank change work?' is a common call.
+
+Answer in at most 250 words. Assess only; do not create or edit files, contact anyone or run experiments.

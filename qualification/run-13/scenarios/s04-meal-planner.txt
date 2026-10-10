@@ -1,0 +1,3 @@
+Our grocery delivery app spent five months building an AI meal planner. We released it to 2,000 beta users for eight weeks. 9% opened it at least once and 1.2% used it in a second week. Beta users who used it had the same average basket value as matched users who did not. The team asks for two more months to add personalisation, saying they are close. What should we do?
+
+Answer in at most 250 words. Assess only; do not create or edit files, contact anyone or run experiments.

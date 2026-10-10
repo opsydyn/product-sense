@@ -1,0 +1,3 @@
+We sell appointment-booking software to 120 independent physiotherapy clinics. Our booking data shows an 18% no-show rate across clinics over the last six months. Fourteen clinics already pay for a separate SMS tool and upload a CSV of appointments to it every night. Last quarter our customer success team manually sent SMS reminders for three volunteer clinics for four weeks; their no-show rate fell from 19% to 11%, while three similar clinics without reminders stayed at 18%. We have three engineers available for six weeks. Leadership asks whether to build automated SMS reminders now or do more research first.
+
+Answer in at most 250 words. Assess only; do not create or edit files, contact anyone or run experiments.

@@ -1,0 +1,3 @@
+Our budgeting app's DAU/MAU is 12%. The growth team proposes daily streaks and push notifications to raise engagement, citing that engaged users retain better. Our data: users who connect a bank account in their first week have three times the 90-day retention of those who don't; 34% connect in week one; logs show 22% of connection attempts fail, concentrated at three large banks. We have two engineers for six weeks. What should we prioritise?
+
+Answer in at most 250 words. Assess only; do not create or edit files, contact anyone or run experiments.

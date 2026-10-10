@@ -1,0 +1,3 @@
+Users who create a shared workspace in their first month retain at 2.1 times the rate of users who don't. The product team proposes making 'create a shared workspace' a required onboarding step for all new sign-ups next sprint. About 30% of sign-ups are solo freelancers. What do you think?
+
+Answer in at most 250 words. Assess only; do not create or edit files, contact anyone or run experiments.

@@ -1,0 +1,202 @@
+{
+  "status": "Approved as drafted by the human reviewer; no amendments",
+  "reviewed_by": "Alan P Currie",
+  "reviewed_on": "2026-10-10",
+  "verdict_scoring": "1 for an expected verdict, 0.5 for an acceptable_partial verdict that meets its stated condition, 0 otherwise. Design review cases score priority order instead.",
+  "scenarios": [
+    {
+      "id": "s01-csv-export",
+      "tests": "Pursue when evidence is observed, the change is cheap and reversible, and research would cost about as much as building",
+      "expected": [
+        "pursue"
+      ],
+      "acceptable_partial": [],
+      "decisive_insights": [
+        "Demand is observed behaviour from paying accounts (tickets, manual workaround, support time), not stated interest",
+        "Two days behind a feature flag is cheap and reversible; five interviews would cost similar time and are unlikely to change the decision",
+        "Measure export use and the fall in support export requests; guard that exports respect existing access permissions and match on-screen totals"
+      ],
+      "traps": [
+        "Recommends interviews or other discovery before building",
+        "Invents revenue, churn or conversion figures"
+      ]
+    },
+    {
+      "id": "s02-sms-reminders",
+      "tests": "Pursue a bounded build when a comparison pilot already exists; catch consent and cost risks",
+      "expected": [
+        "pursue"
+      ],
+      "acceptable_partial": [],
+      "decisive_insights": [
+        "A four-week pilot with a comparison group plus clinics already paying for a workaround is credible evidence; the remaining risk is delivery, not demand",
+        "Patient consent, opt-out and messaging rules must be handled; message cost and who pays need deciding",
+        "Volunteer clinics may not generalise, so roll out in stages and keep measuring no-shows against non-adopting clinics"
+      ],
+      "traps": [
+        "Asks for more research before building",
+        "Ignores consent or opt-out",
+        "Treats the 19%-to-11% drop as a guaranteed result"
+      ]
+    },
+    {
+      "id": "s03-enterprise-deal",
+      "tests": "Park a large but off-strategy, unsigned deal; weigh opportunity cost",
+      "expected": [
+        "park"
+      ],
+      "acceptable_partial": [
+        {
+          "verdict": "reshape",
+          "condition": "Commits no engineering now and makes any further step depend on a signed, paid commitment or an explicit strategy change"
+        }
+      ],
+      "decisive_insights": [
+        "The deal conflicts with the stated strategy of winning one-to-five-site independents",
+        "Two of five engineers for two quarters is a large opportunity cost against the core segment, plus ongoing enterprise support",
+        "The promise is conditional and unsigned; state what would reopen it (signed paid commitment, or a deliberate strategy change)"
+      ],
+      "traps": [
+        "Pursues because of contract size",
+        "Treats the conditional promise as a commitment"
+      ]
+    },
+    {
+      "id": "s04-meal-planner",
+      "tests": "Park despite sunk cost when observed behaviour shows no value",
+      "expected": [
+        "park"
+      ],
+      "acceptable_partial": [
+        {
+          "verdict": "reshape",
+          "condition": "Stops the two-month personalisation build and limits any further spend to a small, time-boxed learning step"
+        }
+      ],
+      "decisive_insights": [
+        "Observed trial (9%) and repeat use (1.2%) are low, and basket value showed no uplift",
+        "Personalisation does not address why 91% never opened it or why users did not return; five months spent is a sunk cost",
+        "Record what was learned and set a condition for revisiting"
+      ],
+      "traps": [
+        "Approves the personalisation work",
+        "Recommends open-ended further investigation"
+      ]
+    },
+    {
+      "id": "s05-hr-chatbot",
+      "tests": "Reshape a solution-shaped request toward the need the evidence shows",
+      "expected": [
+        "reshape"
+      ],
+      "acceptable_partial": [],
+      "decisive_insights": [
+        "62 of 100 sampled emails concern two processes whose form is buried and whose policy is a 40-page PDF; the need is finding and completing those processes",
+        "Surface both forms and short step-by-step answers where employees look first; a chatbot is a solution embedded in the request",
+        "Measure emails on those two topics; reconsider a chatbot only if a long tail of varied questions remains"
+      ],
+      "traps": [
+        "Builds or scopes the chatbot",
+        "Ignores the sampled email evidence"
+      ]
+    },
+    {
+      "id": "s06-streaks",
+      "tests": "Reshape away from a vanity engagement metric toward the observed value driver",
+      "expected": [
+        "reshape"
+      ],
+      "acceptable_partial": [],
+      "decisive_insights": [
+        "Retention is associated with connecting a bank account, and 22% of connection attempts fail at three banks: users show intent and hit a fault",
+        "Fix those connection failures and give a clear retry or recovery path before adding attention mechanics",
+        "Measure week-one connection success and 90-day retention, not DAU/MAU; note the connection-retention link is correlational"
+      ],
+      "traps": [
+        "Endorses streaks or push notifications as the priority",
+        "Uses DAU/MAU as the primary success measure"
+      ]
+    },
+    {
+      "id": "s07-competitor-copilot",
+      "tests": "Investigate quickly when pressure comes from a competitor rather than customer evidence",
+      "expected": [
+        "investigate"
+      ],
+      "acceptable_partial": [
+        {
+          "verdict": "reshape",
+          "condition": "Does not commit the six-week copilot build before checking customer or loss evidence"
+        }
+      ],
+      "decisive_insights": [
+        "A competitor launch is not evidence of customer value or of lost deals",
+        "The cheapest evidence is already in hand: review the 22 lost-deal notes and ask recent lost prospects; decide within days",
+        "Slow report loading is the observed top complaint and should not be dropped for an unvalidated feature"
+      ],
+      "traps": [
+        "Commits to the six-week copilot",
+        "Dismisses the competitor without checking the evidence",
+        "Invents market statistics"
+      ]
+    },
+    {
+      "id": "s08-correlation",
+      "tests": "Catch a causal claim drawn from a correlation and a forced step that harms a segment",
+      "expected": [
+        "investigate"
+      ],
+      "acceptable_partial": [
+        {
+          "verdict": "reshape",
+          "condition": "Replaces the mandatory step with an optional prompt tested against a randomised holdout"
+        }
+      ],
+      "decisive_insights": [
+        "The 2.1x figure is likely selection: users who already work in teams both create workspaces and retain",
+        "Forcing the step burdens the 30% of solo freelancers and may reduce onboarding completion",
+        "Test causally with a randomised holdout; measure retention with onboarding completion as a guardrail"
+      ],
+      "traps": [
+        "Approves the mandatory onboarding step",
+        "Parks the idea without proposing a test"
+      ]
+    },
+    {
+      "id": "s09-direct-debit",
+      "tests": "Design review: rank blockers correctly and avoid papering over faults with help text",
+      "expected": [
+        "design review"
+      ],
+      "acceptable_partial": [],
+      "decisive_insights": [
+        "Blocker: a common sort-code format is rejected and all fields are cleared; accept spaces and hyphens, keep input and show a field-level error",
+        "Blocker: no pending state or effective date; show what happens next and which payment uses the new account, and show 'pending' on the dashboard. Uncertainty risks missed or duplicate payments and drives support calls",
+        "Polish after blockers: give Submit a primary style distinct from Cancel; verify with an unassisted task and track 'did my change work?' calls"
+      ],
+      "traps": [
+        "Leads with button styling or visual polish",
+        "Adds help text or a tour instead of fixing validation and status",
+        "Invents processing times or research findings"
+      ]
+    },
+    {
+      "id": "s10-pause-subscription",
+      "tests": "Pursue a cheap randomised test without designing a dark pattern",
+      "expected": [
+        "pursue"
+      ],
+      "acceptable_partial": [],
+      "decisive_insights": [
+        "A large stated-reason sample, a three-day build and a built-in random split make building the test cheaper than more research",
+        "Measure net retention or reactivation over a fixed window against the control half, not pause clicks",
+        "Pause must be offered, not obstruct cancellation: cancelling stays as easy as today; watch complaints and paused customers who never resume"
+      ],
+      "traps": [
+        "Asks for more research first",
+        "Designs the pause as an obstacle to cancelling",
+        "Claims retention will rise by about 38%"
+      ]
+    }
+  ]
+}

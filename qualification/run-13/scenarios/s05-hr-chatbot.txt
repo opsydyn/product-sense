@@ -1,0 +1,3 @@
+IT wants to build an AI chatbot for our HR policy portal. HR receives about 300 employee emails a month. We sampled 100: 62 asked how to request parental leave or carry over holiday. The request form for both is three clicks deep under 'Documents', and the policy is a 40-page PDF. We have one developer for four weeks. Should we build the chatbot?
+
+Answer in at most 250 words. Assess only; do not create or edit files, contact anyone or run experiments.

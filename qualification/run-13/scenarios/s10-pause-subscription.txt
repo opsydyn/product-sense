@@ -1,0 +1,3 @@
+Our meal-kit subscription's exit survey (answered by about 2,400 cancellers last quarter, 61% of them) shows 38% cite 'travelling or seasonal break'. Today the only option in account settings is Cancel. Engineering says adding 'Pause for 1-8 weeks' to the cancel page takes three days, and we can show it to a random half of cancellers. Should we build it?
+
+Answer in at most 250 words. Assess only; do not create or edit files, contact anyone or run experiments.

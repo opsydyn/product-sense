@@ -1,0 +1,67 @@
+{
+  "status": "designed, not run",
+  "question": "Does Product Sense make Claude reach better product decisions than the same model without it?",
+  "date_designed": "2026-10-10",
+  "source_base_commit": "713bacc",
+  "gates_before_any_session": [
+    "DONE 2026-10-10: answer key approved as drafted by Alan P Currie, no amendments",
+    "Record source hashes of SKILL.md, references and plugin.json, and the staged plugin, in this file",
+    "Write and dry-run the runner and grader harness without model calls"
+  ],
+  "scenarios": "scenarios/*.txt (10). Expected verdicts: pursue 3, park 2, reshape 2, investigate 2, design review 1. Every prompt ends with a 250-word cap so both arms answer at similar length.",
+  "holdout_policy": "These scenarios are a frozen evaluation set. Do not tune SKILL.md or references against them. If the skill changes in response to this run, confirm the change on new scenarios in a later run.",
+  "arms": {
+    "skill": "Run 11 restricted CLI settings with --plugin-dir pointing at the staged plugin; selection is automatic, not forced",
+    "control": "Identical command without --plugin-dir"
+  },
+  "models": [
+    "claude-opus-5-5",
+    "claude-sonnet-5-5"
+  ],
+  "samples_per_scenario_per_arm_per_model": 3,
+  "responder_sessions": 120,
+  "responder_tools": "Skill,Read,Glob,Grep",
+  "grader": {
+    "model": "claude-opus-5-5",
+    "plugins": "none; --tools '' so it cannot load the skill",
+    "prompt": "grader-prompt.md filled from answer-key.json",
+    "pairing": "Skill sample i paired with control sample i for the same scenario and model: 60 pairs",
+    "anonymisation": "Strip lines that mention the skill, its files or skill invocation before grading; label answers A and B only",
+    "order_bias": "Grade every pair twice with A/B swapped. A preference that flips counts as a tie. Item scores are the mean of the two gradings.",
+    "grader_sessions": 120,
+    "human_calibration": "The key reviewer blind-grades 10 randomly chosen pairs with the same prompt. Report agreement with the model grader on verdict and preference; if verdict agreement is below 8 of 10, treat model-graded results as unreliable."
+  },
+  "measures": {
+    "primary": "Verdict accuracy: mean verdict_score per arm per model (design review excluded)",
+    "secondary": [
+      "Blind pairwise win rate of skill over control (ties count half)",
+      "Decisive-insight hit rate",
+      "Trap rate",
+      "Fabricated figures per answer",
+      "Verdict distribution per arm, to detect bias toward 'investigate'",
+      "Accuracy on the three pursue scenarios separately (caution bias)",
+      "Skill selection rate in the skill arm; report results for all skill-arm samples and for samples that selected the skill"
+    ]
+  },
+  "decision_rules": {
+    "benefit": "Skill verdict accuracy at least 15 points above control on both models, or pairwise win rate at least 0.65, with no higher trap rate: claim improved judgment on this set only",
+    "neutral": "Accuracy within 10 points and win rate between 0.40 and 0.60: report that the skill's value is process discipline, not better decisions; consider trimming guidance that does not move results",
+    "harm": "Skill arm misses at least two more pursue-scenario samples than control on either model, or win rate below 0.40: fix the cause before any release",
+    "otherwise": "Report as inconclusive"
+  },
+  "power_note": "30 verdicts per arm per model. Differences under about 20 points are not reliably detectable; this run screens for large effects and caution bias, not small improvements.",
+  "budget": {
+    "max_usd_per_session": 1,
+    "expected_responder_list_cost_usd": "about 10",
+    "expected_grader_list_cost_usd": "about 10",
+    "timeout_seconds": 240,
+    "automatic_retries": 0
+  },
+  "stopping_rule": "One attempt per session. No retry on failure. Stop on authentication or quota block. No edits to scenarios, key, grader prompt or skill while sessions run. Record every failure.",
+  "limits": [
+    "Synthetic scenarios with a key written by the evaluator's model family and reviewed by one human",
+    "Model grader, partly calibrated by a small human sample",
+    "Claude Code CLI only; no Codex, desktop or other-surface claim",
+    "Does not establish real-user or business outcomes"
+  ]
+}

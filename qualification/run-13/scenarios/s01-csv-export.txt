@@ -1,0 +1,3 @@
+We run invoicing software for small agencies. Last quarter, 41 support tickets from 29 paying accounts (of about 900) asked to export the invoice list to CSV for their accountant. Today they copy rows by hand or ask support, who run a database query and email the file; support logs about three hours a week on this. Engineering estimates two days using the existing table component behind a feature flag. Our PM wants to run five customer interviews first to understand the need. Should we build it, and what should we do next?
+
+Answer in at most 250 words. Assess only; do not create or edit files, contact anyone or run experiments.

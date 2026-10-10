@@ -34,3 +34,5 @@ See [run-10/report.md](run-10/report.md) for the final beta-candidate checks: fi
 See [run-11/report.md](run-11/report.md) for the description rewrite across Opus, Sonnet and Haiku 5.5, a new approved-ticket guard and Codex checks. Opus passed 3/3, Sonnet 2/3 (one skipped reference read) and Haiku 0/3 (selection 1/3, with conditional-build allocation missing). No model invoked the skill on an approved ticket. Haiku has no old-description baseline yet.
 
 See [run-12/report.md](run-12/report.md) for a paired Haiku 5.5 comparison of the old and new descriptions. Neither selected the skill (0/3 each) although it was available in every session, so the rewrite did not cause Haiku's low selection. Haiku users should invoke the skill explicitly.
+
+See [run-13/design.md](run-13/design.md) for a designed, not yet run, judgment-quality evaluation: ten scenarios whose right call varies (pursue, park, reshape, investigate, design review), with and without the skill on Opus and Sonnet, blind pairwise grading and a human-reviewed answer key. The key must be reviewed before any session runs.

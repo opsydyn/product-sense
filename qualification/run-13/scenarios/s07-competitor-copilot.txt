@@ -1,0 +1,3 @@
+A competitor in our project-management market launched an AI copilot last month and it is all over LinkedIn. Our CEO wants our own copilot within six weeks. We have no customer requests for it in our feedback tool; our top support complaint for two quarters has been slow report loading. Win/loss notes from last quarter's 22 lost deals have not been reviewed for AI mentions. We have four engineers. What do you recommend?
+
+Answer in at most 250 words. Assess only; do not create or edit files, contact anyone or run experiments.
