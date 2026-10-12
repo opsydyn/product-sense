@@ -1,0 +1,3 @@
+A year ago we launched an iOS home-screen widget for our habit-tracking app. 1.1% of weekly iOS users have added it. Their retention matches matched users without the widget. Each iOS release needs about three extra days of QA for the widget, and Apple will retire the widget API version we use next year, so keeping it means a five-week rewrite. Our designer proposes a diary study to understand what users need from widgets before deciding on the rewrite. What should we do?
+
+Answer in at most 250 words. Assess only; do not create or edit files, contact anyone or run experiments.

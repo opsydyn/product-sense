@@ -1,6 +1,11 @@
 # Changelog
 
-## Unreleased
+## 0.2.0 — first public release candidate, 12 October 2026
+
+- Publish under the MIT licence.
+- Move the canonical source into the plugin folder `plugins/product-sense/`, with the skill and its Codex metadata in `skills/product-sense/`. Add a plugin README for directory listings, `displayName`, `homepage`, `repository` and `license` to `plugin.json`, and a root `marketplace.json` so the repository is a Claude marketplace named `opsydyn`.
+- The builder now packages the plugin folder exactly (Claude) or the skill folder plus licence (Codex), and fails without a licence. Codex users who linked the repository root must re-link to `plugins/product-sense/skills/product-sense`.
+- Run 15: the trimmed verdict definitions do not turn park cases into investigations; the skill stopped on 42% of park answers against 28% before the trim and 25% without a skill.
 
 - Trim `SKILL.md`: twelve decision checks become eight, the common-mistakes table and four-pillars paragraph are removed (pillars move to `canon.md`), and the product-critique format moves from `outputs.md` into `SKILL.md`. Quick critiques no longer load references by default; design reviews, briefs and shaped bets still do.
 - Define evidence labels (recorded behaviour is observed), add harm to users to the risk check, add opportunity cost to the strategy check, define verdicts by what happens next, and pair each next action with its guardrail.

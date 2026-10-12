@@ -1,0 +1,3 @@
+We ran a randomised six-week test offering a premium support add-on at £15 a month to 20,000 customers, against a control group not shown the offer. 0.3% bought it, against a 3% target, and 40% of buyers asked for a refund within the test period. The team wants to survey customers who didn't buy, to learn whether a lower price would work, before deciding. What do you recommend?
+
+Answer in at most 250 words. Assess only; do not create or edit files, contact anyone or run experiments.

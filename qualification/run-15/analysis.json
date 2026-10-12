@@ -1,0 +1,486 @@
+{
+  "by_arm": {
+    "new": {
+      "park_n": 36,
+      "park_stop_rate": 0.417,
+      "park_label_rate": 0.417,
+      "park_actions": {
+        "stop": 15,
+        "research_first": 21,
+        "invest": 0
+      },
+      "park_labels": {
+        "park": 15,
+        "investigate": 10,
+        "reshape": 8,
+        "pursue": 0,
+        "none": 3
+      },
+      "park_mean_research_days": 6.727,
+      "investigate_n": 18,
+      "investigate_research_first_rate": 1.0,
+      "investigate_actions": {
+        "stop": 0,
+        "research_first": 18,
+        "invest": 0
+      },
+      "selection_rate": 0.722
+    },
+    "old": {
+      "park_n": 36,
+      "park_stop_rate": 0.278,
+      "park_label_rate": 0.361,
+      "park_actions": {
+        "stop": 10,
+        "research_first": 26,
+        "invest": 0
+      },
+      "park_labels": {
+        "park": 13,
+        "investigate": 3,
+        "reshape": 15,
+        "pursue": 0,
+        "none": 5
+      },
+      "park_mean_research_days": 6.969,
+      "investigate_n": 18,
+      "investigate_research_first_rate": 1.0,
+      "investigate_actions": {
+        "stop": 0,
+        "research_first": 18,
+        "invest": 0
+      },
+      "selection_rate": 0.704
+    },
+    "none": {
+      "park_n": 36,
+      "park_stop_rate": 0.25,
+      "park_label_rate": 0.0,
+      "park_actions": {
+        "stop": 9,
+        "research_first": 27,
+        "invest": 0
+      },
+      "park_labels": {
+        "park": 0,
+        "investigate": 0,
+        "reshape": 0,
+        "pursue": 0,
+        "none": 36
+      },
+      "park_mean_research_days": 8.5,
+      "investigate_n": 18,
+      "investigate_research_first_rate": 1.0,
+      "investigate_actions": {
+        "stop": 0,
+        "research_first": 18,
+        "invest": 0
+      },
+      "selection_rate": 0.0
+    }
+  },
+  "by_arm_model": {
+    "opus-new": {
+      "park_n": 18,
+      "park_stop_rate": 0.611,
+      "park_label_rate": 0.556,
+      "park_actions": {
+        "stop": 11,
+        "research_first": 7,
+        "invest": 0
+      },
+      "park_labels": {
+        "park": 10,
+        "investigate": 5,
+        "reshape": 2,
+        "pursue": 0,
+        "none": 1
+      },
+      "park_mean_research_days": 5.444,
+      "investigate_n": 9,
+      "investigate_research_first_rate": 1.0,
+      "investigate_actions": {
+        "stop": 0,
+        "research_first": 9,
+        "invest": 0
+      },
+      "selection_rate": 1.0
+    },
+    "opus-old": {
+      "park_n": 18,
+      "park_stop_rate": 0.389,
+      "park_label_rate": 0.5,
+      "park_actions": {
+        "stop": 7,
+        "research_first": 11,
+        "invest": 0
+      },
+      "park_labels": {
+        "park": 9,
+        "investigate": 1,
+        "reshape": 7,
+        "pursue": 0,
+        "none": 1
+      },
+      "park_mean_research_days": 7.0,
+      "investigate_n": 9,
+      "investigate_research_first_rate": 1.0,
+      "investigate_actions": {
+        "stop": 0,
+        "research_first": 9,
+        "invest": 0
+      },
+      "selection_rate": 1.0
+    },
+    "opus-none": {
+      "park_n": 18,
+      "park_stop_rate": 0.333,
+      "park_label_rate": 0.0,
+      "park_actions": {
+        "stop": 6,
+        "research_first": 12,
+        "invest": 0
+      },
+      "park_labels": {
+        "park": 0,
+        "investigate": 0,
+        "reshape": 0,
+        "pursue": 0,
+        "none": 18
+      },
+      "park_mean_research_days": 9.333,
+      "investigate_n": 9,
+      "investigate_research_first_rate": 1.0,
+      "investigate_actions": {
+        "stop": 0,
+        "research_first": 9,
+        "invest": 0
+      },
+      "selection_rate": 0.0
+    },
+    "sonnet-new": {
+      "park_n": 18,
+      "park_stop_rate": 0.222,
+      "park_label_rate": 0.278,
+      "park_actions": {
+        "stop": 4,
+        "research_first": 14,
+        "invest": 0
+      },
+      "park_labels": {
+        "park": 5,
+        "investigate": 5,
+        "reshape": 6,
+        "pursue": 0,
+        "none": 2
+      },
+      "park_mean_research_days": 8.267,
+      "investigate_n": 9,
+      "investigate_research_first_rate": 1.0,
+      "investigate_actions": {
+        "stop": 0,
+        "research_first": 9,
+        "invest": 0
+      },
+      "selection_rate": 0.444
+    },
+    "sonnet-old": {
+      "park_n": 18,
+      "park_stop_rate": 0.167,
+      "park_label_rate": 0.222,
+      "park_actions": {
+        "stop": 3,
+        "research_first": 15,
+        "invest": 0
+      },
+      "park_labels": {
+        "park": 4,
+        "investigate": 2,
+        "reshape": 8,
+        "pursue": 0,
+        "none": 4
+      },
+      "park_mean_research_days": 6.933,
+      "investigate_n": 9,
+      "investigate_research_first_rate": 1.0,
+      "investigate_actions": {
+        "stop": 0,
+        "research_first": 9,
+        "invest": 0
+      },
+      "selection_rate": 0.407
+    },
+    "sonnet-none": {
+      "park_n": 18,
+      "park_stop_rate": 0.167,
+      "park_label_rate": 0.0,
+      "park_actions": {
+        "stop": 3,
+        "research_first": 15,
+        "invest": 0
+      },
+      "park_labels": {
+        "park": 0,
+        "investigate": 0,
+        "reshape": 0,
+        "pursue": 0,
+        "none": 18
+      },
+      "park_mean_research_days": 7.25,
+      "investigate_n": 9,
+      "investigate_research_first_rate": 1.0,
+      "investigate_actions": {
+        "stop": 0,
+        "research_first": 9,
+        "invest": 0
+      },
+      "selection_rate": 0.0
+    }
+  },
+  "by_scenario_actions": {
+    "p1-legacy-integration": {
+      "new": [
+        "stop",
+        "resea",
+        "stop",
+        "stop",
+        "resea",
+        "stop"
+      ],
+      "old": [
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "stop"
+      ],
+      "none": [
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea"
+      ]
+    },
+    "p2-premium-support": {
+      "new": [
+        "resea",
+        "resea",
+        "stop",
+        "stop",
+        "resea",
+        "resea"
+      ],
+      "old": [
+        "stop",
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "stop"
+      ],
+      "none": [
+        "resea",
+        "stop",
+        "stop",
+        "resea",
+        "resea",
+        "resea"
+      ]
+    },
+    "p3-ios-widget": {
+      "new": [
+        "stop",
+        "resea",
+        "resea",
+        "resea",
+        "stop",
+        "stop"
+      ],
+      "old": [
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "stop"
+      ],
+      "none": [
+        "resea",
+        "stop",
+        "resea",
+        "resea",
+        "resea",
+        "resea"
+      ]
+    },
+    "p4-us-expansion": {
+      "new": [
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop"
+      ],
+      "old": [
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop"
+      ],
+      "none": [
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop"
+      ]
+    },
+    "p5-bank-partnership": {
+      "new": [
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea"
+      ],
+      "old": [
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea"
+      ],
+      "none": [
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea"
+      ]
+    },
+    "p6-pdf-export": {
+      "new": [
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea"
+      ],
+      "old": [
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea"
+      ],
+      "none": [
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea"
+      ]
+    },
+    "i1-soc2": {
+      "new": [
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea"
+      ],
+      "old": [
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea"
+      ],
+      "none": [
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea"
+      ]
+    },
+    "i2-auto-scheduling": {
+      "new": [
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea"
+      ],
+      "old": [
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea"
+      ],
+      "none": [
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea"
+      ]
+    },
+    "i3-offline-mode": {
+      "new": [
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea"
+      ],
+      "old": [
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea"
+      ],
+      "none": [
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea",
+        "resea"
+      ]
+    }
+  },
+  "decision": {
+    "rule": "no_shift",
+    "old_minus_new_stop_rate": -0.139,
+    "old_minus_new_park_label_rate": -0.056,
+    "overcorrection": false,
+    "grader_action_agreement": 1.0,
+    "grader_label_agreement": 1.0,
+    "grader_reliable": true
+  },
+  "grading_failures": []
+}

@@ -1,0 +1,20 @@
+{
+  "name": "product-sense",
+  "displayName": "Product Sense",
+  "version": "0.2.0",
+  "description": "Product judgment, discovery, bounded bets and user-flow review.",
+  "author": {
+    "name": "Alan P Currie"
+  },
+  "homepage": "https://github.com/opsydyn/product-sense",
+  "repository": "https://github.com/opsydyn/product-sense",
+  "license": "MIT",
+  "keywords": [
+    "product-management",
+    "product-discovery",
+    "prd",
+    "roadmap",
+    "ux-review",
+    "strategy"
+  ]
+}

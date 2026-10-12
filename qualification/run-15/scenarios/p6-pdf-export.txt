@@ -1,0 +1,3 @@
+Our PDF export feature is used by 0.4% of users each month. Its library licence costs £18,000 a year and renewal is due next month. 92% of exports come from six enterprise accounts, all of which also use our CSV export regularly. The PM wants a three-month usage study before deciding whether to renew. What do you recommend?
+
+Answer in at most 250 words. Assess only; do not create or edit files, contact anyone or run experiments.

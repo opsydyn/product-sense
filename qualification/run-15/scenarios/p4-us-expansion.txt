@@ -1,0 +1,3 @@
+A board member wants our UK childcare-booking app to expand to the US. We have nine months of runway and are not profitable in the UK: customer acquisition cost takes 26 months to pay back against our 12-month target. US childcare rules vary by state. The board member suggests a three-month US market study as a first step. What do you recommend?
+
+Answer in at most 250 words. Assess only; do not create or edit files, contact anyone or run experiments.

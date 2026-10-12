@@ -1,0 +1,77 @@
+{
+  "status": "complete: no_shift (new park-case stop rate 42% vs old 28% vs none 25%); no overcorrection; grader agreement 100%",
+  "date": "2026-10-11",
+  "question": "Do the trimmed skill's verdict definitions turn cases that should be parked into investigations, in recommended action or only in label?",
+  "arms": {
+    "new": "skill at 63884f5 (trimmed)",
+    "old": "skill at 43b5871 (before the trim)",
+    "none": "no plugin"
+  },
+  "scenarios": "scenarios/*.txt: six park cases (p1-p6) where existing evidence already decides against investing, and three investigate cases (i1-i3) where parking would be premature",
+  "models": [
+    "claude-opus-5-5",
+    "claude-sonnet-5-5"
+  ],
+  "samples_per_scenario_per_arm_per_model": 3,
+  "responder_sessions": 162,
+  "responder_tools": "Skill,Read,Glob,Grep",
+  "grader": {
+    "model": "claude-opus-5-5",
+    "prompt": "grader-prompt.md; the grader sees the question and one anonymised answer, never the key, arm or expected verdict",
+    "sessions": "162, plus a seeded 20% subset graded a second time to measure classification agreement",
+    "anonymisation": "as runs 13 and 14"
+  },
+  "measures": {
+    "primary": "Park-case stop rate per arm, pooled across models (36 answers per arm)",
+    "secondary": [
+      "Park-case 'park' label rate per arm",
+      "Investigate-case research_first rate per arm (overcorrection check)",
+      "Proposed research days before decision on park cases",
+      "Per-model rates",
+      "Skill selection rate",
+      "Grader agreement on the duplicate subset"
+    ]
+  },
+  "decision_rules": {
+    "substantive_shift": "new park-case stop rate at least 20 points below old: the verdict definitions change recommendations; revise them and confirm on new scenarios",
+    "label_only": "stop rates within 20 points but new park-label rate at least 20 points below old: wording changes labels, not actions; a label clarification is optional",
+    "no_shift": "neither: no evidence the definitions turn park cases into investigations",
+    "overcorrection_guard": "In every case, report whether new investigate-case research_first rate is at least 20 points below old",
+    "grader_reliability": "If duplicate-subset action agreement is below 85%, report results as unreliable"
+  },
+  "power_note": "36 answers per arm on park cases detect differences of roughly 25 points or more",
+  "budget": {
+    "max_usd_per_session": 1,
+    "timeout_seconds": 240,
+    "expected_list_cost_usd": "about 15",
+    "automatic_retries": 0
+  },
+  "stopping_rule": "One attempt per session. Stop on authentication or quota block; resume blocked sessions after reset with identical inputs, keeping the blocked records. No edits to scenarios, key, grader prompt or skill while sessions run.",
+  "limits": [
+    "Key not human-reviewed",
+    "Synthetic scenarios",
+    "Model grader classifying action; agreement measured only by repeat grading"
+  ],
+  "stage": "/private/tmp/claude-501/-Users-alancurrie-Projects-product-sense/1a3bd1c4-4b9f-40b7-b573-e86ea00f3a13/scratchpad/product-sense-run-15-1hOw",
+  "claude_version": "2.1.289 (Claude Code)",
+  "staged_sha256": {
+    "new": {
+      ".claude-plugin/plugin.json": "eb019b6395662167392167ccc7a39d0a0acb8d6995969bcbf142e3ba961a62b5",
+      "skills/product-sense/SKILL.md": "4302f58a28f9e32e3b1ffc5e0c29e8657a819af6a28c9712a0e1c4ab987c52c1",
+      "skills/product-sense/references/canon.md": "1a982436a672c640a36f23d37b5cb1e713a59a9b80a9567d8ddd60c43b47eb56",
+      "skills/product-sense/references/design.md": "cfdcd8500ad3d2d6d29351877315c4d795473984db3e425c2fa4a2c8dfefa296",
+      "skills/product-sense/references/discovery.md": "e66f9051ed781ce58eb81eba11ccbf251533bcf8fa09d242d4ca40203c4741a6",
+      "skills/product-sense/references/outputs.md": "97fec62312b4a46be54a6e2f81039a704fa784bcc4f89aa9b4daf29fa8484057",
+      "skills/product-sense/references/shaping.md": "70193747cd6756325356b87669d5eb49e515a4cac8610fd04e1c95d2327c9801"
+    },
+    "old": {
+      ".claude-plugin/plugin.json": "eb019b6395662167392167ccc7a39d0a0acb8d6995969bcbf142e3ba961a62b5",
+      "skills/product-sense/SKILL.md": "0cf5831f17e05456ff6008e266be575365e33aa19e1bff316b6fe5b9c70ef28e",
+      "skills/product-sense/references/canon.md": "03cc0382183e730e3990cedd4ce09580259da1e99c814b86130baa717ca50e57",
+      "skills/product-sense/references/design.md": "cfdcd8500ad3d2d6d29351877315c4d795473984db3e425c2fa4a2c8dfefa296",
+      "skills/product-sense/references/discovery.md": "e66f9051ed781ce58eb81eba11ccbf251533bcf8fa09d242d4ca40203c4741a6",
+      "skills/product-sense/references/outputs.md": "6da1954a9ee51075c2932a52a6cf3a50b43f96c546e6dbb5a3a9886da56161d1",
+      "skills/product-sense/references/shaping.md": "70193747cd6756325356b87669d5eb49e515a4cac8610fd04e1c95d2327c9801"
+    }
+  }
+}

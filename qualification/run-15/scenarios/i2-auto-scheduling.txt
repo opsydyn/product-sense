@@ -1,0 +1,3 @@
+Two weeks ago we released auto-scheduling in our calendar app to 10% of users. 4% of them have tried it. The event pipeline that logs feature usage was broken for five of those fourteen days. The team lead wants to remove the feature because adoption looks low. What should we do?
+
+Answer in at most 250 words. Assess only; do not create or edit files, contact anyone or run experiments.

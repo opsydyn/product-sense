@@ -1,0 +1,3 @@
+For four months we have negotiated an integration partnership with a large bank. Their legal team has now added a requirement for on-premise deployment, which our product does not support and has never been asked for by other customers, and they will not commit to a timeline or volume. Our sales lead wants one engineer to spend six weeks on an on-premise feasibility study. What should we do?
+
+Answer in at most 250 words. Assess only; do not create or edit files, contact anyone or run experiments.

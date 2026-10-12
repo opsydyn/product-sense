@@ -1,0 +1,3 @@
+Our CRM has an integration with an older email provider. Four of our 3,100 accounts used it in the last 90 days. The provider has announced it will shut down its current API in five months; rebuilding on their new API would take one engineer about six weeks. Keeping the current integration working already costs about two engineer-days a month. The PM proposes interviewing the four accounts to decide whether to rebuild. What should we do?
+
+Answer in at most 250 words. Assess only; do not create or edit files, contact anyone or run experiments.

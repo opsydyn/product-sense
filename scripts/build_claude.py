@@ -1,4 +1,4 @@
-"""Build Claude and Codex distributions from the canonical skill source."""
+"""Build Claude and Codex distributions from the canonical plugin folder."""
 
 from pathlib import Path
 import argparse
@@ -7,16 +7,38 @@ import shutil
 import tempfile
 import zipfile
 
+PLUGIN = Path("plugins/product-sense")
+SKILL = PLUGIN / "skills/product-sense"
+SYSTEM_FILES = {".DS_Store", "Thumbs.db", "desktop.ini"}
 
-def read_regular(path: Path, root: Path) -> bytes:
+
+def reject_symlinks(path: Path, root: Path) -> None:
     component = root
     for part in ("", *path.relative_to(root).parts):
         component = component / part
         if component.is_symlink():
             raise ValueError(f"Package source must not contain a symlink: {component}")
+
+
+def read_regular(path: Path, root: Path) -> bytes:
+    reject_symlinks(path, root)
     if not path.is_file():
         raise FileNotFoundError(path)
     return path.read_bytes()
+
+
+def collect(folder: Path, repo: Path) -> dict:
+    """Every regular file under folder, keyed by its path relative to folder."""
+    reject_symlinks(folder, repo)
+    if not folder.is_dir():
+        raise FileNotFoundError(folder)
+    files = {}
+    for path in sorted(folder.rglob("*")):
+        if path.is_symlink():
+            raise ValueError(f"Package source must not contain a symlink: {path}")
+        if path.is_file() and path.name not in SYSTEM_FILES and "__MACOSX" not in path.parts:
+            files[path.relative_to(folder).as_posix()] = read_regular(path, repo)
+    return files
 
 
 def build(repo: Path, destination: Path, package_format: str = "claude") -> Path:
@@ -27,27 +49,22 @@ def build(repo: Path, destination: Path, package_format: str = "claude") -> Path
     output = destination.resolve()
     if output.is_relative_to(source) or source.is_relative_to(output / "product-sense"):
         raise ValueError("Build outside the skill source tree; output must not replace source")
-    references = repo / "references"
-    if references.is_symlink():
-        raise ValueError(f"Reference directory must not be a symlink: {references}")
-    if not references.is_dir():
-        raise FileNotFoundError(references)
-    entrypoint = read_regular(repo / "SKILL.md", repo)
-    skill_prefix = "skills/product-sense/" if package_format == "claude" else ""
-    payload = {f"{skill_prefix}SKILL.md": entrypoint}
+    plugin, skill = repo / PLUGIN, repo / SKILL
+    entrypoint = read_regular(skill / "SKILL.md", repo)
+    read_regular(plugin / ".claude-plugin/plugin.json", repo)
+    read_regular(plugin / "LICENSE", repo)
     if package_format == "claude":
-        payload[".claude-plugin/plugin.json"] = read_regular(repo / "packaging/claude/plugin.json", repo)
+        payload = collect(plugin, repo)
+        skill_prefix = f"{SKILL.relative_to(PLUGIN).as_posix()}/"
     else:
-        payload["agents/openai.yaml"] = read_regular(repo / "agents/openai.yaml", repo)
-        payload["assets/icon.svg"] = read_regular(repo / "assets/icon.svg", repo)
-    if (repo / "LICENSE").exists() or (repo / "LICENSE").is_symlink():
-        payload["LICENSE"] = read_regular(repo / "LICENSE", repo)
-    for path in sorted(references.glob("*.md")):
-        payload[f"{skill_prefix}references/{path.name}"] = read_regular(path, repo)
+        payload = collect(skill, repo)
+        payload["LICENSE"] = read_regular(plugin / "LICENSE", repo)
+        read_regular(skill / "agents/openai.yaml", repo)
+        skill_prefix = ""
     # Refuse an archive whose entrypoint directs Claude to an omitted reference.
     for reference in re.findall(r"\]\((references/[^)]+)\)", entrypoint.decode("utf-8")):
         if f"{skill_prefix}{reference}" not in payload:
-            raise FileNotFoundError(repo / reference)
+            raise FileNotFoundError(skill / reference)
 
     destination.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory(prefix=".build-", dir=destination) as temporary:
@@ -81,7 +98,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--output-dir", type=Path,
         default=None,
-        help="Generated files go outside the installed skill tree (default: system temporary directory)",
+        help="Generated files go outside the source tree (default: system temporary directory)",
     )
     arguments = parser.parse_args()
     output = arguments.output_dir or Path(tempfile.gettempdir()) / "product-sense-release" / arguments.format

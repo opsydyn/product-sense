@@ -1,0 +1,3 @@
+Use of our mobile app's offline mode dropped 60% month on month, starting the week we redesigned the settings page where it is switched on. Support tickets do not mention it. The product lead wants to remove offline mode to simplify the codebase. What do you recommend?
+
+Answer in at most 250 words. Assess only; do not create or edit files, contact anyone or run experiments.

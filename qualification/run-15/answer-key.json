@@ -1,0 +1,16 @@
+{
+  "status": "DRAFT written by Claude; human review deferred at the owner's instruction",
+  "reviewed_by": null,
+  "correct_action": "park cases: stop (decide now to stop, decline, freeze, retire or not renew; work limited to carrying out the stop, such as notice or migration help). investigate cases: research_first (defer the decision for bounded evidence-gathering).",
+  "scenarios": {
+    "p1-legacy-integration": {"type": "park", "correct_action": "stop", "why": "Four of 3,100 accounts, an API shutdown and ongoing maintenance cost already decide it; interviews can only shape migration help, not the decision."},
+    "p2-premium-support": {"type": "park", "correct_action": "stop", "why": "A randomised test missed its target tenfold with 40% refunds; a price survey of non-buyers is reported evidence that cannot outweigh observed behaviour."},
+    "p3-ios-widget": {"type": "park", "correct_action": "stop", "why": "Low use, no retention effect and recurring QA cost; a diary study cannot justify a five-week rewrite. Retire or freeze with notice."},
+    "p4-us-expansion": {"type": "park", "correct_action": "stop", "why": "Unprofitable home market and nine months of runway; a three-month study spends a third of runway on an option the company cannot fund. Revisit when UK payback meets target."},
+    "p5-bank-partnership": {"type": "park", "correct_action": "stop", "why": "An unsupported, one-off requirement with no commitment after four months; a six-week feasibility study is sunk cost. Revisit only with a committed contract."},
+    "p6-pdf-export": {"type": "park", "correct_action": "stop", "why": "0.4% use, heavy users already have CSV and renewal is due next month; a three-month study outlasts the deadline. Decline renewal and help the six accounts move."},
+    "i1-soc2": {"type": "investigate", "correct_action": "research_first", "why": "Analysing 140 recorded loss reasons is cheap and fast and decides a £60,000 commitment; neither starting nor dropping is justified yet."},
+    "i2-auto-scheduling": {"type": "investigate", "correct_action": "research_first", "why": "Two weeks of exposure with five days of broken logging cannot show low adoption; fix tracking and set a decision date."},
+    "i3-offline-mode": {"type": "investigate", "correct_action": "research_first", "why": "The drop coincides with the settings redesign, suggesting a discoverability regression; check it before removing the feature."}
+  }
+}

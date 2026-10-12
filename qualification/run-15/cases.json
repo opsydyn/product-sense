@@ -1,0 +1,1460 @@
+[
+  {
+    "name": "p6-pdf-export-opus-none-1",
+    "scenario": "p6-pdf-export",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "none",
+    "sample": 1
+  },
+  {
+    "name": "p1-legacy-integration-sonnet-none-1",
+    "scenario": "p1-legacy-integration",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "none",
+    "sample": 1
+  },
+  {
+    "name": "p4-us-expansion-sonnet-new-3",
+    "scenario": "p4-us-expansion",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "new",
+    "sample": 3
+  },
+  {
+    "name": "i1-soc2-opus-none-2",
+    "scenario": "i1-soc2",
+    "type": "investigate",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "none",
+    "sample": 2
+  },
+  {
+    "name": "i2-auto-scheduling-opus-new-2",
+    "scenario": "i2-auto-scheduling",
+    "type": "investigate",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "new",
+    "sample": 2
+  },
+  {
+    "name": "p2-premium-support-sonnet-none-3",
+    "scenario": "p2-premium-support",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "none",
+    "sample": 3
+  },
+  {
+    "name": "p4-us-expansion-opus-new-2",
+    "scenario": "p4-us-expansion",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "new",
+    "sample": 2
+  },
+  {
+    "name": "p2-premium-support-opus-old-3",
+    "scenario": "p2-premium-support",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "old",
+    "sample": 3
+  },
+  {
+    "name": "i2-auto-scheduling-opus-new-1",
+    "scenario": "i2-auto-scheduling",
+    "type": "investigate",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "new",
+    "sample": 1
+  },
+  {
+    "name": "p3-ios-widget-opus-new-3",
+    "scenario": "p3-ios-widget",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "new",
+    "sample": 3
+  },
+  {
+    "name": "i3-offline-mode-sonnet-none-1",
+    "scenario": "i3-offline-mode",
+    "type": "investigate",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "none",
+    "sample": 1
+  },
+  {
+    "name": "p1-legacy-integration-opus-none-2",
+    "scenario": "p1-legacy-integration",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "none",
+    "sample": 2
+  },
+  {
+    "name": "p6-pdf-export-opus-none-2",
+    "scenario": "p6-pdf-export",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "none",
+    "sample": 2
+  },
+  {
+    "name": "i3-offline-mode-opus-none-2",
+    "scenario": "i3-offline-mode",
+    "type": "investigate",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "none",
+    "sample": 2
+  },
+  {
+    "name": "p6-pdf-export-sonnet-old-1",
+    "scenario": "p6-pdf-export",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "old",
+    "sample": 1
+  },
+  {
+    "name": "p2-premium-support-opus-none-3",
+    "scenario": "p2-premium-support",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "none",
+    "sample": 3
+  },
+  {
+    "name": "i2-auto-scheduling-sonnet-old-2",
+    "scenario": "i2-auto-scheduling",
+    "type": "investigate",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "old",
+    "sample": 2
+  },
+  {
+    "name": "i2-auto-scheduling-sonnet-new-2",
+    "scenario": "i2-auto-scheduling",
+    "type": "investigate",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "new",
+    "sample": 2
+  },
+  {
+    "name": "i2-auto-scheduling-opus-old-1",
+    "scenario": "i2-auto-scheduling",
+    "type": "investigate",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "old",
+    "sample": 1
+  },
+  {
+    "name": "i1-soc2-opus-new-1",
+    "scenario": "i1-soc2",
+    "type": "investigate",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "new",
+    "sample": 1
+  },
+  {
+    "name": "i1-soc2-sonnet-none-2",
+    "scenario": "i1-soc2",
+    "type": "investigate",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "none",
+    "sample": 2
+  },
+  {
+    "name": "p1-legacy-integration-sonnet-old-2",
+    "scenario": "p1-legacy-integration",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "old",
+    "sample": 2
+  },
+  {
+    "name": "p3-ios-widget-opus-old-3",
+    "scenario": "p3-ios-widget",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "old",
+    "sample": 3
+  },
+  {
+    "name": "i1-soc2-opus-old-1",
+    "scenario": "i1-soc2",
+    "type": "investigate",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "old",
+    "sample": 1
+  },
+  {
+    "name": "p5-bank-partnership-sonnet-old-2",
+    "scenario": "p5-bank-partnership",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "old",
+    "sample": 2
+  },
+  {
+    "name": "p3-ios-widget-opus-none-1",
+    "scenario": "p3-ios-widget",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "none",
+    "sample": 1
+  },
+  {
+    "name": "p3-ios-widget-sonnet-new-2",
+    "scenario": "p3-ios-widget",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "new",
+    "sample": 2
+  },
+  {
+    "name": "p5-bank-partnership-opus-new-2",
+    "scenario": "p5-bank-partnership",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "new",
+    "sample": 2
+  },
+  {
+    "name": "p4-us-expansion-sonnet-old-1",
+    "scenario": "p4-us-expansion",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "old",
+    "sample": 1
+  },
+  {
+    "name": "p5-bank-partnership-opus-old-1",
+    "scenario": "p5-bank-partnership",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "old",
+    "sample": 1
+  },
+  {
+    "name": "i1-soc2-opus-none-1",
+    "scenario": "i1-soc2",
+    "type": "investigate",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "none",
+    "sample": 1
+  },
+  {
+    "name": "p3-ios-widget-opus-none-3",
+    "scenario": "p3-ios-widget",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "none",
+    "sample": 3
+  },
+  {
+    "name": "p5-bank-partnership-sonnet-none-1",
+    "scenario": "p5-bank-partnership",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "none",
+    "sample": 1
+  },
+  {
+    "name": "p2-premium-support-sonnet-new-1",
+    "scenario": "p2-premium-support",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "new",
+    "sample": 1
+  },
+  {
+    "name": "p2-premium-support-opus-none-1",
+    "scenario": "p2-premium-support",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "none",
+    "sample": 1
+  },
+  {
+    "name": "p5-bank-partnership-opus-none-2",
+    "scenario": "p5-bank-partnership",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "none",
+    "sample": 2
+  },
+  {
+    "name": "p3-ios-widget-sonnet-new-3",
+    "scenario": "p3-ios-widget",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "new",
+    "sample": 3
+  },
+  {
+    "name": "p1-legacy-integration-opus-new-1",
+    "scenario": "p1-legacy-integration",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "new",
+    "sample": 1
+  },
+  {
+    "name": "p5-bank-partnership-sonnet-old-1",
+    "scenario": "p5-bank-partnership",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "old",
+    "sample": 1
+  },
+  {
+    "name": "p5-bank-partnership-opus-new-3",
+    "scenario": "p5-bank-partnership",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "new",
+    "sample": 3
+  },
+  {
+    "name": "i3-offline-mode-opus-none-3",
+    "scenario": "i3-offline-mode",
+    "type": "investigate",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "none",
+    "sample": 3
+  },
+  {
+    "name": "i3-offline-mode-opus-old-1",
+    "scenario": "i3-offline-mode",
+    "type": "investigate",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "old",
+    "sample": 1
+  },
+  {
+    "name": "i3-offline-mode-opus-old-3",
+    "scenario": "i3-offline-mode",
+    "type": "investigate",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "old",
+    "sample": 3
+  },
+  {
+    "name": "p6-pdf-export-sonnet-none-2",
+    "scenario": "p6-pdf-export",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "none",
+    "sample": 2
+  },
+  {
+    "name": "p4-us-expansion-opus-new-1",
+    "scenario": "p4-us-expansion",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "new",
+    "sample": 1
+  },
+  {
+    "name": "p1-legacy-integration-opus-old-3",
+    "scenario": "p1-legacy-integration",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "old",
+    "sample": 3
+  },
+  {
+    "name": "i2-auto-scheduling-sonnet-old-3",
+    "scenario": "i2-auto-scheduling",
+    "type": "investigate",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "old",
+    "sample": 3
+  },
+  {
+    "name": "i2-auto-scheduling-sonnet-none-2",
+    "scenario": "i2-auto-scheduling",
+    "type": "investigate",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "none",
+    "sample": 2
+  },
+  {
+    "name": "p2-premium-support-sonnet-old-3",
+    "scenario": "p2-premium-support",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "old",
+    "sample": 3
+  },
+  {
+    "name": "p6-pdf-export-opus-old-1",
+    "scenario": "p6-pdf-export",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "old",
+    "sample": 1
+  },
+  {
+    "name": "i3-offline-mode-sonnet-none-3",
+    "scenario": "i3-offline-mode",
+    "type": "investigate",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "none",
+    "sample": 3
+  },
+  {
+    "name": "i1-soc2-sonnet-old-3",
+    "scenario": "i1-soc2",
+    "type": "investigate",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "old",
+    "sample": 3
+  },
+  {
+    "name": "i1-soc2-sonnet-new-1",
+    "scenario": "i1-soc2",
+    "type": "investigate",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "new",
+    "sample": 1
+  },
+  {
+    "name": "p2-premium-support-sonnet-old-2",
+    "scenario": "p2-premium-support",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "old",
+    "sample": 2
+  },
+  {
+    "name": "i2-auto-scheduling-sonnet-none-1",
+    "scenario": "i2-auto-scheduling",
+    "type": "investigate",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "none",
+    "sample": 1
+  },
+  {
+    "name": "p5-bank-partnership-sonnet-new-3",
+    "scenario": "p5-bank-partnership",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "new",
+    "sample": 3
+  },
+  {
+    "name": "p1-legacy-integration-sonnet-none-2",
+    "scenario": "p1-legacy-integration",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "none",
+    "sample": 2
+  },
+  {
+    "name": "p1-legacy-integration-opus-old-1",
+    "scenario": "p1-legacy-integration",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "old",
+    "sample": 1
+  },
+  {
+    "name": "i1-soc2-sonnet-old-2",
+    "scenario": "i1-soc2",
+    "type": "investigate",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "old",
+    "sample": 2
+  },
+  {
+    "name": "p2-premium-support-sonnet-new-2",
+    "scenario": "p2-premium-support",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "new",
+    "sample": 2
+  },
+  {
+    "name": "p6-pdf-export-sonnet-old-3",
+    "scenario": "p6-pdf-export",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "old",
+    "sample": 3
+  },
+  {
+    "name": "i3-offline-mode-sonnet-new-3",
+    "scenario": "i3-offline-mode",
+    "type": "investigate",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "new",
+    "sample": 3
+  },
+  {
+    "name": "p4-us-expansion-sonnet-none-2",
+    "scenario": "p4-us-expansion",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "none",
+    "sample": 2
+  },
+  {
+    "name": "p1-legacy-integration-sonnet-new-3",
+    "scenario": "p1-legacy-integration",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "new",
+    "sample": 3
+  },
+  {
+    "name": "p2-premium-support-sonnet-none-1",
+    "scenario": "p2-premium-support",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "none",
+    "sample": 1
+  },
+  {
+    "name": "p1-legacy-integration-opus-new-2",
+    "scenario": "p1-legacy-integration",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "new",
+    "sample": 2
+  },
+  {
+    "name": "p3-ios-widget-sonnet-old-1",
+    "scenario": "p3-ios-widget",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "old",
+    "sample": 1
+  },
+  {
+    "name": "p5-bank-partnership-opus-old-3",
+    "scenario": "p5-bank-partnership",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "old",
+    "sample": 3
+  },
+  {
+    "name": "p6-pdf-export-sonnet-new-3",
+    "scenario": "p6-pdf-export",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "new",
+    "sample": 3
+  },
+  {
+    "name": "p6-pdf-export-opus-none-3",
+    "scenario": "p6-pdf-export",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "none",
+    "sample": 3
+  },
+  {
+    "name": "p2-premium-support-opus-new-1",
+    "scenario": "p2-premium-support",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "new",
+    "sample": 1
+  },
+  {
+    "name": "p5-bank-partnership-opus-old-2",
+    "scenario": "p5-bank-partnership",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "old",
+    "sample": 2
+  },
+  {
+    "name": "p2-premium-support-sonnet-none-2",
+    "scenario": "p2-premium-support",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "none",
+    "sample": 2
+  },
+  {
+    "name": "p6-pdf-export-opus-old-3",
+    "scenario": "p6-pdf-export",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "old",
+    "sample": 3
+  },
+  {
+    "name": "p4-us-expansion-opus-new-3",
+    "scenario": "p4-us-expansion",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "new",
+    "sample": 3
+  },
+  {
+    "name": "p3-ios-widget-opus-none-2",
+    "scenario": "p3-ios-widget",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "none",
+    "sample": 2
+  },
+  {
+    "name": "p4-us-expansion-opus-none-1",
+    "scenario": "p4-us-expansion",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "none",
+    "sample": 1
+  },
+  {
+    "name": "p3-ios-widget-sonnet-old-2",
+    "scenario": "p3-ios-widget",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "old",
+    "sample": 2
+  },
+  {
+    "name": "i2-auto-scheduling-opus-old-3",
+    "scenario": "i2-auto-scheduling",
+    "type": "investigate",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "old",
+    "sample": 3
+  },
+  {
+    "name": "p2-premium-support-opus-old-1",
+    "scenario": "p2-premium-support",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "old",
+    "sample": 1
+  },
+  {
+    "name": "p5-bank-partnership-sonnet-new-1",
+    "scenario": "p5-bank-partnership",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "new",
+    "sample": 1
+  },
+  {
+    "name": "p3-ios-widget-opus-old-1",
+    "scenario": "p3-ios-widget",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "old",
+    "sample": 1
+  },
+  {
+    "name": "p2-premium-support-sonnet-old-1",
+    "scenario": "p2-premium-support",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "old",
+    "sample": 1
+  },
+  {
+    "name": "p1-legacy-integration-sonnet-new-2",
+    "scenario": "p1-legacy-integration",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "new",
+    "sample": 2
+  },
+  {
+    "name": "p3-ios-widget-sonnet-new-1",
+    "scenario": "p3-ios-widget",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "new",
+    "sample": 1
+  },
+  {
+    "name": "p5-bank-partnership-sonnet-none-3",
+    "scenario": "p5-bank-partnership",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "none",
+    "sample": 3
+  },
+  {
+    "name": "p4-us-expansion-sonnet-none-1",
+    "scenario": "p4-us-expansion",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "none",
+    "sample": 1
+  },
+  {
+    "name": "i1-soc2-opus-new-2",
+    "scenario": "i1-soc2",
+    "type": "investigate",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "new",
+    "sample": 2
+  },
+  {
+    "name": "i3-offline-mode-opus-none-1",
+    "scenario": "i3-offline-mode",
+    "type": "investigate",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "none",
+    "sample": 1
+  },
+  {
+    "name": "p4-us-expansion-sonnet-new-2",
+    "scenario": "p4-us-expansion",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "new",
+    "sample": 2
+  },
+  {
+    "name": "i1-soc2-sonnet-old-1",
+    "scenario": "i1-soc2",
+    "type": "investigate",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "old",
+    "sample": 1
+  },
+  {
+    "name": "i3-offline-mode-sonnet-new-1",
+    "scenario": "i3-offline-mode",
+    "type": "investigate",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "new",
+    "sample": 1
+  },
+  {
+    "name": "i3-offline-mode-opus-new-3",
+    "scenario": "i3-offline-mode",
+    "type": "investigate",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "new",
+    "sample": 3
+  },
+  {
+    "name": "p6-pdf-export-sonnet-none-1",
+    "scenario": "p6-pdf-export",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "none",
+    "sample": 1
+  },
+  {
+    "name": "i2-auto-scheduling-opus-none-3",
+    "scenario": "i2-auto-scheduling",
+    "type": "investigate",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "none",
+    "sample": 3
+  },
+  {
+    "name": "i3-offline-mode-sonnet-old-3",
+    "scenario": "i3-offline-mode",
+    "type": "investigate",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "old",
+    "sample": 3
+  },
+  {
+    "name": "p1-legacy-integration-opus-none-1",
+    "scenario": "p1-legacy-integration",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "none",
+    "sample": 1
+  },
+  {
+    "name": "p3-ios-widget-sonnet-old-3",
+    "scenario": "p3-ios-widget",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "old",
+    "sample": 3
+  },
+  {
+    "name": "i3-offline-mode-sonnet-new-2",
+    "scenario": "i3-offline-mode",
+    "type": "investigate",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "new",
+    "sample": 2
+  },
+  {
+    "name": "p1-legacy-integration-sonnet-old-1",
+    "scenario": "p1-legacy-integration",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "old",
+    "sample": 1
+  },
+  {
+    "name": "p2-premium-support-opus-new-2",
+    "scenario": "p2-premium-support",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "new",
+    "sample": 2
+  },
+  {
+    "name": "p4-us-expansion-sonnet-new-1",
+    "scenario": "p4-us-expansion",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "new",
+    "sample": 1
+  },
+  {
+    "name": "i3-offline-mode-opus-new-1",
+    "scenario": "i3-offline-mode",
+    "type": "investigate",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "new",
+    "sample": 1
+  },
+  {
+    "name": "p3-ios-widget-opus-new-1",
+    "scenario": "p3-ios-widget",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "new",
+    "sample": 1
+  },
+  {
+    "name": "i1-soc2-opus-old-3",
+    "scenario": "i1-soc2",
+    "type": "investigate",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "old",
+    "sample": 3
+  },
+  {
+    "name": "i2-auto-scheduling-opus-new-3",
+    "scenario": "i2-auto-scheduling",
+    "type": "investigate",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "new",
+    "sample": 3
+  },
+  {
+    "name": "i1-soc2-sonnet-none-1",
+    "scenario": "i1-soc2",
+    "type": "investigate",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "none",
+    "sample": 1
+  },
+  {
+    "name": "i3-offline-mode-opus-new-2",
+    "scenario": "i3-offline-mode",
+    "type": "investigate",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "new",
+    "sample": 2
+  },
+  {
+    "name": "i2-auto-scheduling-sonnet-new-3",
+    "scenario": "i2-auto-scheduling",
+    "type": "investigate",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "new",
+    "sample": 3
+  },
+  {
+    "name": "p2-premium-support-opus-old-2",
+    "scenario": "p2-premium-support",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "old",
+    "sample": 2
+  },
+  {
+    "name": "p4-us-expansion-sonnet-old-3",
+    "scenario": "p4-us-expansion",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "old",
+    "sample": 3
+  },
+  {
+    "name": "p1-legacy-integration-sonnet-none-3",
+    "scenario": "p1-legacy-integration",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "none",
+    "sample": 3
+  },
+  {
+    "name": "p2-premium-support-opus-none-2",
+    "scenario": "p2-premium-support",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "none",
+    "sample": 2
+  },
+  {
+    "name": "i3-offline-mode-sonnet-none-2",
+    "scenario": "i3-offline-mode",
+    "type": "investigate",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "none",
+    "sample": 2
+  },
+  {
+    "name": "i2-auto-scheduling-opus-none-1",
+    "scenario": "i2-auto-scheduling",
+    "type": "investigate",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "none",
+    "sample": 1
+  },
+  {
+    "name": "p4-us-expansion-opus-none-3",
+    "scenario": "p4-us-expansion",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "none",
+    "sample": 3
+  },
+  {
+    "name": "p1-legacy-integration-opus-none-3",
+    "scenario": "p1-legacy-integration",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "none",
+    "sample": 3
+  },
+  {
+    "name": "p6-pdf-export-sonnet-old-2",
+    "scenario": "p6-pdf-export",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "old",
+    "sample": 2
+  },
+  {
+    "name": "i1-soc2-opus-new-3",
+    "scenario": "i1-soc2",
+    "type": "investigate",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "new",
+    "sample": 3
+  },
+  {
+    "name": "p6-pdf-export-sonnet-new-1",
+    "scenario": "p6-pdf-export",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "new",
+    "sample": 1
+  },
+  {
+    "name": "p3-ios-widget-sonnet-none-1",
+    "scenario": "p3-ios-widget",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "none",
+    "sample": 1
+  },
+  {
+    "name": "i2-auto-scheduling-sonnet-old-1",
+    "scenario": "i2-auto-scheduling",
+    "type": "investigate",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "old",
+    "sample": 1
+  },
+  {
+    "name": "p5-bank-partnership-sonnet-new-2",
+    "scenario": "p5-bank-partnership",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "new",
+    "sample": 2
+  },
+  {
+    "name": "i2-auto-scheduling-sonnet-none-3",
+    "scenario": "i2-auto-scheduling",
+    "type": "investigate",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "none",
+    "sample": 3
+  },
+  {
+    "name": "i3-offline-mode-opus-old-2",
+    "scenario": "i3-offline-mode",
+    "type": "investigate",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "old",
+    "sample": 2
+  },
+  {
+    "name": "i3-offline-mode-sonnet-old-2",
+    "scenario": "i3-offline-mode",
+    "type": "investigate",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "old",
+    "sample": 2
+  },
+  {
+    "name": "p5-bank-partnership-opus-new-1",
+    "scenario": "p5-bank-partnership",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "new",
+    "sample": 1
+  },
+  {
+    "name": "i1-soc2-opus-old-2",
+    "scenario": "i1-soc2",
+    "type": "investigate",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "old",
+    "sample": 2
+  },
+  {
+    "name": "p6-pdf-export-opus-new-3",
+    "scenario": "p6-pdf-export",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "new",
+    "sample": 3
+  },
+  {
+    "name": "i1-soc2-sonnet-new-2",
+    "scenario": "i1-soc2",
+    "type": "investigate",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "new",
+    "sample": 2
+  },
+  {
+    "name": "p2-premium-support-opus-new-3",
+    "scenario": "p2-premium-support",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "new",
+    "sample": 3
+  },
+  {
+    "name": "i1-soc2-sonnet-none-3",
+    "scenario": "i1-soc2",
+    "type": "investigate",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "none",
+    "sample": 3
+  },
+  {
+    "name": "i2-auto-scheduling-sonnet-new-1",
+    "scenario": "i2-auto-scheduling",
+    "type": "investigate",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "new",
+    "sample": 1
+  },
+  {
+    "name": "i1-soc2-opus-none-3",
+    "scenario": "i1-soc2",
+    "type": "investigate",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "none",
+    "sample": 3
+  },
+  {
+    "name": "p4-us-expansion-opus-old-3",
+    "scenario": "p4-us-expansion",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "old",
+    "sample": 3
+  },
+  {
+    "name": "p6-pdf-export-sonnet-none-3",
+    "scenario": "p6-pdf-export",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "none",
+    "sample": 3
+  },
+  {
+    "name": "i2-auto-scheduling-opus-old-2",
+    "scenario": "i2-auto-scheduling",
+    "type": "investigate",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "old",
+    "sample": 2
+  },
+  {
+    "name": "p5-bank-partnership-opus-none-1",
+    "scenario": "p5-bank-partnership",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "none",
+    "sample": 1
+  },
+  {
+    "name": "p4-us-expansion-opus-old-1",
+    "scenario": "p4-us-expansion",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "old",
+    "sample": 1
+  },
+  {
+    "name": "p5-bank-partnership-opus-none-3",
+    "scenario": "p5-bank-partnership",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "none",
+    "sample": 3
+  },
+  {
+    "name": "p6-pdf-export-opus-new-1",
+    "scenario": "p6-pdf-export",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "new",
+    "sample": 1
+  },
+  {
+    "name": "p3-ios-widget-sonnet-none-2",
+    "scenario": "p3-ios-widget",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "none",
+    "sample": 2
+  },
+  {
+    "name": "p4-us-expansion-opus-old-2",
+    "scenario": "p4-us-expansion",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "old",
+    "sample": 2
+  },
+  {
+    "name": "p5-bank-partnership-sonnet-none-2",
+    "scenario": "p5-bank-partnership",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "none",
+    "sample": 2
+  },
+  {
+    "name": "p4-us-expansion-sonnet-old-2",
+    "scenario": "p4-us-expansion",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "old",
+    "sample": 2
+  },
+  {
+    "name": "p6-pdf-export-sonnet-new-2",
+    "scenario": "p6-pdf-export",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "new",
+    "sample": 2
+  },
+  {
+    "name": "p4-us-expansion-sonnet-none-3",
+    "scenario": "p4-us-expansion",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "none",
+    "sample": 3
+  },
+  {
+    "name": "p6-pdf-export-opus-new-2",
+    "scenario": "p6-pdf-export",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "new",
+    "sample": 2
+  },
+  {
+    "name": "i1-soc2-sonnet-new-3",
+    "scenario": "i1-soc2",
+    "type": "investigate",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "new",
+    "sample": 3
+  },
+  {
+    "name": "p5-bank-partnership-sonnet-old-3",
+    "scenario": "p5-bank-partnership",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "old",
+    "sample": 3
+  },
+  {
+    "name": "p2-premium-support-sonnet-new-3",
+    "scenario": "p2-premium-support",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "new",
+    "sample": 3
+  },
+  {
+    "name": "i3-offline-mode-sonnet-old-1",
+    "scenario": "i3-offline-mode",
+    "type": "investigate",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "old",
+    "sample": 1
+  },
+  {
+    "name": "p6-pdf-export-opus-old-2",
+    "scenario": "p6-pdf-export",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "old",
+    "sample": 2
+  },
+  {
+    "name": "p3-ios-widget-opus-new-2",
+    "scenario": "p3-ios-widget",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "new",
+    "sample": 2
+  },
+  {
+    "name": "p1-legacy-integration-sonnet-old-3",
+    "scenario": "p1-legacy-integration",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "old",
+    "sample": 3
+  },
+  {
+    "name": "p1-legacy-integration-opus-old-2",
+    "scenario": "p1-legacy-integration",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "old",
+    "sample": 2
+  },
+  {
+    "name": "p4-us-expansion-opus-none-2",
+    "scenario": "p4-us-expansion",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "none",
+    "sample": 2
+  },
+  {
+    "name": "p3-ios-widget-opus-old-2",
+    "scenario": "p3-ios-widget",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "old",
+    "sample": 2
+  },
+  {
+    "name": "p1-legacy-integration-sonnet-new-1",
+    "scenario": "p1-legacy-integration",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "new",
+    "sample": 1
+  },
+  {
+    "name": "i2-auto-scheduling-opus-none-2",
+    "scenario": "i2-auto-scheduling",
+    "type": "investigate",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "none",
+    "sample": 2
+  },
+  {
+    "name": "p1-legacy-integration-opus-new-3",
+    "scenario": "p1-legacy-integration",
+    "type": "park",
+    "model": "claude-opus-5-5",
+    "model_short": "opus",
+    "arm": "new",
+    "sample": 3
+  },
+  {
+    "name": "p3-ios-widget-sonnet-none-3",
+    "scenario": "p3-ios-widget",
+    "type": "park",
+    "model": "claude-sonnet-5-5",
+    "model_short": "sonnet",
+    "arm": "none",
+    "sample": 3
+  }
+]

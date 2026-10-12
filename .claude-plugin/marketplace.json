@@ -1,0 +1,14 @@
+{
+  "name": "opsydyn",
+  "description": "Plugins by Alan P Currie",
+  "owner": {
+    "name": "Alan P Currie"
+  },
+  "plugins": [
+    {
+      "name": "product-sense",
+      "source": "./plugins/product-sense",
+      "description": "Product judgment, discovery, bounded bets and user-flow review."
+    }
+  ]
+}
